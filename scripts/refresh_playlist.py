@@ -47,7 +47,7 @@ def fetch(url, folder, name, seconds=15):
 
 def decode_sample(path):
     p = run(['ffprobe', '-v', 'error', '-show_entries',
-             'stream=codec_type,codec_name,width,height,sample_rate,channels',
+             'stream=codec_type,codec_name,profile,pix_fmt,width,height,r_frame_rate,avg_frame_rate,bit_rate,sample_rate,channels',
              '-of', 'json', str(path)], 20)
     if p.returncode:
         raise ValueError('ffprobe 无法识别媒体: ' + p.stderr[-300:])
@@ -207,7 +207,14 @@ def parse_m3u(text):
 
 
 def name_of(entry):
-    return entry['info'].split(',', 1)[1]
+    # Attribute values (notably HTTP User-Agent) may themselves contain commas.
+    quoted = False
+    for i, character in enumerate(entry['info']):
+        if character == '"':
+            quoted = not quoted
+        elif character == ',' and not quoted:
+            return entry['info'][i + 1:]
+    raise ValueError('EXTINF 缺少频道名称分隔符')
 
 
 def normalized(name):
@@ -231,9 +238,12 @@ def merge(results, target):
         # Reuse EPG identity; use measured resolution to label the added source.
         attributes = ' '.join(re.findall(r'tvg-(?:id|name|logo)="[^"]*"', template['info'])) if template else f'tvg-name="{channel_name}"'
         quality = '4K' if (r.get('height') or 0) >= 2160 else ('HD' if (r.get('height') or 0) >= 720 else '')
-        display = f'{channel_name}{quality} [EMOS]'
+        if re.search(r'4K|8K|UHD|HD', channel_name, re.I):
+            quality = ''
+        source_label = r.get('source_label', 'EMOS')
+        display = f'{channel_name}{quality} [{source_label}]'
         if any(name_of(e) == display for e in entries):
-            display = f'{channel_name}{quality} [EMOS {sum(1 for a in added if a["channel"] == channel_name)+1}]'
+            display = f'{channel_name}{quality} [{source_label} {sum(1 for a in added if a["channel"] == channel_name)+1}]'
         entries.append(dict(info=f'#EXTINF:-1 {attributes} group-title="{group}",{display}', options=[], url=r['url']))
         seen.add(r['url'])
         added.append(dict(channel=channel_name, name=display, group=group, url=r['url']))

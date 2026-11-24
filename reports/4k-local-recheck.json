@@ -1,0 +1,243 @@
+{
+  "tested_at": "2026-11-25T00:41:58+08:00",
+  "results": [
+    {
+      "channel": "CCTV-4K",
+      "url": "http://192.168.100.252:5678/udp/233.18.204.188:5140",
+      "origin": "shanghai-discovery",
+      "reference": "https://blog.cqshushu.com/archives/shanghai-chinanet.html",
+      "group": "4K超高清",
+      "checked_at": "2026-11-25T00:41:06+08:00",
+      "status": "passed",
+      "http_status": "200",
+      "sample_bytes": 15048460,
+      "transport": "udpxy",
+      "streams": [
+        {
+          "codec_name": "hevc",
+          "profile": "Main",
+          "codec_type": "video",
+          "width": 3840,
+          "height": 2160,
+          "pix_fmt": "yuv420p",
+          "r_frame_rate": "25/1",
+          "avg_frame_rate": "25/1"
+        },
+        {
+          "codec_name": "ac3",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "bit_rate": "192000"
+        }
+      ],
+      "width": 3840,
+      "height": 2160,
+      "media_type": "video",
+      "decoded_seconds": 3.016,
+      "decoded_frames": 47,
+      "eligible_4k": true
+    },
+    {
+      "channel": "CCTV-16 4K",
+      "url": "http://192.168.100.252:5678/udp/233.18.204.114:5140",
+      "origin": "shanghai-discovery",
+      "reference": "https://blog.cqshushu.com/archives/shanghai-chinanet.html",
+      "group": "4K超高清",
+      "checked_at": "2026-11-25T00:41:14+08:00",
+      "status": "passed",
+      "http_status": "200",
+      "sample_bytes": 15044512,
+      "transport": "udpxy",
+      "streams": [
+        {
+          "codec_name": "hevc",
+          "profile": "Main",
+          "codec_type": "video",
+          "width": 3840,
+          "height": 2160,
+          "pix_fmt": "yuv420p",
+          "r_frame_rate": "25/1",
+          "avg_frame_rate": "25/1"
+        },
+        {
+          "codec_name": "aac",
+          "profile": "LC",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "bit_rate": "192303"
+        }
+      ],
+      "width": 3840,
+      "height": 2160,
+      "media_type": "video",
+      "decoded_seconds": 3.002,
+      "decoded_frames": 54,
+      "eligible_4k": true
+    },
+    {
+      "channel": "欢笑剧场4K",
+      "url": "http://192.168.100.252:5678/udp/233.18.204.115:5140",
+      "origin": "shanghai-discovery",
+      "reference": "https://blog.cqshushu.com/archives/shanghai-chinanet.html",
+      "group": "4K超高清",
+      "checked_at": "2026-11-25T00:41:23+08:00",
+      "status": "passed",
+      "http_status": "200",
+      "sample_bytes": 14415464,
+      "transport": "udpxy",
+      "streams": [
+        {
+          "codec_name": "hevc",
+          "profile": "Main",
+          "codec_type": "video",
+          "width": 3840,
+          "height": 2160,
+          "pix_fmt": "yuv420p",
+          "r_frame_rate": "25/1",
+          "avg_frame_rate": "25/1"
+        },
+        {
+          "codec_name": "aac",
+          "profile": "LC",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "bit_rate": "191840"
+        }
+      ],
+      "width": 3840,
+      "height": 2160,
+      "media_type": "video",
+      "decoded_seconds": 3.0,
+      "decoded_frames": 74,
+      "eligible_4k": true
+    },
+    {
+      "channel": "BesTV4K动画",
+      "url": "http://192.168.100.252:5678/udp/233.18.204.171:5140",
+      "origin": "shanghai-discovery",
+      "reference": "https://blog.cqshushu.com/archives/shanghai-chinanet.html",
+      "group": "4K超高清",
+      "checked_at": "2026-11-25T00:41:32+08:00",
+      "status": "passed",
+      "http_status": "200",
+      "sample_bytes": 15905176,
+      "transport": "udpxy",
+      "streams": [
+        {
+          "codec_name": "hevc",
+          "profile": "Main",
+          "codec_type": "video",
+          "width": 3840,
+          "height": 2160,
+          "pix_fmt": "yuv420p",
+          "r_frame_rate": "25/1",
+          "avg_frame_rate": "25/1"
+        },
+        {
+          "codec_name": "mp2",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "bit_rate": "128000"
+        }
+      ],
+      "width": 3840,
+      "height": 2160,
+      "media_type": "video",
+      "decoded_seconds": 3.0,
+      "decoded_frames": 57,
+      "eligible_4k": true
+    },
+    {
+      "channel": "BesTV4K电影",
+      "url": "http://192.168.100.252:5678/udp/233.18.204.169:5140",
+      "origin": "shanghai-discovery",
+      "reference": "https://blog.cqshushu.com/archives/shanghai-chinanet.html",
+      "group": "4K超高清",
+      "checked_at": "2026-11-25T00:41:41+08:00",
+      "status": "passed",
+      "http_status": "200",
+      "sample_bytes": 15934128,
+      "transport": "udpxy",
+      "streams": [
+        {
+          "codec_name": "hevc",
+          "profile": "Main",
+          "codec_type": "video",
+          "width": 3840,
+          "height": 2160,
+          "pix_fmt": "yuv420p",
+          "r_frame_rate": "25/1",
+          "avg_frame_rate": "25/1"
+        },
+        {
+          "codec_name": "mp2",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "bit_rate": "128000"
+        }
+      ],
+      "width": 3840,
+      "height": 2160,
+      "media_type": "video",
+      "decoded_seconds": 3.0,
+      "decoded_frames": 64,
+      "eligible_4k": true
+    },
+    {
+      "channel": "BesTV4K纪实",
+      "url": "http://192.168.100.252:5678/udp/233.18.204.170:5140",
+      "origin": "shanghai-discovery",
+      "reference": "https://blog.cqshushu.com/archives/shanghai-chinanet.html",
+      "group": "4K超高清",
+      "checked_at": "2026-11-25T00:41:49+08:00",
+      "status": "passed",
+      "http_status": "200",
+      "sample_bytes": 15822268,
+      "transport": "udpxy",
+      "streams": [
+        {
+          "codec_name": "hevc",
+          "profile": "Main",
+          "codec_type": "video",
+          "width": 3840,
+          "height": 2160,
+          "pix_fmt": "yuv420p",
+          "r_frame_rate": "25/1",
+          "avg_frame_rate": "25/1"
+        },
+        {
+          "codec_name": "mp2",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "bit_rate": "128000"
+        }
+      ],
+      "width": 3840,
+      "height": 2160,
+      "media_type": "video",
+      "decoded_seconds": 3.0,
+      "decoded_frames": 55,
+      "eligible_4k": true
+    }
+  ],
+  "source_count": 6,
+  "complete": true
+}

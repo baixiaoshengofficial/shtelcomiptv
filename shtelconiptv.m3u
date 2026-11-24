@@ -36,6 +36,42 @@ http://192.168.100.252:5678/udp/233.18.204.228:5140
 #EXTINF:-1 tvg-id="1561" tvg-name="四川卫视 4K" tvg-logo="https://epg.deny.vip/ws/sichuan.png" group-title="4K超高清",四川卫视4K
 http://192.168.100.252:5678/udp/233.18.204.225:5140
 
+#EXTINF:-1 tvg-name="BesTV4K动画" group-title="4K超高清",BesTV4K动画 [组播]
+http://192.168.100.252:5678/udp/233.18.204.171:5140
+
+#EXTINF:-1 tvg-name="BesTV4K电影" group-title="4K超高清",BesTV4K电影 [组播]
+http://192.168.100.252:5678/udp/233.18.204.169:5140
+
+#EXTINF:-1 tvg-name="BesTV4K纪实" group-title="4K超高清",BesTV4K纪实 [组播]
+http://192.168.100.252:5678/udp/233.18.204.170:5140
+
+#EXTINF:-1 tvg-name="苏州4K" group-title="4K超高清",苏州4K [公网]
+https://live-auth.51kandianshi.com/szgd/csztv4k_4k.m3u8
+
+#EXTINF:-1 tvg-name="美丽河北4K" group-title="4K超高清",美丽河北4K [公网]
+https://event.pull.hebtv.com/live/live101.m3u8
+
+#EXTINF:-1 tvg-name="Love Nature 4K" group-title="4K超高清",Love Nature 4K [公网]
+https://pb-ehs1glsha1juy.akamaized.net/Love_Nature_4K.m3u8
+
+#EXTINF:-1 tvg-name="Bloomberg TV+ 4K" group-title="4K超高清",Bloomberg TV+ 4K [公网]
+https://d8975dc3.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2Ftc3VuZy1nYl9CbG9vbWJlcmdUVlBsdXNfSExT/playlist.m3u8
+
+#EXTINF:-1 tvg-id="124" tvg-name="CCTV-4K" tvg-logo="https://epg.deny.vip/cctv/CCTV-4K.png" group-title="4K超高清",CCTV-4K [组播备用]
+http://192.168.100.252:5678/udp/233.18.204.188:5140
+
+#EXTINF:-1 tvg-id="179" tvg-name="CCTV-16 4K" tvg-logo="https://epg.deny.vip/cctv/CCTV-16.png" group-title="4K超高清",CCTV-16 4K [组播备用]
+http://192.168.100.252:5678/udp/233.18.204.114:5140
+
+#EXTINF:-1 tvg-id="180" tvg-name="欢笑剧场" tvg-logo="https://epg.deny.vip/df/欢笑剧场4K.png" group-title="4K超高清",欢笑剧场4K [组播备用]
+http://192.168.100.252:5678/udp/233.18.204.115:5140
+
+#EXTINF:-1 tvg-id="1431" tvg-name="湖南卫视 4K" tvg-logo="https://epg.deny.vip/ws/hunan.png" group-title="4K超高清",湖南卫视4K [公网备用]
+http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/Y2RuZXhfaWQ9YWxfaGxzX2xkdnQmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST.m3u8
+
+#EXTINF:-1 tvg-id="1411" tvg-name="浙江卫视 4K" tvg-logo="https://epg.deny.vip/ws/zhejiang.png" group-title="4K超高清",浙江卫视4K [公网备用]
+http://ali-xwl.cztv.com/live/channel4k2160p.m3u8
+
 #EXTINF:-1 tvg-id="102" tvg-name="CCTV-1" tvg-logo="https://epg.deny.vip/cctv/CCTV-1.png" group-title="央视频道",CCTV-1HD
 http://192.168.100.252:5678/udp/233.18.204.52:5140
 

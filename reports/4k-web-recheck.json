@@ -1,0 +1,260 @@
+{
+  "tested_at": "2026-11-25T00:41:17+08:00",
+  "results": [
+    {
+      "channel": "湖南卫视4K",
+      "url": "http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/Y2RuZXhfaWQ9YWxfaGxzX2xkdnQmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST.m3u8",
+      "origin": "internet-discovery",
+      "reference": "https://github.com/alantang1977/iptvo/blob/main/IPTV.m3u",
+      "group": "4K超高清",
+      "checked_at": "2026-11-25T00:41:05+08:00",
+      "status": "passed",
+      "transport": "hls",
+      "resolved_url": "http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/Y2RuZXhfaWQ9YWxfaGxzX2xkdnQmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST.m3u8",
+      "segments_downloaded": 2,
+      "sample_bytes": 2198096,
+      "streams": [
+        {
+          "codec_name": "hevc",
+          "profile": "Main",
+          "codec_type": "video",
+          "width": 3840,
+          "height": 2160,
+          "pix_fmt": "yuv420p",
+          "r_frame_rate": "25/1",
+          "avg_frame_rate": "25/1"
+        },
+        {
+          "codec_name": "aac",
+          "profile": "LC",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "bit_rate": "66774"
+        }
+      ],
+      "width": 3840,
+      "height": 2160,
+      "media_type": "video",
+      "decoded_seconds": 3.008,
+      "decoded_frames": 75,
+      "eligible_4k": true
+    },
+    {
+      "channel": "浙江卫视4K",
+      "url": "http://ali-xwl.cztv.com/live/channel4k2160p.m3u8",
+      "origin": "internet-discovery",
+      "reference": "https://github.com/alantang1977/iptvo/blob/main/IPTV.m3u",
+      "group": "4K超高清",
+      "checked_at": "2026-11-25T00:41:05+08:00",
+      "status": "passed",
+      "transport": "hls",
+      "resolved_url": "http://ali-xwl.cztv.com/live/channel4k2160p.m3u8",
+      "segments_downloaded": 2,
+      "sample_bytes": 11050264,
+      "streams": [
+        {
+          "codec_name": "aac",
+          "profile": "LC",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "bit_rate": "130694"
+        },
+        {
+          "codec_name": "hevc",
+          "profile": "Main",
+          "codec_type": "video",
+          "width": 3840,
+          "height": 2160,
+          "pix_fmt": "yuv420p",
+          "r_frame_rate": "50/1",
+          "avg_frame_rate": "50/1"
+        }
+      ],
+      "width": 3840,
+      "height": 2160,
+      "media_type": "video",
+      "decoded_seconds": 3.01,
+      "decoded_frames": 150,
+      "eligible_4k": true
+    },
+    {
+      "channel": "苏州4K",
+      "url": "https://live-auth.51kandianshi.com/szgd/csztv4k_4k.m3u8",
+      "origin": "internet-discovery",
+      "reference": "https://github.com/alantang1977/iptvo/blob/main/IPTV.m3u",
+      "group": "4K超高清",
+      "checked_at": "2026-11-25T00:41:05+08:00",
+      "status": "passed",
+      "transport": "hls",
+      "resolved_url": "https://live-auth.51kandianshi.com/szgd/csztv4k_4k.m3u8",
+      "segments_downloaded": 2,
+      "sample_bytes": 2170460,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "profile": "Main",
+          "codec_type": "video",
+          "width": 3840,
+          "height": 2160,
+          "pix_fmt": "yuv420p",
+          "r_frame_rate": "25/1",
+          "avg_frame_rate": "25/1"
+        },
+        {
+          "codec_name": "aac",
+          "profile": "LC",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "bit_rate": "4923"
+        }
+      ],
+      "width": 3840,
+      "height": 2160,
+      "media_type": "video",
+      "decoded_seconds": 3.0,
+      "decoded_frames": 74,
+      "eligible_4k": true
+    },
+    {
+      "channel": "美丽河北4K",
+      "url": "https://event.pull.hebtv.com/live/live101.m3u8",
+      "origin": "internet-discovery",
+      "reference": "https://iptv-org.github.io/iptv/index.m3u",
+      "group": "4K超高清",
+      "checked_at": "2026-11-25T00:41:06+08:00",
+      "status": "passed",
+      "transport": "hls",
+      "resolved_url": "https://event.pull.hebtv.com/live/live101.m3u8",
+      "segments_downloaded": 2,
+      "sample_bytes": 6594664,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "profile": "High",
+          "codec_type": "video",
+          "width": 3840,
+          "height": 2160,
+          "pix_fmt": "yuv420p",
+          "r_frame_rate": "25/1",
+          "avg_frame_rate": "25/1"
+        },
+        {
+          "codec_name": "aac",
+          "profile": "LC",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "bit_rate": "130658"
+        }
+      ],
+      "width": 3840,
+      "height": 2160,
+      "media_type": "video",
+      "decoded_seconds": 3.0,
+      "decoded_frames": 71,
+      "visual_check": "画面为美丽河北风光直播；不是河北卫视",
+      "eligible_4k": true
+    },
+    {
+      "channel": "Love Nature 4K",
+      "url": "https://pb-ehs1glsha1juy.akamaized.net/Love_Nature_4K.m3u8",
+      "origin": "internet-discovery",
+      "reference": "https://iptv-org.github.io/iptv/index.m3u",
+      "group": "4K超高清",
+      "checked_at": "2026-11-25T00:41:06+08:00",
+      "status": "passed",
+      "transport": "hls",
+      "resolved_url": "https://pb-ehs1glsha1juy.akamaized.net/Love_Nature_4Kp2160.m3u8",
+      "segments_downloaded": 2,
+      "sample_bytes": 16286628,
+      "streams": [
+        {
+          "codec_name": "hevc",
+          "profile": "Main",
+          "codec_type": "video",
+          "width": 3840,
+          "height": 2160,
+          "pix_fmt": "yuv420p",
+          "r_frame_rate": "30000/1001",
+          "avg_frame_rate": "30000/1001"
+        },
+        {
+          "codec_name": "aac",
+          "profile": "LC",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "bit_rate": "255413"
+        }
+      ],
+      "width": 3840,
+      "height": 2160,
+      "media_type": "video",
+      "decoded_seconds": 3.003,
+      "decoded_frames": 90,
+      "eligible_4k": true
+    },
+    {
+      "channel": "Bloomberg TV+ 4K",
+      "url": "https://d8975dc3.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2Ftc3VuZy1nYl9CbG9vbWJlcmdUVlBsdXNfSExT/playlist.m3u8",
+      "origin": "internet-discovery",
+      "reference": "https://iptv-org.github.io/iptv/index.m3u",
+      "group": "4K超高清",
+      "checked_at": "2026-11-25T00:41:07+08:00",
+      "status": "passed",
+      "transport": "hls",
+      "resolved_url": "https://d8975dc3.wurl.com/manifest/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2Ftc3VuZy1nYl9CbG9vbWJlcmdUVlBsdXNfSExT/ea6290fb-7b7e-49f2-9a20-c4c727345927/0.m3u8",
+      "segments_downloaded": 2,
+      "sample_bytes": 15688600,
+      "streams": [
+        {
+          "codec_name": "hevc",
+          "profile": "Main",
+          "codec_type": "video",
+          "width": 3840,
+          "height": 2160,
+          "pix_fmt": "yuv420p",
+          "r_frame_rate": "60000/1001",
+          "avg_frame_rate": "60000/1001"
+        },
+        {
+          "codec_name": "aac",
+          "profile": "LC",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "bit_rate": "128027"
+        },
+        {
+          "codec_name": "scte_35",
+          "codec_type": "data",
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0"
+        }
+      ],
+      "width": 3840,
+      "height": 2160,
+      "media_type": "video",
+      "decoded_seconds": 3.003,
+      "decoded_frames": 172,
+      "eligible_4k": true
+    }
+  ],
+  "source_count": 6,
+  "complete": true
+}

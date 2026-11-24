@@ -1,0 +1,994 @@
+{
+  "tested_at": "2026-11-24T22:28:35+08:00",
+  "results": [
+    {
+      "channel": "欢笑剧场4K",
+      "url": "http://192.168.100.252:5678/udp/233.18.204.205:5140",
+      "origin": "existing",
+      "checked_at": "2026-11-24T22:25:07+08:00",
+      "status": "passed",
+      "http_status": "200",
+      "sample_bytes": 23572192,
+      "transport": "udpxy",
+      "streams": [
+        {
+          "codec_name": "hevc",
+          "codec_type": "video",
+          "width": 3840,
+          "height": 2160
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "width": 3840,
+      "height": 2160,
+      "media_type": "video",
+      "decoded_seconds": 3.0,
+      "decoded_frames": 117
+    },
+    {
+      "channel": "CCTV-4K",
+      "url": "http://192.168.100.252:5678/udp/233.18.204.204:5140",
+      "origin": "existing",
+      "checked_at": "2026-11-24T22:25:15+08:00",
+      "status": "passed",
+      "http_status": "200",
+      "sample_bytes": 23601144,
+      "transport": "udpxy",
+      "streams": [
+        {
+          "codec_name": "hevc",
+          "codec_type": "video",
+          "width": 3840,
+          "height": 2160
+        },
+        {
+          "codec_name": "ac3",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 6
+        }
+      ],
+      "width": 3840,
+      "height": 2160,
+      "media_type": "video",
+      "decoded_seconds": 3.0,
+      "decoded_frames": 117
+    },
+    {
+      "channel": "CCTV-16 4K",
+      "url": "http://192.168.100.252:5678/udp/233.18.204.215:5140",
+      "origin": "existing",
+      "checked_at": "2026-11-24T22:25:23+08:00",
+      "status": "passed",
+      "http_status": "200",
+      "sample_bytes": 23841972,
+      "transport": "udpxy",
+      "streams": [
+        {
+          "codec_name": "hevc",
+          "codec_type": "video",
+          "width": 3840,
+          "height": 2160
+        },
+        {
+          "codec_name": "ac3",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 6
+        }
+      ],
+      "width": 3840,
+      "height": 2160,
+      "media_type": "video",
+      "decoded_seconds": 3.0,
+      "decoded_frames": 124
+    },
+    {
+      "channel": "东方卫视4K",
+      "url": "http://192.168.100.252:5678/udp/233.18.204.224:5140",
+      "origin": "existing",
+      "checked_at": "2026-11-24T22:25:30+08:00",
+      "status": "passed",
+      "http_status": "200",
+      "sample_bytes": 23556400,
+      "transport": "udpxy",
+      "streams": [
+        {
+          "codec_name": "hevc",
+          "codec_type": "video",
+          "width": 3840,
+          "height": 2160
+        },
+        {
+          "codec_name": "ac3",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 6
+        }
+      ],
+      "width": 3840,
+      "height": 2160,
+      "media_type": "video",
+      "decoded_seconds": 3.0,
+      "decoded_frames": 103
+    },
+    {
+      "channel": "浙江卫视4K",
+      "url": "http://192.168.100.252:5678/udp/233.18.204.229:5140",
+      "origin": "existing",
+      "checked_at": "2026-11-24T22:25:38+08:00",
+      "status": "passed",
+      "http_status": "200",
+      "sample_bytes": 23251088,
+      "transport": "udpxy",
+      "streams": [
+        {
+          "codec_name": "hevc",
+          "codec_type": "video",
+          "width": 3840,
+          "height": 2160
+        },
+        {
+          "codec_name": "ac3",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 6
+        }
+      ],
+      "width": 3840,
+      "height": 2160,
+      "media_type": "video",
+      "decoded_seconds": 3.0,
+      "decoded_frames": 112
+    },
+    {
+      "channel": "江苏卫视4K",
+      "url": "http://192.168.100.252:5678/udp/233.18.204.226:5140",
+      "origin": "existing",
+      "checked_at": "2026-11-24T22:25:45+08:00",
+      "status": "passed",
+      "http_status": "200",
+      "sample_bytes": 23611672,
+      "transport": "udpxy",
+      "streams": [
+        {
+          "codec_name": "hevc",
+          "codec_type": "video",
+          "width": 3840,
+          "height": 2160
+        },
+        {
+          "codec_name": "ac3",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 6
+        }
+      ],
+      "width": 3840,
+      "height": 2160,
+      "media_type": "video",
+      "decoded_seconds": 3.0,
+      "decoded_frames": 122
+    },
+    {
+      "channel": "湖南卫视4K",
+      "url": "http://192.168.100.252:5678/udp/233.18.204.227:5140",
+      "origin": "existing",
+      "checked_at": "2026-11-24T22:25:52+08:00",
+      "status": "passed",
+      "http_status": "200",
+      "sample_bytes": 23634044,
+      "transport": "udpxy",
+      "streams": [
+        {
+          "codec_name": "hevc",
+          "codec_type": "video",
+          "width": 3840,
+          "height": 2160
+        },
+        {
+          "codec_name": "ac3",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 6
+        }
+      ],
+      "width": 3840,
+      "height": 2160,
+      "media_type": "video",
+      "decoded_seconds": 3.0,
+      "decoded_frames": 113
+    },
+    {
+      "channel": "北京卫视4K",
+      "url": "http://192.168.100.252:5678/udp/233.18.204.209:5140",
+      "origin": "existing",
+      "checked_at": "2026-11-24T22:26:00+08:00",
+      "status": "passed",
+      "http_status": "200",
+      "sample_bytes": 23674840,
+      "transport": "udpxy",
+      "streams": [
+        {
+          "codec_name": "hevc",
+          "codec_type": "video",
+          "width": 3840,
+          "height": 2160
+        },
+        {
+          "codec_name": "ac3",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 6
+        }
+      ],
+      "width": 3840,
+      "height": 2160,
+      "media_type": "video",
+      "decoded_seconds": 3.0,
+      "decoded_frames": 123
+    },
+    {
+      "channel": "广东卫视4K",
+      "url": "http://192.168.100.252:5678/udp/233.18.204.218:5140",
+      "origin": "existing",
+      "checked_at": "2026-11-24T22:26:07+08:00",
+      "status": "passed",
+      "http_status": "200",
+      "sample_bytes": 23909088,
+      "transport": "udpxy",
+      "streams": [
+        {
+          "codec_name": "hevc",
+          "codec_type": "video",
+          "width": 3840,
+          "height": 2160
+        },
+        {
+          "codec_name": "ac3",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 6
+        }
+      ],
+      "width": 3840,
+      "height": 2160,
+      "media_type": "video",
+      "decoded_seconds": 3.0,
+      "decoded_frames": 121
+    },
+    {
+      "channel": "深圳卫视4K",
+      "url": "http://192.168.100.252:5678/udp/233.18.204.219:5140",
+      "origin": "existing",
+      "checked_at": "2026-11-24T22:26:14+08:00",
+      "status": "passed",
+      "http_status": "200",
+      "sample_bytes": 23648520,
+      "transport": "udpxy",
+      "streams": [
+        {
+          "codec_name": "hevc",
+          "codec_type": "video",
+          "width": 3840,
+          "height": 2160
+        },
+        {
+          "codec_name": "ac3",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 6
+        }
+      ],
+      "width": 3840,
+      "height": 2160,
+      "media_type": "video",
+      "decoded_seconds": 3.0,
+      "decoded_frames": 103
+    },
+    {
+      "channel": "山东卫视4K",
+      "url": "http://192.168.100.252:5678/udp/233.18.204.228:5140",
+      "origin": "existing",
+      "checked_at": "2026-11-24T22:26:21+08:00",
+      "status": "passed",
+      "http_status": "200",
+      "sample_bytes": 23618252,
+      "transport": "udpxy",
+      "streams": [
+        {
+          "codec_name": "hevc",
+          "codec_type": "video",
+          "width": 3840,
+          "height": 2160
+        },
+        {
+          "codec_name": "ac3",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "width": 3840,
+      "height": 2160,
+      "media_type": "video",
+      "decoded_seconds": 3.0,
+      "decoded_frames": 129
+    },
+    {
+      "channel": "四川卫视4K",
+      "url": "http://192.168.100.252:5678/udp/233.18.204.225:5140",
+      "origin": "existing",
+      "checked_at": "2026-11-24T22:26:28+08:00",
+      "status": "passed",
+      "http_status": "200",
+      "sample_bytes": 24471020,
+      "transport": "udpxy",
+      "streams": [
+        {
+          "codec_name": "hevc",
+          "codec_type": "video",
+          "width": 3840,
+          "height": 2160
+        },
+        {
+          "codec_name": "ac3",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "width": 3840,
+      "height": 2160,
+      "media_type": "video",
+      "decoded_seconds": 3.0,
+      "decoded_frames": 138
+    },
+    {
+      "channel": "CCTV-1HD",
+      "url": "http://192.168.100.252:5678/udp/233.18.204.52:5140",
+      "origin": "existing",
+      "checked_at": "2026-11-24T22:26:36+08:00",
+      "status": "passed",
+      "http_status": "200",
+      "sample_bytes": 5548256,
+      "transport": "udpxy",
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "codec_name": "mp2",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "width": 1920,
+      "height": 1080,
+      "media_type": "video",
+      "decoded_seconds": 3.0,
+      "decoded_frames": 40
+    },
+    {
+      "channel": "CCTV-2HD",
+      "url": "http://192.168.100.252:5678/udp/233.18.204.68:5140",
+      "origin": "existing",
+      "checked_at": "2026-11-24T22:26:41+08:00",
+      "status": "passed",
+      "http_status": "200",
+      "sample_bytes": 5537728,
+      "transport": "udpxy",
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "codec_name": "mp2",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "width": 1920,
+      "height": 1080,
+      "media_type": "video",
+      "decoded_seconds": 3.0,
+      "decoded_frames": 45
+    },
+    {
+      "channel": "CCTV-3HD",
+      "url": "http://192.168.100.252:5678/udp/233.18.204.69:5140",
+      "origin": "existing",
+      "checked_at": "2026-11-24T22:26:46+08:00",
+      "status": "passed",
+      "http_status": "200",
+      "sample_bytes": 5516672,
+      "transport": "udpxy",
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "codec_name": "mp2",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "width": 1920,
+      "height": 1080,
+      "media_type": "video",
+      "decoded_seconds": 3.0,
+      "decoded_frames": 52
+    },
+    {
+      "channel": "CCTV-4HD",
+      "url": "http://192.168.100.252:5678/udp/233.18.204.70:5140",
+      "origin": "existing",
+      "checked_at": "2026-11-24T22:26:52+08:00",
+      "status": "passed",
+      "http_status": "200",
+      "sample_bytes": 5540360,
+      "transport": "udpxy",
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "codec_name": "mp2",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "width": 1920,
+      "height": 1080,
+      "media_type": "video",
+      "decoded_seconds": 3.0,
+      "decoded_frames": 54
+    },
+    {
+      "channel": "CCTV-5HD",
+      "url": "http://192.168.100.252:5678/udp/233.18.204.71:5140",
+      "origin": "existing",
+      "checked_at": "2026-11-24T22:26:57+08:00",
+      "status": "passed",
+      "http_status": "200",
+      "sample_bytes": 5591684,
+      "transport": "udpxy",
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "codec_name": "mp2",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "width": 1920,
+      "height": 1080,
+      "media_type": "video",
+      "decoded_seconds": 3.0,
+      "decoded_frames": 41
+    },
+    {
+      "channel": "CCTV-5+HD",
+      "url": "http://192.168.100.252:5678/udp/233.18.204.67:5140",
+      "origin": "existing",
+      "checked_at": "2026-11-24T22:27:03+08:00",
+      "status": "passed",
+      "http_status": "200",
+      "sample_bytes": 5564048,
+      "transport": "udpxy",
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "codec_name": "mp2",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "width": 1920,
+      "height": 1080,
+      "media_type": "video",
+      "decoded_seconds": 3.0,
+      "decoded_frames": 46
+    },
+    {
+      "channel": "CCTV-6HD",
+      "url": "http://192.168.100.252:5678/udp/233.18.204.72:5140",
+      "origin": "existing",
+      "checked_at": "2026-11-24T22:27:08+08:00",
+      "status": "passed",
+      "http_status": "200",
+      "sample_bytes": 5533780,
+      "transport": "udpxy",
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "codec_name": "mp2",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "width": 1920,
+      "height": 1080,
+      "media_type": "video",
+      "decoded_seconds": 3.0,
+      "decoded_frames": 49
+    },
+    {
+      "channel": "CCTV-7HD",
+      "url": "http://192.168.100.252:5678/udp/233.18.204.73:5140",
+      "origin": "existing",
+      "checked_at": "2026-11-24T22:27:14+08:00",
+      "status": "passed",
+      "http_status": "200",
+      "sample_bytes": 5531148,
+      "transport": "udpxy",
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "codec_name": "mp2",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "width": 1920,
+      "height": 1080,
+      "media_type": "video",
+      "decoded_seconds": 3.0,
+      "decoded_frames": 47
+    },
+    {
+      "channel": "CCTV-8HD",
+      "url": "http://192.168.100.252:5678/udp/233.18.204.74:5140",
+      "origin": "existing",
+      "checked_at": "2026-11-24T22:27:19+08:00",
+      "status": "passed",
+      "http_status": "200",
+      "sample_bytes": 5569312,
+      "transport": "udpxy",
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "codec_name": "mp2",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "width": 1920,
+      "height": 1080,
+      "media_type": "video",
+      "decoded_seconds": 3.0,
+      "decoded_frames": 40
+    },
+    {
+      "channel": "CCTV-9HD",
+      "url": "http://192.168.100.252:5678/udp/233.18.204.75:5140",
+      "origin": "existing",
+      "checked_at": "2026-11-24T22:27:24+08:00",
+      "status": "passed",
+      "http_status": "200",
+      "sample_bytes": 5492984,
+      "transport": "udpxy",
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "codec_name": "mp2",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "width": 1920,
+      "height": 1080,
+      "media_type": "video",
+      "decoded_seconds": 3.0,
+      "decoded_frames": 65
+    },
+    {
+      "channel": "CCTV-10HD",
+      "url": "http://192.168.100.252:5678/udp/233.18.204.76:5140",
+      "origin": "existing",
+      "checked_at": "2026-11-24T22:27:30+08:00",
+      "status": "passed",
+      "http_status": "200",
+      "sample_bytes": 5554836,
+      "transport": "udpxy",
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "codec_name": "mp2",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "width": 1920,
+      "height": 1080,
+      "media_type": "video",
+      "decoded_seconds": 3.0,
+      "decoded_frames": 65
+    },
+    {
+      "channel": "CCTV-11HD",
+      "url": "http://192.168.100.252:5678/udp/233.18.204.77:5140",
+      "origin": "existing",
+      "checked_at": "2026-11-24T22:27:35+08:00",
+      "status": "passed",
+      "http_status": "200",
+      "sample_bytes": 5573260,
+      "transport": "udpxy",
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "codec_name": "mp2",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "width": 1920,
+      "height": 1080,
+      "media_type": "video",
+      "decoded_seconds": 3.0,
+      "decoded_frames": 39
+    },
+    {
+      "channel": "CCTV-12HD",
+      "url": "http://192.168.100.252:5678/udp/233.18.204.78:5140",
+      "origin": "existing",
+      "checked_at": "2026-11-24T22:27:41+08:00",
+      "status": "passed",
+      "http_status": "200",
+      "sample_bytes": 5562732,
+      "transport": "udpxy",
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "codec_name": "mp2",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "width": 1920,
+      "height": 1080,
+      "media_type": "video",
+      "decoded_seconds": 3.0,
+      "decoded_frames": 53
+    },
+    {
+      "channel": "CCTV-13HD",
+      "url": "http://192.168.100.252:5678/udp/233.18.204.79:5140",
+      "origin": "existing",
+      "checked_at": "2026-11-24T22:27:46+08:00",
+      "status": "passed",
+      "http_status": "200",
+      "sample_bytes": 5519304,
+      "transport": "udpxy",
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "codec_name": "mp2",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "width": 1920,
+      "height": 1080,
+      "media_type": "video",
+      "decoded_seconds": 3.0,
+      "decoded_frames": 41
+    },
+    {
+      "channel": "CCTV-14HD",
+      "url": "http://192.168.100.252:5678/udp/233.18.204.80:5140",
+      "origin": "existing",
+      "checked_at": "2026-11-24T22:27:52+08:00",
+      "status": "passed",
+      "http_status": "200",
+      "sample_bytes": 5481140,
+      "transport": "udpxy",
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "codec_name": "mp2",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "width": 1920,
+      "height": 1080,
+      "media_type": "video",
+      "decoded_seconds": 3.0,
+      "decoded_frames": 51
+    },
+    {
+      "channel": "CCTV-15HD",
+      "url": "http://192.168.100.252:5678/udp/233.18.204.81:5140",
+      "origin": "existing",
+      "checked_at": "2026-11-24T22:27:57+08:00",
+      "status": "passed",
+      "http_status": "200",
+      "sample_bytes": 5548256,
+      "transport": "udpxy",
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "codec_name": "mp2",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "width": 1920,
+      "height": 1080,
+      "media_type": "video",
+      "decoded_seconds": 3.0,
+      "decoded_frames": 54
+    },
+    {
+      "channel": "CCTV-17HD",
+      "url": "http://192.168.100.252:5678/udp/233.18.204.83:5140",
+      "origin": "existing",
+      "checked_at": "2026-11-24T22:28:02+08:00",
+      "status": "passed",
+      "http_status": "200",
+      "sample_bytes": 5556152,
+      "transport": "udpxy",
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "codec_name": "mp2",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "width": 1920,
+      "height": 1080,
+      "media_type": "video",
+      "decoded_seconds": 3.0,
+      "decoded_frames": 62
+    },
+    {
+      "channel": "东方卫视HD",
+      "url": "http://192.168.100.252:5678/udp/233.18.204.51:5140",
+      "origin": "existing",
+      "checked_at": "2026-11-24T22:28:08+08:00",
+      "status": "passed",
+      "http_status": "200",
+      "sample_bytes": 5521936,
+      "transport": "udpxy",
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "codec_name": "mp2",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "width": 1920,
+      "height": 1080,
+      "media_type": "video",
+      "decoded_seconds": 3.0,
+      "decoded_frames": 39
+    },
+    {
+      "channel": "浙江卫视HD",
+      "url": "http://192.168.100.252:5678/udp/233.18.204.84:5140",
+      "origin": "existing",
+      "checked_at": "2026-11-24T22:28:13+08:00",
+      "status": "passed",
+      "http_status": "200",
+      "sample_bytes": 5475876,
+      "transport": "udpxy",
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "codec_name": "mp2",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "width": 1920,
+      "height": 1080,
+      "media_type": "video",
+      "decoded_seconds": 3.0,
+      "decoded_frames": 38
+    },
+    {
+      "channel": "江苏卫视HD",
+      "url": "http://192.168.100.252:5678/udp/233.18.204.85:5140",
+      "origin": "existing",
+      "checked_at": "2026-11-24T22:28:19+08:00",
+      "status": "passed",
+      "http_status": "200",
+      "sample_bytes": 5506144,
+      "transport": "udpxy",
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "codec_name": "mp2",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "width": 1920,
+      "height": 1080,
+      "media_type": "video",
+      "decoded_seconds": 3.0,
+      "decoded_frames": 36
+    },
+    {
+      "channel": "湖南卫视HD",
+      "url": "http://192.168.100.252:5678/udp/233.18.204.86:5140",
+      "origin": "existing",
+      "checked_at": "2026-11-24T22:28:24+08:00",
+      "status": "passed",
+      "http_status": "200",
+      "sample_bytes": 5500880,
+      "transport": "udpxy",
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "codec_name": "mp2",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "width": 1920,
+      "height": 1080,
+      "media_type": "video",
+      "decoded_seconds": 3.0,
+      "decoded_frames": 39
+    },
+    {
+      "channel": "北京卫视HD",
+      "url": "http://192.168.100.252:5678/udp/233.18.204.87:5140",
+      "origin": "existing",
+      "checked_at": "2026-11-24T22:28:30+08:00",
+      "status": "passed",
+      "http_status": "200",
+      "sample_bytes": 5582472,
+      "transport": "udpxy",
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "codec_name": "mp2",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "width": 1920,
+      "height": 1080,
+      "media_type": "video",
+      "decoded_seconds": 3.0,
+      "decoded_frames": 39
+    }
+  ],
+  "scope": "覆盖全部12条原有4K；另附22条已完成的HD抽样。按用户澄清将后续工作聚焦于新增不同4K频道，未全面检测其余原有HD。",
+  "source_count": 34,
+  "complete": true
+}

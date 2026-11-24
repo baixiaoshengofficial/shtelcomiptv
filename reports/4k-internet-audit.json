@@ -1,0 +1,1391 @@
+{
+  "tested_at": "2026-11-24T22:27:24+08:00",
+  "results": [
+    {
+      "channel": "CCTV-4K 超高清",
+      "url": "http://ott.mobaibox.com/PLTV/3/224/3221228228/index.m3u8",
+      "reference": "https://github.com/kaige-cai/live/blob/main/live.m3u",
+      "origin": "internet-discovery",
+      "group": "4K超高清",
+      "checked_at": "2026-11-24T22:26:13+08:00",
+      "status": "failed",
+      "reason": "HTTP 0: curl: (28) Failed to connect to ott.mobaibox.com port 80 after 5005 ms: Timeout was reached",
+      "eligible_4k": false
+    },
+    {
+      "channel": "CCTV-8K 超高清",
+      "url": "http://ott.mobaibox.com/PLTV/3/224/3221228165/index.m3u8",
+      "reference": "https://github.com/kaige-cai/live/blob/main/live.m3u",
+      "origin": "internet-discovery",
+      "group": "4K超高清",
+      "checked_at": "2026-11-24T22:26:13+08:00",
+      "status": "failed",
+      "reason": "HTTP 0: curl: (28) Failed to connect to ott.mobaibox.com port 80 after 5004 ms: Timeout was reached",
+      "eligible_4k": false
+    },
+    {
+      "channel": "CCTV-16 奥林匹克 4K",
+      "url": "http://223.110.235.9/ott.js.chinamobile.com/TVOD/3/224/3221228168/index.m3u8",
+      "reference": "https://github.com/kaige-cai/live/blob/main/live.m3u",
+      "origin": "internet-discovery",
+      "group": "4K超高清",
+      "checked_at": "2026-11-24T22:26:13+08:00",
+      "status": "failed",
+      "reason": "HTTP 0: curl: (28) Failed to connect to 223.110.235.9 port 80 after 5006 ms: Timeout was reached",
+      "eligible_4k": false
+    },
+    {
+      "channel": "CCTV-4K UHD",
+      "url": "http://223.110.236.8/ott.js.chinamobile.com/PLTV/3/224/3221228242/index.m3u8",
+      "reference": "https://github.com/kaige-cai/live/blob/main/live.m3u",
+      "origin": "internet-discovery",
+      "group": "4K超高清",
+      "checked_at": "2026-11-24T22:26:13+08:00",
+      "status": "failed",
+      "reason": "HTTP 0: curl: (28) Failed to connect to 223.110.236.8 port 80 after 5006 ms: Timeout was reached",
+      "eligible_4k": false
+    },
+    {
+      "channel": "FASHION TV 4K",
+      "url": "https://fash2043.cloudycdn.services/slive/ftv_ftv_4k_hevc_73d_42080_default_466_hls.smil/playlist.m3u8",
+      "reference": "https://github.com/kaige-cai/live/blob/main/live.m3u",
+      "origin": "internet-discovery",
+      "group": "4K超高清",
+      "checked_at": "2026-11-24T22:26:18+08:00",
+      "status": "failed",
+      "reason": "HTTP 0: curl: (35) LibreSSL SSL_connect: SSL_ERROR_SYSCALL in connection to fash2043.cloudycdn.services:443",
+      "eligible_4k": false
+    },
+    {
+      "channel": "Love Nature 4K",
+      "url": "https://d18dyiwu97wm6q.cloudfront.net/playlist2160p.m3u8",
+      "reference": "https://github.com/kaige-cai/live/blob/main/live.m3u",
+      "origin": "internet-discovery",
+      "group": "4K超高清",
+      "checked_at": "2026-11-24T22:26:18+08:00",
+      "status": "failed",
+      "reason": "HTTP 0: curl: (35) LibreSSL SSL_connect: SSL_ERROR_SYSCALL in connection to d18dyiwu97wm6q.cloudfront.net:443",
+      "eligible_4k": false
+    },
+    {
+      "channel": "Bloomberg TV+ 4K",
+      "url": "https://bloomberg-bloombergtv-1-gb.samsung.wurl.com/manifest/playlist.m3u8",
+      "reference": "https://github.com/kaige-cai/live/blob/main/live.m3u",
+      "origin": "internet-discovery",
+      "group": "4K超高清",
+      "checked_at": "2026-11-24T22:26:18+08:00",
+      "status": "failed",
+      "reason": "HTTP 0: curl: (35) LibreSSL SSL_connect: SSL_ERROR_SYSCALL in connection to bloomberg-bloombergtv-1-gb.samsung.wurl.com:443",
+      "eligible_4k": false
+    },
+    {
+      "channel": "湖南卫视4K",
+      "url": "http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/Y2RuZXhfaWQ9YWxfaGxzX2xkdnQmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST.m3u8",
+      "reference": "https://github.com/alantang1977/iptvo/blob/main/IPTV.m3u",
+      "origin": "internet-discovery",
+      "group": "4K超高清",
+      "checked_at": "2026-11-24T22:26:19+08:00",
+      "status": "passed",
+      "transport": "hls",
+      "resolved_url": "http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/Y2RuZXhfaWQ9YWxfaGxzX2xkdnQmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST.m3u8",
+      "segments_downloaded": 2,
+      "sample_bytes": 2199224,
+      "streams": [
+        {
+          "codec_name": "hevc",
+          "codec_type": "video",
+          "width": 3840,
+          "height": 2160
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "width": 3840,
+      "height": 2160,
+      "media_type": "video",
+      "decoded_seconds": 3.008,
+      "decoded_frames": 75,
+      "eligible_4k": true
+    },
+    {
+      "channel": "浙江卫视4K",
+      "url": "http://ali-xwl.cztv.com/live/channel4k2160p.m3u8",
+      "reference": "https://github.com/alantang1977/iptvo/blob/main/IPTV.m3u",
+      "origin": "internet-discovery",
+      "group": "4K超高清",
+      "checked_at": "2026-11-24T22:26:20+08:00",
+      "status": "passed",
+      "transport": "hls",
+      "resolved_url": "http://ali-xwl.cztv.com/live/channel4k2160p.m3u8",
+      "segments_downloaded": 2,
+      "sample_bytes": 10967168,
+      "streams": [
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2
+        },
+        {
+          "codec_name": "hevc",
+          "codec_type": "video",
+          "width": 3840,
+          "height": 2160
+        }
+      ],
+      "width": 3840,
+      "height": 2160,
+      "media_type": "video",
+      "decoded_seconds": 3.005,
+      "decoded_frames": 150,
+      "eligible_4k": true
+    },
+    {
+      "channel": "咪咕直播-1-4K",
+      "url": "http://zteres.sn.chinamobile.com:6060/000000001000/3000000010000005180/index.m3u8?channel-id=FifastbLive&Contentid=3000000010000005180&livemode=1&stbId=3",
+      "reference": "https://github.com/kaige-cai/live/blob/main/live.m3u",
+      "origin": "internet-discovery",
+      "group": "4K超高清",
+      "checked_at": "2026-11-24T22:26:18+08:00",
+      "status": "failed",
+      "reason": "HTTP 0: curl: (28) Failed to connect to zteres.sn.chinamobile.com port 6060 after 5006 ms: Timeout was reached",
+      "eligible_4k": false
+    },
+    {
+      "channel": "咪咕直播-2-4K",
+      "url": "http://zteres.sn.chinamobile.com:6060/000000001000/3000000010000015686/index.m3u8?channel-id=FifastbLive&Contentid=3000000010000015686&livemode=1&stbId=3",
+      "reference": "https://github.com/kaige-cai/live/blob/main/live.m3u",
+      "origin": "internet-discovery",
+      "group": "4K超高清",
+      "checked_at": "2026-11-24T22:26:18+08:00",
+      "status": "failed",
+      "reason": "HTTP 0: curl: (28) Failed to connect to zteres.sn.chinamobile.com port 6060 after 5006 ms: Timeout was reached",
+      "eligible_4k": false
+    },
+    {
+      "channel": "8K UHD 测试",
+      "url": "http://ott.mobaibox.com/PLTV/3/224/3221228132/index.m3u8",
+      "reference": "https://github.com/kaige-cai/live/blob/main/live.m3u",
+      "origin": "internet-discovery",
+      "group": "4K超高清",
+      "checked_at": "2026-11-24T22:26:18+08:00",
+      "status": "failed",
+      "reason": "HTTP 0: curl: (28) Failed to connect to ott.mobaibox.com port 80 after 5005 ms: Timeout was reached",
+      "eligible_4k": false
+    },
+    {
+      "channel": "苏州4K",
+      "url": "https://live-auth.51kandianshi.com/szgd/csztv4k_4k.m3u8",
+      "reference": "https://github.com/alantang1977/iptvo/blob/main/IPTV.m3u",
+      "origin": "internet-discovery",
+      "group": "4K超高清",
+      "checked_at": "2026-11-24T22:26:23+08:00",
+      "status": "passed",
+      "transport": "hls",
+      "resolved_url": "https://live-auth.51kandianshi.com/szgd/csztv4k_4k.m3u8",
+      "segments_downloaded": 2,
+      "sample_bytes": 2170460,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 3840,
+          "height": 2160
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "width": 3840,
+      "height": 2160,
+      "media_type": "video",
+      "decoded_seconds": 3.0,
+      "decoded_frames": 74,
+      "eligible_4k": true
+    },
+    {
+      "channel": "纯享4K",
+      "url": "http://39.134.115.163:8080/PLTV/88888910/224/3221225786/index.m3u8",
+      "origin": "internet-discovery",
+      "reference": "https://github.com/Cr-cm/iptv-2/blob/main/4K.txt",
+      "group": "4K超高清",
+      "checked_at": "2026-11-24T22:26:23+08:00",
+      "status": "failed",
+      "reason": "HTTP 0: curl: (28) Failed to connect to 39.134.115.163 port 8080 after 5006 ms: Timeout was reached",
+      "eligible_4k": false
+    },
+    {
+      "channel": "纯享4K",
+      "url": "http://39.135.138.59:18890/PLTV/88888910/224/3221225786/index.m3u8",
+      "origin": "internet-discovery",
+      "reference": "https://github.com/Cr-cm/iptv-2/blob/main/4K.txt",
+      "group": "4K超高清",
+      "checked_at": "2026-11-24T22:26:23+08:00",
+      "status": "failed",
+      "reason": "HTTP 0: curl: (28) Failed to connect to 39.135.138.59 port 18890 after 5006 ms: Timeout was reached",
+      "eligible_4k": false
+    },
+    {
+      "channel": "Love Nature 4K",
+      "url": "https://pb-ehs1glsha1juy.akamaized.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-ehs1glsha1juy/f2141f37-1f48-475b-ba54-b9efb62346db/0.m3u8",
+      "reference": "https://github.com/alantang1977/iptvo/blob/main/IPTV.m3u",
+      "origin": "internet-discovery",
+      "group": "4K超高清",
+      "checked_at": "2026-11-24T22:26:22+08:00",
+      "status": "passed",
+      "transport": "hls",
+      "resolved_url": "https://pb-ehs1glsha1juy.akamaized.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-ehs1glsha1juy/f2141f37-1f48-475b-ba54-b9efb62346db/0.m3u8",
+      "segments_downloaded": 2,
+      "sample_bytes": 15512632,
+      "streams": [
+        {
+          "codec_name": "hevc",
+          "codec_type": "video",
+          "width": 3840,
+          "height": 2160
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "width": 3840,
+      "height": 2160,
+      "media_type": "video",
+      "decoded_seconds": 3.003,
+      "decoded_frames": 90,
+      "eligible_4k": true
+    },
+    {
+      "channel": "纯享4K",
+      "url": "http://39.135.55.72:6610/PLTV/88888888/224/3221226825/index.m3u8?servicetype=1&IASHttpSessionId=OTT",
+      "origin": "internet-discovery",
+      "reference": "https://github.com/Cr-cm/iptv-2/blob/main/4K.txt",
+      "group": "4K超高清",
+      "checked_at": "2026-11-24T22:26:24+08:00",
+      "status": "failed",
+      "reason": "HTTP 0: curl: (28) Failed to connect to 39.135.55.72 port 6610 after 5006 ms: Timeout was reached",
+      "eligible_4k": false
+    },
+    {
+      "channel": "纯享4K",
+      "url": "http://117.169.120.221:8080/wh7f454c46tw1485335032_-687149174/hwrr.jx.chinamobile.com/PLTV/88888910/224/3221225786/index.m3u8?",
+      "origin": "internet-discovery",
+      "reference": "https://github.com/Cr-cm/iptv-2/blob/main/4K.txt",
+      "group": "4K超高清",
+      "checked_at": "2026-11-24T22:26:28+08:00",
+      "status": "failed",
+      "reason": "HTTP 0: curl: (28) Failed to connect to 117.169.120.221 port 8080 after 5006 ms: Timeout was reached",
+      "eligible_4k": false
+    },
+    {
+      "channel": "纯享4K",
+      "url": "http://39.134.116.30/PLTV/88888910/224/3221225786/index.m3u8",
+      "origin": "internet-discovery",
+      "reference": "https://github.com/Cr-cm/iptv-2/blob/main/4K.txt",
+      "group": "4K超高清",
+      "checked_at": "2026-11-24T22:26:29+08:00",
+      "status": "failed",
+      "reason": "HTTP 0: curl: (7) Failed to connect to 39.134.116.30 port 80 after 4026 ms: Couldn't connect to server",
+      "eligible_4k": false
+    },
+    {
+      "channel": "纯享4K",
+      "url": "http://39.135.55.7:6610/PLTV/88888888/224/3221226825/index.m3u8?servicetype=1&IASHttpSessionId=OTT",
+      "origin": "internet-discovery",
+      "reference": "https://github.com/Cr-cm/iptv-2/blob/main/4K.txt",
+      "group": "4K超高清",
+      "checked_at": "2026-11-24T22:26:29+08:00",
+      "status": "failed",
+      "reason": "HTTP 0: curl: (28) Failed to connect to 39.135.55.7 port 6610 after 5003 ms: Timeout was reached",
+      "eligible_4k": false
+    },
+    {
+      "channel": "纯享4K",
+      "url": "http://39.135.55.105:6610/PLTV/88888888/224/3221226825/index.m3u8?servicetype=1",
+      "origin": "internet-discovery",
+      "reference": "https://github.com/Cr-cm/iptv-2/blob/main/4K.txt",
+      "group": "4K超高清",
+      "checked_at": "2026-11-24T22:26:29+08:00",
+      "status": "failed",
+      "reason": "HTTP 0: curl: (28) Failed to connect to 39.135.55.105 port 6610 after 5006 ms: Timeout was reached",
+      "eligible_4k": false
+    },
+    {
+      "channel": "纯享4K",
+      "url": "http://39.135.55.13:6610/PLTV/88888888/224/3221226825/index.m3u8?servicetype=1&IASHttpSessionId=OTT",
+      "origin": "internet-discovery",
+      "reference": "https://github.com/Cr-cm/iptv-2/blob/main/4K.txt",
+      "group": "4K超高清",
+      "checked_at": "2026-11-24T22:26:33+08:00",
+      "status": "failed",
+      "reason": "HTTP 0: curl: (28) Failed to connect to 39.135.55.13 port 6610 after 5006 ms: Timeout was reached",
+      "eligible_4k": false
+    },
+    {
+      "channel": "纯享4K",
+      "url": "http://117.169.30.5:6610/PLTV/88888888/224/3221225786/2/index.m3u8?fmt=ts2hls",
+      "origin": "internet-discovery",
+      "reference": "https://github.com/Cr-cm/iptv-2/blob/main/4K.txt",
+      "group": "4K超高清",
+      "checked_at": "2026-11-24T22:26:33+08:00",
+      "status": "failed",
+      "reason": "HTTP 0: curl: (28) Failed to connect to 117.169.30.5 port 6610 after 5003 ms: Timeout was reached",
+      "eligible_4k": false
+    },
+    {
+      "channel": "苏州4K",
+      "url": "http://liveshowbak2.kan0512.com/ksz-norecord/csztv4k_4k.m3u8",
+      "origin": "internet-discovery",
+      "reference": "https://github.com/Cr-cm/iptv-2/blob/main/4K.txt",
+      "group": "4K超高清",
+      "checked_at": "2026-11-24T22:26:38+08:00",
+      "status": "failed",
+      "reason": "HTTP 0: curl: (6) Could not resolve host: liveshowbak2.kan0512.com",
+      "eligible_4k": false
+    },
+    {
+      "channel": "纯享4K",
+      "url": "http://39.135.138.58:18890/ysten-businessmobile/live/HD-20M-2160P-chunxiang4k/1.m3u8",
+      "origin": "internet-discovery",
+      "reference": "https://github.com/Cr-cm/iptv-2/blob/main/4K.txt",
+      "group": "4K超高清",
+      "checked_at": "2026-11-24T22:26:34+08:00",
+      "status": "failed",
+      "reason": "HTTP 0: curl: (28) Failed to connect to 39.135.138.58 port 18890 after 5006 ms: Timeout was reached",
+      "eligible_4k": false
+    },
+    {
+      "channel": "纯享4K",
+      "url": "http://39.135.138.58:18890/PLTV/88888888/224/3221225786/index.m3u8",
+      "origin": "internet-discovery",
+      "reference": "https://github.com/Cr-cm/iptv-2/blob/main/4K.txt",
+      "group": "4K超高清",
+      "checked_at": "2026-11-24T22:26:34+08:00",
+      "status": "failed",
+      "reason": "HTTP 0: curl: (28) Failed to connect to 39.135.138.58 port 18890 after 5003 ms: Timeout was reached",
+      "eligible_4k": false
+    },
+    {
+      "channel": "纯享4K",
+      "url": "http://39.135.138.60:18890/PLTV/88888910/224/3221225786/index.m3u8",
+      "origin": "internet-discovery",
+      "reference": "https://github.com/Cr-cm/iptv-2/blob/main/4K.txt",
+      "group": "4K超高清",
+      "checked_at": "2026-11-24T22:26:38+08:00",
+      "status": "failed",
+      "reason": "HTTP 0: curl: (28) Failed to connect to 39.135.138.60 port 18890 after 5006 ms: Timeout was reached",
+      "eligible_4k": false
+    },
+    {
+      "channel": "爱上4K",
+      "url": "http://111.20.33.93/PLTV/88888893/224/3221226352/index.m3u8",
+      "origin": "internet-discovery",
+      "reference": "https://github.com/Cr-cm/iptv-2/blob/main/4K.txt",
+      "group": "4K超高清",
+      "checked_at": "2026-11-24T22:26:38+08:00",
+      "status": "failed",
+      "reason": "HTTP 0: curl: (28) Failed to connect to 111.20.33.93 port 80 after 5004 ms: Timeout was reached",
+      "eligible_4k": false
+    },
+    {
+      "channel": "4K",
+      "url": "http://[2409:8087:1070:301:2026::12]:80/wh7f454c46tw4179594525_1038075197/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221225858/10000100000000060000000000262129_0.smil/01.m3u8?fmt=ts2hls",
+      "origin": "internet-discovery",
+      "reference": "https://github.com/Cr-cm/iptv-2/blob/main/4K.txt",
+      "group": "4K超高清",
+      "checked_at": "2026-11-24T22:26:39+08:00",
+      "status": "failed",
+      "reason": "HTTP 0: curl: (28) Failed to connect to 2409:8087:1070:301:2026::12 port 80 after 5005 ms: Timeout was reached",
+      "eligible_4k": false
+    },
+    {
+      "channel": "4K",
+      "url": "http://[2409:8087:5c00:10:5::121]/cdnrrs.gx.chinamobile.com/PLTV/3/224/3221225726/index.m3u8",
+      "origin": "internet-discovery",
+      "reference": "https://github.com/Cr-cm/iptv-2/blob/main/4K.txt",
+      "group": "4K超高清",
+      "checked_at": "2026-11-24T22:26:39+08:00",
+      "status": "failed",
+      "reason": "HTTP 0: curl: (28) Failed to connect to 2409:8087:5c00:10:5::121 port 80 after 5006 ms: Timeout was reached",
+      "eligible_4k": false
+    },
+    {
+      "channel": "4K",
+      "url": "http://[2409:8087:5c00:10:5::8a]/cdnrrs.gx.chinamobile.com/PLTV/3/224/3221225726/index.m3u8",
+      "origin": "internet-discovery",
+      "reference": "https://github.com/Cr-cm/iptv-2/blob/main/4K.txt",
+      "group": "4K超高清",
+      "checked_at": "2026-11-24T22:26:43+08:00",
+      "status": "failed",
+      "reason": "HTTP 0: curl: (28) Failed to connect to 2409:8087:5c00:10:5::8a port 80 after 5004 ms: Timeout was reached",
+      "eligible_4k": false
+    },
+    {
+      "channel": "4K",
+      "url": "http://[2409:8087:5c00:10:5::123]/cdnrrs.gx.chinamobile.com/PLTV/3/224/3221225726/index.m3u8",
+      "origin": "internet-discovery",
+      "reference": "https://github.com/Cr-cm/iptv-2/blob/main/4K.txt",
+      "group": "4K超高清",
+      "checked_at": "2026-11-24T22:26:43+08:00",
+      "status": "failed",
+      "reason": "HTTP 0: curl: (28) Failed to connect to 2409:8087:5c00:10:5::123 port 80 after 5006 ms: Timeout was reached",
+      "eligible_4k": false
+    },
+    {
+      "channel": "4K",
+      "url": "http://[2409:8087:5c00:10:5::84]/cdnrrs.gx.chinamobile.com/PLTV/3/224/3221225863/index.m3u8",
+      "origin": "internet-discovery",
+      "reference": "https://github.com/Cr-cm/iptv-2/blob/main/4K.txt",
+      "group": "4K超高清",
+      "checked_at": "2026-11-24T22:26:44+08:00",
+      "status": "failed",
+      "reason": "HTTP 0: curl: (28) Failed to connect to 2409:8087:5c00:10:5::84 port 80 after 5006 ms: Timeout was reached",
+      "eligible_4k": false
+    },
+    {
+      "channel": "4K电影",
+      "url": "http://cache.ott.fifalive.itv.cmvideo.cn:80/6000000003000004748/index.m3u8?channel-id=wasusyt&Contentid=6000000003000004748&livemode=1&stbId=no",
+      "origin": "internet-discovery",
+      "reference": "https://github.com/Cr-cm/iptv-2/blob/main/4K.txt",
+      "group": "4K超高清",
+      "checked_at": "2026-11-24T22:26:48+08:00",
+      "status": "failed",
+      "reason": "HTTP 403: error code: 1034\n",
+      "eligible_4k": false
+    },
+    {
+      "channel": "4K电影",
+      "url": "http://[2409:8c02:21c:60::2b]/live.rxip.sc96655.com/live/emdy4k_8000.m3u8",
+      "origin": "internet-discovery",
+      "reference": "https://github.com/Cr-cm/iptv-2/blob/main/4K.txt",
+      "group": "4K超高清",
+      "checked_at": "2026-11-24T22:26:45+08:00",
+      "status": "failed",
+      "reason": "HTTP 0: curl: (28) Failed to connect to 2409:8c02:21c:60::2b port 80 after 5002 ms: Timeout was reached",
+      "eligible_4k": false
+    },
+    {
+      "channel": "4K花园",
+      "url": "http://180.122.80.193:8888/udp/239.49.8.205:6000",
+      "origin": "internet-discovery",
+      "reference": "https://github.com/Cr-cm/iptv-2/blob/main/4K.txt",
+      "group": "4K超高清",
+      "checked_at": "2026-11-24T22:26:48+08:00",
+      "status": "failed",
+      "http_status": "000",
+      "sample_bytes": 0,
+      "reason": "无有效媒体数据: HTTP 000, 0 bytes; curl: (28) Failed to connect to 180.122.80.193 port 8888 after 3006 ms: Timeout was reached\n",
+      "eligible_4k": false
+    },
+    {
+      "channel": "4K花园",
+      "url": "http://180.122.80.193:8888/udp/239.49.8.207:6000",
+      "origin": "internet-discovery",
+      "reference": "https://github.com/Cr-cm/iptv-2/blob/main/4K.txt",
+      "group": "4K超高清",
+      "checked_at": "2026-11-24T22:26:49+08:00",
+      "status": "failed",
+      "http_status": "000",
+      "sample_bytes": 0,
+      "reason": "无有效媒体数据: HTTP 000, 0 bytes; curl: (28) Failed to connect to 180.122.80.193 port 8888 after 3006 ms: Timeout was reached\n",
+      "eligible_4k": false
+    },
+    {
+      "channel": "CCTV4K",
+      "url": "http://open.live-web.timetv.cn/live03/cctv4k.m3u8",
+      "origin": "internet-discovery",
+      "reference": "https://github.com/Cr-cm/iptv-2/blob/main/4K.txt",
+      "group": "4K超高清",
+      "checked_at": "2026-11-24T22:26:52+08:00",
+      "status": "failed",
+      "reason": "HTTP 0: curl: (6) Could not resolve host: open.live-web.timetv.cn",
+      "eligible_4k": false
+    },
+    {
+      "channel": "4K花园",
+      "url": "http://180.122.80.193:8888/udp/239.49.8.208:6000",
+      "origin": "internet-discovery",
+      "reference": "https://github.com/Cr-cm/iptv-2/blob/main/4K.txt",
+      "group": "4K超高清",
+      "checked_at": "2026-11-24T22:26:49+08:00",
+      "status": "failed",
+      "http_status": "000",
+      "sample_bytes": 0,
+      "reason": "无有效媒体数据: HTTP 000, 0 bytes; curl: (28) Failed to connect to 180.122.80.193 port 8888 after 3002 ms: Timeout was reached\n",
+      "eligible_4k": false
+    },
+    {
+      "channel": "4K现场",
+      "url": "http://180.122.80.193:8888/udp/239.49.8.222:6000",
+      "origin": "internet-discovery",
+      "reference": "https://github.com/Cr-cm/iptv-2/blob/main/4K.txt",
+      "group": "4K超高清",
+      "checked_at": "2026-11-24T22:26:50+08:00",
+      "status": "failed",
+      "http_status": "000",
+      "sample_bytes": 0,
+      "reason": "无有效媒体数据: HTTP 000, 0 bytes; curl: (28) Failed to connect to 180.122.80.193 port 8888 after 3006 ms: Timeout was reached\n",
+      "eligible_4k": false
+    },
+    {
+      "channel": "CCTV4K",
+      "url": "https://p.ggiptv.com/v/4k.m3u8",
+      "origin": "internet-discovery",
+      "reference": "https://github.com/Cr-cm/iptv-2/blob/main/4K.txt",
+      "group": "4K超高清",
+      "checked_at": "2026-11-24T22:26:52+08:00",
+      "status": "failed",
+      "reason": "HTTP 404: ﻿<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\r\n<html xmlns=\"http://www.w3.org/1999/xhtml\">\r\n<head>\r\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=iso-8859-1\"/>\r\n<title>404 - File or directory not found.</title>\r\n<style type=\"text/css\">\r\n<!--\r\nbody{margin:0;font-size:.7",
+      "eligible_4k": false
+    },
+    {
+      "channel": "CCTV4K",
+      "url": "http://liveop.cctv.cn/hls/4KHD/playlist.m3u8",
+      "origin": "internet-discovery",
+      "reference": "https://github.com/Cr-cm/iptv-2/blob/main/4K.txt",
+      "group": "4K超高清",
+      "checked_at": "2026-11-24T22:26:51+08:00",
+      "status": "failed",
+      "reason": "HTTP 0: curl: (28) Failed to connect to liveop.cctv.cn port 80 after 5002 ms: Timeout was reached",
+      "eligible_4k": false
+    },
+    {
+      "channel": "CCTV4K",
+      "url": "http://39.135.55.105:6610/PLTV/88888888/224/3221226998/index.m3u8?servicetype=1",
+      "origin": "internet-discovery",
+      "reference": "https://github.com/Cr-cm/iptv-2/blob/main/4K.txt",
+      "group": "4K超高清",
+      "checked_at": "2026-11-24T22:26:52+08:00",
+      "status": "failed",
+      "reason": "HTTP 0: curl: (28) Failed to connect to 39.135.55.105 port 6610 after 5005 ms: Timeout was reached",
+      "eligible_4k": false
+    },
+    {
+      "channel": "CCTV8K",
+      "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221233404/index.m3u8",
+      "origin": "internet-discovery",
+      "reference": "https://github.com/Cr-cm/iptv-2/blob/main/4K.txt",
+      "group": "4K超高清",
+      "checked_at": "2026-11-24T22:26:57+08:00",
+      "status": "failed",
+      "reason": "HTTP 403: ",
+      "eligible_4k": false
+    },
+    {
+      "channel": "CCTV8K",
+      "url": "http://117.148.129.93:80/PLTV/88888888/224/3221233350/1.m3u8",
+      "origin": "internet-discovery",
+      "reference": "https://github.com/Cr-cm/iptv-2/blob/main/4K.txt",
+      "group": "4K超高清",
+      "checked_at": "2026-11-24T22:26:57+08:00",
+      "status": "failed",
+      "reason": "HTTP 403: ",
+      "eligible_4k": false
+    },
+    {
+      "channel": "CCTV4K",
+      "url": "http://117.148.179.157/PLTV/88888888/224/3221233460/index.m3u8",
+      "origin": "internet-discovery",
+      "reference": "https://github.com/Cr-cm/iptv-2/blob/main/4K.txt",
+      "group": "4K超高清",
+      "checked_at": "2026-11-24T22:26:53+08:00",
+      "status": "failed",
+      "reason": "HTTP 0: curl: (28) Failed to connect to 117.148.179.157 port 80 after 5005 ms: Timeout was reached",
+      "eligible_4k": false
+    },
+    {
+      "channel": "CCTV8K",
+      "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221233413/index.m3u8",
+      "origin": "internet-discovery",
+      "reference": "https://github.com/Cr-cm/iptv-2/blob/main/4K.txt",
+      "group": "4K超高清",
+      "checked_at": "2026-11-24T22:26:58+08:00",
+      "status": "failed",
+      "reason": "HTTP 403: ",
+      "eligible_4k": false
+    },
+    {
+      "channel": "CCTV4K",
+      "url": "http://39.135.55.7:6610/PLTV/88888888/224/3221226998/index.m3u8?servicetype=1&IASHttpSessionId=OTT",
+      "origin": "internet-discovery",
+      "reference": "https://github.com/Cr-cm/iptv-2/blob/main/4K.txt",
+      "group": "4K超高清",
+      "checked_at": "2026-11-24T22:26:53+08:00",
+      "status": "failed",
+      "reason": "HTTP 0: curl: (28) Failed to connect to 39.135.55.7 port 6610 after 5004 ms: Timeout was reached",
+      "eligible_4k": false
+    },
+    {
+      "channel": "CCTV8K",
+      "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221233350/index.m3u8",
+      "origin": "internet-discovery",
+      "reference": "https://github.com/Cr-cm/iptv-2/blob/main/4K.txt",
+      "group": "4K超高清",
+      "checked_at": "2026-11-24T22:26:58+08:00",
+      "status": "failed",
+      "reason": "HTTP 403: ",
+      "eligible_4k": false
+    },
+    {
+      "channel": "CCTV4K",
+      "url": "http://[2409:8c02:21c:60::2b]/live.rxip.sc96655.com/live/ys4Kcq_2000.m3u8",
+      "origin": "internet-discovery",
+      "reference": "https://github.com/Cr-cm/iptv-2/blob/main/4K.txt",
+      "group": "4K超高清",
+      "checked_at": "2026-11-24T22:26:56+08:00",
+      "status": "failed",
+      "reason": "HTTP 0: curl: (28) Failed to connect to 2409:8c02:21c:60::2b port 80 after 5003 ms: Timeout was reached",
+      "eligible_4k": false
+    },
+    {
+      "channel": "CCTV8K",
+      "url": "http://117.148.179.146/PLTV/88888888/224/3221233413/index.m3u8",
+      "origin": "internet-discovery",
+      "reference": "https://github.com/Cr-cm/iptv-2/blob/main/4K.txt",
+      "group": "4K超高清",
+      "checked_at": "2026-11-24T22:26:57+08:00",
+      "status": "failed",
+      "reason": "HTTP 0: curl: (28) Failed to connect to 117.148.179.146 port 80 after 5006 ms: Timeout was reached",
+      "eligible_4k": false
+    },
+    {
+      "channel": "CCTV8K",
+      "url": "http://117.148.179.157/PLTV/88888888/224/3221233404/index.m3u8",
+      "origin": "internet-discovery",
+      "reference": "https://github.com/Cr-cm/iptv-2/blob/main/4K.txt",
+      "group": "4K超高清",
+      "checked_at": "2026-11-24T22:26:58+08:00",
+      "status": "failed",
+      "reason": "HTTP 0: curl: (28) Failed to connect to 117.148.179.157 port 80 after 5002 ms: Timeout was reached",
+      "eligible_4k": false
+    },
+    {
+      "channel": "CCTV8K",
+      "url": "http://117.148.179.157/PLTV/88888888/224/3221233413/index.m3u8",
+      "origin": "internet-discovery",
+      "reference": "https://github.com/Cr-cm/iptv-2/blob/main/4K.txt",
+      "group": "4K超高清",
+      "checked_at": "2026-11-24T22:26:58+08:00",
+      "status": "failed",
+      "reason": "HTTP 0: curl: (28) Failed to connect to 117.148.179.157 port 80 after 5005 ms: Timeout was reached",
+      "eligible_4k": false
+    },
+    {
+      "channel": "CCTV16 4K",
+      "url": "http://[2409:8087:1070:301:2028::23]/gslbserv.iptv.nm.chinamobile.com/PLTV/88888890/224/3221226301/index.m3u8?fmt=ts2hls",
+      "origin": "internet-discovery",
+      "reference": "https://github.com/Cr-cm/iptv-2/blob/main/4K.txt",
+      "group": "4K超高清",
+      "checked_at": "2026-11-24T22:27:01+08:00",
+      "status": "failed",
+      "reason": "HTTP 0: curl: (28) Failed to connect to 2409:8087:1070:301:2028::23 port 80 after 5002 ms: Timeout was reached",
+      "eligible_4k": false
+    },
+    {
+      "channel": "CCTV16 4K",
+      "url": "http://[2409:8087:4400:20:1:a0f:11:9]/iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227060/index.m3u8",
+      "origin": "internet-discovery",
+      "reference": "https://github.com/Cr-cm/iptv-2/blob/main/4K.txt",
+      "group": "4K超高清",
+      "checked_at": "2026-11-24T22:27:02+08:00",
+      "status": "failed",
+      "reason": "HTTP 0: curl: (28) Failed to connect to 2409:8087:4400:20:1:a0f:11:9 port 80 after 5006 ms: Timeout was reached",
+      "eligible_4k": false
+    },
+    {
+      "channel": "河南卫视4K",
+      "url": "http://iptv.cdn.ha.chinamobile.com/PLIV/88888888/224/3221226344/index.m3u8",
+      "origin": "internet-discovery",
+      "reference": "https://github.com/Cr-cm/iptv-2/blob/main/4K.txt",
+      "group": "4K超高清",
+      "checked_at": "2026-11-24T22:27:03+08:00",
+      "status": "failed",
+      "reason": "HTTP 0: curl: (28) Failed to connect to iptv.cdn.ha.chinamobile.com port 80 after 5005 ms: Timeout was reached",
+      "eligible_4k": false
+    },
+    {
+      "channel": "河南卫视4K",
+      "url": "http://xingyang.net.cn:4000/udp/225.1.4.254:1300",
+      "origin": "internet-discovery",
+      "reference": "https://github.com/Cr-cm/iptv-2/blob/main/4K.txt",
+      "group": "4K超高清",
+      "checked_at": "2026-11-24T22:27:03+08:00",
+      "status": "failed",
+      "http_status": "200",
+      "sample_bytes": 0,
+      "reason": "无有效媒体数据: HTTP 200, 0 bytes; curl: (28) Operation timed out after 5005 milliseconds with 0 bytes received\n",
+      "eligible_4k": false
+    },
+    {
+      "channel": "河南卫视4K",
+      "url": "http://218.29.135.2:4000/udp/225.1.4.254:1300",
+      "origin": "internet-discovery",
+      "reference": "https://github.com/Cr-cm/iptv-2/blob/main/4K.txt",
+      "group": "4K超高清",
+      "checked_at": "2026-11-24T22:27:06+08:00",
+      "status": "failed",
+      "http_status": "200",
+      "sample_bytes": 0,
+      "reason": "无有效媒体数据: HTTP 200, 0 bytes; curl: (28) Operation timed out after 5004 milliseconds with 0 bytes received\n",
+      "eligible_4k": false
+    },
+    {
+      "channel": "北京IPTV4K",
+      "url": "http://221.179.217.94/PLTV/88888888/224/3221226550/1.m3u8",
+      "origin": "internet-discovery",
+      "reference": "https://github.com/Cr-cm/iptv-2/blob/main/4K.txt",
+      "group": "4K超高清",
+      "checked_at": "2026-11-24T22:27:07+08:00",
+      "status": "failed",
+      "reason": "HTTP 0: curl: (28) Failed to connect to 221.179.217.94 port 80 after 5003 ms: Timeout was reached",
+      "eligible_4k": false
+    },
+    {
+      "channel": "北京IPTV4K",
+      "url": "http://221.179.136.148:443/PLTV/88888888/224/3221226550/1.m3u8",
+      "origin": "internet-discovery",
+      "reference": "https://github.com/Cr-cm/iptv-2/blob/main/4K.txt",
+      "group": "4K超高清",
+      "checked_at": "2026-11-24T22:27:08+08:00",
+      "status": "failed",
+      "reason": "HTTP 0: curl: (28) Failed to connect to 221.179.136.148 port 443 after 5003 ms: Timeout was reached",
+      "eligible_4k": false
+    },
+    {
+      "channel": "欢笑剧场4K",
+      "url": "http://111.20.33.70/PLTV/88888893/224/3221226582/index.m3u8",
+      "origin": "internet-discovery",
+      "reference": "https://github.com/Cr-cm/iptv-2/blob/main/4K.txt",
+      "group": "4K超高清",
+      "checked_at": "2026-11-24T22:27:08+08:00",
+      "status": "failed",
+      "reason": "HTTP 0: curl: (28) Failed to connect to 111.20.33.70 port 80 after 5003 ms: Timeout was reached",
+      "eligible_4k": false
+    },
+    {
+      "channel": "欢笑剧场4K",
+      "url": "http://live.aikan.miguvideo.com/PLTV/88888888/224/3221230739/index.m3u8",
+      "origin": "internet-discovery",
+      "reference": "https://github.com/Cr-cm/iptv-2/blob/main/4K.txt",
+      "group": "4K超高清",
+      "checked_at": "2026-11-24T22:27:13+08:00",
+      "status": "failed",
+      "reason": "HTTP 403: ",
+      "eligible_4k": false
+    },
+    {
+      "channel": "欢笑剧场4K",
+      "url": "http://180.122.80.193:8888/udp/239.49.8.231:6000",
+      "origin": "internet-discovery",
+      "reference": "https://github.com/Cr-cm/iptv-2/blob/main/4K.txt",
+      "group": "4K超高清",
+      "checked_at": "2026-11-24T22:27:12+08:00",
+      "status": "failed",
+      "http_status": "000",
+      "sample_bytes": 0,
+      "reason": "无有效媒体数据: HTTP 000, 0 bytes; curl: (28) Failed to connect to 180.122.80.193 port 8888 after 3002 ms: Timeout was reached\n",
+      "eligible_4k": false
+    },
+    {
+      "channel": "欢笑剧场4K",
+      "url": "http://39.134.18.82/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226582/index.m3u8",
+      "origin": "internet-discovery",
+      "reference": "https://github.com/Cr-cm/iptv-2/blob/main/4K.txt",
+      "group": "4K超高清",
+      "checked_at": "2026-11-24T22:27:11+08:00",
+      "status": "failed",
+      "reason": "HTTP 0: curl: (28) Failed to connect to 39.134.18.82 port 80 after 5001 ms: Timeout was reached",
+      "eligible_4k": false
+    },
+    {
+      "channel": "欢笑剧场4K",
+      "url": "http://39.135.253.53/hwcdntest.hb.chinamobile.com/PLTV/88888888/224/3221226144/3.m3u8",
+      "origin": "internet-discovery",
+      "reference": "https://github.com/Cr-cm/iptv-2/blob/main/4K.txt",
+      "group": "4K超高清",
+      "checked_at": "2026-11-24T22:27:13+08:00",
+      "status": "failed",
+      "reason": "HTTP 0: curl: (28) Failed to connect to 39.135.253.53 port 80 after 5006 ms: Timeout was reached",
+      "eligible_4k": false
+    },
+    {
+      "channel": "欢笑剧场4K",
+      "url": "http://112.17.40.218:80/PLTV/88888888/224/3221230739/1.m3u8",
+      "origin": "internet-discovery",
+      "reference": "https://github.com/Cr-cm/iptv-2/blob/main/4K.txt",
+      "group": "4K超高清",
+      "checked_at": "2026-11-24T22:27:18+08:00",
+      "status": "failed",
+      "reason": "HTTP 0: curl: (7) Failed to connect to 112.17.40.218 port 80 after 14 ms: Couldn't connect to server",
+      "eligible_4k": false
+    },
+    {
+      "channel": "欢笑剧场4K",
+      "url": "http://39.134.19.234:6610/yinhe/2/ch00000090990000002156/index.m3u8?virtualDomain=yinhe.live_hls.zte.com",
+      "origin": "internet-discovery",
+      "reference": "https://github.com/Cr-cm/iptv-2/blob/main/4K.txt",
+      "group": "4K超高清",
+      "checked_at": "2026-11-24T22:27:14+08:00",
+      "status": "failed",
+      "reason": "HTTP 0: curl: (28) Failed to connect to 39.134.19.234 port 6610 after 5004 ms: Timeout was reached",
+      "eligible_4k": false
+    },
+    {
+      "channel": "欢笑剧场4K",
+      "url": "http://39.135.250.74/PLTV/88888888/224/3221226144/3.m3u8",
+      "origin": "internet-discovery",
+      "reference": "https://github.com/Cr-cm/iptv-2/blob/main/4K.txt",
+      "group": "4K超高清",
+      "checked_at": "2026-11-24T22:27:15+08:00",
+      "status": "failed",
+      "reason": "HTTP 0: curl: (28) Failed to connect to 39.135.250.74 port 80 after 5005 ms: Timeout was reached",
+      "eligible_4k": false
+    },
+    {
+      "channel": "欢笑剧场4K",
+      "url": "http://39.135.253.7/hwcdntest.hb.chinamobile.com/PLTV/88888888/224/3221226144/1.m3u8",
+      "origin": "internet-discovery",
+      "reference": "https://github.com/Cr-cm/iptv-2/blob/main/4K.txt",
+      "group": "4K超高清",
+      "checked_at": "2026-11-24T22:27:16+08:00",
+      "status": "failed",
+      "reason": "HTTP 0: curl: (28) Failed to connect to 39.135.253.7 port 80 after 5006 ms: Timeout was reached",
+      "eligible_4k": false
+    },
+    {
+      "channel": "欢笑剧场4K",
+      "url": "http://117.148.130.102/PLTV/88888888/224/3221230739/index.m3u8",
+      "origin": "internet-discovery",
+      "reference": "https://github.com/Cr-cm/iptv-2/blob/main/4K.txt",
+      "group": "4K超高清",
+      "checked_at": "2026-11-24T22:27:18+08:00",
+      "status": "failed",
+      "reason": "HTTP 0: curl: (28) Failed to connect to 117.148.130.102 port 80 after 5006 ms: Timeout was reached",
+      "eligible_4k": false
+    },
+    {
+      "channel": "欢笑剧场4k",
+      "url": "http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226582/index.m3u8",
+      "origin": "internet-discovery",
+      "reference": "https://github.com/Cr-cm/iptv-2/blob/main/4K.txt",
+      "group": "4K超高清",
+      "checked_at": "2026-11-24T22:27:19+08:00",
+      "status": "failed",
+      "reason": "HTTP 0: curl: (28) Failed to connect to dbiptv.sn.chinamobile.com port 80 after 5001 ms: Timeout was reached",
+      "eligible_4k": false
+    },
+    {
+      "channel": "江苏卫视4K",
+      "url": "https://zjcn-live-play.jstv.com/jsws4kpro.m3u8",
+      "reference": "https://www.jstv.com/",
+      "origin": "internet-discovery",
+      "group": "4K超高清",
+      "checked_at": "2026-11-24T22:27:08+08:00",
+      "status": "failed",
+      "reason": "HTTP 403: ",
+      "eligible_4k": false
+    },
+    {
+      "channel": "Clarity 4K",
+      "url": "https://pb-qyrvophnifz47.akamaized.net/Clarity_4K.m3u8",
+      "origin": "internet-discovery",
+      "reference": "https://iptv-org.github.io/iptv/index.m3u",
+      "group": "4K超高清",
+      "checked_at": "2026-11-24T22:30:13+08:00",
+      "status": "failed",
+      "reason": "HTTP 403: <HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n \nYou don't have permission to access \"http&#58;&#47;&#47;pb&#45;qyrvophnifz47&#46;akamaized&#46;net&#47;Clarity&#95;4K&#46;m3u8\" on this server.<P>\nReference&#32;&#35;18&#46;7d2c1102&#46;1795530614&#46;a7cc9e39\n<P>https&#58;&#47;&#47;errors&#46;edgesuite&#46;net&#47;18&",
+      "eligible_4k": false
+    },
+    {
+      "channel": "美丽河北4K",
+      "url": "https://event.pull.hebtv.com/live/live101.m3u8",
+      "origin": "internet-discovery",
+      "reference": "https://iptv-org.github.io/iptv/index.m3u",
+      "group": "4K超高清",
+      "checked_at": "2026-11-24T22:30:13+08:00",
+      "status": "passed",
+      "transport": "hls",
+      "resolved_url": "https://event.pull.hebtv.com/live/live101.m3u8",
+      "segments_downloaded": 2,
+      "sample_bytes": 6994352,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 3840,
+          "height": 2160
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "width": 3840,
+      "height": 2160,
+      "media_type": "video",
+      "decoded_seconds": 3.0,
+      "decoded_frames": 71,
+      "eligible_4k": true,
+      "visual_check": "画面为美丽河北风光直播；不是河北卫视"
+    },
+    {
+      "channel": "Hunan TV",
+      "url": "http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/dWlwPTEyNy4wLjAuMSZ1aWQ9cWluZy1jbXMmbm5fdGltZXpvbmU9OCZjZG5leF9pZD1hbF9obHNfbGR2dCZ1dWlkPTliODY4NmU5ZTM2YzYwMmMmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST.m3u8",
+      "origin": "internet-discovery",
+      "reference": "https://iptv-org.github.io/iptv/index.m3u",
+      "group": "4K超高清",
+      "checked_at": "2026-11-24T22:30:15+08:00",
+      "status": "passed",
+      "transport": "hls",
+      "resolved_url": "http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/dWlwPTEyNy4wLjAuMSZ1aWQ9cWluZy1jbXMmbm5fdGltZXpvbmU9OCZjZG5leF9pZD1hbF9obHNfbGR2dCZ1dWlkPTliODY4NmU5ZTM2YzYwMmMmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST.m3u8",
+      "segments_downloaded": 2,
+      "sample_bytes": 2203924,
+      "streams": [
+        {
+          "codec_name": "hevc",
+          "codec_type": "video",
+          "width": 3840,
+          "height": 2160
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "width": 3840,
+      "height": 2160,
+      "media_type": "video",
+      "decoded_seconds": 3.0,
+      "decoded_frames": 75,
+      "eligible_4k": true
+    },
+    {
+      "channel": "Eurosport 4K Czechia",
+      "url": "http://88.212.15.50/live/esp_4k_atk/playlist.m3u8",
+      "origin": "internet-discovery",
+      "reference": "https://iptv-org.github.io/iptv/index.m3u",
+      "group": "4K超高清",
+      "checked_at": "2026-11-24T22:30:13+08:00",
+      "status": "passed",
+      "transport": "hls",
+      "resolved_url": "http://88.212.15.50/live/esp_4k_atk/playlist.m3u8",
+      "segments_downloaded": 2,
+      "sample_bytes": 7521316,
+      "streams": [
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2
+        },
+        {
+          "codec_name": "hevc",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080
+        }
+      ],
+      "width": 1920,
+      "height": 1080,
+      "media_type": "video",
+      "decoded_seconds": 3.007,
+      "decoded_frames": 150,
+      "eligible_4k": false,
+      "exclusion": "可解码，但实测分辨率不足4K"
+    },
+    {
+      "channel": "Home 4K",
+      "url": "http://88.212.7.14/live/test_home_uhd_tizen/playlist.m3u8",
+      "origin": "internet-discovery",
+      "reference": "https://iptv-org.github.io/iptv/index.m3u",
+      "group": "4K超高清",
+      "checked_at": "2026-11-24T22:30:14+08:00",
+      "status": "passed",
+      "transport": "hls",
+      "resolved_url": "http://88.212.7.14/live/test_home_uhd_tizen/playlist.m3u8",
+      "segments_downloaded": 2,
+      "sample_bytes": 7768724,
+      "streams": [
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2
+        },
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080
+        }
+      ],
+      "width": 1920,
+      "height": 1080,
+      "media_type": "video",
+      "decoded_seconds": 3.003,
+      "decoded_frames": 75,
+      "eligible_4k": false,
+      "exclusion": "可解码，但实测分辨率不足4K"
+    },
+    {
+      "channel": "La 1 UHD",
+      "url": "http://185.47.212.25:8080/tdp_HD/index.m3u8",
+      "origin": "internet-discovery",
+      "reference": "https://iptv-org.github.io/iptv/index.m3u",
+      "group": "4K超高清",
+      "checked_at": "2026-11-24T22:30:19+08:00",
+      "status": "failed",
+      "reason": "HTTP 403: <!DOCTYPE html>\n<html>\n<head>\n  <title>Streaming server</title>\n  <meta name=\"fragment\" content=\"!\" />\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <meta charset=\"utf8\">\n</head>\n<body>\n\n<style type=\"text/css\">\nbody {\n  font-family: \"Helvetica Neue\", Helvetica, Arial, sans-serif;\n  font-size: 14px;\n  line-height: 1.4285",
+      "eligible_4k": false
+    },
+    {
+      "channel": "Insayt TV",
+      "url": "https://stream8.cinerama.uz/1416/tracks-v1a1/mono.m3u8",
+      "origin": "internet-discovery",
+      "reference": "https://iptv-org.github.io/iptv/index.m3u",
+      "group": "4K超高清",
+      "checked_at": "2026-11-24T22:30:15+08:00",
+      "status": "passed",
+      "transport": "hls",
+      "resolved_url": "https://stream8.cinerama.uz/1416/tracks-v1a1/mono.m3u8",
+      "segments_downloaded": 2,
+      "sample_bytes": 1961216,
+      "streams": [
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2
+        },
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080
+        }
+      ],
+      "width": 1920,
+      "height": 1080,
+      "media_type": "video",
+      "decoded_seconds": 3.0,
+      "decoded_frames": 74,
+      "eligible_4k": false,
+      "exclusion": "可解码，但实测分辨率不足4K"
+    },
+    {
+      "channel": "Bloomberg TV +",
+      "url": "https://d8975dc3.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2Ftc3VuZy1nYl9CbG9vbWJlcmdUVlBsdXNfSExT/playlist.m3u8",
+      "origin": "internet-discovery",
+      "reference": "https://iptv-org.github.io/iptv/index.m3u",
+      "group": "4K超高清",
+      "checked_at": "2026-11-24T22:30:13+08:00",
+      "status": "passed",
+      "transport": "hls",
+      "resolved_url": "https://d8975dc3.wurl.com/manifest/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2Ftc3VuZy1nYl9CbG9vbWJlcmdUVlBsdXNfSExT/909f0eec-caa8-4a66-ab8b-d97411d0e9ba/0.m3u8",
+      "segments_downloaded": 2,
+      "sample_bytes": 14850120,
+      "streams": [
+        {
+          "codec_name": "hevc",
+          "codec_type": "video",
+          "width": 3840,
+          "height": 2160
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2
+        },
+        {
+          "codec_name": "scte_35",
+          "codec_type": "data"
+        }
+      ],
+      "width": 3840,
+      "height": 2160,
+      "media_type": "video",
+      "decoded_seconds": 3.003,
+      "decoded_frames": 175,
+      "eligible_4k": true
+    },
+    {
+      "channel": "IRIB UHD",
+      "url": "https://ncdn.telewebion.ir/faratar/live/playlist.m3u8",
+      "origin": "internet-discovery",
+      "reference": "https://iptv-org.github.io/iptv/index.m3u",
+      "group": "4K超高清",
+      "checked_at": "2026-11-24T22:30:19+08:00",
+      "status": "passed",
+      "transport": "hls",
+      "resolved_url": "https://live-aburayhan1101.telewebion.ir/ek/faratar/live/1440p/index.m3u8",
+      "segments_downloaded": 2,
+      "sample_bytes": 624536,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 2560,
+          "height": 1440
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "width": 2560,
+      "height": 1440,
+      "media_type": "video",
+      "decoded_seconds": 3.0,
+      "decoded_frames": 87,
+      "eligible_4k": false,
+      "exclusion": "可解码，但实测分辨率不足4K"
+    },
+    {
+      "channel": "Love Nature 4K Czechia",
+      "url": "http://88.212.15.50/live/test_love_nature_uhd_atktv/playlist.m3u8",
+      "origin": "internet-discovery",
+      "reference": "https://iptv-org.github.io/iptv/index.m3u",
+      "group": "4K超高清",
+      "checked_at": "2026-11-24T22:30:22+08:00",
+      "status": "passed",
+      "transport": "hls",
+      "resolved_url": "http://88.212.15.50/live/test_love_nature_uhd_atktv/playlist.m3u8",
+      "segments_downloaded": 2,
+      "sample_bytes": 8903116,
+      "streams": [
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2
+        },
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080
+        }
+      ],
+      "width": 1920,
+      "height": 1080,
+      "media_type": "video",
+      "decoded_seconds": 3.012,
+      "decoded_frames": 75,
+      "eligible_4k": false,
+      "exclusion": "可解码，但实测分辨率不足4K"
+    },
+    {
+      "channel": "Shenzhen Satellite TV",
+      "url": "https://livepull-tcms.sztv.com.cn/live/sz4Kpgm.m3u8",
+      "origin": "internet-discovery",
+      "reference": "https://iptv-org.github.io/iptv/index.m3u",
+      "group": "4K超高清",
+      "checked_at": "2026-11-24T22:30:27+08:00",
+      "status": "failed",
+      "reason": "HTTP 403: ",
+      "eligible_4k": false
+    },
+    {
+      "channel": "Love Nature 4K",
+      "url": "https://pb-ehs1glsha1juy.akamaized.net/Love_Nature_4K.m3u8",
+      "origin": "internet-discovery",
+      "reference": "https://iptv-org.github.io/iptv/index.m3u",
+      "group": "4K超高清",
+      "checked_at": "2026-11-24T22:30:20+08:00",
+      "status": "passed",
+      "transport": "hls",
+      "resolved_url": "https://pb-ehs1glsha1juy.akamaized.net/Love_Nature_4Kp2160.m3u8",
+      "segments_downloaded": 2,
+      "sample_bytes": 15919088,
+      "streams": [
+        {
+          "codec_name": "hevc",
+          "codec_type": "video",
+          "width": 3840,
+          "height": 2160
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "width": 3840,
+      "height": 2160,
+      "media_type": "video",
+      "decoded_seconds": 3.005,
+      "decoded_frames": 90,
+      "eligible_4k": true
+    },
+    {
+      "channel": "Travelxp 4K HDR",
+      "url": "https://deltatesttatasky.akamaized.net/out/i/968284.m3u8",
+      "origin": "internet-discovery",
+      "reference": "https://iptv-org.github.io/iptv/index.m3u",
+      "group": "4K超高清",
+      "checked_at": "2026-11-24T22:30:28+08:00",
+      "status": "failed",
+      "reason": "HTTP 403: <HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n \nYou don't have permission to access \"http&#58;&#47;&#47;deltatesttatasky&#46;akamaized&#46;net&#47;out&#47;i&#47;968284&#46;m3u8\" on this server.<P>\nReference&#32;&#35;18&#46;682c1102&#46;1795530628&#46;a9ff398e\n<P>https&#58;&#47;&#47;errors&#46;edgesuite&#46;net&#47;1",
+      "eligible_4k": false
+    },
+    {
+      "channel": "Univision WGBO-DT",
+      "url": "https://unidfp-nlds154.global.ssl.fastly.net/nlds/univisionnow/univision_chi2/as/live/univision_chi2_hd_pc.m3u8?t1=null",
+      "origin": "internet-discovery",
+      "reference": "https://iptv-org.github.io/iptv/index.m3u",
+      "group": "4K超高清",
+      "checked_at": "2026-11-24T22:30:28+08:00",
+      "status": "failed",
+      "reason": "HTTP 405: \n<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\"\n \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\n<html>\n  <head>\n    <title>405 Not allowed</title>\n  </head>\n  <body>\n    <h1>Error 405 Not allowed</h1>\n    <p>Not allowed</p>\n    <h3>Error 54113</h3>\n    <p>Details: cache-fra-eddf8230233-FRA 1795",
+      "eligible_4k": false
+    },
+    {
+      "channel": "Privesc.Eu TV",
+      "url": "https://cachestar.privesc.eu/liniar/moldova/playlist.m3u8",
+      "origin": "internet-discovery",
+      "reference": "https://iptv-org.github.io/iptv/index.m3u",
+      "group": "4K超高清",
+      "checked_at": "2026-11-24T22:30:23+08:00",
+      "status": "passed",
+      "transport": "hls",
+      "resolved_url": "https://cachestar.privesc.eu/liniar/moldova/chunklist_w1157828686.m3u8",
+      "segments_downloaded": 2,
+      "sample_bytes": 13544084,
+      "streams": [
+        {
+          "codec_name": "timed_id3",
+          "codec_type": "data"
+        },
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "width": 1920,
+      "height": 1080,
+      "media_type": "video",
+      "decoded_seconds": 3.0,
+      "decoded_frames": 75,
+      "eligible_4k": false,
+      "exclusion": "可解码，但实测分辨率不足4K"
+    },
+    {
+      "channel": "TRT 4K",
+      "url": "https://mn-nl.mncdn.com/blutv_trt4k/live.m3u8",
+      "origin": "internet-discovery",
+      "reference": "https://github.com/PABLOPOM/m3u/blob/main/TELEVISION4",
+      "group": "4K超高清",
+      "checked_at": "2026-11-24T22:30:30+08:00",
+      "status": "failed",
+      "reason": "HTTP 0: curl: (92) HTTP/2 stream 1 was not closed cleanly: PROTOCOL_ERROR (err 1)",
+      "eligible_4k": false
+    },
+    {
+      "channel": "NASA UHD 4K",
+      "url": "https://endpnt.com/hls/nasa4k/playlist.m3u8",
+      "origin": "internet-discovery",
+      "reference": "https://endpnt.com/",
+      "group": "4K超高清",
+      "checked_at": "2026-11-24T22:30:29+08:00",
+      "status": "failed",
+      "reason": "HTTP 404: <html>\r\n<head><title>404 Not Found</title></head>\r\n<body>\r\n<center><h1>404 Not Found</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n",
+      "eligible_4k": false
+    },
+    {
+      "channel": "Travelxp 4K Czechia",
+      "url": "http://88.212.7.14/live/travel_xp_4k/index.m3u8",
+      "origin": "internet-discovery",
+      "reference": "https://iptv-org.github.io/iptv/index.m3u",
+      "group": "4K超高清",
+      "checked_at": "2026-11-24T22:30:27+08:00",
+      "status": "passed",
+      "transport": "hls",
+      "resolved_url": "http://88.212.7.14/live/travel_xp_4k/index.m3u8",
+      "segments_downloaded": 2,
+      "sample_bytes": 10382864,
+      "streams": [
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2
+        },
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 2560,
+          "height": 1440
+        }
+      ],
+      "width": 2560,
+      "height": 1440,
+      "media_type": "video",
+      "decoded_seconds": 3.0,
+      "decoded_frames": 69,
+      "eligible_4k": false,
+      "exclusion": "可解码，但实测分辨率不足4K"
+    },
+    {
+      "channel": "Public 4K TV HD",
+      "url": "http://103.180.240.141:8080/hls/main1/playlist.m3u8",
+      "origin": "internet-discovery",
+      "reference": "https://iptv-org.github.io/iptv/index.m3u",
+      "group": "4K超高清",
+      "checked_at": "2026-11-24T22:30:26+08:00",
+      "status": "passed",
+      "transport": "hls",
+      "resolved_url": "http://103.180.240.141:8080/hls/main1/playlist.m3u8",
+      "segments_downloaded": 2,
+      "sample_bytes": 3898556,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "width": 1920,
+      "height": 1080,
+      "media_type": "video",
+      "decoded_seconds": 3.0,
+      "decoded_frames": 142,
+      "eligible_4k": false,
+      "exclusion": "可解码，但实测分辨率不足4K"
+    }
+  ],
+  "source_count": 91,
+  "complete": true
+}

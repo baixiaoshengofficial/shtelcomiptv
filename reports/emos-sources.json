@@ -1,0 +1,888 @@
+{
+  "source": "https://emos.club/live?library=0&channel=0",
+  "captured_at": "2026-11-24T22:10:53+08:00",
+  "channels": [
+    {
+      "channel": "CCTV1",
+      "group": "央视",
+      "sources": [
+        {
+          "label": "1080P migu",
+          "url": "cctv1",
+          "type": "官方源"
+        },
+        {
+          "label": "Tom直播源",
+          "url": "https://cdn.19891230.eu.org/api/CCTV1/index.m3u8",
+          "type": "m3u8"
+        },
+        {
+          "label": "CCTV1",
+          "url": "https://cdn.19891230.eu.org/api/CCTV1/index.m3u8",
+          "type": "m3u8"
+        }
+      ]
+    },
+    {
+      "channel": "CCTV2",
+      "group": "央视",
+      "sources": [
+        {
+          "label": "1080P migu",
+          "url": "cctv2",
+          "type": "官方源"
+        },
+        {
+          "label": "Tom直播源",
+          "url": "https://cdn.19891230.eu.org/api/CCTV2/index.m3u8",
+          "type": "m3u8"
+        }
+      ]
+    },
+    {
+      "channel": "CCTV3",
+      "group": "央视",
+      "sources": [
+        {
+          "label": "1080P migu",
+          "url": "cctv3",
+          "type": "官方源"
+        },
+        {
+          "label": "1080P",
+          "url": "http://aliyun-qhbu-live.bestvcdn.com.cn/live/program/live/cctv38m/8000000/mnf.m3u8",
+          "type": "m3u8"
+        }
+      ]
+    },
+    {
+      "channel": "CCTV4",
+      "group": "央视",
+      "sources": [
+        {
+          "label": "1080P migu",
+          "url": "cctv4",
+          "type": "官方源"
+        },
+        {
+          "label": "1080P",
+          "url": "http://aliyun-qhbu-live.bestvcdn.com.cn/live/program/live/cctv4hd8m/8000000/mnf.m3u8",
+          "type": "m3u8"
+        }
+      ]
+    },
+    {
+      "channel": "CCTV5",
+      "group": "央视",
+      "sources": [
+        {
+          "label": "1080P",
+          "url": "http://171.118.8.80:9003/hls/5/index.m3u8",
+          "type": "m3u8"
+        },
+        {
+          "label": "1080P migu",
+          "url": "cctv5",
+          "type": "官方源"
+        },
+        {
+          "label": "1080P",
+          "url": "http://192.151.150.154/live/cctv5hd.m3u8",
+          "type": "m3u8"
+        }
+      ]
+    },
+    {
+      "channel": "CCTV5+",
+      "group": "央视",
+      "sources": [
+        {
+          "label": "1080P migu",
+          "url": "cctv5p",
+          "type": "官方源"
+        },
+        {
+          "label": "1080P",
+          "url": "http://aliyun-qhbu-live.bestvcdn.com.cn/live/program/live/cctv5phd8m/8000000/mnf.m3u8",
+          "type": "m3u8"
+        }
+      ]
+    },
+    {
+      "channel": "CCTV6",
+      "group": "央视",
+      "sources": [
+        {
+          "label": "1080P migu",
+          "url": "cctv6",
+          "type": "官方源"
+        },
+        {
+          "label": "1080P",
+          "url": "http://aliyun-qhbu-live.bestvcdn.com.cn/live/program/live/cctv6hd8m/8000000/mnf.m3u8",
+          "type": "m3u8"
+        }
+      ]
+    },
+    {
+      "channel": "CCTV7",
+      "group": "央视",
+      "sources": [
+        {
+          "label": "1080P migu",
+          "url": "cctv7",
+          "type": "官方源"
+        },
+        {
+          "label": "1080P",
+          "url": "http://aliyun-qhbu-live.bestvcdn.com.cn/live/program/live/cctv7hd8m/8000000/mnf.m3u8",
+          "type": "m3u8"
+        }
+      ]
+    },
+    {
+      "channel": "CCTV8",
+      "group": "央视",
+      "sources": [
+        {
+          "label": "1080P migu",
+          "url": "cctv8",
+          "type": "官方源"
+        },
+        {
+          "label": "1080P",
+          "url": "http://aliyun-qhbu-live.bestvcdn.com.cn/live/program/live/cctv8hd8m/8000000/mnf.m3u8",
+          "type": "m3u8"
+        }
+      ]
+    },
+    {
+      "channel": "CCTV9",
+      "group": "央视",
+      "sources": [
+        {
+          "label": "1080P migu",
+          "url": "cctv9",
+          "type": "官方源"
+        },
+        {
+          "label": "1080P",
+          "url": "http://aliyun-qhbu-live.bestvcdn.com.cn/live/program/live/cctv9hd8m/8000000/mnf.m3u8",
+          "type": "m3u8"
+        }
+      ]
+    },
+    {
+      "channel": "CCTV10",
+      "group": "央视",
+      "sources": [
+        {
+          "label": "1080P migu",
+          "url": "cctv10",
+          "type": "官方源"
+        },
+        {
+          "label": "1080P",
+          "url": "http://aliyun-qhbu-live.bestvcdn.com.cn/live/program/live/cctv10hd8m/8000000/mnf.m3u8",
+          "type": "m3u8"
+        }
+      ]
+    },
+    {
+      "channel": "CCTV11",
+      "group": "央视",
+      "sources": [
+        {
+          "label": "1080P migu",
+          "url": "cctv11",
+          "type": "官方源"
+        },
+        {
+          "label": "1080P",
+          "url": "http://aliyun-qhbu-live.bestvcdn.com.cn/live/program/live/cctv11hd8m/8000000/mnf.m3u8",
+          "type": "m3u8"
+        }
+      ]
+    },
+    {
+      "channel": "CCTV12",
+      "group": "央视",
+      "sources": [
+        {
+          "label": "1080P migu",
+          "url": "cctv12",
+          "type": "官方源"
+        },
+        {
+          "label": "1080P",
+          "url": "http://aliyun-qhbu-live.bestvcdn.com.cn/live/program/live/cctv12hd8m/8000000/mnf.m3u8",
+          "type": "m3u8"
+        }
+      ]
+    },
+    {
+      "channel": "CCTV13",
+      "group": "央视",
+      "sources": [
+        {
+          "label": "1080P migu",
+          "url": "cctv13",
+          "type": "官方源"
+        },
+        {
+          "label": "1080P",
+          "url": "http://aliyun-qhbu-live.bestvcdn.com.cn/live/program/live/cctv13xwhd8m/8000000/mnf.m3u8",
+          "type": "m3u8"
+        }
+      ]
+    },
+    {
+      "channel": "CCTV14",
+      "group": "央视",
+      "sources": [
+        {
+          "label": "1080P migu",
+          "url": "cctv14",
+          "type": "官方源"
+        },
+        {
+          "label": "1080P",
+          "url": "http://aliyun-qhbu-live.bestvcdn.com.cn/live/program/live/cctvsehd8m/8000000/mnf.m3u8",
+          "type": "m3u8"
+        }
+      ]
+    },
+    {
+      "channel": "CCTV15",
+      "group": "央视",
+      "sources": [
+        {
+          "label": "1080P migu",
+          "url": "cctv15",
+          "type": "官方源"
+        },
+        {
+          "label": "1080P8M",
+          "url": "http://aliyun-qhbu-live.bestvcdn.com.cn/live/program/live/cctv15hd8m/8000000/mnf.m3u8",
+          "type": "m3u8"
+        }
+      ]
+    },
+    {
+      "channel": "CCTV16",
+      "group": "央视",
+      "sources": [
+        {
+          "label": "1080P",
+          "url": "http://aliyun-qhbu-live.bestvcdn.com.cn/live/program/live/cctv16hd8m/8000000/mnf.m3u8",
+          "type": "m3u8"
+        },
+        {
+          "label": "4K",
+          "url": "http://aliyun-qhbu-live.bestvcdn.com.cn/live/program/live/cctv16hd4k/15000000/mnf.m3u8",
+          "type": "m3u8"
+        }
+      ]
+    },
+    {
+      "channel": "CCTV17",
+      "group": "央视",
+      "sources": [
+        {
+          "label": "1080P migu",
+          "url": "cctv17",
+          "type": "官方源"
+        },
+        {
+          "label": "1080P8M",
+          "url": "http://aliyun-qhbu-live.bestvcdn.com.cn/live/program/live/cctv17hd8m/8000000/mnf.m3u8",
+          "type": "m3u8"
+        }
+      ]
+    },
+    {
+      "channel": "北京卫视",
+      "group": "卫视",
+      "sources": [
+        {
+          "label": "1080P migu",
+          "url": "bjws",
+          "type": "官方源"
+        },
+        {
+          "label": "1080P 8M",
+          "url": "http://aliyun-qhbu-live.bestvcdn.com.cn/live/program/live/bjwshd8m/8000000/mnf.m3u8",
+          "type": "m3u8"
+        }
+      ]
+    },
+    {
+      "channel": "湖南卫视",
+      "group": "卫视",
+      "sources": [
+        {
+          "label": "1080P",
+          "url": "http://aliyun-qhbu-live.bestvcdn.com.cn/live/program/live/hunanwshd8m/8000000/mnf.m3u8",
+          "type": "m3u8"
+        },
+        {
+          "label": "4K",
+          "url": "http://iptv-gd.trli.club/IPTV-%E5%8D%AB%E8%A7%86/%E6%B9%96%E5%8D%97%E5%8D%AB%E8%A7%864k%E8%B6%85%E9%AB%98%E6%B8%85",
+          "type": "m3u8"
+        }
+      ]
+    },
+    {
+      "channel": "东方卫视",
+      "group": "卫视",
+      "sources": [
+        {
+          "label": "1080P migu",
+          "url": "dfws",
+          "type": "官方源"
+        },
+        {
+          "label": "1080P 8M",
+          "url": "http://aliyun-qhbu-live.bestvcdn.com.cn/live/program/live/dfwshd8m/8000000/mnf.m3u8",
+          "type": "m3u8"
+        }
+      ]
+    },
+    {
+      "channel": "四川卫视",
+      "group": "卫视",
+      "sources": [
+        {
+          "label": "1080P",
+          "url": "http://aliyun-qhbu-live.bestvcdn.com.cn/live/program/live/scwshd/8000000/mnf.m3u8",
+          "type": "m3u8"
+        }
+      ]
+    },
+    {
+      "channel": "天津卫视",
+      "group": "卫视",
+      "sources": [
+        {
+          "label": "1080P",
+          "url": "http://aliyun-qhbu-live.bestvcdn.com.cn/live/program/live/tjwshd8m/8000000/mnf.m3u8",
+          "type": "m3u8"
+        }
+      ]
+    },
+    {
+      "channel": "安徽卫视",
+      "group": "卫视",
+      "sources": [
+        {
+          "label": "1080P",
+          "url": "http://aliyun-qhbu-live.bestvcdn.com.cn/live/program/live/ahwshd8m/8000000/mnf.m3u8",
+          "type": "m3u8"
+        }
+      ]
+    },
+    {
+      "channel": "山东卫视",
+      "group": "卫视",
+      "sources": [
+        {
+          "label": "1080P",
+          "url": "http://aliyun-qhbu-live.bestvcdn.com.cn/live/program/live/sdws8m/8000000/mnf.m3u8",
+          "type": "m3u8"
+        }
+      ]
+    },
+    {
+      "channel": "广东卫视",
+      "group": "卫视",
+      "sources": [
+        {
+          "label": "1080P migu",
+          "url": "gdws",
+          "type": "官方源"
+        }
+      ]
+    },
+    {
+      "channel": "广西卫视",
+      "group": "卫视",
+      "sources": [
+        {
+          "label": "1080P",
+          "url": "http://aliyun-qhbu-live.bestvcdn.com.cn/live/program/live/gxwshd8m/8000000/mnf.m3u8",
+          "type": "m3u8"
+        }
+      ]
+    },
+    {
+      "channel": "江苏卫视",
+      "group": "卫视",
+      "sources": [
+        {
+          "label": "1080P migu",
+          "url": "jsws",
+          "type": "官方源"
+        }
+      ]
+    },
+    {
+      "channel": "江西卫视",
+      "group": "卫视",
+      "sources": [
+        {
+          "label": "1080P migu",
+          "url": "jxws",
+          "type": "官方源"
+        }
+      ]
+    },
+    {
+      "channel": "河北卫视",
+      "group": "卫视",
+      "sources": [
+        {
+          "label": "1080P migu",
+          "url": "hbws",
+          "type": "官方源"
+        }
+      ]
+    },
+    {
+      "channel": "河南卫视",
+      "group": "卫视",
+      "sources": [
+        {
+          "label": "1080P migu",
+          "url": "hnws",
+          "type": "官方源"
+        }
+      ]
+    },
+    {
+      "channel": "浙江卫视",
+      "group": "卫视",
+      "sources": [
+        {
+          "label": "1080P 8M",
+          "url": "http://aliyun-qhbu-live.bestvcdn.com.cn/live/program/live/zjwshd8m/8000000/mnf.m3u8",
+          "type": "m3u8"
+        }
+      ]
+    },
+    {
+      "channel": "海南卫视",
+      "group": "卫视",
+      "sources": [
+        {
+          "label": "1080P migu",
+          "url": "hinws",
+          "type": "官方源"
+        }
+      ]
+    },
+    {
+      "channel": "深圳卫视",
+      "group": "卫视",
+      "sources": [
+        {
+          "label": "1080P",
+          "url": "http://aliyun-qhbu-live.bestvcdn.com.cn/live/program/live/szwshd8m/8000000/mnf.m3u8",
+          "type": "m3u8"
+        }
+      ]
+    },
+    {
+      "channel": "湖北卫视",
+      "group": "卫视",
+      "sources": [
+        {
+          "label": "1080P migu",
+          "url": "hubws",
+          "type": "官方源"
+        }
+      ]
+    },
+    {
+      "channel": "山西卫视",
+      "group": "卫视",
+      "sources": []
+    },
+    {
+      "channel": "东南卫视",
+      "group": "卫视",
+      "sources": [
+        {
+          "label": "1080P migu",
+          "url": "dnws",
+          "type": "官方源"
+        }
+      ]
+    },
+    {
+      "channel": "贵州卫视",
+      "group": "卫视",
+      "sources": [
+        {
+          "label": "1080P",
+          "url": "http://aliyun-qhbu-live.bestvcdn.com.cn/live/program/live/gzwshd8m/8000000/mnf.m3u8",
+          "type": "m3u8"
+        }
+      ]
+    },
+    {
+      "channel": "辽宁卫视",
+      "group": "卫视",
+      "sources": [
+        {
+          "label": "1080P migu",
+          "url": "lnws",
+          "type": "官方源"
+        }
+      ]
+    },
+    {
+      "channel": "黑龙江卫视",
+      "group": "卫视",
+      "sources": [
+        {
+          "label": "1080P",
+          "url": "http://aliyun-qhbu-live.bestvcdn.com.cn/live/program/live/hljwshd8m/8000000/mnf.m3u8",
+          "type": "m3u8"
+        }
+      ]
+    },
+    {
+      "channel": "内蒙古卫视",
+      "group": "卫视",
+      "sources": []
+    },
+    {
+      "channel": "陕西卫视",
+      "group": "卫视",
+      "sources": [
+        {
+          "label": "1080P migu",
+          "url": "sxws",
+          "type": "官方源"
+        }
+      ]
+    },
+    {
+      "channel": "甘肃卫视",
+      "group": "卫视",
+      "sources": [
+        {
+          "label": "1080P",
+          "url": "http://aliyun-qhbu-live.bestvcdn.com.cn/live/program/live/gswshd8m/8000000/mnf.m3u8",
+          "type": "m3u8"
+        }
+      ]
+    },
+    {
+      "channel": "吉林卫视",
+      "group": "卫视",
+      "sources": [
+        {
+          "label": "1080P migu",
+          "url": "jlws",
+          "type": "官方源"
+        }
+      ]
+    },
+    {
+      "channel": "云南卫视",
+      "group": "卫视",
+      "sources": [
+        {
+          "label": "1080P",
+          "url": "http://aliyun-qhbu-live.bestvcdn.com.cn/live/program/live/ynwshd8m/8000000/mnf.m3u8",
+          "type": "m3u8"
+        }
+      ]
+    },
+    {
+      "channel": "三沙卫视",
+      "group": "卫视",
+      "sources": [
+        {
+          "label": "1080P migu",
+          "url": "ssws",
+          "type": "官方源"
+        }
+      ]
+    },
+    {
+      "channel": "青海卫视",
+      "group": "卫视",
+      "sources": [
+        {
+          "label": "1080P migu",
+          "url": "qhws",
+          "type": "官方源"
+        }
+      ]
+    },
+    {
+      "channel": "新疆卫视",
+      "group": "卫视",
+      "sources": []
+    },
+    {
+      "channel": "西藏卫视",
+      "group": "卫视",
+      "sources": []
+    },
+    {
+      "channel": "兵团卫视",
+      "group": "卫视",
+      "sources": []
+    },
+    {
+      "channel": "延边卫视",
+      "group": "卫视",
+      "sources": []
+    },
+    {
+      "channel": "星空卫视",
+      "group": "卫视",
+      "sources": []
+    },
+    {
+      "channel": "香港卫视",
+      "group": "卫视",
+      "sources": []
+    },
+    {
+      "channel": "翡翠台",
+      "group": "地方",
+      "sources": [
+        {
+          "label": "1",
+          "url": "http://52xinghe.top/smmmt.php?id=jade_twn&h=52xinghe.top&p=7788",
+          "type": "m3u8"
+        },
+        {
+          "label": "2",
+          "url": "http://52xinghe.top/smmmt.php?id=jade_xue&h=52xinghe.top&p=7788",
+          "type": "m3u8"
+        },
+        {
+          "label": "1080P tiger998",
+          "url": "https://cdn6.163189.xyz/163189/fct",
+          "type": "m3u8"
+        }
+      ]
+    },
+    {
+      "channel": "明珠台",
+      "group": "地方",
+      "sources": [
+        {
+          "label": "1",
+          "url": "http://52xinghe.top/smmmt.php?id=pearl_twn&h=52xinghe.top&p=7788",
+          "type": "m3u8"
+        }
+      ]
+    },
+    {
+      "channel": "TVB Plus",
+      "group": "地方",
+      "sources": [
+        {
+          "label": "1",
+          "url": "http://52xinghe.top/smmmt.php?id=j2_twn&h=52xinghe.top&p=7788",
+          "type": "m3u8"
+        }
+      ]
+    },
+    {
+      "channel": "RTHK第一台",
+      "group": "地方",
+      "sources": [
+        {
+          "label": "官方",
+          "url": "https://rthkradio1-live.akamaized.net/hls/live/2035313/radio1/master.m3u8",
+          "type": "m3u8"
+        }
+      ]
+    },
+    {
+      "channel": "RTHK第二台",
+      "group": "地方",
+      "sources": [
+        {
+          "label": "官方",
+          "url": "https://rthkradio2-live.akamaized.net/hls/live/2040078/radio2/master.m3u8",
+          "type": "m3u8"
+        }
+      ]
+    },
+    {
+      "channel": "RTHK第三台",
+      "group": "地方",
+      "sources": [
+        {
+          "label": "官方",
+          "url": "https://rthkradio3-live.akamaized.net/hls/live/2040079/radio3/master.m3u8",
+          "type": "m3u8"
+        }
+      ]
+    },
+    {
+      "channel": "RTHK第四台",
+      "group": "地方",
+      "sources": [
+        {
+          "label": "官方",
+          "url": "https://rthkradio4-live.akamaized.net/hls/live/2040080/radio4/master.m3u8",
+          "type": "m3u8"
+        }
+      ]
+    },
+    {
+      "channel": "RTHK第五台",
+      "group": "地方",
+      "sources": [
+        {
+          "label": "官方",
+          "url": "https://rthkradio5-live.akamaized.net/hls/live/2040081/radio5/master.m3u8",
+          "type": "m3u8"
+        }
+      ]
+    },
+    {
+      "channel": "RTHK普通话台",
+      "group": "地方",
+      "sources": [
+        {
+          "label": "官方",
+          "url": "https://rthkradiopth-live.akamaized.net/hls/live/2040082/radiopth/master.m3u8",
+          "type": "m3u8"
+        }
+      ]
+    },
+    {
+      "channel": "CNR香港之声",
+      "group": "央视",
+      "sources": []
+    },
+    {
+      "channel": "CMG大湾区之声",
+      "group": "央视",
+      "sources": []
+    },
+    {
+      "channel": "奇幻西游:新世界",
+      "group": "未分类",
+      "sources": [
+        {
+          "label": "新人花守夏步",
+          "url": "https://cdn7.ryplay7.com/20250802/14879_13d60441/index.m3u8",
+          "type": "m3u8"
+        }
+      ]
+    },
+    {
+      "channel": "情书.1995",
+      "group": "未分类",
+      "sources": [
+        {
+          "label": "新人花守夏步",
+          "url": "https://cdn1.ryplay1.com/20240910/7666_15d2ad46/index.m3u8",
+          "type": "m3u8"
+        }
+      ]
+    },
+    {
+      "channel": "广东珠江",
+      "group": "地方",
+      "sources": [
+        {
+          "label": "01",
+          "url": "http://r.jdshipin.com/sE5vO",
+          "type": "m3u8"
+        },
+        {
+          "label": "02",
+          "url": "http://120.198.95.220:9901/tsfile/live/1007_1.m3u8?key=txiptv&playlive=1&down=1",
+          "type": "m3u8"
+        },
+        {
+          "label": "03",
+          "url": "http://218.13.170.98:9901/tsfile/live/1000_1.m3u8?key=txiptv&playlive=1&authid=0",
+          "type": "m3u8"
+        }
+      ]
+    },
+    {
+      "channel": "CGNTVJapan",
+      "group": "未分类",
+      "sources": [
+        {
+          "label": "480",
+          "url": "https://d2p4mrcwl6ly4.cloudfront.net/out/v1/8d50f69fdbbf411a8d302743e4263716/CGNWebLiveJP.m3u8",
+          "type": "m3u8"
+        }
+      ]
+    },
+    {
+      "channel": "BreadTV",
+      "group": "未分类",
+      "sources": [
+        {
+          "label": "1080",
+          "url": "https://video.bread-tv.com:8091/hls-live24/online/index.m3u8",
+          "type": "m3u8"
+        }
+      ]
+    },
+    {
+      "channel": "CGTN",
+      "group": "未分类",
+      "sources": [
+        {
+          "label": "1080",
+          "url": "https://amg00405-rakutentv-cgtn-rakuten-i9tar.amagi.tv/master.m3u8",
+          "type": "m3u8"
+        }
+      ]
+    },
+    {
+      "channel": "杂七杂八",
+      "group": "央视",
+      "sources": [
+        {
+          "label": "大杂烩",
+          "url": "https://dsj-1312694395.cos.ap-guangzhou.myqcloud.com/dsj10.1.txt",
+          "type": "m3u8"
+        }
+      ]
+    },
+    {
+      "channel": "江苏卫视落雨",
+      "group": "地方",
+      "sources": [
+        {
+          "label": "江苏卫视",
+          "url": "rtsp://111.48.34.138:1554/170000004112/00000001000000060000000000000177",
+          "type": "m3u8"
+        }
+      ]
+    },
+    {
+      "channel": "央视",
+      "group": "央视",
+      "sources": []
+    },
+    {
+      "channel": "央视",
+      "group": "央视",
+      "sources": []
+    },
+    {
+      "channel": "央视",
+      "group": "央视",
+      "sources": []
+    }
+  ]
+}

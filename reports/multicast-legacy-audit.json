@@ -1,0 +1,139 @@
+{
+  "tested_at": "2026-11-25T06:03:57+08:00",
+  "source_count": 12,
+  "complete": true,
+  "results": [
+    {
+      "channel": "纪实人文（旧上海电信组播）",
+      "url": "http://192.168.100.252:5678/udp/239.45.3.212:5140",
+      "reference": "上海电信IPTV.txt",
+      "origin": "legacy-shanghai-telecom",
+      "checked_at": "2026-11-25T06:02:56+08:00",
+      "status": "failed",
+      "http_status": "200",
+      "sample_bytes": 0,
+      "reason": "无有效媒体数据: HTTP 200, 0 bytes; curl: (28) Operation timed out after 5005 milliseconds with 0 bytes received\n"
+    },
+    {
+      "channel": "外语频道（旧上海电信组播）",
+      "url": "http://192.168.100.252:5678/udp/239.45.1.127:5140",
+      "reference": "上海电信IPTV.txt",
+      "origin": "legacy-shanghai-telecom",
+      "checked_at": "2026-11-25T06:03:01+08:00",
+      "status": "failed",
+      "http_status": "200",
+      "sample_bytes": 0,
+      "reason": "无有效媒体数据: HTTP 200, 0 bytes; curl: (28) Operation timed out after 5003 milliseconds with 0 bytes received\n"
+    },
+    {
+      "channel": "七彩戏剧（旧上海电信组播）",
+      "url": "http://192.168.100.252:5678/udp/239.45.0.16:5140",
+      "reference": "上海电信IPTV.txt",
+      "origin": "legacy-shanghai-telecom",
+      "checked_at": "2026-11-25T06:03:06+08:00",
+      "status": "failed",
+      "http_status": "200",
+      "sample_bytes": 0,
+      "reason": "无有效媒体数据: HTTP 200, 0 bytes; curl: (28) Operation timed out after 5006 milliseconds with 0 bytes received\n"
+    },
+    {
+      "channel": "养生频道（旧上海电信组播）",
+      "url": "http://192.168.100.252:5678/udp/239.45.1.28:5140",
+      "reference": "上海电信IPTV.txt",
+      "origin": "legacy-shanghai-telecom",
+      "checked_at": "2026-11-25T06:03:11+08:00",
+      "status": "failed",
+      "http_status": "200",
+      "sample_bytes": 0,
+      "reason": "无有效媒体数据: HTTP 200, 0 bytes; curl: (28) Operation timed out after 5005 milliseconds with 0 bytes received\n"
+    },
+    {
+      "channel": "中国天气（旧上海电信组播）",
+      "url": "http://192.168.100.252:5678/udp/239.45.1.47:5140",
+      "reference": "上海电信IPTV.txt",
+      "origin": "legacy-shanghai-telecom",
+      "checked_at": "2026-11-25T06:03:17+08:00",
+      "status": "failed",
+      "http_status": "200",
+      "sample_bytes": 0,
+      "reason": "无有效媒体数据: HTTP 200, 0 bytes; curl: (28) Operation timed out after 5006 milliseconds with 0 bytes received\n"
+    },
+    {
+      "channel": "CCTV电视指南（旧上海电信组播）",
+      "url": "http://192.168.100.252:5678/udp/239.45.1.73:5140",
+      "reference": "上海电信IPTV.txt",
+      "origin": "legacy-shanghai-telecom",
+      "checked_at": "2026-11-25T06:03:22+08:00",
+      "status": "failed",
+      "http_status": "200",
+      "sample_bytes": 0,
+      "reason": "无有效媒体数据: HTTP 200, 0 bytes; curl: (28) Operation timed out after 5006 milliseconds with 0 bytes received\n"
+    },
+    {
+      "channel": "崇明（旧上海电信组播）",
+      "url": "http://192.168.100.252:5678/udp/239.45.1.54:5140",
+      "reference": "https://github.com/cnvca/iptvgd/blob/main/上海电信组播.txt",
+      "origin": "legacy-shanghai-telecom",
+      "checked_at": "2026-11-25T06:03:27+08:00",
+      "status": "failed",
+      "http_status": "200",
+      "sample_bytes": 0,
+      "reason": "无有效媒体数据: HTTP 200, 0 bytes; curl: (28) Operation timed out after 5004 milliseconds with 0 bytes received\n"
+    },
+    {
+      "channel": "纪实人文HD（上海联通组播）",
+      "url": "http://192.168.100.252:5678/udp/238.200.200.129:5540",
+      "reference": "https://github.com/cnvca/iptvgd/blob/main/上海联通IPTV组播.txt",
+      "origin": "shanghai-unicom-candidate",
+      "checked_at": "2026-11-25T06:03:32+08:00",
+      "status": "failed",
+      "http_status": "200",
+      "sample_bytes": 0,
+      "reason": "无有效媒体数据: HTTP 200, 0 bytes; curl: (28) Operation timed out after 5006 milliseconds with 0 bytes received\n"
+    },
+    {
+      "channel": "外语频道HD（上海联通组播）",
+      "url": "http://192.168.100.252:5678/udp/238.200.200.21:5540",
+      "reference": "https://github.com/cnvca/iptvgd/blob/main/上海联通IPTV组播.txt",
+      "origin": "shanghai-unicom-candidate",
+      "checked_at": "2026-11-25T06:03:37+08:00",
+      "status": "failed",
+      "http_status": "200",
+      "sample_bytes": 0,
+      "reason": "无有效媒体数据: HTTP 200, 0 bytes; curl: (28) Operation timed out after 5003 milliseconds with 0 bytes received\n"
+    },
+    {
+      "channel": "七彩戏剧（上海联通组播）",
+      "url": "http://192.168.100.252:5678/udp/238.200.200.108:5540",
+      "reference": "https://github.com/cnvca/iptvgd/blob/main/上海联通IPTV组播.txt",
+      "origin": "shanghai-unicom-candidate",
+      "checked_at": "2026-11-25T06:03:42+08:00",
+      "status": "failed",
+      "http_status": "200",
+      "sample_bytes": 0,
+      "reason": "无有效媒体数据: HTTP 200, 0 bytes; curl: (28) Operation timed out after 5002 milliseconds with 0 bytes received\n"
+    },
+    {
+      "channel": "光明天地（上海联通组播）",
+      "url": "http://192.168.100.252:5678/udp/238.200.200.109:5540",
+      "reference": "https://github.com/cnvca/iptvgd/blob/main/上海联通IPTV组播.txt",
+      "origin": "shanghai-unicom-candidate",
+      "checked_at": "2026-11-25T06:03:47+08:00",
+      "status": "failed",
+      "http_status": "200",
+      "sample_bytes": 0,
+      "reason": "无有效媒体数据: HTTP 200, 0 bytes; curl: (28) Operation timed out after 5004 milliseconds with 0 bytes received\n"
+    },
+    {
+      "channel": "极速汽车（上海联通组播）",
+      "url": "http://192.168.100.252:5678/udp/238.200.200.185:5540",
+      "reference": "https://github.com/cnvca/iptvgd/blob/main/上海联通IPTV组播.txt",
+      "origin": "shanghai-unicom-candidate",
+      "checked_at": "2026-11-25T06:03:52+08:00",
+      "status": "failed",
+      "http_status": "200",
+      "sample_bytes": 0,
+      "reason": "无有效媒体数据: HTTP 200, 0 bytes; curl: (28) Operation timed out after 5005 milliseconds with 0 bytes received\n"
+    }
+  ]
+}

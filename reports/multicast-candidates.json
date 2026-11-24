@@ -1,0 +1,453 @@
+[
+  {
+    "channel": "CCTV-13（连通性对照）",
+    "url": "http://192.168.100.252:5678/udp/233.18.204.79:5140",
+    "origin": "control"
+  },
+  {
+    "channel": "CCTV1HD",
+    "url": "http://192.168.100.252:5678/udp/233.18.204.168:5140",
+    "listed_resolution": "1920×1080",
+    "listed_quality": "HD",
+    "reference": "https://blog.cqshushu.com/archives/shanghai-chinanet.html"
+  },
+  {
+    "channel": "CCTV16HD",
+    "url": "http://192.168.100.252:5678/udp/233.18.204.82:5140",
+    "listed_resolution": "1920×1080",
+    "listed_quality": "HD",
+    "reference": "https://blog.cqshushu.com/archives/shanghai-chinanet.html"
+  },
+  {
+    "channel": "欢笑剧场HD",
+    "url": "http://192.168.100.252:5678/udp/233.18.204.50:5140",
+    "listed_resolution": "1920×1080",
+    "listed_quality": "HD",
+    "reference": "https://blog.cqshushu.com/archives/shanghai-chinanet.html"
+  },
+  {
+    "channel": "央广购物HD",
+    "url": "http://192.168.100.252:5678/udp/233.18.204.39:5140",
+    "listed_resolution": "1920×1080",
+    "listed_quality": "HD",
+    "reference": "https://blog.cqshushu.com/archives/shanghai-chinanet.html"
+  },
+  {
+    "channel": "BesTV电影介绍HD",
+    "url": "http://192.168.100.252:5678/udp/233.18.204.116:5140",
+    "listed_resolution": "1920×1080",
+    "listed_quality": "HD",
+    "reference": "https://blog.cqshushu.com/archives/shanghai-chinanet.html"
+  },
+  {
+    "channel": "东方购物1HD",
+    "url": "http://192.168.100.252:5678/udp/233.18.204.61:5140",
+    "listed_resolution": "1920×1080",
+    "listed_quality": "HD",
+    "reference": "https://blog.cqshushu.com/archives/shanghai-chinanet.html"
+  },
+  {
+    "channel": "东方购物2HD",
+    "url": "http://192.168.100.252:5678/udp/233.18.204.62:5140",
+    "listed_resolution": "1920×1080",
+    "listed_quality": "HD",
+    "reference": "https://blog.cqshushu.com/archives/shanghai-chinanet.html"
+  },
+  {
+    "channel": "未知节目HD",
+    "url": "http://192.168.100.252:5678/udp/233.18.204.202:5140",
+    "listed_resolution": "1920×1080",
+    "listed_quality": "HD",
+    "reference": "https://blog.cqshushu.com/archives/shanghai-chinanet.html"
+  },
+  {
+    "channel": "百事通画面HD",
+    "url": "http://192.168.100.252:5678/udp/233.18.204.158:5140",
+    "listed_resolution": "1920×1080",
+    "listed_quality": "HD",
+    "reference": "https://blog.cqshushu.com/archives/shanghai-chinanet.html"
+  },
+  {
+    "channel": "百事通画面HD",
+    "url": "http://192.168.100.252:5678/udp/233.18.204.159:5140",
+    "listed_resolution": "1920×1080",
+    "listed_quality": "HD",
+    "reference": "https://blog.cqshushu.com/archives/shanghai-chinanet.html"
+  },
+  {
+    "channel": "百事通画面HD",
+    "url": "http://192.168.100.252:5678/udp/233.18.204.160:5140",
+    "listed_resolution": "1920×1080",
+    "listed_quality": "HD",
+    "reference": "https://blog.cqshushu.com/archives/shanghai-chinanet.html"
+  },
+  {
+    "channel": "百事通画面HD",
+    "url": "http://192.168.100.252:5678/udp/233.18.204.161:5140",
+    "listed_resolution": "1920×1080",
+    "listed_quality": "HD",
+    "reference": "https://blog.cqshushu.com/archives/shanghai-chinanet.html"
+  },
+  {
+    "channel": "百事通画面HD",
+    "url": "http://192.168.100.252:5678/udp/233.18.204.162:5140",
+    "listed_resolution": "1920×1080",
+    "listed_quality": "HD",
+    "reference": "https://blog.cqshushu.com/archives/shanghai-chinanet.html"
+  },
+  {
+    "channel": "百事通画面HD",
+    "url": "http://192.168.100.252:5678/udp/233.18.204.163:5140",
+    "listed_resolution": "1920×1080",
+    "listed_quality": "HD",
+    "reference": "https://blog.cqshushu.com/archives/shanghai-chinanet.html"
+  },
+  {
+    "channel": "百事通画面HD",
+    "url": "http://192.168.100.252:5678/udp/233.18.204.164:5140",
+    "listed_resolution": "1920×1080",
+    "listed_quality": "HD",
+    "reference": "https://blog.cqshushu.com/archives/shanghai-chinanet.html"
+  },
+  {
+    "channel": "百事通画面HD",
+    "url": "http://192.168.100.252:5678/udp/233.18.204.165:5140",
+    "listed_resolution": "1920×1080",
+    "listed_quality": "HD",
+    "reference": "https://blog.cqshushu.com/archives/shanghai-chinanet.html"
+  },
+  {
+    "channel": "百事通画面HD",
+    "url": "http://192.168.100.252:5678/udp/233.18.204.166:5140",
+    "listed_resolution": "1920×1080",
+    "listed_quality": "HD",
+    "reference": "https://blog.cqshushu.com/archives/shanghai-chinanet.html"
+  },
+  {
+    "channel": "百事通画面HD",
+    "url": "http://192.168.100.252:5678/udp/233.18.204.167:5140",
+    "listed_resolution": "1920×1080",
+    "listed_quality": "HD",
+    "reference": "https://blog.cqshushu.com/archives/shanghai-chinanet.html"
+  },
+  {
+    "channel": "好享购物SD",
+    "url": "http://192.168.100.252:5678/udp/233.18.204.36:5140",
+    "listed_resolution": "720×576",
+    "listed_quality": "SD",
+    "reference": "https://blog.cqshushu.com/archives/shanghai-chinanet.html"
+  },
+  {
+    "channel": "未知节目SD",
+    "url": "http://192.168.100.252:5678/udp/233.18.204.203:5140",
+    "listed_resolution": "720×576",
+    "listed_quality": "SD",
+    "reference": "https://blog.cqshushu.com/archives/shanghai-chinanet.html"
+  },
+  {
+    "channel": "待识别频道3",
+    "url": "http://192.168.100.252:5678/udp/233.18.204.3:5140",
+    "origin": "household-multicast-discovery",
+    "reference": "documented Shanghai 233.18.204.0/24"
+  },
+  {
+    "channel": "待识别频道8",
+    "url": "http://192.168.100.252:5678/udp/233.18.204.8:5140",
+    "origin": "household-multicast-discovery",
+    "reference": "documented Shanghai 233.18.204.0/24"
+  },
+  {
+    "channel": "待识别频道16",
+    "url": "http://192.168.100.252:5678/udp/233.18.204.16:5140",
+    "origin": "household-multicast-discovery",
+    "reference": "documented Shanghai 233.18.204.0/24"
+  },
+  {
+    "channel": "待识别频道17",
+    "url": "http://192.168.100.252:5678/udp/233.18.204.17:5140",
+    "origin": "household-multicast-discovery",
+    "reference": "documented Shanghai 233.18.204.0/24"
+  },
+  {
+    "channel": "待识别频道18",
+    "url": "http://192.168.100.252:5678/udp/233.18.204.18:5140",
+    "origin": "household-multicast-discovery",
+    "reference": "documented Shanghai 233.18.204.0/24"
+  },
+  {
+    "channel": "待识别频道19",
+    "url": "http://192.168.100.252:5678/udp/233.18.204.19:5140",
+    "origin": "household-multicast-discovery",
+    "reference": "documented Shanghai 233.18.204.0/24"
+  },
+  {
+    "channel": "待识别频道37",
+    "url": "http://192.168.100.252:5678/udp/233.18.204.37:5140",
+    "origin": "household-multicast-discovery",
+    "reference": "documented Shanghai 233.18.204.0/24"
+  },
+  {
+    "channel": "待识别频道38",
+    "url": "http://192.168.100.252:5678/udp/233.18.204.38:5140",
+    "origin": "household-multicast-discovery",
+    "reference": "documented Shanghai 233.18.204.0/24"
+  },
+  {
+    "channel": "待识别频道56",
+    "url": "http://192.168.100.252:5678/udp/233.18.204.56:5140",
+    "origin": "household-multicast-discovery",
+    "reference": "documented Shanghai 233.18.204.0/24"
+  },
+  {
+    "channel": "待识别频道60",
+    "url": "http://192.168.100.252:5678/udp/233.18.204.60:5140",
+    "origin": "household-multicast-discovery",
+    "reference": "documented Shanghai 233.18.204.0/24"
+  },
+  {
+    "channel": "待识别频道64",
+    "url": "http://192.168.100.252:5678/udp/233.18.204.64:5140",
+    "origin": "household-multicast-discovery",
+    "reference": "documented Shanghai 233.18.204.0/24"
+  },
+  {
+    "channel": "待识别频道156",
+    "url": "http://192.168.100.252:5678/udp/233.18.204.156:5140",
+    "origin": "household-multicast-discovery",
+    "reference": "documented Shanghai 233.18.204.0/24"
+  },
+  {
+    "channel": "待识别频道190",
+    "url": "http://192.168.100.252:5678/udp/233.18.204.190:5140",
+    "origin": "household-multicast-discovery",
+    "reference": "documented Shanghai 233.18.204.0/24"
+  },
+  {
+    "channel": "待识别频道191",
+    "url": "http://192.168.100.252:5678/udp/233.18.204.191:5140",
+    "origin": "household-multicast-discovery",
+    "reference": "documented Shanghai 233.18.204.0/24"
+  },
+  {
+    "channel": "待识别频道192",
+    "url": "http://192.168.100.252:5678/udp/233.18.204.192:5140",
+    "origin": "household-multicast-discovery",
+    "reference": "documented Shanghai 233.18.204.0/24"
+  },
+  {
+    "channel": "待识别频道193",
+    "url": "http://192.168.100.252:5678/udp/233.18.204.193:5140",
+    "origin": "household-multicast-discovery",
+    "reference": "documented Shanghai 233.18.204.0/24"
+  },
+  {
+    "channel": "待识别频道194",
+    "url": "http://192.168.100.252:5678/udp/233.18.204.194:5140",
+    "origin": "household-multicast-discovery",
+    "reference": "documented Shanghai 233.18.204.0/24"
+  },
+  {
+    "channel": "待识别频道195",
+    "url": "http://192.168.100.252:5678/udp/233.18.204.195:5140",
+    "origin": "household-multicast-discovery",
+    "reference": "documented Shanghai 233.18.204.0/24"
+  },
+  {
+    "channel": "待识别频道196",
+    "url": "http://192.168.100.252:5678/udp/233.18.204.196:5140",
+    "origin": "household-multicast-discovery",
+    "reference": "documented Shanghai 233.18.204.0/24"
+  },
+  {
+    "channel": "待识别频道197",
+    "url": "http://192.168.100.252:5678/udp/233.18.204.197:5140",
+    "origin": "household-multicast-discovery",
+    "reference": "documented Shanghai 233.18.204.0/24"
+  },
+  {
+    "channel": "待识别频道198",
+    "url": "http://192.168.100.252:5678/udp/233.18.204.198:5140",
+    "origin": "household-multicast-discovery",
+    "reference": "documented Shanghai 233.18.204.0/24"
+  },
+  {
+    "channel": "待识别频道199",
+    "url": "http://192.168.100.252:5678/udp/233.18.204.199:5140",
+    "origin": "household-multicast-discovery",
+    "reference": "documented Shanghai 233.18.204.0/24"
+  },
+  {
+    "channel": "待识别频道200",
+    "url": "http://192.168.100.252:5678/udp/233.18.204.200:5140",
+    "origin": "household-multicast-discovery",
+    "reference": "documented Shanghai 233.18.204.0/24"
+  },
+  {
+    "channel": "待识别频道206",
+    "url": "http://192.168.100.252:5678/udp/233.18.204.206:5140",
+    "origin": "household-multicast-discovery",
+    "reference": "documented Shanghai 233.18.204.0/24"
+  },
+  {
+    "channel": "待识别频道207",
+    "url": "http://192.168.100.252:5678/udp/233.18.204.207:5140",
+    "origin": "household-multicast-discovery",
+    "reference": "documented Shanghai 233.18.204.0/24"
+  },
+  {
+    "channel": "待识别频道212",
+    "url": "http://192.168.100.252:5678/udp/233.18.204.212:5140",
+    "origin": "household-multicast-discovery",
+    "reference": "documented Shanghai 233.18.204.0/24"
+  },
+  {
+    "channel": "待识别频道213",
+    "url": "http://192.168.100.252:5678/udp/233.18.204.213:5140",
+    "origin": "household-multicast-discovery",
+    "reference": "documented Shanghai 233.18.204.0/24"
+  },
+  {
+    "channel": "待识别频道214",
+    "url": "http://192.168.100.252:5678/udp/233.18.204.214:5140",
+    "origin": "household-multicast-discovery",
+    "reference": "documented Shanghai 233.18.204.0/24"
+  },
+  {
+    "channel": "待识别频道232",
+    "url": "http://192.168.100.252:5678/udp/233.18.204.232:5140",
+    "origin": "household-multicast-discovery",
+    "reference": "documented Shanghai 233.18.204.0/24"
+  },
+  {
+    "channel": "待识别频道233",
+    "url": "http://192.168.100.252:5678/udp/233.18.204.233:5140",
+    "origin": "household-multicast-discovery",
+    "reference": "documented Shanghai 233.18.204.0/24"
+  },
+  {
+    "channel": "待识别频道234",
+    "url": "http://192.168.100.252:5678/udp/233.18.204.234:5140",
+    "origin": "household-multicast-discovery",
+    "reference": "documented Shanghai 233.18.204.0/24"
+  },
+  {
+    "channel": "待识别频道235",
+    "url": "http://192.168.100.252:5678/udp/233.18.204.235:5140",
+    "origin": "household-multicast-discovery",
+    "reference": "documented Shanghai 233.18.204.0/24"
+  },
+  {
+    "channel": "待识别频道236",
+    "url": "http://192.168.100.252:5678/udp/233.18.204.236:5140",
+    "origin": "household-multicast-discovery",
+    "reference": "documented Shanghai 233.18.204.0/24"
+  },
+  {
+    "channel": "待识别频道237",
+    "url": "http://192.168.100.252:5678/udp/233.18.204.237:5140",
+    "origin": "household-multicast-discovery",
+    "reference": "documented Shanghai 233.18.204.0/24"
+  },
+  {
+    "channel": "待识别频道238",
+    "url": "http://192.168.100.252:5678/udp/233.18.204.238:5140",
+    "origin": "household-multicast-discovery",
+    "reference": "documented Shanghai 233.18.204.0/24"
+  },
+  {
+    "channel": "待识别频道239",
+    "url": "http://192.168.100.252:5678/udp/233.18.204.239:5140",
+    "origin": "household-multicast-discovery",
+    "reference": "documented Shanghai 233.18.204.0/24"
+  },
+  {
+    "channel": "待识别频道240",
+    "url": "http://192.168.100.252:5678/udp/233.18.204.240:5140",
+    "origin": "household-multicast-discovery",
+    "reference": "documented Shanghai 233.18.204.0/24"
+  },
+  {
+    "channel": "待识别频道241",
+    "url": "http://192.168.100.252:5678/udp/233.18.204.241:5140",
+    "origin": "household-multicast-discovery",
+    "reference": "documented Shanghai 233.18.204.0/24"
+  },
+  {
+    "channel": "待识别频道242",
+    "url": "http://192.168.100.252:5678/udp/233.18.204.242:5140",
+    "origin": "household-multicast-discovery",
+    "reference": "documented Shanghai 233.18.204.0/24"
+  },
+  {
+    "channel": "待识别频道243",
+    "url": "http://192.168.100.252:5678/udp/233.18.204.243:5140",
+    "origin": "household-multicast-discovery",
+    "reference": "documented Shanghai 233.18.204.0/24"
+  },
+  {
+    "channel": "待识别频道244",
+    "url": "http://192.168.100.252:5678/udp/233.18.204.244:5140",
+    "origin": "household-multicast-discovery",
+    "reference": "documented Shanghai 233.18.204.0/24"
+  },
+  {
+    "channel": "待识别频道245",
+    "url": "http://192.168.100.252:5678/udp/233.18.204.245:5140",
+    "origin": "household-multicast-discovery",
+    "reference": "documented Shanghai 233.18.204.0/24"
+  },
+  {
+    "channel": "待识别频道246",
+    "url": "http://192.168.100.252:5678/udp/233.18.204.246:5140",
+    "origin": "household-multicast-discovery",
+    "reference": "documented Shanghai 233.18.204.0/24"
+  },
+  {
+    "channel": "待识别频道247",
+    "url": "http://192.168.100.252:5678/udp/233.18.204.247:5140",
+    "origin": "household-multicast-discovery",
+    "reference": "documented Shanghai 233.18.204.0/24"
+  },
+  {
+    "channel": "待识别频道248",
+    "url": "http://192.168.100.252:5678/udp/233.18.204.248:5140",
+    "origin": "household-multicast-discovery",
+    "reference": "documented Shanghai 233.18.204.0/24"
+  },
+  {
+    "channel": "待识别频道249",
+    "url": "http://192.168.100.252:5678/udp/233.18.204.249:5140",
+    "origin": "household-multicast-discovery",
+    "reference": "documented Shanghai 233.18.204.0/24"
+  },
+  {
+    "channel": "待识别频道250",
+    "url": "http://192.168.100.252:5678/udp/233.18.204.250:5140",
+    "origin": "household-multicast-discovery",
+    "reference": "documented Shanghai 233.18.204.0/24"
+  },
+  {
+    "channel": "待识别频道251",
+    "url": "http://192.168.100.252:5678/udp/233.18.204.251:5140",
+    "origin": "household-multicast-discovery",
+    "reference": "documented Shanghai 233.18.204.0/24"
+  },
+  {
+    "channel": "待识别频道252",
+    "url": "http://192.168.100.252:5678/udp/233.18.204.252:5140",
+    "origin": "household-multicast-discovery",
+    "reference": "documented Shanghai 233.18.204.0/24"
+  },
+  {
+    "channel": "待识别频道253",
+    "url": "http://192.168.100.252:5678/udp/233.18.204.253:5140",
+    "origin": "household-multicast-discovery",
+    "reference": "documented Shanghai 233.18.204.0/24"
+  },
+  {
+    "channel": "待识别频道254",
+    "url": "http://192.168.100.252:5678/udp/233.18.204.254:5140",
+    "origin": "household-multicast-discovery",
+    "reference": "documented Shanghai 233.18.204.0/24"
+  }
+]

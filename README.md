@@ -2,9 +2,19 @@
 
 日常使用文件：[`shtelconiptv.m3u`](shtelconiptv.m3u)。
 
+## 其他组播频道补全（2026-11-25）
+
+主播放列表现有 **137 条播放项**。本轮增加8条家庭组播地址：
+
+- 6条新频道/节目线路：BesTV电影导视、央广购物、东方购物1、东方购物2、好享购物、环球购物（聚鲨环球精选）。购物台放入单独的“购物频道”组。
+- 2条已有频道的1080p版本：CCTV-16、多彩文体，单独统计，不计作新台。
+- “欢笑剧场4K”按实际台标与SMG官方更名公告更新显示为“多彩文体4K（原欢笑剧场）”；原有EPG编号、EPG名称、台标和播放地址保留。
+
+组播通过现有家庭代理取流，未修改路由器配置。入选地址经过两轮解码测试及画面核对；宣传动画、黑场、信号中断卡、未确认身份的节目流和仅HTTP 200却无视频数据的地址不加入。详情见 [`reports/multicast-validation.md`](reports/multicast-validation.md)。
+
 ## 4K 补全（2026-11-25）
 
-主播放列表现有 **129 条播放项**。首组“4K超高清”包含 **19 个不同频道、24 条线路**。
+该轮主播放列表扩充到 **129 条播放项**。首组“4K超高清”包含 **19 个不同频道、24 条线路**，本轮组播补全未改变4K组的线路数量。
 
 - 新增 7 个原列表没有的 4K 频道：BesTV4K动画、BesTV4K电影、BesTV4K纪实、苏州4K、美丽河北4K、Love Nature 4K、Bloomberg TV+ 4K。
 - 新增 5 条备用线路：CCTV-4K、CCTV-16 4K、欢笑剧场4K 的上海组播备用，以及湖南卫视4K、浙江卫视4K 的公网备用。备用不计入新增频道数，显示名带“备用”。
@@ -57,6 +67,8 @@ python3 scripts/audit_streams.py --input candidates.json --output report.json --
 ```
 
 本次 4K 候选分别存放在四份发现/复测报告中；`python3 scripts/merge_4k.py` 只会合并两轮都通过、实测至少 3840×2160 的地址，按 URL 去重。它只读取测试报告，不会重新联网检测；报告必须已经完整生成。
+
+其他组播频道用 `reports/multicast-reviewed.json` 记录人工核对的身份，配合 `multicast-discovery.json` 和 `multicast-recheck.json` 两轮报告，由 `python3 scripts/merge_multicast.py` 合并。该命令同样只读取已有报告，不重新联网检测。
 
 ## 原始说明
 

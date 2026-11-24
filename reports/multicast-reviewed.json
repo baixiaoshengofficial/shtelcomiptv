@@ -1,0 +1,69 @@
+[
+  {
+    "channel": "CCTV-16",
+    "url": "http://192.168.100.252:5678/udp/233.18.204.82:5140",
+    "role": "HD补充",
+    "source_label": "组播",
+    "reference": "https://blog.cqshushu.com/archives/shanghai-chinanet.html",
+    "visual_verified": true
+  },
+  {
+    "channel": "多彩文体",
+    "url": "http://192.168.100.252:5678/udp/233.18.204.50:5140",
+    "role": "HD补充",
+    "source_label": "组播",
+    "reference": "https://blog.cqshushu.com/archives/shanghai-chinanet.html",
+    "visual_verified": true,
+    "epg_alias": "欢笑剧场",
+    "name_reference": "https://caigou.smg.cn/review/202604/0167257.html"
+  },
+  {
+    "channel": "央广购物",
+    "url": "http://192.168.100.252:5678/udp/233.18.204.39:5140",
+    "role": "新增频道",
+    "source_label": "组播",
+    "reference": "https://blog.cqshushu.com/archives/shanghai-chinanet.html",
+    "visual_verified": true
+  },
+  {
+    "channel": "BesTV电影导视",
+    "url": "http://192.168.100.252:5678/udp/233.18.204.116:5140",
+    "role": "新增频道",
+    "source_label": "组播",
+    "reference": "https://blog.cqshushu.com/archives/shanghai-chinanet.html",
+    "visual_verified": true
+  },
+  {
+    "channel": "东方购物1",
+    "url": "http://192.168.100.252:5678/udp/233.18.204.61:5140",
+    "role": "新增频道",
+    "source_label": "组播",
+    "reference": "https://blog.cqshushu.com/archives/shanghai-chinanet.html",
+    "visual_verified": true
+  },
+  {
+    "channel": "东方购物2",
+    "url": "http://192.168.100.252:5678/udp/233.18.204.62:5140",
+    "role": "新增频道",
+    "source_label": "组播",
+    "reference": "https://blog.cqshushu.com/archives/shanghai-chinanet.html",
+    "visual_verified": true
+  },
+  {
+    "channel": "好享购物",
+    "url": "http://192.168.100.252:5678/udp/233.18.204.36:5140",
+    "role": "新增频道",
+    "source_label": "组播",
+    "reference": "https://blog.cqshushu.com/archives/shanghai-chinanet.html",
+    "visual_verified": true
+  },
+  {
+    "channel": "环球购物（聚鲨环球精选）",
+    "url": "http://192.168.100.252:5678/udp/233.18.204.232:5140",
+    "role": "新增频道",
+    "source_label": "组播",
+    "reference": "household 233.18.204.0/24 discovery",
+    "visual_verified": true,
+    "name_reference": "https://www.sharkshopping.com/PCStaticAboutUs"
+  }
+]

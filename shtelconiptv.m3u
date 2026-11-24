@@ -1,6 +1,6 @@
 #EXTM3U url-tvg="https://epg.deny.vip/sh/tel-epg.xml" x-tvg-url="https://epg.deny.vip/sh/tel-epg.xml"
 
-#EXTINF:-1 tvg-id="180" tvg-name="欢笑剧场" tvg-logo="https://epg.deny.vip/df/欢笑剧场4K.png" group-title="4K超高清",欢笑剧场4K
+#EXTINF:-1 tvg-id="180" tvg-name="欢笑剧场" tvg-logo="https://epg.deny.vip/df/欢笑剧场4K.png" group-title="4K超高清",多彩文体4K（原欢笑剧场）
 http://192.168.100.252:5678/udp/233.18.204.205:5140
 
 #EXTINF:-1 tvg-id="124" tvg-name="CCTV-4K" tvg-logo="https://epg.deny.vip/cctv/CCTV-4K.png" group-title="4K超高清",CCTV-4K
@@ -63,7 +63,7 @@ http://192.168.100.252:5678/udp/233.18.204.188:5140
 #EXTINF:-1 tvg-id="179" tvg-name="CCTV-16 4K" tvg-logo="https://epg.deny.vip/cctv/CCTV-16.png" group-title="4K超高清",CCTV-16 4K [组播备用]
 http://192.168.100.252:5678/udp/233.18.204.114:5140
 
-#EXTINF:-1 tvg-id="180" tvg-name="欢笑剧场" tvg-logo="https://epg.deny.vip/df/欢笑剧场4K.png" group-title="4K超高清",欢笑剧场4K [组播备用]
+#EXTINF:-1 tvg-id="180" tvg-name="欢笑剧场" tvg-logo="https://epg.deny.vip/df/欢笑剧场4K.png" group-title="4K超高清",多彩文体4K（原欢笑剧场） [组播备用]
 http://192.168.100.252:5678/udp/233.18.204.115:5140
 
 #EXTINF:-1 tvg-id="1431" tvg-name="湖南卫视 4K" tvg-logo="https://epg.deny.vip/ws/hunan.png" group-title="4K超高清",湖南卫视4K [公网备用]
@@ -122,6 +122,9 @@ http://192.168.100.252:5678/udp/233.18.204.81:5140
 
 #EXTINF:-1 tvg-id="140" tvg-name="CCTV-17" tvg-logo="https://epg.deny.vip/cctv/CCTV-17.png" group-title="央视频道",CCTV-17HD
 http://192.168.100.252:5678/udp/233.18.204.83:5140
+
+#EXTINF:-1 tvg-id="179" tvg-name="CCTV-16 4K" tvg-logo="https://epg.deny.vip/cctv/CCTV-16.png" group-title="央视频道",CCTV-16HD [组播]
+http://192.168.100.252:5678/udp/233.18.204.82:5140
 
 #EXTINF:-1 tvg-id="101" tvg-name="东方卫视" tvg-logo="https://epg.deny.vip/ws/dongfang.png" group-title="卫视频道",东方卫视HD
 http://192.168.100.252:5678/udp/233.18.204.51:5140
@@ -276,6 +279,9 @@ http://192.168.100.252:5678/udp/233.18.204.174:5140
 #EXTINF:-1 tvg-id="78" tvg-name="CHC影迷电影" tvg-logo="https://epg.deny.vip/szpd/CHC1.png" group-title="影视剧场",CHC影迷电影HD
 http://192.168.100.252:5678/udp/233.18.204.175:5140
 
+#EXTINF:-1 tvg-name="BesTV电影导视" group-title="影视剧场",BesTV电影导视HD [组播]
+http://192.168.100.252:5678/udp/233.18.204.116:5140
+
 #EXTINF:-1 tvg-id="96" tvg-name="动漫秀场" tvg-logo="https://epg.deny.vip/df/动漫秀场.png" group-title="少儿动漫",动漫秀场HD
 http://192.168.100.252:5678/udp/233.18.204.46:5140
 
@@ -333,6 +339,9 @@ http://192.168.100.252:5678/udp/233.18.204.186:5140
 #EXTINF:-1 tvg-id="84" tvg-name="茶频道" tvg-logo="https://epg.deny.vip/df/茶频道.png" group-title="生活休闲",茶频道HD
 http://192.168.100.252:5678/udp/233.18.204.43:5140
 
+#EXTINF:-1 tvg-id="180" tvg-name="欢笑剧场" tvg-logo="https://epg.deny.vip/df/欢笑剧场4K.png" group-title="生活休闲",多彩文体HD [组播]
+http://192.168.100.252:5678/udp/233.18.204.50:5140
+
 #EXTINF:-1 tvg-id="116" tvg-name="上海教育" tvg-logo="https://epg.deny.vip/df/上海教育.png" group-title="教育课堂",上海教育HD
 http://192.168.100.252:5678/udp/233.18.204.63:5140
 
@@ -386,3 +395,18 @@ https://rthkradio5-live.akamaized.net/hls/live/2040081/radio5/master.m3u8
 
 #EXTINF:-1 tvg-name="RTHK普通话台" group-title="广播电台",RTHK普通话台 [EMOS]
 https://rthkradiopth-live.akamaized.net/hls/live/2040082/radiopth/master.m3u8
+
+#EXTINF:-1 tvg-name="央广购物" group-title="购物频道",央广购物HD [组播]
+http://192.168.100.252:5678/udp/233.18.204.39:5140
+
+#EXTINF:-1 tvg-name="东方购物1" group-title="购物频道",东方购物1HD [组播]
+http://192.168.100.252:5678/udp/233.18.204.61:5140
+
+#EXTINF:-1 tvg-name="东方购物2" group-title="购物频道",东方购物2HD [组播]
+http://192.168.100.252:5678/udp/233.18.204.62:5140
+
+#EXTINF:-1 tvg-name="好享购物" group-title="购物频道",好享购物 [组播]
+http://192.168.100.252:5678/udp/233.18.204.36:5140
+
+#EXTINF:-1 tvg-name="环球购物（聚鲨环球精选）" group-title="购物频道",环球购物（聚鲨环球精选）HD [组播]
+http://192.168.100.252:5678/udp/233.18.204.232:5140

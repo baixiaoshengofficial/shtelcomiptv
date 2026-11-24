@@ -1,0 +1,377 @@
+{
+  "tested_at": "2026-11-25T06:05:12+08:00",
+  "source_count": 9,
+  "complete": true,
+  "results": [
+    {
+      "channel": "CCTV-16",
+      "url": "http://192.168.100.252:5678/udp/233.18.204.82:5140",
+      "role": "HD补充",
+      "source_label": "组播",
+      "reference": "https://blog.cqshushu.com/archives/shanghai-chinanet.html",
+      "visual_verified": true,
+      "checked_at": "2026-11-25T06:03:57+08:00",
+      "status": "passed",
+      "http_status": "200",
+      "sample_bytes": 8842204,
+      "transport": "udpxy",
+      "streams": [
+        {
+          "codec_name": "h264",
+          "profile": "High",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080,
+          "pix_fmt": "yuv420p",
+          "r_frame_rate": "25/1",
+          "avg_frame_rate": "25/1"
+        },
+        {
+          "codec_name": "mp2",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "bit_rate": "256000"
+        }
+      ],
+      "program_tags": [],
+      "width": 1920,
+      "height": 1080,
+      "media_type": "video",
+      "decoded_seconds": 3.0,
+      "decoded_frames": 52,
+      "admission": "admitted_after_two_rounds_and_visual_review"
+    },
+    {
+      "channel": "多彩文体",
+      "url": "http://192.168.100.252:5678/udp/233.18.204.50:5140",
+      "role": "HD补充",
+      "source_label": "组播",
+      "reference": "https://blog.cqshushu.com/archives/shanghai-chinanet.html",
+      "visual_verified": true,
+      "epg_alias": "欢笑剧场",
+      "name_reference": "https://caigou.smg.cn/review/202604/0167257.html",
+      "checked_at": "2026-11-25T06:04:05+08:00",
+      "status": "passed",
+      "http_status": "200",
+      "sample_bytes": 9097508,
+      "transport": "udpxy",
+      "streams": [
+        {
+          "codec_name": "h264",
+          "profile": "High",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080,
+          "pix_fmt": "yuv420p",
+          "r_frame_rate": "25/1",
+          "avg_frame_rate": "25/1"
+        },
+        {
+          "codec_name": "mp2",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "bit_rate": "256000"
+        }
+      ],
+      "program_tags": [],
+      "width": 1920,
+      "height": 1080,
+      "media_type": "video",
+      "decoded_seconds": 3.0,
+      "decoded_frames": 51,
+      "admission": "admitted_after_two_rounds_and_visual_review"
+    },
+    {
+      "channel": "央广购物",
+      "url": "http://192.168.100.252:5678/udp/233.18.204.39:5140",
+      "role": "新增频道",
+      "source_label": "组播",
+      "reference": "https://blog.cqshushu.com/archives/shanghai-chinanet.html",
+      "visual_verified": true,
+      "checked_at": "2026-11-25T06:04:14+08:00",
+      "status": "passed",
+      "http_status": "200",
+      "sample_bytes": 8888264,
+      "transport": "udpxy",
+      "streams": [
+        {
+          "codec_name": "h264",
+          "profile": "High",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080,
+          "pix_fmt": "yuv420p",
+          "r_frame_rate": "25/1",
+          "avg_frame_rate": "25/1"
+        },
+        {
+          "codec_name": "mp2",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "bit_rate": "256000"
+        }
+      ],
+      "program_tags": [],
+      "width": 1920,
+      "height": 1080,
+      "media_type": "video",
+      "decoded_seconds": 3.0,
+      "decoded_frames": 37,
+      "admission": "admitted_after_two_rounds_and_visual_review"
+    },
+    {
+      "channel": "BesTV电影导视",
+      "url": "http://192.168.100.252:5678/udp/233.18.204.116:5140",
+      "role": "新增频道",
+      "source_label": "组播",
+      "reference": "https://blog.cqshushu.com/archives/shanghai-chinanet.html",
+      "visual_verified": true,
+      "checked_at": "2026-11-25T06:04:22+08:00",
+      "status": "passed",
+      "http_status": "200",
+      "sample_bytes": 7977592,
+      "transport": "udpxy",
+      "streams": [
+        {
+          "codec_name": "h264",
+          "profile": "High",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080,
+          "pix_fmt": "yuv420p",
+          "r_frame_rate": "25/1",
+          "avg_frame_rate": "25/1"
+        },
+        {
+          "codec_name": "mp2",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 1,
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "bit_rate": "192000"
+        }
+      ],
+      "program_tags": [],
+      "width": 1920,
+      "height": 1080,
+      "media_type": "video",
+      "decoded_seconds": 3.0,
+      "decoded_frames": 49,
+      "admission": "admitted_after_two_rounds_and_visual_review"
+    },
+    {
+      "channel": "东方购物1",
+      "url": "http://192.168.100.252:5678/udp/233.18.204.61:5140",
+      "role": "新增频道",
+      "source_label": "组播",
+      "reference": "https://blog.cqshushu.com/archives/shanghai-chinanet.html",
+      "visual_verified": true,
+      "checked_at": "2026-11-25T06:04:30+08:00",
+      "status": "passed",
+      "http_status": "200",
+      "sample_bytes": 9097508,
+      "transport": "udpxy",
+      "streams": [
+        {
+          "codec_name": "h264",
+          "profile": "High",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080,
+          "pix_fmt": "yuv420p",
+          "r_frame_rate": "25/1",
+          "avg_frame_rate": "25/1"
+        },
+        {
+          "codec_name": "mp2",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "bit_rate": "256000"
+        }
+      ],
+      "program_tags": [],
+      "width": 1920,
+      "height": 1080,
+      "media_type": "video",
+      "decoded_seconds": 3.023,
+      "decoded_frames": 45,
+      "admission": "admitted_after_two_rounds_and_visual_review"
+    },
+    {
+      "channel": "东方购物2",
+      "url": "http://192.168.100.252:5678/udp/233.18.204.62:5140",
+      "role": "新增频道",
+      "source_label": "组播",
+      "reference": "https://blog.cqshushu.com/archives/shanghai-chinanet.html",
+      "visual_verified": true,
+      "checked_at": "2026-11-25T06:04:39+08:00",
+      "status": "passed",
+      "http_status": "200",
+      "sample_bytes": 9033024,
+      "transport": "udpxy",
+      "streams": [
+        {
+          "codec_name": "h264",
+          "profile": "High",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080,
+          "pix_fmt": "yuv420p",
+          "r_frame_rate": "25/1",
+          "avg_frame_rate": "25/1"
+        },
+        {
+          "codec_name": "mp2",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "bit_rate": "256000"
+        }
+      ],
+      "program_tags": [],
+      "width": 1920,
+      "height": 1080,
+      "media_type": "video",
+      "decoded_seconds": 3.0,
+      "decoded_frames": 72,
+      "admission": "admitted_after_two_rounds_and_visual_review"
+    },
+    {
+      "channel": "好享购物",
+      "url": "http://192.168.100.252:5678/udp/233.18.204.36:5140",
+      "role": "新增频道",
+      "source_label": "组播",
+      "reference": "https://blog.cqshushu.com/archives/shanghai-chinanet.html",
+      "visual_verified": true,
+      "checked_at": "2026-11-25T06:04:47+08:00",
+      "status": "passed",
+      "http_status": "200",
+      "sample_bytes": 2824136,
+      "transport": "udpxy",
+      "streams": [
+        {
+          "codec_name": "h264",
+          "profile": "Main",
+          "codec_type": "video",
+          "width": 720,
+          "height": 576,
+          "pix_fmt": "yuv420p",
+          "r_frame_rate": "25/1",
+          "avg_frame_rate": "25/1"
+        },
+        {
+          "codec_name": "mp2",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "bit_rate": "128000"
+        }
+      ],
+      "program_tags": [],
+      "width": 720,
+      "height": 576,
+      "media_type": "video",
+      "decoded_seconds": 3.0,
+      "decoded_frames": 39,
+      "admission": "admitted_after_two_rounds_and_visual_review"
+    },
+    {
+      "channel": "环球购物（聚鲨环球精选）",
+      "url": "http://192.168.100.252:5678/udp/233.18.204.232:5140",
+      "role": "新增频道",
+      "source_label": "组播",
+      "reference": "household 233.18.204.0/24 discovery",
+      "visual_verified": true,
+      "name_reference": "https://www.sharkshopping.com/PCStaticAboutUs",
+      "checked_at": "2026-11-25T06:04:55+08:00",
+      "status": "passed",
+      "http_status": "200",
+      "sample_bytes": 8902740,
+      "transport": "udpxy",
+      "streams": [
+        {
+          "codec_name": "h264",
+          "profile": "High",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080,
+          "pix_fmt": "yuv420p",
+          "r_frame_rate": "25/1",
+          "avg_frame_rate": "25/1"
+        },
+        {
+          "codec_name": "mp2",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "bit_rate": "256000"
+        }
+      ],
+      "program_tags": [],
+      "width": 1920,
+      "height": 1080,
+      "media_type": "video",
+      "decoded_seconds": 3.0,
+      "decoded_frames": 56,
+      "admission": "admitted_after_two_rounds_and_visual_review"
+    },
+    {
+      "channel": "未识别影视流202（仅核验，不加入）",
+      "url": "http://192.168.100.252:5678/udp/233.18.204.202:5140",
+      "origin": "identity-review-only",
+      "checked_at": "2026-11-25T06:05:04+08:00",
+      "status": "passed",
+      "http_status": "200",
+      "sample_bytes": 7956536,
+      "transport": "udpxy",
+      "streams": [
+        {
+          "codec_name": "h264",
+          "profile": "High",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080,
+          "pix_fmt": "yuv420p",
+          "r_frame_rate": "25/1",
+          "avg_frame_rate": "25/1"
+        },
+        {
+          "codec_name": "mp2",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "bit_rate": "128000"
+        }
+      ],
+      "program_tags": [],
+      "width": 1920,
+      "height": 1080,
+      "media_type": "video",
+      "decoded_seconds": 3.024,
+      "decoded_frames": 49,
+      "admission": "excluded_unidentified_program",
+      "visual_check": "未取得频道标识，未加入主列表"
+    }
+  ]
+}

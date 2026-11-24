@@ -19,7 +19,7 @@ from zoneinfo import ZoneInfo
 ROOT = Path(__file__).resolve().parents[1]
 GROUPS = ['4K超高清', '央视频道', '卫视频道', '上海本地', '体育竞技',
           '影视剧场', '少儿动漫', '财经理财', '纪实科教', '生活休闲',
-          '教育课堂', '地方频道', '港澳频道', '国际频道', '广播电台', '其他频道']
+          '教育课堂', '地方频道', '港澳频道', '国际频道', '广播电台', '购物频道', '其他频道']
 
 
 def now():
@@ -47,11 +47,12 @@ def fetch(url, folder, name, seconds=15):
 
 def decode_sample(path):
     p = run(['ffprobe', '-v', 'error', '-show_entries',
-             'stream=codec_type,codec_name,profile,pix_fmt,width,height,r_frame_rate,avg_frame_rate,bit_rate,sample_rate,channels',
+             'stream=codec_type,codec_name,profile,pix_fmt,width,height,r_frame_rate,avg_frame_rate,bit_rate,sample_rate,channels:program_tags=service_name,service_provider',
              '-of', 'json', str(path)], 20)
     if p.returncode:
         raise ValueError('ffprobe 无法识别媒体: ' + p.stderr[-300:])
-    streams = json.loads(p.stdout).get('streams', [])
+    probed = json.loads(p.stdout)
+    streams = probed.get('streams', [])
     video = next((s for s in streams if s.get('codec_type') == 'video'), None)
     audio = next((s for s in streams if s.get('codec_type') == 'audio'), None)
     if not video and not audio:
@@ -64,7 +65,8 @@ def decode_sample(path):
     frames = int(progress.get('frame', '0').strip())
     if p.returncode or duration < 2 or (video and frames < 25):
         raise ValueError(f'解码失败或样本不足: {duration:.2f}s, {frames} 帧; {p.stderr[-250:]}')
-    return dict(streams=streams, width=(video or {}).get('width'),
+    return dict(streams=streams, program_tags=[p['tags'] for p in probed.get('programs', []) if p.get('tags')],
+                width=(video or {}).get('width'),
                 height=(video or {}).get('height'), media_type='video' if video else 'audio',
                 decoded_seconds=round(duration, 3), decoded_frames=frames)
 
@@ -171,7 +173,8 @@ def category(name, old_group='', height=None, audio=False):
         ('财经|理财|财富', '财经理财'),
         ('纪实|地理|科技', '纪实科教'),
         ('教育|学堂', '教育课堂'),
-        ('时尚|乐游|茶频道|风云音乐|文化精品|游戏风云', '生活休闲'),
+        ('时尚|乐游|茶频道|风云音乐|文化精品|游戏风云|多彩文体', '生活休闲'),
+        ('购物', '购物频道'),
     ]:
         if re.search(words, name):
             return group
@@ -234,7 +237,8 @@ def merge(results, target):
             continue
         group = category(r['channel'], r['group'], r.get('height'), r.get('media_type') == 'audio')
         channel_name = re.sub(r'["\r\n]', '', r['channel'])
-        template = next((e for e in entries if normalized(name_of(e)) == normalized(channel_name)), None)
+        epg_name = r.get('epg_alias', channel_name)
+        template = next((e for e in entries if normalized(name_of(e)) == normalized(epg_name)), None)
         # Reuse EPG identity; use measured resolution to label the added source.
         attributes = ' '.join(re.findall(r'tvg-(?:id|name|logo)="[^"]*"', template['info'])) if template else f'tvg-name="{channel_name}"'
         quality = '4K' if (r.get('height') or 0) >= 2160 else ('HD' if (r.get('height') or 0) >= 720 else '')

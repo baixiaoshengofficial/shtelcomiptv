@@ -1,0 +1,2063 @@
+{
+  "tested_at": "2026-11-25T22:39:58+08:00",
+  "tested_candidates": 81,
+  "candidate_first_passes": 30,
+  "candidate_two_passes": 29,
+  "added_by_region": {
+    "HK": 2,
+    "JP": 4,
+    "KR": 10,
+    "MO": 1,
+    "TW": 4,
+    "US": 5
+  },
+  "total_entries": 188,
+  "previous_entries_unchanged": 162,
+  "playlist_sha256": "c90e60092703bab807a82adbe8f4dfbefd208fa59df6e8c5f0e97d0b47fb6be8",
+  "selected": [
+    {
+      "channel": "Pet Club TV",
+      "url": "https://petclub-samsungaus.amagi.tv/playlist.m3u8",
+      "region": "HK",
+      "group": "港澳频道",
+      "source_label": "公网",
+      "source_name": "Pet Club TV",
+      "reference": "https://iptv-org.github.io/iptv/countries/hk.m3u",
+      "status": "passed",
+      "width": 1920,
+      "height": 1080,
+      "media_type": "video",
+      "observed_hosts": [
+        "petclub-samsungaus.amagi.tv"
+      ],
+      "visual_review": "核对两轮台标或节目画面"
+    },
+    {
+      "channel": "ViuTV",
+      "url": "http://php.jdshipin.com/TVOD/iptv.php?id=viutv",
+      "region": "HK",
+      "group": "港澳频道",
+      "source_label": "公网中转",
+      "source_name": "ViuTV",
+      "reference": "https://iptv-org.github.io/iptv/countries/hk.m3u",
+      "status": "passed",
+      "width": 1920,
+      "height": 1080,
+      "media_type": "video",
+      "observed_hosts": [
+        "10.fast.hidns.vip",
+        "cdn.qd.je",
+        "php.jdshipin.com"
+      ],
+      "visual_review": "核对两轮台标或节目画面"
+    },
+    {
+      "channel": "NHK 综合台",
+      "url": "https://tv-stream-test.daydreamer-json.cc/fe8bf835820fb530467f75a9cb761504/master.m3u8",
+      "region": "JP",
+      "group": "日本频道",
+      "source_label": "公网中转",
+      "source_name": "NHK 综合台",
+      "reference": "https://iptv-org.github.io/iptv/countries/jp.m3u",
+      "status": "passed",
+      "width": 1440,
+      "height": 1080,
+      "media_type": "video",
+      "observed_hosts": [
+        "tv-stream-test.daydreamer-json.cc"
+      ],
+      "visual_review": "核对两轮台标或节目画面"
+    },
+    {
+      "channel": "QVC 日本",
+      "url": "https://d1flvb4iqlercm.cloudfront.net/live/live_1080p_2nd.m3u8",
+      "region": "JP",
+      "group": "日本频道",
+      "source_label": "公网",
+      "source_name": "QVC 日本",
+      "reference": "https://iptv-org.github.io/iptv/countries/jp.m3u",
+      "status": "passed",
+      "width": 1920,
+      "height": 1080,
+      "media_type": "video",
+      "observed_hosts": [
+        "d1flvb4iqlercm.cloudfront.net"
+      ],
+      "visual_review": "核对两轮台标或节目画面"
+    },
+    {
+      "channel": "Shop Channel 日本",
+      "url": "https://stream3.shopch.jp/HLS/master.m3u8",
+      "region": "JP",
+      "group": "日本频道",
+      "source_label": "官方CDN",
+      "source_name": "Shop Channel 日本",
+      "reference": "https://iptv-org.github.io/iptv/countries/jp.m3u",
+      "status": "passed",
+      "width": 1920,
+      "height": 1080,
+      "media_type": "video",
+      "observed_hosts": [
+        "stream3.shopch.jp"
+      ],
+      "visual_review": "核对两轮台标或节目画面"
+    },
+    {
+      "channel": "樱桃电视台",
+      "url": "https://tv-stream-test.daydreamer-json.cc/stream/bd2dd29080c36c9b01338d329156febe/master.m3u8",
+      "region": "JP",
+      "group": "日本频道",
+      "source_label": "公网中转",
+      "source_name": "樱桃电视台",
+      "reference": "https://iptv-org.github.io/iptv/countries/jp.m3u",
+      "status": "passed",
+      "width": 1440,
+      "height": 1080,
+      "media_type": "video",
+      "observed_hosts": [
+        "tv-stream-test.daydreamer-json.cc"
+      ],
+      "visual_review": "核对两轮台标或节目画面"
+    },
+    {
+      "channel": "ABN 韩国",
+      "url": "https://vod2.abn.co.kr/IPHONE/abn.m3u8",
+      "region": "KR",
+      "group": "韩国频道",
+      "source_label": "公网",
+      "source_name": "ABN 韩国",
+      "reference": "https://iptv-org.github.io/iptv/countries/kr.m3u",
+      "status": "passed",
+      "width": 1280,
+      "height": 720,
+      "media_type": "video",
+      "observed_hosts": [
+        "vod2.abn.co.kr"
+      ],
+      "visual_review": "核对两轮台标或节目画面"
+    },
+    {
+      "channel": "EBS English",
+      "url": "https://ebsonair.ebs.co.kr/plus3familypc/familypc1m/playlist.m3u8",
+      "region": "KR",
+      "group": "韩国频道",
+      "source_label": "官方CDN",
+      "source_name": "EBS English",
+      "reference": "https://iptv-org.github.io/iptv/countries/kr.m3u",
+      "status": "passed",
+      "width": 720,
+      "height": 400,
+      "media_type": "video",
+      "observed_hosts": [
+        "ebsonair.ebs.co.kr"
+      ],
+      "visual_review": "核对两轮台标或节目画面"
+    },
+    {
+      "channel": "EBS Plus 2",
+      "url": "https://ebsonair.ebs.co.kr/plus2familypc/familypc1m/playlist.m3u8",
+      "region": "KR",
+      "group": "韩国频道",
+      "source_label": "官方CDN",
+      "source_name": "EBS Plus 2",
+      "reference": "https://iptv-org.github.io/iptv/countries/kr.m3u",
+      "status": "passed",
+      "width": 720,
+      "height": 400,
+      "media_type": "video",
+      "observed_hosts": [
+        "ebsonair.ebs.co.kr"
+      ],
+      "visual_review": "核对两轮台标或节目画面"
+    },
+    {
+      "channel": "TBS 首尔",
+      "url": "https://cdntv.tbs.seoul.kr/tbs/tbs_tv_web.smil/playlist.m3u8",
+      "region": "KR",
+      "group": "韩国频道",
+      "source_label": "公网",
+      "source_name": "TBS 首尔",
+      "reference": "https://iptv-org.github.io/iptv/countries/kr.m3u",
+      "status": "passed",
+      "width": 1920,
+      "height": 1080,
+      "media_type": "video",
+      "observed_hosts": [
+        "cdntv.tbs.seoul.kr"
+      ],
+      "visual_review": "核对两轮台标或节目画面"
+    },
+    {
+      "channel": "TV Chosun",
+      "url": "http://onair.cdn.tvchosun.com/origin1/_definst_/tvchosun_s1/playlist.m3u8",
+      "region": "KR",
+      "group": "韩国频道",
+      "source_label": "公网",
+      "source_name": "TV Chosun",
+      "reference": "https://iptv-org.github.io/iptv/countries/kr.m3u",
+      "status": "passed",
+      "width": 1280,
+      "height": 720,
+      "media_type": "video",
+      "observed_hosts": [
+        "onair.cdn.tvchosun.com"
+      ],
+      "visual_review": "核对两轮台标或节目画面"
+    },
+    {
+      "channel": "TV Chosun 2",
+      "url": "http://onair2.cdn.tvchosun.com/origin2/_definst_/tvchosun_s3/playlist.m3u8",
+      "region": "KR",
+      "group": "韩国频道",
+      "source_label": "公网",
+      "source_name": "TV Chosun 2",
+      "reference": "https://iptv-org.github.io/iptv/countries/kr.m3u",
+      "status": "passed",
+      "width": 1280,
+      "height": 720,
+      "media_type": "video",
+      "observed_hosts": [
+        "onair2.cdn.tvchosun.com"
+      ],
+      "visual_review": "核对两轮台标或节目画面"
+    },
+    {
+      "channel": "国乐放送 Gugak TV",
+      "url": "https://mgugaklive.nowcdn.co.kr/gugakvideo/gugakvideo.stream/playlist.m3u8",
+      "region": "KR",
+      "group": "韩国频道",
+      "source_label": "公网",
+      "source_name": "国乐放送 Gugak TV",
+      "reference": "https://iptv-org.github.io/iptv/countries/kr.m3u",
+      "status": "passed",
+      "width": 1920,
+      "height": 1080,
+      "media_type": "video",
+      "observed_hosts": [
+        "mgugaklive.nowcdn.co.kr"
+      ],
+      "visual_review": "核对两轮台标或节目画面"
+    },
+    {
+      "channel": "韩国农业电视 NBS",
+      "url": "https://media.joycorp.co.kr:4443/live/ngrp:live_all/playlist.m3u8",
+      "region": "KR",
+      "group": "韩国频道",
+      "source_label": "公网",
+      "source_name": "韩国农业电视 NBS",
+      "reference": "https://iptv-org.github.io/iptv/countries/kr.m3u",
+      "status": "passed",
+      "width": 1280,
+      "height": 720,
+      "media_type": "video",
+      "observed_hosts": [
+        "media.joycorp.co.kr"
+      ],
+      "visual_review": "核对两轮台标或节目画面"
+    },
+    {
+      "channel": "韩国国防电视",
+      "url": "http://mediaworks.dema.mil.kr:1935/live_edge/cudo.sdp/playlist.m3u8",
+      "region": "KR",
+      "group": "韩国频道",
+      "source_label": "官方CDN",
+      "source_name": "韩国国防电视",
+      "reference": "https://iptv-org.github.io/iptv/countries/kr.m3u",
+      "status": "passed",
+      "width": 1920,
+      "height": 1080,
+      "media_type": "video",
+      "observed_hosts": [
+        "mediaworks.dema.mil.kr"
+      ],
+      "visual_review": "核对两轮台标或节目画面"
+    },
+    {
+      "channel": "韩国开放大学 OUN",
+      "url": "https://live.knou.ac.kr/knou1/live1/playlist.m3u8",
+      "region": "KR",
+      "group": "韩国频道",
+      "source_label": "官方CDN",
+      "source_name": "韩国开放大学 OUN",
+      "reference": "https://iptv-org.github.io/iptv/countries/kr.m3u",
+      "status": "passed",
+      "width": 1920,
+      "height": 1080,
+      "media_type": "video",
+      "observed_hosts": [
+        "live.knou.ac.kr"
+      ],
+      "visual_review": "核对两轮台标或节目画面"
+    },
+    {
+      "channel": "澳门卫星频道 96",
+      "url": "https://live5.tdm.com.mo/ch3/ch3.live/playlist.m3u8",
+      "region": "MO",
+      "group": "港澳频道",
+      "source_label": "官方CDN",
+      "source_name": "澳门卫星频道",
+      "reference": "https://www.tdm.com.mo/zh-hant/live",
+      "status": "passed",
+      "width": 1920,
+      "height": 1080,
+      "media_type": "video",
+      "observed_hosts": [
+        "live5.tdm.com.mo"
+      ],
+      "visual_review": "按两轮画面台标或分发路径核对，更新为实播频道名称"
+    },
+    {
+      "channel": "CGNTV 中文台",
+      "url": "https://d3e05csss9c272.cloudfront.net/out/v1/f0bf71c57581470fb9379f603e8f5d83/CGNWebLiveCN.m3u8",
+      "region": "TW",
+      "group": "台湾频道",
+      "source_label": "公网",
+      "source_name": "CGNTV 中文台",
+      "reference": "https://iptv-org.github.io/iptv/countries/tw.m3u",
+      "status": "passed",
+      "width": 1920,
+      "height": 1080,
+      "media_type": "video",
+      "observed_hosts": [
+        "d3e05csss9c272.cloudfront.net"
+      ],
+      "visual_review": "核对两轮台标或节目画面"
+    },
+    {
+      "channel": "GOOD 2",
+      "url": "https://live.streamingfast.net/osmflivech2.m3u8",
+      "region": "TW",
+      "group": "台湾频道",
+      "source_label": "公网",
+      "source_name": "GOOD 2",
+      "reference": "https://iptv-org.github.io/iptv/countries/tw.m3u",
+      "status": "passed",
+      "width": 1920,
+      "height": 1080,
+      "media_type": "video",
+      "observed_hosts": [
+        "live.streamingfast.net"
+      ],
+      "visual_review": "核对两轮台标或节目画面"
+    },
+    {
+      "channel": "人间卫视",
+      "url": "https://5ddce30eb4b55.streamlock.net/bltvhd/bltv1/playlist.m3u8",
+      "region": "TW",
+      "group": "台湾频道",
+      "source_label": "公网",
+      "source_name": "人间卫视",
+      "reference": "https://iptv-org.github.io/iptv/countries/tw.m3u",
+      "status": "passed",
+      "width": 1280,
+      "height": 720,
+      "media_type": "video",
+      "observed_hosts": [
+        "5ddce30eb4b55.streamlock.net"
+      ],
+      "visual_review": "核对两轮台标或节目画面"
+    },
+    {
+      "channel": "大立电视台",
+      "url": "http://www.dalitv.com.tw:4568/live/dali/index.m3u8",
+      "region": "TW",
+      "group": "台湾频道",
+      "source_label": "官方CDN",
+      "source_name": "大立电视台",
+      "reference": "https://iptv-org.github.io/iptv/countries/tw.m3u",
+      "status": "passed",
+      "width": 1280,
+      "height": 720,
+      "media_type": "video",
+      "observed_hosts": [
+        "www.dalitv.com.tw"
+      ],
+      "visual_review": "核对两轮台标或节目画面"
+    },
+    {
+      "channel": "Court TV",
+      "url": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01438-ewscrippscompan-courttv-tablo/playlist.m3u8",
+      "region": "US",
+      "group": "美国频道",
+      "source_label": "公网",
+      "source_name": "Court TV",
+      "reference": "https://iptv-org.github.io/iptv/countries/us.m3u",
+      "status": "passed",
+      "width": 1920,
+      "height": 1080,
+      "media_type": "video",
+      "observed_hosts": [
+        "amg01438-ewscrippscompan-courttv-tablo-nbcc7.amagi.tv",
+        "cdn-uw2-prod.tsv2.amagi.tv"
+      ],
+      "visual_review": "核对两轮台标或节目画面"
+    },
+    {
+      "channel": "Create TV（MPT）",
+      "url": "https://2-fss-1.streamhoster.com/pl_122/amlst:201814-2122456/playlist.m3u8",
+      "region": "US",
+      "group": "美国频道",
+      "source_label": "公网",
+      "source_name": "Create TV",
+      "reference": "https://iptv-org.github.io/iptv/countries/us.m3u",
+      "status": "passed",
+      "width": 1280,
+      "height": 720,
+      "media_type": "video",
+      "observed_hosts": [
+        "2-fss-1.streamhoster.com"
+      ],
+      "visual_review": "按两轮画面台标或分发路径核对，更新为实播频道名称"
+    },
+    {
+      "channel": "FOX 35 奥兰多",
+      "url": "https://amg00488-foxdigital-fox35orlandowofl-vizious-i7zzw.amagi.tv/playlist/amg00488-foxdigital-fox35orlandowofl-vizious/playlist.m3u8",
+      "region": "US",
+      "group": "美国频道",
+      "source_label": "公网",
+      "source_name": "FOX Weather",
+      "reference": "https://iptv-org.github.io/iptv/countries/us.m3u",
+      "status": "passed",
+      "width": 1920,
+      "height": 1080,
+      "media_type": "video",
+      "observed_hosts": [
+        "amg00488-foxdigital-fox35orlandowofl-vizious-i7zzw.amagi.tv"
+      ],
+      "visual_review": "按两轮画面台标或分发路径核对，更新为实播频道名称"
+    },
+    {
+      "channel": "KTVU FOX 2 旧金山",
+      "url": "https://amg00488-foxdigital-fox2sanfranciscoktvu-vizious-cshim.amagi.tv/playlist/amg00488-foxdigital-fox2sanfranciscoktvu-vizious/playlist.m3u8",
+      "region": "US",
+      "group": "美国频道",
+      "source_label": "公网",
+      "source_name": "FOX Weather",
+      "reference": "https://iptv-org.github.io/iptv/countries/us.m3u",
+      "status": "passed",
+      "width": 1920,
+      "height": 1080,
+      "media_type": "video",
+      "observed_hosts": [
+        "amg00488-foxdigital-fox2sanfranciscoktvu-vizious-cshim.amagi.tv"
+      ],
+      "visual_review": "按两轮画面台标或分发路径核对，更新为实播频道名称"
+    },
+    {
+      "channel": "Newsmax2",
+      "url": "https://amg00217-newsmax-newsmax-zeasn-022k9.amagi.tv/playlist.m3u8",
+      "region": "US",
+      "group": "美国频道",
+      "source_label": "公网",
+      "source_name": "Newsmax2",
+      "reference": "https://iptv-org.github.io/iptv/countries/us.m3u",
+      "status": "passed",
+      "width": 1920,
+      "height": 1080,
+      "media_type": "video",
+      "observed_hosts": [
+        "amg00217-newsmax-newsmax-zeasn-022k9.amagi.tv"
+      ],
+      "visual_review": "核对两轮台标或节目画面"
+    }
+  ],
+  "candidates": [
+    {
+      "channel": "HOY 76",
+      "region": "HK",
+      "domain": "hoytv-live-stream.hoy.tv",
+      "reference": "https://iptv-org.github.io/iptv/countries/hk.m3u",
+      "samples": [
+        {
+          "checked_at": "2026-11-25T22:36:34+08:00",
+          "status": "failed",
+          "phase": "first",
+          "reason": "加密 HLS 未完成解密测试，未添加"
+        }
+      ],
+      "selected": false
+    },
+    {
+      "channel": "Asian Drama",
+      "region": "HK",
+      "domain": "103.172.187.30",
+      "reference": "https://iptv-org.github.io/iptv/countries/hk.m3u",
+      "samples": [
+        {
+          "checked_at": "2026-11-25T22:36:34+08:00",
+          "status": "failed",
+          "phase": "first",
+          "reason": "HTTP 0: curl: (28) Failed to connect to 103.172.187.30 port 12000 after 5005 ms: Timeout was reached"
+        }
+      ],
+      "selected": false
+    },
+    {
+      "channel": "TVB 黄金翡翠台",
+      "region": "HK",
+      "domain": "103.172.187.30",
+      "reference": "https://iptv-org.github.io/iptv/countries/hk.m3u",
+      "samples": [
+        {
+          "checked_at": "2026-11-25T22:36:34+08:00",
+          "status": "failed",
+          "phase": "first",
+          "reason": "HTTP 0: curl: (28) Failed to connect to 103.172.187.30 port 12000 after 5006 ms: Timeout was reached"
+        }
+      ],
+      "selected": false
+    },
+    {
+      "channel": "美亚电影台",
+      "region": "HK",
+      "domain": "103.172.187.30",
+      "reference": "https://iptv-org.github.io/iptv/countries/hk.m3u",
+      "samples": [
+        {
+          "checked_at": "2026-11-25T22:36:34+08:00",
+          "status": "failed",
+          "phase": "first",
+          "reason": "HTTP 0: curl: (28) Failed to connect to 103.172.187.30 port 12000 after 5001 ms: Timeout was reached"
+        }
+      ],
+      "selected": false
+    },
+    {
+      "channel": "中天综合台",
+      "region": "TW",
+      "domain": "23.237.10.66",
+      "reference": "https://iptv-org.github.io/iptv/countries/tw.m3u",
+      "samples": [
+        {
+          "checked_at": "2026-11-25T22:36:39+08:00",
+          "status": "failed",
+          "phase": "first",
+          "reason": "HTTP 0: curl: (7) Failed to connect to 23.237.10.66 port 16372 after 184 ms: Couldn't connect to server"
+        }
+      ],
+      "selected": false
+    },
+    {
+      "channel": "香港 BSTV",
+      "region": "HK",
+      "domain": "202.69.67.66",
+      "reference": "https://iptv-org.github.io/iptv/countries/hk.m3u",
+      "samples": [
+        {
+          "checked_at": "2026-11-25T22:36:34+08:00",
+          "status": "failed",
+          "phase": "first",
+          "reason": "HTTP 0: curl: (52) Empty reply from server"
+        }
+      ],
+      "selected": false
+    },
+    {
+      "channel": "澳门莲花卫视",
+      "region": "MO",
+      "domain": "cdn4.skygo.mn",
+      "reference": "https://iptv-org.github.io/iptv/countries/mo.m3u",
+      "samples": [
+        {
+          "checked_at": "2026-11-25T22:36:34+08:00",
+          "status": "failed",
+          "phase": "first",
+          "reason": "HTTP 403: "
+        }
+      ],
+      "selected": false
+    },
+    {
+      "channel": "大爱二台",
+      "region": "TW",
+      "domain": "nmk.ioapk.com",
+      "reference": "https://iptv-org.github.io/iptv/countries/tw.m3u",
+      "samples": [
+        {
+          "checked_at": "2026-11-25T22:36:39+08:00",
+          "status": "failed",
+          "phase": "first",
+          "reason": "HTTP 0: curl: (52) Empty reply from server"
+        }
+      ],
+      "selected": false
+    },
+    {
+      "channel": "东森财经新闻",
+      "region": "TW",
+      "domain": "seb.sason.top",
+      "reference": "https://iptv-org.github.io/iptv/countries/tw.m3u",
+      "samples": [
+        {
+          "checked_at": "2026-11-25T22:36:40+08:00",
+          "status": "failed",
+          "phase": "first",
+          "reason": "HTTP 0: curl: (52) Empty reply from server"
+        }
+      ],
+      "selected": false
+    },
+    {
+      "channel": "华视新闻",
+      "region": "TW",
+      "domain": "seb.sason.top",
+      "reference": "https://iptv-org.github.io/iptv/countries/tw.m3u",
+      "samples": [
+        {
+          "checked_at": "2026-11-25T22:36:39+08:00",
+          "status": "failed",
+          "phase": "first",
+          "reason": "HTTP 0: curl: (52) Empty reply from server"
+        }
+      ],
+      "selected": false
+    },
+    {
+      "channel": "民视",
+      "region": "TW",
+      "domain": "seb.sason.top",
+      "reference": "https://iptv-org.github.io/iptv/countries/tw.m3u",
+      "samples": [
+        {
+          "checked_at": "2026-11-25T22:36:40+08:00",
+          "status": "failed",
+          "phase": "first",
+          "reason": "HTTP 0: curl: (52) Empty reply from server"
+        }
+      ],
+      "selected": false
+    },
+    {
+      "channel": "民视第一台",
+      "region": "TW",
+      "domain": "seb.sason.top",
+      "reference": "https://iptv-org.github.io/iptv/countries/tw.m3u",
+      "samples": [
+        {
+          "checked_at": "2026-11-25T22:36:41+08:00",
+          "status": "failed",
+          "phase": "first",
+          "reason": "HTTP 0: curl: (52) Empty reply from server"
+        }
+      ],
+      "selected": false
+    },
+    {
+      "channel": "东森新闻",
+      "region": "TW",
+      "domain": "seb.sason.top",
+      "reference": "https://iptv-org.github.io/iptv/countries/tw.m3u",
+      "samples": [
+        {
+          "checked_at": "2026-11-25T22:36:40+08:00",
+          "status": "failed",
+          "phase": "first",
+          "reason": "HTTP 0: curl: (52) Empty reply from server"
+        }
+      ],
+      "selected": false
+    },
+    {
+      "channel": "澳门卫星频道",
+      "region": "MO",
+      "domain": "live3.tdm.com.mo",
+      "reference": "https://iptv-org.github.io/iptv/countries/mo.m3u",
+      "samples": [
+        {
+          "checked_at": "2026-11-25T22:36:36+08:00",
+          "status": "failed",
+          "phase": "first",
+          "reason": "HTTP 0: curl: (28) SSL connection timeout"
+        }
+      ],
+      "selected": false
+    },
+    {
+      "channel": "ViuTV",
+      "region": "HK",
+      "domain": "php.jdshipin.com",
+      "reference": "https://iptv-org.github.io/iptv/countries/hk.m3u",
+      "samples": [
+        {
+          "checked_at": "2026-11-25T22:36:34+08:00",
+          "status": "passed",
+          "width": 1920,
+          "height": 1080,
+          "decoded_seconds": 3.0,
+          "decoded_frames": 150,
+          "phase": "first"
+        },
+        {
+          "checked_at": "2026-11-25T22:37:30+08:00",
+          "status": "passed",
+          "width": 1920,
+          "height": 1080,
+          "decoded_seconds": 3.0,
+          "decoded_frames": 150,
+          "phase": "second"
+        }
+      ],
+      "selected": true
+    },
+    {
+      "channel": "MOMO TV",
+      "region": "TW",
+      "domain": "nmk.ioapk.com",
+      "reference": "https://iptv-org.github.io/iptv/countries/tw.m3u",
+      "samples": [
+        {
+          "checked_at": "2026-11-25T22:36:42+08:00",
+          "status": "failed",
+          "phase": "first",
+          "reason": "HTTP 0: curl: (52) Empty reply from server"
+        }
+      ],
+      "selected": false
+    },
+    {
+      "channel": "三立新闻",
+      "region": "TW",
+      "domain": "seb.sason.top",
+      "reference": "https://iptv-org.github.io/iptv/countries/tw.m3u",
+      "samples": [
+        {
+          "checked_at": "2026-11-25T22:36:42+08:00",
+          "status": "failed",
+          "phase": "first",
+          "reason": "HTTP 0: curl: (52) Empty reply from server"
+        }
+      ],
+      "selected": false
+    },
+    {
+      "channel": "Pet Club TV",
+      "region": "HK",
+      "domain": "petclub-samsungaus.amagi.tv",
+      "reference": "https://iptv-org.github.io/iptv/countries/hk.m3u",
+      "samples": [
+        {
+          "checked_at": "2026-11-25T22:36:34+08:00",
+          "status": "passed",
+          "width": 1920,
+          "height": 1080,
+          "decoded_seconds": 3.001,
+          "decoded_frames": 75,
+          "phase": "first"
+        },
+        {
+          "checked_at": "2026-11-25T22:37:30+08:00",
+          "status": "passed",
+          "width": 1920,
+          "height": 1080,
+          "decoded_seconds": 3.004,
+          "decoded_frames": 75,
+          "phase": "second"
+        }
+      ],
+      "selected": true
+    },
+    {
+      "channel": "原住民族电视台",
+      "region": "TW",
+      "domain": "streamipcf.akamaized.net",
+      "reference": "https://iptv-org.github.io/iptv/countries/tw.m3u",
+      "samples": [
+        {
+          "checked_at": "2026-11-25T22:36:41+08:00",
+          "status": "failed",
+          "phase": "first",
+          "reason": "HTTP 403: <HTML><HEAD>"
+        }
+      ],
+      "selected": false
+    },
+    {
+      "channel": "大立电视台",
+      "region": "TW",
+      "domain": "www.dalitv.com.tw",
+      "reference": "https://iptv-org.github.io/iptv/countries/tw.m3u",
+      "samples": [
+        {
+          "checked_at": "2026-11-25T22:36:39+08:00",
+          "status": "passed",
+          "width": 1280,
+          "height": 720,
+          "decoded_seconds": 3.0,
+          "decoded_frames": 84,
+          "phase": "first"
+        },
+        {
+          "checked_at": "2026-11-25T22:37:30+08:00",
+          "status": "passed",
+          "width": 1280,
+          "height": 720,
+          "decoded_seconds": 3.0,
+          "decoded_frames": 84,
+          "phase": "second"
+        }
+      ],
+      "selected": true
+    },
+    {
+      "channel": "原住民族电视台",
+      "region": "TW",
+      "domain": "streamipcfapp.akamaized.net",
+      "reference": "https://iptv-org.github.io/iptv/countries/tw.m3u",
+      "samples": [
+        {
+          "checked_at": "2026-11-25T22:36:42+08:00",
+          "status": "failed",
+          "phase": "first",
+          "reason": "加密 HLS 未完成解密测试，未添加"
+        }
+      ],
+      "selected": false
+    },
+    {
+      "channel": "富士电视台",
+      "region": "JP",
+      "domain": "fujitv4.mov3.co",
+      "reference": "https://iptv-org.github.io/iptv/countries/jp.m3u",
+      "samples": [
+        {
+          "checked_at": "2026-11-25T22:36:43+08:00",
+          "status": "failed",
+          "phase": "first",
+          "reason": "HTTP 403: <html>"
+        }
+      ],
+      "selected": false
+    },
+    {
+      "channel": "日本电视台",
+      "region": "JP",
+      "domain": "ntv5.mov3.co",
+      "reference": "https://iptv-org.github.io/iptv/countries/jp.m3u",
+      "samples": [
+        {
+          "checked_at": "2026-11-25T22:36:44+08:00",
+          "status": "failed",
+          "phase": "first",
+          "reason": "HTTP 403: <html>"
+        }
+      ],
+      "selected": false
+    },
+    {
+      "channel": "人间卫视",
+      "region": "TW",
+      "domain": "5ddce30eb4b55.streamlock.net",
+      "reference": "https://iptv-org.github.io/iptv/countries/tw.m3u",
+      "samples": [
+        {
+          "checked_at": "2026-11-25T22:36:39+08:00",
+          "status": "passed",
+          "width": 1280,
+          "height": 720,
+          "decoded_seconds": 3.003,
+          "decoded_frames": 90,
+          "phase": "first"
+        },
+        {
+          "checked_at": "2026-11-25T22:37:30+08:00",
+          "status": "passed",
+          "width": 1280,
+          "height": 720,
+          "decoded_seconds": 3.003,
+          "decoded_frames": 90,
+          "phase": "second"
+        }
+      ],
+      "selected": true
+    },
+    {
+      "channel": "CGNTV 中文台",
+      "region": "TW",
+      "domain": "d3e05csss9c272.cloudfront.net",
+      "reference": "https://iptv-org.github.io/iptv/countries/tw.m3u",
+      "samples": [
+        {
+          "checked_at": "2026-11-25T22:36:39+08:00",
+          "status": "passed",
+          "width": 1920,
+          "height": 1080,
+          "decoded_seconds": 3.007,
+          "decoded_frames": 90,
+          "phase": "first"
+        },
+        {
+          "checked_at": "2026-11-25T22:37:30+08:00",
+          "status": "passed",
+          "width": 1920,
+          "height": 1080,
+          "decoded_seconds": 3.003,
+          "decoded_frames": 90,
+          "phase": "second"
+        }
+      ],
+      "selected": true
+    },
+    {
+      "channel": "台视",
+      "region": "TW",
+      "domain": "162.19.247.76",
+      "reference": "https://iptv-org.github.io/iptv/countries/tw.m3u",
+      "samples": [
+        {
+          "checked_at": "2026-11-25T22:36:43+08:00",
+          "status": "failed",
+          "phase": "first",
+          "reason": "HTTP 0: curl: (28) Failed to connect to 162.19.247.76 port 22222 after 5006 ms: Timeout was reached"
+        }
+      ],
+      "selected": false
+    },
+    {
+      "channel": "GOOD TV",
+      "region": "TW",
+      "domain": "live.streamingfast.net",
+      "reference": "https://iptv-org.github.io/iptv/countries/tw.m3u",
+      "samples": [
+        {
+          "checked_at": "2026-11-25T22:36:41+08:00",
+          "status": "failed",
+          "phase": "first",
+          "reason": "解码失败或样本不足: 3.00s, 0 帧; imes"
+        }
+      ],
+      "selected": false
+    },
+    {
+      "channel": "QVC 日本",
+      "region": "JP",
+      "domain": "d1flvb4iqlercm.cloudfront.net",
+      "reference": "https://iptv-org.github.io/iptv/countries/jp.m3u",
+      "samples": [
+        {
+          "checked_at": "2026-11-25T22:36:45+08:00",
+          "status": "passed",
+          "width": 1920,
+          "height": 1080,
+          "decoded_seconds": 3.007,
+          "decoded_frames": 90,
+          "phase": "first"
+        },
+        {
+          "checked_at": "2026-11-25T22:37:34+08:00",
+          "status": "passed",
+          "width": 1920,
+          "height": 1080,
+          "decoded_seconds": 3.007,
+          "decoded_frames": 90,
+          "phase": "second"
+        }
+      ],
+      "selected": true
+    },
+    {
+      "channel": "GOOD 2",
+      "region": "TW",
+      "domain": "live.streamingfast.net",
+      "reference": "https://iptv-org.github.io/iptv/countries/tw.m3u",
+      "samples": [
+        {
+          "checked_at": "2026-11-25T22:36:41+08:00",
+          "status": "passed",
+          "width": 1920,
+          "height": 1080,
+          "decoded_seconds": 3.003,
+          "decoded_frames": 52,
+          "phase": "first"
+        },
+        {
+          "checked_at": "2026-11-25T22:37:35+08:00",
+          "status": "passed",
+          "width": 1920,
+          "height": 1080,
+          "decoded_seconds": 3.003,
+          "decoded_frames": 73,
+          "phase": "second"
+        }
+      ],
+      "selected": true
+    },
+    {
+      "channel": "东京电视台",
+      "region": "JP",
+      "domain": "tvtokyo.mov3.co",
+      "reference": "https://iptv-org.github.io/iptv/countries/jp.m3u",
+      "samples": [
+        {
+          "checked_at": "2026-11-25T22:36:48+08:00",
+          "status": "failed",
+          "phase": "first",
+          "reason": "HTTP 403: <html>"
+        }
+      ],
+      "selected": false
+    },
+    {
+      "channel": "朝日电视台",
+      "region": "JP",
+      "domain": "tvasahi.mov3.co",
+      "reference": "https://iptv-org.github.io/iptv/countries/jp.m3u",
+      "samples": [
+        {
+          "checked_at": "2026-11-25T22:36:47+08:00",
+          "status": "failed",
+          "phase": "first",
+          "reason": "HTTP 403: <html>"
+        }
+      ],
+      "selected": false
+    },
+    {
+      "channel": "Channel A",
+      "region": "KR",
+      "domain": "channelalive.ktcdn.co.kr",
+      "reference": "https://iptv-org.github.io/iptv/countries/kr.m3u",
+      "samples": [
+        {
+          "checked_at": "2026-11-25T22:36:49+08:00",
+          "status": "failed",
+          "phase": "first",
+          "reason": "HTTP 403: <html>"
+        }
+      ],
+      "selected": false
+    },
+    {
+      "channel": "樱桃电视台",
+      "region": "JP",
+      "domain": "tv-stream-test.daydreamer-json.cc",
+      "reference": "https://iptv-org.github.io/iptv/countries/jp.m3u",
+      "samples": [
+        {
+          "checked_at": "2026-11-25T22:36:46+08:00",
+          "status": "passed",
+          "width": 1440,
+          "height": 1080,
+          "decoded_seconds": 3.008,
+          "decoded_frames": 77,
+          "phase": "first"
+        },
+        {
+          "checked_at": "2026-11-25T22:37:35+08:00",
+          "status": "passed",
+          "width": 1440,
+          "height": 1080,
+          "decoded_seconds": 3.008,
+          "decoded_frames": 78,
+          "phase": "second"
+        }
+      ],
+      "selected": true
+    },
+    {
+      "channel": "NHK 综合台",
+      "region": "JP",
+      "domain": "tv-stream-test.daydreamer-json.cc",
+      "reference": "https://iptv-org.github.io/iptv/countries/jp.m3u",
+      "samples": [
+        {
+          "checked_at": "2026-11-25T22:36:44+08:00",
+          "status": "passed",
+          "width": 1440,
+          "height": 1080,
+          "decoded_seconds": 3.003,
+          "decoded_frames": 77,
+          "phase": "first"
+        },
+        {
+          "checked_at": "2026-11-25T22:37:36+08:00",
+          "status": "passed",
+          "width": 1440,
+          "height": 1080,
+          "decoded_seconds": 3.003,
+          "decoded_frames": 77,
+          "phase": "second"
+        },
+        {
+          "checked_at": "2026-11-25T22:39:02+08:00",
+          "status": "failed",
+          "phase": "targeted",
+          "reason": "解码失败或样本不足: 3.03s, 7 帧; "
+        }
+      ],
+      "selected": true
+    },
+    {
+      "channel": "Shop Channel 日本",
+      "region": "JP",
+      "domain": "stream3.shopch.jp",
+      "reference": "https://iptv-org.github.io/iptv/countries/jp.m3u",
+      "samples": [
+        {
+          "checked_at": "2026-11-25T22:36:47+08:00",
+          "status": "passed",
+          "width": 1920,
+          "height": 1080,
+          "decoded_seconds": 3.003,
+          "decoded_frames": 89,
+          "phase": "first"
+        },
+        {
+          "checked_at": "2026-11-25T22:37:38+08:00",
+          "status": "passed",
+          "width": 1920,
+          "height": 1080,
+          "decoded_seconds": 3.007,
+          "decoded_frames": 90,
+          "phase": "second"
+        }
+      ],
+      "selected": true
+    },
+    {
+      "channel": "ABN 韩国",
+      "region": "KR",
+      "domain": "vod2.abn.co.kr",
+      "reference": "https://iptv-org.github.io/iptv/countries/kr.m3u",
+      "samples": [
+        {
+          "checked_at": "2026-11-25T22:36:49+08:00",
+          "status": "passed",
+          "width": 1280,
+          "height": 720,
+          "decoded_seconds": 3.0,
+          "decoded_frames": 85,
+          "phase": "first"
+        },
+        {
+          "checked_at": "2026-11-25T22:37:42+08:00",
+          "status": "passed",
+          "width": 1280,
+          "height": 720,
+          "decoded_seconds": 3.0,
+          "decoded_frames": 86,
+          "phase": "second"
+        }
+      ],
+      "selected": true
+    },
+    {
+      "channel": "山形电视台",
+      "region": "JP",
+      "domain": "tv-stream-test.daydreamer-json.cc",
+      "reference": "https://iptv-org.github.io/iptv/countries/jp.m3u",
+      "samples": [
+        {
+          "checked_at": "2026-11-25T22:36:48+08:00",
+          "status": "passed",
+          "width": 1440,
+          "height": 1080,
+          "decoded_seconds": 3.008,
+          "decoded_frames": 78,
+          "phase": "first"
+        },
+        {
+          "checked_at": "2026-11-25T22:37:42+08:00",
+          "status": "passed",
+          "width": 1440,
+          "height": 1080,
+          "decoded_seconds": 3.008,
+          "decoded_frames": 78,
+          "phase": "second"
+        },
+        {
+          "checked_at": "2026-11-25T22:39:02+08:00",
+          "status": "failed",
+          "phase": "targeted",
+          "reason": "媒体分片下载不完整"
+        }
+      ],
+      "selected": false,
+      "exclusion": "样本未确认台标，额外解码失败"
+    },
+    {
+      "channel": "MBC Drama",
+      "region": "KR",
+      "domain": "mytv.dothome.co.kr",
+      "reference": "https://iptv-org.github.io/iptv/countries/kr.m3u",
+      "samples": [
+        {
+          "checked_at": "2026-11-25T22:36:52+08:00",
+          "status": "failed",
+          "phase": "first",
+          "reason": "HTTP 200: "
+        }
+      ],
+      "selected": false
+    },
+    {
+      "channel": "TV-U 山形",
+      "region": "JP",
+      "domain": "tv-stream-test.daydreamer-json.cc",
+      "reference": "https://iptv-org.github.io/iptv/countries/jp.m3u",
+      "samples": [
+        {
+          "checked_at": "2026-11-25T22:36:48+08:00",
+          "status": "passed",
+          "width": 1440,
+          "height": 1080,
+          "decoded_seconds": 3.008,
+          "decoded_frames": 78,
+          "phase": "first"
+        },
+        {
+          "checked_at": "2026-11-25T22:37:42+08:00",
+          "status": "failed",
+          "phase": "second",
+          "reason": "解码失败或样本不足: 3.03s, 18 帧; "
+        },
+        {
+          "checked_at": "2026-11-25T22:39:02+08:00",
+          "status": "passed",
+          "width": 1440,
+          "height": 1080,
+          "decoded_seconds": 3.008,
+          "decoded_frames": 77,
+          "phase": "targeted"
+        }
+      ],
+      "selected": false,
+      "exclusion": "确认 TBS 新闻节目，尚未确认地方台身份"
+    },
+    {
+      "channel": "EBS English",
+      "region": "KR",
+      "domain": "ebsonair.ebs.co.kr",
+      "reference": "https://iptv-org.github.io/iptv/countries/kr.m3u",
+      "samples": [
+        {
+          "checked_at": "2026-11-25T22:36:49+08:00",
+          "status": "passed",
+          "width": 720,
+          "height": 400,
+          "decoded_seconds": 3.003,
+          "decoded_frames": 89,
+          "phase": "first"
+        },
+        {
+          "checked_at": "2026-11-25T22:37:43+08:00",
+          "status": "passed",
+          "width": 720,
+          "height": 400,
+          "decoded_seconds": 3.003,
+          "decoded_frames": 90,
+          "phase": "second"
+        }
+      ],
+      "selected": true
+    },
+    {
+      "channel": "EBS Plus 2",
+      "region": "KR",
+      "domain": "ebsonair.ebs.co.kr",
+      "reference": "https://iptv-org.github.io/iptv/countries/kr.m3u",
+      "samples": [
+        {
+          "checked_at": "2026-11-25T22:36:50+08:00",
+          "status": "passed",
+          "width": 720,
+          "height": 400,
+          "decoded_seconds": 3.003,
+          "decoded_frames": 89,
+          "phase": "first"
+        },
+        {
+          "checked_at": "2026-11-25T22:37:44+08:00",
+          "status": "passed",
+          "width": 720,
+          "height": 400,
+          "decoded_seconds": 3.003,
+          "decoded_frames": 90,
+          "phase": "second"
+        }
+      ],
+      "selected": true
+    },
+    {
+      "channel": "韩国国会电视 NATV",
+      "region": "KR",
+      "domain": "github.com",
+      "reference": "https://iptv-org.github.io/iptv/countries/kr.m3u",
+      "samples": [
+        {
+          "checked_at": "2026-11-25T22:36:53+08:00",
+          "status": "failed",
+          "phase": "first",
+          "reason": "HTTP 404: "
+        }
+      ],
+      "selected": false
+    },
+    {
+      "channel": "MBC 庆南",
+      "region": "KR",
+      "domain": "624a79c87201d.streamlock.net",
+      "reference": "https://iptv-org.github.io/iptv/countries/kr.m3u",
+      "samples": [
+        {
+          "checked_at": "2026-11-25T22:36:52+08:00",
+          "status": "failed",
+          "phase": "first",
+          "reason": "HTTP 0: curl: (35) LibreSSL SSL_connect: SSL_ERROR_SYSCALL in connection to 624a79c87201d.streamlock.net:443"
+        }
+      ],
+      "selected": false
+    },
+    {
+      "channel": "MBC Net",
+      "region": "KR",
+      "domain": "mytv.dothome.co.kr",
+      "reference": "https://iptv-org.github.io/iptv/countries/kr.m3u",
+      "samples": [
+        {
+          "checked_at": "2026-11-25T22:36:52+08:00",
+          "status": "failed",
+          "phase": "first",
+          "reason": "HTTP 200: "
+        }
+      ],
+      "selected": false
+    },
+    {
+      "channel": "国乐放送 Gugak TV",
+      "region": "KR",
+      "domain": "mgugaklive.nowcdn.co.kr",
+      "reference": "https://iptv-org.github.io/iptv/countries/kr.m3u",
+      "samples": [
+        {
+          "checked_at": "2026-11-25T22:36:51+08:00",
+          "status": "passed",
+          "width": 1920,
+          "height": 1080,
+          "decoded_seconds": 3.003,
+          "decoded_frames": 89,
+          "phase": "first"
+        },
+        {
+          "checked_at": "2026-11-25T22:37:45+08:00",
+          "status": "passed",
+          "width": 1920,
+          "height": 1080,
+          "decoded_seconds": 3.003,
+          "decoded_frames": 90,
+          "phase": "second"
+        }
+      ],
+      "selected": true
+    },
+    {
+      "channel": "MTN 韩国财经",
+      "region": "KR",
+      "domain": "183.110.27.87",
+      "reference": "https://iptv-org.github.io/iptv/countries/kr.m3u",
+      "samples": [
+        {
+          "checked_at": "2026-11-25T22:36:53+08:00",
+          "status": "failed",
+          "phase": "first",
+          "reason": "HTTP 0: curl: (52) Empty reply from server"
+        }
+      ],
+      "selected": false
+    },
+    {
+      "channel": "NHTV 韩国农协",
+      "region": "KR",
+      "domain": "nonghyup.flive.skcdn.com",
+      "reference": "https://iptv-org.github.io/iptv/countries/kr.m3u",
+      "samples": [
+        {
+          "checked_at": "2026-11-25T22:36:54+08:00",
+          "status": "passed",
+          "width": 1280,
+          "height": 720,
+          "decoded_seconds": 3.003,
+          "decoded_frames": 89,
+          "phase": "first"
+        },
+        {
+          "checked_at": "2026-11-25T22:37:47+08:00",
+          "status": "passed",
+          "width": 1280,
+          "height": 720,
+          "decoded_seconds": 3.003,
+          "decoded_frames": 90,
+          "phase": "second"
+        }
+      ],
+      "selected": false,
+      "exclusion": "两轮样本均黑屏"
+    },
+    {
+      "channel": "韩国农业电视 NBS",
+      "region": "KR",
+      "domain": "media.joycorp.co.kr",
+      "reference": "https://iptv-org.github.io/iptv/countries/kr.m3u",
+      "samples": [
+        {
+          "checked_at": "2026-11-25T22:36:54+08:00",
+          "status": "passed",
+          "width": 1280,
+          "height": 720,
+          "decoded_seconds": 3.003,
+          "decoded_frames": 87,
+          "phase": "first"
+        },
+        {
+          "checked_at": "2026-11-25T22:37:47+08:00",
+          "status": "passed",
+          "width": 1280,
+          "height": 720,
+          "decoded_seconds": 3.003,
+          "decoded_frames": 87,
+          "phase": "second"
+        }
+      ],
+      "selected": true
+    },
+    {
+      "channel": "韩国开放大学 OUN",
+      "region": "KR",
+      "domain": "live.knou.ac.kr",
+      "reference": "https://iptv-org.github.io/iptv/countries/kr.m3u",
+      "samples": [
+        {
+          "checked_at": "2026-11-25T22:36:55+08:00",
+          "status": "passed",
+          "width": 1920,
+          "height": 1080,
+          "decoded_seconds": 3.013,
+          "decoded_frames": 90,
+          "phase": "first"
+        },
+        {
+          "checked_at": "2026-11-25T22:37:49+08:00",
+          "status": "passed",
+          "width": 1920,
+          "height": 1080,
+          "decoded_seconds": 3.007,
+          "decoded_frames": 90,
+          "phase": "second"
+        }
+      ],
+      "selected": true
+    },
+    {
+      "channel": "America’s Test Kitchen",
+      "region": "US",
+      "domain": "jmp2.uk",
+      "reference": "https://iptv-org.github.io/iptv/countries/us.m3u",
+      "samples": [
+        {
+          "checked_at": "2026-11-25T22:36:59+08:00",
+          "status": "failed",
+          "phase": "first",
+          "reason": "加密 HLS 未完成解密测试，未添加"
+        }
+      ],
+      "selected": false
+    },
+    {
+      "channel": "TBS 首尔",
+      "region": "KR",
+      "domain": "cdntv.tbs.seoul.kr",
+      "reference": "https://iptv-org.github.io/iptv/countries/kr.m3u",
+      "samples": [
+        {
+          "checked_at": "2026-11-25T22:36:55+08:00",
+          "status": "passed",
+          "width": 1920,
+          "height": 1080,
+          "decoded_seconds": 3.0,
+          "decoded_frames": 90,
+          "phase": "first"
+        },
+        {
+          "checked_at": "2026-11-25T22:37:50+08:00",
+          "status": "passed",
+          "width": 1920,
+          "height": 1080,
+          "decoded_seconds": 3.0,
+          "decoded_frames": 89,
+          "phase": "second"
+        }
+      ],
+      "selected": true
+    },
+    {
+      "channel": "TV Chosun 2",
+      "region": "KR",
+      "domain": "onair2.cdn.tvchosun.com",
+      "reference": "https://iptv-org.github.io/iptv/countries/kr.m3u",
+      "samples": [
+        {
+          "checked_at": "2026-11-25T22:36:58+08:00",
+          "status": "passed",
+          "width": 1280,
+          "height": 720,
+          "decoded_seconds": 3.003,
+          "decoded_frames": 90,
+          "phase": "first"
+        },
+        {
+          "checked_at": "2026-11-25T22:37:51+08:00",
+          "status": "passed",
+          "width": 1280,
+          "height": 720,
+          "decoded_seconds": 2.97,
+          "decoded_frames": 71,
+          "phase": "second"
+        }
+      ],
+      "selected": true
+    },
+    {
+      "channel": "Create TV",
+      "region": "US",
+      "domain": "create.lls.pbs.org",
+      "reference": "https://iptv-org.github.io/iptv/countries/us.m3u",
+      "samples": [
+        {
+          "checked_at": "2026-11-25T22:37:00+08:00",
+          "status": "failed",
+          "phase": "first",
+          "reason": "返回内容不是 HLS 或 MPEG-TS 媒体"
+        }
+      ],
+      "selected": false
+    },
+    {
+      "channel": "FOX Weather",
+      "region": "US",
+      "domain": "amg00488-foxdigital-amg00488c4-vizio-us-900.playouts.now.amagi.tv",
+      "reference": "https://iptv-org.github.io/iptv/countries/us.m3u",
+      "samples": [
+        {
+          "checked_at": "2026-11-25T22:37:02+08:00",
+          "status": "failed",
+          "phase": "first",
+          "reason": "HTTP 403: <!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\" \"http://www.w3.org/TR/html4/loose.dtd\">"
+        }
+      ],
+      "selected": false
+    },
+    {
+      "channel": "FOX Weather",
+      "region": "US",
+      "domain": "aka-live1050.delivery.roku.com",
+      "reference": "https://iptv-org.github.io/iptv/countries/us.m3u",
+      "samples": [
+        {
+          "checked_at": "2026-11-25T22:37:01+08:00",
+          "status": "failed",
+          "phase": "first",
+          "reason": "加密 HLS 未完成解密测试，未添加"
+        }
+      ],
+      "selected": false
+    },
+    {
+      "channel": "TV Chosun",
+      "region": "KR",
+      "domain": "onair.cdn.tvchosun.com",
+      "reference": "https://iptv-org.github.io/iptv/countries/kr.m3u",
+      "samples": [
+        {
+          "checked_at": "2026-11-25T22:36:58+08:00",
+          "status": "passed",
+          "width": 1280,
+          "height": 720,
+          "decoded_seconds": 3.003,
+          "decoded_frames": 75,
+          "phase": "first"
+        },
+        {
+          "checked_at": "2026-11-25T22:37:52+08:00",
+          "status": "passed",
+          "width": 1280,
+          "height": 720,
+          "decoded_seconds": 3.003,
+          "decoded_frames": 88,
+          "phase": "second"
+        }
+      ],
+      "selected": true
+    },
+    {
+      "channel": "Create TV",
+      "region": "US",
+      "domain": "2-fss-1.streamhoster.com",
+      "reference": "https://iptv-org.github.io/iptv/countries/us.m3u",
+      "samples": [
+        {
+          "checked_at": "2026-11-25T22:37:01+08:00",
+          "status": "passed",
+          "width": 1280,
+          "height": 720,
+          "decoded_seconds": 3.0,
+          "decoded_frames": 90,
+          "phase": "first"
+        },
+        {
+          "checked_at": "2026-11-25T22:37:53+08:00",
+          "status": "passed",
+          "width": 1280,
+          "height": 720,
+          "decoded_seconds": 3.0,
+          "decoded_frames": 90,
+          "phase": "second"
+        }
+      ],
+      "selected": true
+    },
+    {
+      "channel": "Scripps News",
+      "region": "US",
+      "domain": "aka-live1050.delivery.roku.com",
+      "reference": "https://iptv-org.github.io/iptv/countries/us.m3u",
+      "samples": [
+        {
+          "checked_at": "2026-11-25T22:37:05+08:00",
+          "status": "failed",
+          "phase": "first",
+          "reason": "加密 HLS 未完成解密测试，未添加"
+        }
+      ],
+      "selected": false
+    },
+    {
+      "channel": "Newsmax2",
+      "region": "US",
+      "domain": "2-fss-2.streamhoster.com",
+      "reference": "https://iptv-org.github.io/iptv/countries/us.m3u",
+      "samples": [
+        {
+          "checked_at": "2026-11-25T22:37:05+08:00",
+          "status": "passed",
+          "width": 720,
+          "height": 484,
+          "decoded_seconds": 3.0,
+          "decoded_frames": 90,
+          "phase": "first"
+        },
+        {
+          "checked_at": "2026-11-25T22:37:54+08:00",
+          "status": "passed",
+          "width": 720,
+          "height": 484,
+          "decoded_seconds": 3.0,
+          "decoded_frames": 89,
+          "phase": "second"
+        }
+      ],
+      "selected": false,
+      "exclusion": "相同频道已有通过两轮且清晰度更高的地址"
+    },
+    {
+      "channel": "WORLD Channel",
+      "region": "US",
+      "domain": "world.lls.pbs.org",
+      "reference": "https://iptv-org.github.io/iptv/countries/us.m3u",
+      "samples": [
+        {
+          "checked_at": "2026-11-25T22:37:09+08:00",
+          "status": "failed",
+          "phase": "first",
+          "reason": "返回内容不是 HLS 或 MPEG-TS 媒体"
+        }
+      ],
+      "selected": false
+    },
+    {
+      "channel": "春川 MBC",
+      "region": "KR",
+      "domain": "stream.chmbc.co.kr",
+      "reference": "https://iptv-org.github.io/iptv/countries/kr.m3u",
+      "samples": [
+        {
+          "checked_at": "2026-11-25T22:36:51+08:00",
+          "status": "failed",
+          "phase": "first",
+          "reason": "媒体分片下载不完整"
+        }
+      ],
+      "selected": false
+    },
+    {
+      "channel": "WeatherNation",
+      "region": "US",
+      "domain": "aka-live1050.delivery.roku.com",
+      "reference": "https://iptv-org.github.io/iptv/countries/us.m3u",
+      "samples": [
+        {
+          "checked_at": "2026-11-25T22:37:07+08:00",
+          "status": "failed",
+          "phase": "first",
+          "reason": "加密 HLS 未完成解密测试，未添加"
+        }
+      ],
+      "selected": false
+    },
+    {
+      "channel": "WORLD Channel",
+      "region": "US",
+      "domain": "wgtvdt3.lls.pbs.org",
+      "reference": "https://iptv-org.github.io/iptv/countries/us.m3u",
+      "samples": [
+        {
+          "checked_at": "2026-11-25T22:37:09+08:00",
+          "status": "failed",
+          "phase": "first",
+          "reason": "返回内容不是 HLS 或 MPEG-TS 媒体"
+        }
+      ],
+      "selected": false
+    },
+    {
+      "channel": "Court TV",
+      "region": "US",
+      "domain": "cdn-uw2-prod.tsv2.amagi.tv",
+      "reference": "https://iptv-org.github.io/iptv/countries/us.m3u",
+      "samples": [
+        {
+          "checked_at": "2026-11-25T22:37:00+08:00",
+          "status": "passed",
+          "width": 1920,
+          "height": 1080,
+          "decoded_seconds": 3.011,
+          "decoded_frames": 90,
+          "phase": "first"
+        },
+        {
+          "checked_at": "2026-11-25T22:37:55+08:00",
+          "status": "passed",
+          "width": 1920,
+          "height": 1080,
+          "decoded_seconds": 3.003,
+          "decoded_frames": 90,
+          "phase": "second"
+        }
+      ],
+      "selected": true
+    },
+    {
+      "channel": "原住民族电视台",
+      "region": "TW",
+      "domain": "gcdn.3rd-evo.com",
+      "reference": "https://titv.ipcf.org.tw/",
+      "samples": [
+        {
+          "checked_at": "2026-11-25T22:37:11+08:00",
+          "status": "failed",
+          "phase": "first",
+          "reason": "HTTP 0: curl: (35) LibreSSL SSL_connect: SSL_ERROR_SYSCALL in connection to gcdn.3rd-evo.com:443"
+        }
+      ],
+      "selected": false
+    },
+    {
+      "channel": "TVB 新闻台",
+      "region": "HK",
+      "domain": "cdn6.cc.cd",
+      "reference": "https://news.tvb.com/",
+      "samples": [
+        {
+          "checked_at": "2026-11-25T22:37:11+08:00",
+          "status": "failed",
+          "phase": "first",
+          "reason": "点播或已经结束的 HLS，未作为直播添加"
+        }
+      ],
+      "selected": false
+    },
+    {
+      "channel": "CBS News 24/7",
+      "region": "US",
+      "domain": "cbsn-us-cedexis.cbsnstream.cbsnews.com",
+      "reference": "https://www.cbsnews.com/live/",
+      "samples": [
+        {
+          "checked_at": "2026-11-25T22:37:12+08:00",
+          "status": "failed",
+          "phase": "first",
+          "reason": "HTTP 0: curl: (35) LibreSSL SSL_connect: SSL_ERROR_SYSCALL in connection to cbsn-us-cedexis.cbsnstream.cbsnews.com:443"
+        }
+      ],
+      "selected": false
+    },
+    {
+      "channel": "Newsmax2",
+      "region": "US",
+      "domain": "amg00217-newsmax-newsmax-zeasn-022k9.amagi.tv",
+      "reference": "https://iptv-org.github.io/iptv/countries/us.m3u",
+      "samples": [
+        {
+          "checked_at": "2026-11-25T22:37:04+08:00",
+          "status": "passed",
+          "width": 1920,
+          "height": 1080,
+          "decoded_seconds": 3.009,
+          "decoded_frames": 90,
+          "phase": "first"
+        },
+        {
+          "checked_at": "2026-11-25T22:37:57+08:00",
+          "status": "passed",
+          "width": 1920,
+          "height": 1080,
+          "decoded_seconds": 3.003,
+          "decoded_frames": 90,
+          "phase": "second"
+        }
+      ],
+      "selected": true
+    },
+    {
+      "channel": "FOX Weather",
+      "region": "US",
+      "domain": "amg00488-foxdigital-fox2sanfranciscoktvu-vizious-cshim.amagi.tv",
+      "reference": "https://iptv-org.github.io/iptv/countries/us.m3u",
+      "samples": [
+        {
+          "checked_at": "2026-11-25T22:37:02+08:00",
+          "status": "passed",
+          "width": 1920,
+          "height": 1080,
+          "decoded_seconds": 3.009,
+          "decoded_frames": 90,
+          "phase": "first"
+        },
+        {
+          "checked_at": "2026-11-25T22:37:57+08:00",
+          "status": "passed",
+          "width": 1920,
+          "height": 1080,
+          "decoded_seconds": 3.003,
+          "decoded_frames": 90,
+          "phase": "second"
+        }
+      ],
+      "selected": true
+    },
+    {
+      "channel": "FOX Weather",
+      "region": "US",
+      "domain": "amg00488-foxdigital-fox35orlandowofl-vizious-i7zzw.amagi.tv",
+      "reference": "https://iptv-org.github.io/iptv/countries/us.m3u",
+      "samples": [
+        {
+          "checked_at": "2026-11-25T22:37:04+08:00",
+          "status": "passed",
+          "width": 1920,
+          "height": 1080,
+          "decoded_seconds": 3.003,
+          "decoded_frames": 90,
+          "phase": "first"
+        },
+        {
+          "checked_at": "2026-11-25T22:37:58+08:00",
+          "status": "passed",
+          "width": 1920,
+          "height": 1080,
+          "decoded_seconds": 3.005,
+          "decoded_frames": 90,
+          "phase": "second"
+        }
+      ],
+      "selected": true
+    },
+    {
+      "channel": "YTN",
+      "region": "KR",
+      "domain": "slive.ytn.co.kr",
+      "reference": "https://www.ytn.co.kr/",
+      "samples": [
+        {
+          "checked_at": "2026-11-25T22:37:11+08:00",
+          "status": "failed",
+          "phase": "first",
+          "reason": "HTTP 0: curl: (35) LibreSSL SSL_connect: SSL_ERROR_SYSCALL in connection to slive.ytn.co.kr:443"
+        }
+      ],
+      "selected": false
+    },
+    {
+      "channel": "YTN Science",
+      "region": "KR",
+      "domain": "slive.sciencetv.kr",
+      "reference": "https://science.ytn.co.kr/",
+      "samples": [
+        {
+          "checked_at": "2026-11-25T22:37:11+08:00",
+          "status": "failed",
+          "phase": "first",
+          "reason": "HTTP 0: curl: (52) Empty reply from server"
+        }
+      ],
+      "selected": false
+    },
+    {
+      "channel": "TVB 明珠台",
+      "region": "HK",
+      "domain": "cdn3.indevs.in",
+      "reference": "https://www.tvb.com/",
+      "samples": [
+        {
+          "checked_at": "2026-11-25T22:37:10+08:00",
+          "status": "failed",
+          "phase": "first",
+          "reason": "HTTP 0: curl: (28) Operation timed out after 10002 milliseconds with 0 bytes received"
+        }
+      ],
+      "selected": false
+    },
+    {
+      "channel": "韩国国防电视",
+      "region": "KR",
+      "domain": "mediaworks.dema.mil.kr",
+      "reference": "https://iptv-org.github.io/iptv/countries/kr.m3u",
+      "samples": [
+        {
+          "checked_at": "2026-11-25T22:36:51+08:00",
+          "status": "passed",
+          "width": 1920,
+          "height": 1080,
+          "decoded_seconds": 3.003,
+          "decoded_frames": 90,
+          "phase": "first"
+        },
+        {
+          "checked_at": "2026-11-25T22:37:59+08:00",
+          "status": "passed",
+          "width": 1920,
+          "height": 1080,
+          "decoded_seconds": 3.007,
+          "decoded_frames": 90,
+          "phase": "second"
+        }
+      ],
+      "selected": true
+    },
+    {
+      "channel": "Now 新闻台",
+      "region": "HK",
+      "domain": "hwebcast.now.com",
+      "reference": "https://news.now.com/",
+      "samples": [
+        {
+          "checked_at": "2026-11-25T22:37:29+08:00",
+          "status": "failed",
+          "phase": "extra-first",
+          "reason": "HTTP 0: curl: (52) Empty reply from server"
+        }
+      ],
+      "selected": false
+    },
+    {
+      "channel": "Now 财经台",
+      "region": "HK",
+      "domain": "hwebcast.now.com",
+      "reference": "https://finance.now.com/",
+      "samples": [
+        {
+          "checked_at": "2026-11-25T22:37:29+08:00",
+          "status": "failed",
+          "phase": "extra-first",
+          "reason": "HTTP 0: curl: (52) Empty reply from server"
+        }
+      ],
+      "selected": false
+    },
+    {
+      "channel": "ViuTV",
+      "region": "HK",
+      "domain": "nowtv100-i.akamaihd.net",
+      "reference": "https://viu.tv/",
+      "samples": [
+        {
+          "checked_at": "2026-11-25T22:37:29+08:00",
+          "status": "failed",
+          "phase": "extra-first",
+          "reason": "HTTP 400: <HTML><HEAD>"
+        }
+      ],
+      "selected": false
+    },
+    {
+      "channel": "凤凰香港台",
+      "region": "HK",
+      "domain": "ktv039.cdnak.ds.kylintv.net",
+      "reference": "https://m.fengshows.com/",
+      "samples": [
+        {
+          "checked_at": "2026-11-25T22:37:29+08:00",
+          "status": "failed",
+          "phase": "extra-first",
+          "reason": "HTTP 0: curl: (52) Empty reply from server"
+        }
+      ],
+      "selected": false
+    },
+    {
+      "channel": "港台电视35",
+      "region": "HK",
+      "domain": "rthktv35-live.akamaized.net",
+      "reference": "https://www.rthk.hk/tv/dtt35",
+      "samples": [
+        {
+          "checked_at": "2026-11-25T22:37:29+08:00",
+          "status": "failed",
+          "phase": "extra-first",
+          "reason": "HTTP 404: {\"error\":\"Not found: Egress retrieve hls/20002709-b/RTHKTV35/media/stream05/streamPlaylist.m3u8 error. Not found in all storage\"}"
+        }
+      ],
+      "selected": false
+    },
+    {
+      "channel": "ABC News Live",
+      "region": "US",
+      "domain": "abcnews-streams.akamaized.net",
+      "reference": "https://abcnews.com/Live",
+      "samples": [
+        {
+          "checked_at": "2026-11-25T22:37:29+08:00",
+          "status": "failed",
+          "phase": "extra-first",
+          "reason": "HTTP 404: {\"error\":\"Not found: Egress retrieve hls/2023562/abcnewshudson3/media/master_4000.m3u8 error. Not found in all storage\"}"
+        }
+      ],
+      "selected": false
+    },
+    {
+      "channel": "澳门卫星频道",
+      "region": "MO",
+      "domain": "live5.tdm.com.mo",
+      "reference": "https://www.tdm.com.mo/zh-hant/live",
+      "samples": [
+        {
+          "checked_at": "2026-11-25T22:37:29+08:00",
+          "status": "passed",
+          "width": 1920,
+          "height": 1080,
+          "decoded_seconds": 3.0,
+          "decoded_frames": 75,
+          "phase": "extra-first"
+        },
+        {
+          "checked_at": "2026-11-25T22:38:01+08:00",
+          "status": "passed",
+          "width": 1920,
+          "height": 1080,
+          "decoded_seconds": 3.0,
+          "decoded_frames": 74,
+          "phase": "second"
+        }
+      ],
+      "selected": true
+    }
+  ]
+}

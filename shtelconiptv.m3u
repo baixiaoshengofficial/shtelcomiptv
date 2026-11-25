@@ -396,6 +396,15 @@ https://live5.tdm.com.mo/ch1/ch1.live/playlist.m3u8
 #EXTINF:-1 tvg-name="澳门资讯" group-title="港澳频道",澳门资讯HD [官方CDN]
 https://live5.tdm.com.mo/ch5/info_ch5.live/playlist.m3u8
 
+#EXTINF:-1 tvg-name="Pet Club TV" group-title="港澳频道",Pet Club TVHD [公网]
+https://petclub-samsungaus.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-name="ViuTV" group-title="港澳频道",ViuTVHD [公网中转]
+http://php.jdshipin.com/TVOD/iptv.php?id=viutv
+
+#EXTINF:-1 tvg-name="澳门卫星频道 96" group-title="港澳频道",澳门卫星频道 96HD [官方CDN]
+https://live5.tdm.com.mo/ch3/ch3.live/playlist.m3u8
+
 #EXTINF:-1 tvg-name="TVBS欢乐节目线路" group-title="台湾频道",TVBS欢乐节目线路HD [公网中转]
 http://38.64.72.148/hls/modn/list/4005/playlist.m3u8
 
@@ -405,6 +414,18 @@ https://live.wcetv.com/hls/master-ttvnews.m3u8
 #EXTINF:-1 tvg-name="客家电视台" group-title="台湾频道",客家电视台HD [公网中转]
 https://h5cul1yar48um3t.wcetv.com/hls/hakkatv.m3u8
 
+#EXTINF:-1 tvg-name="CGNTV 中文台" group-title="台湾频道",CGNTV 中文台HD [公网]
+https://d3e05csss9c272.cloudfront.net/out/v1/f0bf71c57581470fb9379f603e8f5d83/CGNWebLiveCN.m3u8
+
+#EXTINF:-1 tvg-name="GOOD 2" group-title="台湾频道",GOOD 2HD [公网]
+https://live.streamingfast.net/osmflivech2.m3u8
+
+#EXTINF:-1 tvg-name="人间卫视" group-title="台湾频道",人间卫视HD [公网]
+https://5ddce30eb4b55.streamlock.net/bltvhd/bltv1/playlist.m3u8
+
+#EXTINF:-1 tvg-name="大立电视台" group-title="台湾频道",大立电视台HD [官方CDN]
+http://www.dalitv.com.tw:4568/live/dali/index.m3u8
+
 #EXTINF:-1 tvg-name="NHK WORLD-JAPAN" group-title="日本频道",NHK WORLD-JAPANHD [官方CDN]
 https://masterpl.hls.nhkworld.jp/hls/w/live/master.m3u8
 
@@ -413,6 +434,18 @@ https://japaneast.av.mk.io/mediakindcdn-mediakind/ca01a143-f823-4432-b670-c22ff9
 
 #EXTINF:-1 tvg-name="Weathernews LiVE" group-title="日本频道",Weathernews LiVEHD [公网]
 https://rch01e-alive-hls.akamaized.net/38fb45b25cdb05a1/out/v1/4e907bfabc684a1dae10df8431a84d21/index.m3u8
+
+#EXTINF:-1 tvg-name="NHK 综合台" group-title="日本频道",NHK 综合台HD [公网中转]
+https://tv-stream-test.daydreamer-json.cc/fe8bf835820fb530467f75a9cb761504/master.m3u8
+
+#EXTINF:-1 tvg-name="QVC 日本" group-title="日本频道",QVC 日本HD [公网]
+https://d1flvb4iqlercm.cloudfront.net/live/live_1080p_2nd.m3u8
+
+#EXTINF:-1 tvg-name="Shop Channel 日本" group-title="日本频道",Shop Channel 日本HD [官方CDN]
+https://stream3.shopch.jp/HLS/master.m3u8
+
+#EXTINF:-1 tvg-name="樱桃电视台" group-title="日本频道",樱桃电视台HD [公网中转]
+https://tv-stream-test.daydreamer-json.cc/stream/bd2dd29080c36c9b01338d329156febe/master.m3u8
 
 #EXTINF:-1 tvg-name="Arirang TV" group-title="韩国频道",Arirang TVHD [官方CDN]
 https://amdlive-ch01-ctnd-com.akamaized.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8
@@ -435,11 +468,56 @@ https://ebsonair.ebs.co.kr/plus1familypc/familypc1m/playlist.m3u8
 #EXTINF:-1 tvg-name="KTV 韩国国民广播" group-title="韩国频道",KTV 韩国国民广播HD [官方CDN]
 https://hlive.ktv.go.kr/live/klive_h.stream/playlist.m3u8
 
+#EXTINF:-1 tvg-name="ABN 韩国" group-title="韩国频道",ABN 韩国HD [公网]
+https://vod2.abn.co.kr/IPHONE/abn.m3u8
+
+#EXTINF:-1 tvg-name="EBS English" group-title="韩国频道",EBS English [官方CDN]
+https://ebsonair.ebs.co.kr/plus3familypc/familypc1m/playlist.m3u8
+
+#EXTINF:-1 tvg-name="EBS Plus 2" group-title="韩国频道",EBS Plus 2 [官方CDN]
+https://ebsonair.ebs.co.kr/plus2familypc/familypc1m/playlist.m3u8
+
+#EXTINF:-1 tvg-name="TBS 首尔" group-title="韩国频道",TBS 首尔HD [公网]
+https://cdntv.tbs.seoul.kr/tbs/tbs_tv_web.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-name="TV Chosun" group-title="韩国频道",TV ChosunHD [公网]
+http://onair.cdn.tvchosun.com/origin1/_definst_/tvchosun_s1/playlist.m3u8
+
+#EXTINF:-1 tvg-name="TV Chosun 2" group-title="韩国频道",TV Chosun 2HD [公网]
+http://onair2.cdn.tvchosun.com/origin2/_definst_/tvchosun_s3/playlist.m3u8
+
+#EXTINF:-1 tvg-name="国乐放送 Gugak TV" group-title="韩国频道",国乐放送 Gugak TVHD [公网]
+https://mgugaklive.nowcdn.co.kr/gugakvideo/gugakvideo.stream/playlist.m3u8
+
+#EXTINF:-1 tvg-name="韩国农业电视 NBS" group-title="韩国频道",韩国农业电视 NBSHD [公网]
+https://media.joycorp.co.kr:4443/live/ngrp:live_all/playlist.m3u8
+
+#EXTINF:-1 tvg-name="韩国国防电视" group-title="韩国频道",韩国国防电视HD [官方CDN]
+http://mediaworks.dema.mil.kr:1935/live_edge/cudo.sdp/playlist.m3u8
+
+#EXTINF:-1 tvg-name="韩国开放大学 OUN" group-title="韩国频道",韩国开放大学 OUNHD [官方CDN]
+https://live.knou.ac.kr/knou1/live1/playlist.m3u8
+
 #EXTINF:-1 tvg-name="NBC News NOW" group-title="美国频道",NBC News NOWHD [公网]
 https://d1si3n1st4nkgb.cloudfront.net/10502/88896001/hls/master.m3u8?ads.xumo_channelId=88896001
 
 #EXTINF:-1 tvg-name="PBS KIDS" group-title="美国频道",PBS KIDSHD [官方CDN]
 https://livestream.pbskids.org/out/v1/14507d931bbe48a69287e4850e53443c/est.m3u8
+
+#EXTINF:-1 tvg-name="Court TV" group-title="美国频道",Court TVHD [公网]
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01438-ewscrippscompan-courttv-tablo/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Create TV（MPT）" group-title="美国频道",Create TV（MPT）HD [公网]
+https://2-fss-1.streamhoster.com/pl_122/amlst:201814-2122456/playlist.m3u8
+
+#EXTINF:-1 tvg-name="FOX 35 奥兰多" group-title="美国频道",FOX 35 奥兰多HD [公网]
+https://amg00488-foxdigital-fox35orlandowofl-vizious-i7zzw.amagi.tv/playlist/amg00488-foxdigital-fox35orlandowofl-vizious/playlist.m3u8
+
+#EXTINF:-1 tvg-name="KTVU FOX 2 旧金山" group-title="美国频道",KTVU FOX 2 旧金山HD [公网]
+https://amg00488-foxdigital-fox2sanfranciscoktvu-vizious-cshim.amagi.tv/playlist/amg00488-foxdigital-fox2sanfranciscoktvu-vizious/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Newsmax2" group-title="美国频道",Newsmax2HD [公网]
+https://amg00217-newsmax-newsmax-zeasn-022k9.amagi.tv/playlist.m3u8
 
 #EXTINF:-1 tvg-id="67" tvg-name="CGTN" tvg-logo="https://epg.deny.vip/cctv/CGTN.png" group-title="国际频道",CGTN
 http://192.168.100.252:5678/udp/233.18.204.28:5140

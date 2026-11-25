@@ -1,0 +1,1781 @@
+{
+  "tested_at": "2026-11-25T21:41:31+08:00",
+  "complete": true,
+  "source_count": 26,
+  "results": [
+    {
+      "channel": "苏州4K [公网]",
+      "url": "https://live-auth.51kandianshi.com/szgd/csztv4k_4k.m3u8",
+      "checked_at": "2026-11-25T21:40:23+08:00",
+      "status": "passed",
+      "transport": "hls",
+      "segments_downloaded": 2,
+      "sample_bytes": 8753092,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "profile": "Main",
+          "codec_type": "video",
+          "width": 3840,
+          "height": 2160,
+          "pix_fmt": "yuv420p",
+          "r_frame_rate": "25/1",
+          "avg_frame_rate": "25/1"
+        },
+        {
+          "codec_name": "aac",
+          "profile": "LC",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "bit_rate": "195832"
+        }
+      ],
+      "program_tags": [
+        {
+          "service_name": "Service01",
+          "service_provider": "FFmpeg"
+        }
+      ],
+      "width": 3840,
+      "height": 2160,
+      "media_type": "video",
+      "decoded_seconds": 3.0,
+      "decoded_frames": 74,
+      "observed_hosts": [
+        "live-auth.51kandianshi.com"
+      ],
+      "requests": [
+        {
+          "host": "live-auth.51kandianshi.com",
+          "bytes": 305,
+          "seconds": 0.276,
+          "complete": true
+        },
+        {
+          "host": "live-auth.51kandianshi.com",
+          "bytes": 4281136,
+          "seconds": 0.745,
+          "complete": true
+        },
+        {
+          "host": "live-auth.51kandianshi.com",
+          "bytes": 4471956,
+          "seconds": 0.426,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "channel": "美丽河北4K [公网]",
+      "url": "https://event.pull.hebtv.com/live/live101.m3u8",
+      "checked_at": "2026-11-25T21:40:23+08:00",
+      "status": "passed",
+      "transport": "hls",
+      "segments_downloaded": 2,
+      "sample_bytes": 6908812,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "profile": "High",
+          "codec_type": "video",
+          "width": 3840,
+          "height": 2160,
+          "pix_fmt": "yuv420p",
+          "r_frame_rate": "25/1",
+          "avg_frame_rate": "25/1"
+        },
+        {
+          "codec_name": "aac",
+          "profile": "LC",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "bit_rate": "130659"
+        }
+      ],
+      "program_tags": [],
+      "width": 3840,
+      "height": 2160,
+      "media_type": "video",
+      "decoded_seconds": 3.0,
+      "decoded_frames": 71,
+      "observed_hosts": [
+        "event.pull.hebtv.com"
+      ],
+      "requests": [
+        {
+          "host": "event.pull.hebtv.com",
+          "bytes": 348,
+          "seconds": 0.278,
+          "complete": true
+        },
+        {
+          "host": "event.pull.hebtv.com",
+          "bytes": 3537032,
+          "seconds": 0.187,
+          "complete": true
+        },
+        {
+          "host": "event.pull.hebtv.com",
+          "bytes": 3371780,
+          "seconds": 0.264,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "channel": "Love Nature 4K [公网]",
+      "url": "https://pb-ehs1glsha1juy.akamaized.net/Love_Nature_4K.m3u8",
+      "checked_at": "2026-11-25T21:40:23+08:00",
+      "status": "passed",
+      "transport": "hls",
+      "segments_downloaded": 2,
+      "sample_bytes": 16049936,
+      "streams": [
+        {
+          "codec_name": "hevc",
+          "profile": "Main",
+          "codec_type": "video",
+          "width": 3840,
+          "height": 2160,
+          "pix_fmt": "yuv420p",
+          "r_frame_rate": "30000/1001",
+          "avg_frame_rate": "30000/1001"
+        },
+        {
+          "codec_name": "aac",
+          "profile": "LC",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "bit_rate": "254635"
+        }
+      ],
+      "program_tags": [],
+      "width": 3840,
+      "height": 2160,
+      "media_type": "video",
+      "decoded_seconds": 3.009,
+      "decoded_frames": 90,
+      "observed_hosts": [
+        "pb-ehs1glsha1juy.akamaized.net"
+      ],
+      "requests": [
+        {
+          "host": "pb-ehs1glsha1juy.akamaized.net",
+          "bytes": 917,
+          "seconds": 0.873,
+          "complete": true
+        },
+        {
+          "host": "pb-ehs1glsha1juy.akamaized.net",
+          "bytes": 609,
+          "seconds": 0.488,
+          "complete": true
+        },
+        {
+          "host": "pb-ehs1glsha1juy.akamaized.net",
+          "bytes": 8161644,
+          "seconds": 2.632,
+          "complete": true
+        },
+        {
+          "host": "pb-ehs1glsha1juy.akamaized.net",
+          "bytes": 7888292,
+          "seconds": 13.79,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "channel": "Bloomberg TV+ 4K [公网]",
+      "url": "https://d8975dc3.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2Ftc3VuZy1nYl9CbG9vbWJlcmdUVlBsdXNfSExT/playlist.m3u8",
+      "checked_at": "2026-11-25T21:40:25+08:00",
+      "status": "passed",
+      "transport": "hls",
+      "segments_downloaded": 2,
+      "sample_bytes": 15359412,
+      "streams": [
+        {
+          "codec_name": "hevc",
+          "profile": "Main",
+          "codec_type": "video",
+          "width": 3840,
+          "height": 2160,
+          "pix_fmt": "yuv420p",
+          "r_frame_rate": "60000/1001",
+          "avg_frame_rate": "60000/1001"
+        },
+        {
+          "codec_name": "aac",
+          "profile": "LC",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "bit_rate": "128034"
+        },
+        {
+          "codec_name": "scte_35",
+          "codec_type": "data",
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0"
+        }
+      ],
+      "program_tags": [],
+      "width": 3840,
+      "height": 2160,
+      "media_type": "video",
+      "decoded_seconds": 3.003,
+      "decoded_frames": 174,
+      "observed_hosts": [
+        "d8975dc3.wurl.com"
+      ],
+      "requests": [
+        {
+          "host": "d8975dc3.wurl.com",
+          "bytes": 1562,
+          "seconds": 1.999,
+          "complete": true
+        },
+        {
+          "host": "d8975dc3.wurl.com",
+          "bytes": 5682,
+          "seconds": 0.892,
+          "complete": true
+        },
+        {
+          "host": "d8975dc3.wurl.com",
+          "bytes": 7081020,
+          "seconds": 3.271,
+          "complete": true
+        },
+        {
+          "host": "d8975dc3.wurl.com",
+          "bytes": 8278392,
+          "seconds": 3.349,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "channel": "湖南卫视4K [公网备用]",
+      "url": "http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/Y2RuZXhfaWQ9YWxfaGxzX2xkdnQmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST.m3u8",
+      "checked_at": "2026-11-25T21:40:25+08:00",
+      "status": "passed",
+      "transport": "hls",
+      "segments_downloaded": 2,
+      "sample_bytes": 2196780,
+      "streams": [
+        {
+          "codec_name": "hevc",
+          "profile": "Main",
+          "codec_type": "video",
+          "width": 3840,
+          "height": 2160,
+          "pix_fmt": "yuv420p",
+          "r_frame_rate": "25/1",
+          "avg_frame_rate": "25/1"
+        },
+        {
+          "codec_name": "aac",
+          "profile": "LC",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "bit_rate": "66716"
+        }
+      ],
+      "program_tags": [],
+      "width": 3840,
+      "height": 2160,
+      "media_type": "video",
+      "decoded_seconds": 3.005,
+      "decoded_frames": 75,
+      "observed_hosts": [
+        "hlsal-ldvt.qing.mgtv.com"
+      ],
+      "requests": [
+        {
+          "host": "hlsal-ldvt.qing.mgtv.com",
+          "bytes": 231,
+          "seconds": 0.117,
+          "complete": true
+        },
+        {
+          "host": "hlsal-ldvt.qing.mgtv.com",
+          "bytes": 1099800,
+          "seconds": 0.136,
+          "complete": true
+        },
+        {
+          "host": "hlsal-ldvt.qing.mgtv.com",
+          "bytes": 1096980,
+          "seconds": 0.145,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "channel": "浙江卫视4K [公网备用]",
+      "url": "http://ali-xwl.cztv.com/live/channel4k2160p.m3u8",
+      "checked_at": "2026-11-25T21:40:26+08:00",
+      "status": "passed",
+      "transport": "hls",
+      "segments_downloaded": 2,
+      "sample_bytes": 10999880,
+      "streams": [
+        {
+          "codec_name": "aac",
+          "profile": "LC",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "bit_rate": "130834"
+        },
+        {
+          "codec_name": "hevc",
+          "profile": "Main",
+          "codec_type": "video",
+          "width": 3840,
+          "height": 2160,
+          "pix_fmt": "yuv420p",
+          "r_frame_rate": "50/1",
+          "avg_frame_rate": "50/1"
+        }
+      ],
+      "program_tags": [],
+      "width": 3840,
+      "height": 2160,
+      "media_type": "video",
+      "decoded_seconds": 3.005,
+      "decoded_frames": 150,
+      "observed_hosts": [
+        "ali-xwl.cztv.com"
+      ],
+      "requests": [
+        {
+          "host": "ali-xwl.cztv.com",
+          "bytes": 474,
+          "seconds": 0.579,
+          "complete": true
+        },
+        {
+          "host": "ali-xwl.cztv.com",
+          "bytes": 5552956,
+          "seconds": 0.6,
+          "complete": true
+        },
+        {
+          "host": "ali-xwl.cztv.com",
+          "bytes": 5446924,
+          "seconds": 0.36,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "channel": "广东珠江HD [EMOS]",
+      "url": "http://r.jdshipin.com/sE5vO",
+      "checked_at": "2026-11-25T21:40:29+08:00",
+      "status": "passed",
+      "transport": "hls",
+      "segments_downloaded": 2,
+      "sample_bytes": 6806540,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "profile": "High",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080,
+          "pix_fmt": "yuv420p",
+          "r_frame_rate": "25/1",
+          "avg_frame_rate": "25/1"
+        },
+        {
+          "codec_name": "aac",
+          "profile": "LC",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "bit_rate": "64124"
+        }
+      ],
+      "program_tags": [
+        {
+          "service_name": "",
+          "service_provider": ""
+        }
+      ],
+      "width": 1920,
+      "height": 1080,
+      "media_type": "video",
+      "decoded_seconds": 3.004,
+      "decoded_frames": 75,
+      "observed_hosts": [
+        "2.fast.hidns.vip",
+        "r.jdshipin.com"
+      ],
+      "requests": [
+        {
+          "host": "2.fast.hidns.vip",
+          "bytes": 4052,
+          "seconds": 3.686,
+          "complete": true
+        },
+        {
+          "host": "2.fast.hidns.vip",
+          "bytes": 3391896,
+          "seconds": 1.463,
+          "complete": true
+        },
+        {
+          "host": "2.fast.hidns.vip",
+          "bytes": 3414644,
+          "seconds": 3.243,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "channel": "广东珠江HD [EMOS 2]",
+      "url": "http://218.13.170.98:9901/tsfile/live/1000_1.m3u8?key=txiptv&playlive=1&authid=0",
+      "checked_at": "2026-11-25T21:40:35+08:00",
+      "status": "passed",
+      "transport": "hls",
+      "segments_downloaded": 2,
+      "sample_bytes": 10999128,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "profile": "High",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080,
+          "pix_fmt": "yuv420p",
+          "r_frame_rate": "25/1",
+          "avg_frame_rate": "25/1"
+        },
+        {
+          "codec_name": "mp2",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "bit_rate": "256000"
+        }
+      ],
+      "program_tags": [
+        {
+          "service_name": "",
+          "service_provider": ""
+        }
+      ],
+      "width": 1920,
+      "height": 1080,
+      "media_type": "video",
+      "decoded_seconds": 3.0,
+      "decoded_frames": 54,
+      "observed_hosts": [
+        "218.13.170.98"
+      ],
+      "requests": [
+        {
+          "host": "218.13.170.98",
+          "bytes": 444,
+          "seconds": 1.884,
+          "complete": true
+        },
+        {
+          "host": "218.13.170.98",
+          "bytes": 5498248,
+          "seconds": 8.648,
+          "complete": true
+        },
+        {
+          "host": "218.13.170.98",
+          "bytes": 5500880,
+          "seconds": 8.417,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "channel": "TVB翡翠台HD [公网中转]",
+      "url": "https://cdn3.indevs.in/stream/tvb/fct/",
+      "checked_at": "2026-11-25T21:40:37+08:00",
+      "status": "passed",
+      "transport": "hls",
+      "segments_downloaded": 2,
+      "sample_bytes": 8892588,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "profile": "High",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080,
+          "pix_fmt": "yuv420p",
+          "r_frame_rate": "25/1",
+          "avg_frame_rate": "25/1"
+        },
+        {
+          "codec_name": "aac",
+          "profile": "LC",
+          "codec_type": "audio",
+          "sample_rate": "32000",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "bit_rate": "127800"
+        },
+        {
+          "codec_name": "aac",
+          "profile": "LC",
+          "codec_type": "audio",
+          "sample_rate": "32000",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "bit_rate": "127863"
+        },
+        {
+          "codec_name": "dvb_subtitle",
+          "codec_type": "subtitle",
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0"
+        }
+      ],
+      "program_tags": [
+        {
+          "service_name": "翡翠台",
+          "service_provider": "tvb"
+        }
+      ],
+      "width": 1920,
+      "height": 1080,
+      "media_type": "video",
+      "decoded_seconds": 3.0,
+      "decoded_frames": 71,
+      "observed_hosts": [
+        "cdn3.indevs.in"
+      ],
+      "requests": [
+        {
+          "host": "cdn3.indevs.in",
+          "bytes": 229,
+          "seconds": 1.846,
+          "complete": true
+        },
+        {
+          "host": "cdn3.indevs.in",
+          "bytes": 968,
+          "seconds": 0.508,
+          "complete": true
+        },
+        {
+          "host": "cdn3.indevs.in",
+          "bytes": 4545276,
+          "seconds": 6.901,
+          "complete": true
+        },
+        {
+          "host": "cdn3.indevs.in",
+          "bytes": 4347312,
+          "seconds": 1.671,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "channel": "港台电视31HD [官方CDN]",
+      "url": "https://rthktv31-live.akamaized.net/hls/live/2036818/RTHKTV31/master.m3u8",
+      "checked_at": "2026-11-25T21:40:41+08:00",
+      "status": "passed",
+      "transport": "hls",
+      "segments_downloaded": 2,
+      "sample_bytes": 15167276,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "profile": "High",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080,
+          "pix_fmt": "yuv420p",
+          "r_frame_rate": "25/1",
+          "avg_frame_rate": "25/1"
+        },
+        {
+          "codec_name": "aac",
+          "profile": "LC",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "bit_rate": "128164"
+        },
+        {
+          "codec_name": "aac",
+          "profile": "LC",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "bit_rate": "192000"
+        },
+        {
+          "codec_name": "aac",
+          "profile": "LC",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "bit_rate": "192000"
+        },
+        {
+          "codec_name": "ac3",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "bit_rate": "192000"
+        }
+      ],
+      "program_tags": [],
+      "width": 1920,
+      "height": 1080,
+      "media_type": "video",
+      "decoded_seconds": 3.012,
+      "decoded_frames": 75,
+      "observed_hosts": [
+        "rthktv31-live.akamaized.net"
+      ],
+      "requests": [
+        {
+          "host": "rthktv31-live.akamaized.net",
+          "bytes": 644,
+          "seconds": 0.294,
+          "complete": true
+        },
+        {
+          "host": "rthktv31-live.akamaized.net",
+          "bytes": 446,
+          "seconds": 0.602,
+          "complete": true
+        },
+        {
+          "host": "rthktv31-live.akamaized.net",
+          "bytes": 7932284,
+          "seconds": 1.621,
+          "complete": true
+        },
+        {
+          "host": "rthktv31-live.akamaized.net",
+          "bytes": 7234992,
+          "seconds": 10.073,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "channel": "凤凰卫视资讯台HD [公网中转]",
+      "url": "https://cdn.qd.je/163189/fhzx",
+      "checked_at": "2026-11-25T21:40:49+08:00",
+      "status": "passed",
+      "transport": "hls",
+      "segments_downloaded": 2,
+      "sample_bytes": 9111796,
+      "streams": [
+        {
+          "codec_name": "aac",
+          "profile": "HE-AAC",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "bit_rate": "40038"
+        },
+        {
+          "codec_name": "h264",
+          "profile": "High",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080,
+          "pix_fmt": "yuv420p",
+          "r_frame_rate": "50/1",
+          "avg_frame_rate": "50/1"
+        }
+      ],
+      "program_tags": [
+        {
+          "service_name": "Service01",
+          "service_provider": "FFmpeg"
+        }
+      ],
+      "width": 1920,
+      "height": 1080,
+      "media_type": "video",
+      "decoded_seconds": 3.0,
+      "decoded_frames": 148,
+      "observed_hosts": [
+        "cdn.qd.je",
+        "cdn6.cc.cd"
+      ],
+      "requests": [
+        {
+          "host": "cdn.qd.je",
+          "bytes": 74,
+          "seconds": 1.335,
+          "complete": true
+        },
+        {
+          "host": "cdn6.cc.cd",
+          "bytes": 302,
+          "seconds": 0.305,
+          "complete": true
+        },
+        {
+          "host": "cdn6.cc.cd",
+          "bytes": 4558248,
+          "seconds": 3.575,
+          "complete": true
+        },
+        {
+          "host": "cdn6.cc.cd",
+          "bytes": 4553548,
+          "seconds": 1.562,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "channel": "凤凰卫视中文台HD [公网中转]",
+      "url": "https://cdn.qd.je/163189/fhzw",
+      "checked_at": "2026-11-25T21:40:54+08:00",
+      "status": "passed",
+      "transport": "hls",
+      "segments_downloaded": 2,
+      "sample_bytes": 9104652,
+      "streams": [
+        {
+          "codec_name": "aac",
+          "profile": "HE-AAC",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "bit_rate": "40083"
+        },
+        {
+          "codec_name": "h264",
+          "profile": "High",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080,
+          "pix_fmt": "yuv420p",
+          "r_frame_rate": "50/1",
+          "avg_frame_rate": "50/1"
+        }
+      ],
+      "program_tags": [
+        {
+          "service_name": "Service01",
+          "service_provider": "FFmpeg"
+        }
+      ],
+      "width": 1920,
+      "height": 1080,
+      "media_type": "video",
+      "decoded_seconds": 3.0,
+      "decoded_frames": 148,
+      "observed_hosts": [
+        "cdn.qd.je",
+        "cdn6.cc.cd"
+      ],
+      "requests": [
+        {
+          "host": "cdn.qd.je",
+          "bytes": 74,
+          "seconds": 0.248,
+          "complete": true
+        },
+        {
+          "host": "cdn6.cc.cd",
+          "bytes": 302,
+          "seconds": 0.403,
+          "complete": true
+        },
+        {
+          "host": "cdn6.cc.cd",
+          "bytes": 4576484,
+          "seconds": 0.946,
+          "complete": true
+        },
+        {
+          "host": "cdn6.cc.cd",
+          "bytes": 4528168,
+          "seconds": 1.187,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "channel": "TVB PlusHD [公网中转]",
+      "url": "https://cdn3.indevs.in/stream/tvb/tvbp/",
+      "checked_at": "2026-11-25T21:40:55+08:00",
+      "status": "passed",
+      "transport": "hls",
+      "segments_downloaded": 2,
+      "sample_bytes": 8792008,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "profile": "High",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080,
+          "pix_fmt": "yuv420p",
+          "r_frame_rate": "25/1",
+          "avg_frame_rate": "25/1"
+        },
+        {
+          "codec_name": "aac",
+          "profile": "LC",
+          "codec_type": "audio",
+          "sample_rate": "32000",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "bit_rate": "128108"
+        },
+        {
+          "codec_name": "aac",
+          "profile": "LC",
+          "codec_type": "audio",
+          "sample_rate": "32000",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "bit_rate": "128032"
+        },
+        {
+          "codec_name": "dvb_subtitle",
+          "codec_type": "subtitle",
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0"
+        }
+      ],
+      "program_tags": [
+        {
+          "service_name": "TVB PLUS",
+          "service_provider": "tvb"
+        }
+      ],
+      "width": 1920,
+      "height": 1080,
+      "media_type": "video",
+      "decoded_seconds": 3.0,
+      "decoded_frames": 71,
+      "observed_hosts": [
+        "cdn3.indevs.in"
+      ],
+      "requests": [
+        {
+          "host": "cdn3.indevs.in",
+          "bytes": 229,
+          "seconds": 1.824,
+          "complete": true
+        },
+        {
+          "host": "cdn3.indevs.in",
+          "bytes": 968,
+          "seconds": 0.228,
+          "complete": true
+        },
+        {
+          "host": "cdn3.indevs.in",
+          "bytes": 4409540,
+          "seconds": 2.141,
+          "complete": true
+        },
+        {
+          "host": "cdn3.indevs.in",
+          "bytes": 4382468,
+          "seconds": 1.346,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "channel": "TVBS欢乐节目线路HD [公网中转]",
+      "url": "http://38.64.72.148/hls/modn/list/4005/playlist.m3u8",
+      "checked_at": "2026-11-25T21:40:56+08:00",
+      "status": "passed",
+      "transport": "hls",
+      "segments_downloaded": 2,
+      "sample_bytes": 4081856,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "profile": "Main",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080,
+          "pix_fmt": "yuv420p",
+          "r_frame_rate": "30000/1001",
+          "avg_frame_rate": "30000/1001"
+        },
+        {
+          "codec_name": "aac",
+          "profile": "LC",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "bit_rate": "130438"
+        }
+      ],
+      "program_tags": [
+        {
+          "service_name": "Service01",
+          "service_provider": "FFmpeg"
+        }
+      ],
+      "width": 1920,
+      "height": 1080,
+      "media_type": "video",
+      "decoded_seconds": 3.017,
+      "decoded_frames": 56,
+      "observed_hosts": [
+        "38.64.72.148"
+      ],
+      "requests": [
+        {
+          "host": "38.64.72.148",
+          "bytes": 235,
+          "seconds": 0.691,
+          "complete": true
+        },
+        {
+          "host": "38.64.72.148",
+          "bytes": 396,
+          "seconds": 0.674,
+          "complete": true
+        },
+        {
+          "host": "38.64.72.148",
+          "bytes": 1980016,
+          "seconds": 10.703,
+          "complete": true
+        },
+        {
+          "host": "38.64.72.148",
+          "bytes": 2101840,
+          "seconds": 13.357,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "channel": "NHK WORLD-JAPANHD [官方CDN]",
+      "url": "https://masterpl.hls.nhkworld.jp/hls/w/live/master.m3u8",
+      "checked_at": "2026-11-25T21:40:58+08:00",
+      "status": "passed",
+      "transport": "hls",
+      "segments_downloaded": 2,
+      "sample_bytes": 3921873,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "profile": "Main",
+          "codec_type": "video",
+          "width": 1280,
+          "height": 720,
+          "pix_fmt": "yuv420p",
+          "r_frame_rate": "30000/1001",
+          "avg_frame_rate": "30000/1001",
+          "bit_rate": "2511478"
+        }
+      ],
+      "program_tags": [],
+      "width": 1280,
+      "height": 720,
+      "media_type": "video",
+      "decoded_seconds": 3.003,
+      "decoded_frames": 90,
+      "observed_hosts": [
+        "masterpl.hls.nhkworld.jp",
+        "media-tyo.hls.nhkworld.jp"
+      ],
+      "requests": [
+        {
+          "host": "masterpl.hls.nhkworld.jp",
+          "bytes": 2015,
+          "seconds": 0.606,
+          "complete": true
+        },
+        {
+          "host": "media-tyo.hls.nhkworld.jp",
+          "bytes": 766,
+          "seconds": 0.574,
+          "complete": true
+        },
+        {
+          "host": "media-tyo.hls.nhkworld.jp",
+          "bytes": 731,
+          "seconds": 0.749,
+          "complete": true
+        },
+        {
+          "host": "media-tyo.hls.nhkworld.jp",
+          "bytes": 1887832,
+          "seconds": 1.356,
+          "complete": true
+        },
+        {
+          "host": "media-tyo.hls.nhkworld.jp",
+          "bytes": 2033310,
+          "seconds": 0.883,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "channel": "Arirang TVHD [官方CDN]",
+      "url": "https://amdlive-ch01-ctnd-com.akamaized.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8",
+      "checked_at": "2026-11-25T21:41:01+08:00",
+      "status": "passed",
+      "transport": "hls",
+      "segments_downloaded": 2,
+      "sample_bytes": 1968548,
+      "streams": [
+        {
+          "codec_name": "timed_id3",
+          "codec_type": "data",
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0"
+        },
+        {
+          "codec_name": "h264",
+          "profile": "High",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080,
+          "pix_fmt": "yuv420p",
+          "r_frame_rate": "30000/1001",
+          "avg_frame_rate": "30000/1001"
+        },
+        {
+          "codec_name": "aac",
+          "profile": "LC",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "bit_rate": "255751"
+        }
+      ],
+      "program_tags": [],
+      "width": 1920,
+      "height": 1080,
+      "media_type": "video",
+      "decoded_seconds": 3.003,
+      "decoded_frames": 90,
+      "observed_hosts": [
+        "amdlive-ch01-ctnd-com.akamaized.net"
+      ],
+      "requests": [
+        {
+          "host": "amdlive-ch01-ctnd-com.akamaized.net",
+          "bytes": 366,
+          "seconds": 0.996,
+          "complete": true
+        },
+        {
+          "host": "amdlive-ch01-ctnd-com.akamaized.net",
+          "bytes": 278,
+          "seconds": 1.436,
+          "complete": true
+        },
+        {
+          "host": "amdlive-ch01-ctnd-com.akamaized.net",
+          "bytes": 1033436,
+          "seconds": 2.044,
+          "complete": true
+        },
+        {
+          "host": "amdlive-ch01-ctnd-com.akamaized.net",
+          "bytes": 935112,
+          "seconds": 4.289,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "channel": "KBS WORLDHD [公网中转]",
+      "url": "https://stream8.cinerama.uz/1448/playlist.m3u8",
+      "checked_at": "2026-11-25T21:41:02+08:00",
+      "status": "passed",
+      "transport": "hls",
+      "segments_downloaded": 2,
+      "sample_bytes": 4057792,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "profile": "Main",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080,
+          "pix_fmt": "yuv420p",
+          "r_frame_rate": "25/1",
+          "avg_frame_rate": "25/1"
+        },
+        {
+          "codec_name": "aac",
+          "profile": "LC",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "bit_rate": "4545"
+        }
+      ],
+      "program_tags": [
+        {
+          "service_name": "Service01",
+          "service_provider": "FFmpeg"
+        }
+      ],
+      "width": 1920,
+      "height": 1080,
+      "media_type": "video",
+      "decoded_seconds": 3.0,
+      "decoded_frames": 73,
+      "observed_hosts": [
+        "cache1.cinerama.uz",
+        "stream8.cinerama.uz"
+      ],
+      "requests": [
+        {
+          "host": "cache1.cinerama.uz",
+          "bytes": 183,
+          "seconds": 2.571,
+          "complete": true
+        },
+        {
+          "host": "cache1.cinerama.uz",
+          "bytes": 299,
+          "seconds": 1.477,
+          "complete": true
+        },
+        {
+          "host": "cache1.cinerama.uz",
+          "bytes": 2144704,
+          "seconds": 3.043,
+          "complete": true
+        },
+        {
+          "host": "cache1.cinerama.uz",
+          "bytes": 1913088,
+          "seconds": 3.704,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "channel": "CGNTVJapanHD [EMOS]",
+      "url": "https://d2p4mrcwl6ly4.cloudfront.net/out/v1/8d50f69fdbbf411a8d302743e4263716/CGNWebLiveJP.m3u8",
+      "checked_at": "2026-11-25T21:41:10+08:00",
+      "status": "passed",
+      "transport": "hls",
+      "segments_downloaded": 2,
+      "sample_bytes": 7311320,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "profile": "Main",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080,
+          "pix_fmt": "yuv420p",
+          "r_frame_rate": "30000/1001",
+          "avg_frame_rate": "30000/1001"
+        },
+        {
+          "codec_name": "aac",
+          "profile": "LC",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "bit_rate": "192105"
+        },
+        {
+          "codec_name": "scte_35",
+          "codec_type": "data",
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0"
+        },
+        {
+          "codec_name": "timed_id3",
+          "codec_type": "data",
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0"
+        }
+      ],
+      "program_tags": [],
+      "width": 1920,
+      "height": 1080,
+      "media_type": "video",
+      "decoded_seconds": 3.007,
+      "decoded_frames": 90,
+      "observed_hosts": [
+        "d2p4mrcwl6ly4.cloudfront.net"
+      ],
+      "requests": [
+        {
+          "host": "d2p4mrcwl6ly4.cloudfront.net",
+          "bytes": 754,
+          "seconds": 1.451,
+          "complete": true
+        },
+        {
+          "host": "d2p4mrcwl6ly4.cloudfront.net",
+          "bytes": 664,
+          "seconds": 0.877,
+          "complete": true
+        },
+        {
+          "host": "d2p4mrcwl6ly4.cloudfront.net",
+          "bytes": 3627272,
+          "seconds": 1.263,
+          "complete": true
+        },
+        {
+          "host": "d2p4mrcwl6ly4.cloudfront.net",
+          "bytes": 3684048,
+          "seconds": 4.744,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "channel": "BreadTVHD [EMOS]",
+      "url": "https://video.bread-tv.com:8091/hls-live24/online/index.m3u8",
+      "checked_at": "2026-11-25T21:41:13+08:00",
+      "status": "passed",
+      "transport": "hls",
+      "segments_downloaded": 2,
+      "sample_bytes": 5813336,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "profile": "High",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080,
+          "pix_fmt": "yuv420p",
+          "r_frame_rate": "30/1",
+          "avg_frame_rate": "30/1"
+        },
+        {
+          "codec_name": "aac",
+          "profile": "LC",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "bit_rate": "4564"
+        }
+      ],
+      "program_tags": [],
+      "width": 1920,
+      "height": 1080,
+      "media_type": "video",
+      "decoded_seconds": 3.0,
+      "decoded_frames": 87,
+      "observed_hosts": [
+        "video.bread-tv.com"
+      ],
+      "requests": [
+        {
+          "host": "video.bread-tv.com",
+          "bytes": 153,
+          "seconds": 0.805,
+          "complete": true
+        },
+        {
+          "host": "video.bread-tv.com",
+          "bytes": 2906856,
+          "seconds": 4.629,
+          "complete": true
+        },
+        {
+          "host": "video.bread-tv.com",
+          "bytes": 2906480,
+          "seconds": 1.357,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "channel": "CGTNHD [EMOS]",
+      "url": "https://amg00405-rakutentv-cgtn-rakuten-i9tar.amagi.tv/master.m3u8",
+      "checked_at": "2026-11-25T21:41:18+08:00",
+      "status": "passed",
+      "transport": "hls",
+      "segments_downloaded": 2,
+      "sample_bytes": 7950144,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "profile": "Main",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080,
+          "pix_fmt": "yuv420p",
+          "r_frame_rate": "30/1",
+          "avg_frame_rate": "30/1"
+        },
+        {
+          "codec_name": "aac",
+          "profile": "LC",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "bit_rate": "127931"
+        }
+      ],
+      "program_tags": [],
+      "width": 1920,
+      "height": 1080,
+      "media_type": "video",
+      "decoded_seconds": 3.007,
+      "decoded_frames": 90,
+      "observed_hosts": [
+        "amg00405-rakutentv-cgtn-rakuten-i9tar.amagi.tv"
+      ],
+      "requests": [
+        {
+          "host": "amg00405-rakutentv-cgtn-rakuten-i9tar.amagi.tv",
+          "bytes": 640,
+          "seconds": 1.312,
+          "complete": true
+        },
+        {
+          "host": "amg00405-rakutentv-cgtn-rakuten-i9tar.amagi.tv",
+          "bytes": 572,
+          "seconds": 1.368,
+          "complete": true
+        },
+        {
+          "host": "amg00405-rakutentv-cgtn-rakuten-i9tar.amagi.tv",
+          "bytes": 3959656,
+          "seconds": 2.685,
+          "complete": true
+        },
+        {
+          "host": "amg00405-rakutentv-cgtn-rakuten-i9tar.amagi.tv",
+          "bytes": 3990488,
+          "seconds": 2.074,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "channel": "RTHK第一台 [EMOS]",
+      "url": "https://rthkradio1-live.akamaized.net/hls/live/2035313/radio1/master.m3u8",
+      "checked_at": "2026-11-25T21:41:20+08:00",
+      "status": "passed",
+      "transport": "hls",
+      "segments_downloaded": 2,
+      "sample_bytes": 175968,
+      "streams": [
+        {
+          "codec_name": "aac",
+          "profile": "LC",
+          "codec_type": "audio",
+          "sample_rate": "32000",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "bit_rate": "65866"
+        }
+      ],
+      "program_tags": [
+        {
+          "service_name": "Service01",
+          "service_provider": "FFmpeg"
+        }
+      ],
+      "width": null,
+      "height": null,
+      "media_type": "audio",
+      "decoded_seconds": 3.0,
+      "decoded_frames": 0,
+      "observed_hosts": [
+        "rthkradio1-live.akamaized.net"
+      ],
+      "requests": [
+        {
+          "host": "rthkradio1-live.akamaized.net",
+          "bytes": 95,
+          "seconds": 0.544,
+          "complete": true
+        },
+        {
+          "host": "rthkradio1-live.akamaized.net",
+          "bytes": 353,
+          "seconds": 0.242,
+          "complete": true
+        },
+        {
+          "host": "rthkradio1-live.akamaized.net",
+          "bytes": 87608,
+          "seconds": 0.723,
+          "complete": true
+        },
+        {
+          "host": "rthkradio1-live.akamaized.net",
+          "bytes": 88360,
+          "seconds": 1.861,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "channel": "RTHK第二台 [EMOS]",
+      "url": "https://rthkradio2-live.akamaized.net/hls/live/2040078/radio2/master.m3u8",
+      "checked_at": "2026-11-25T21:41:22+08:00",
+      "status": "failed",
+      "reason": "HTTP 0: curl: (28) SSL connection timeout",
+      "observed_hosts": [
+        "rthkradio2-live.akamaized.net"
+      ],
+      "requests": [
+        {
+          "host": "rthkradio2-live.akamaized.net",
+          "bytes": 95,
+          "seconds": 0.341,
+          "complete": true
+        },
+        {
+          "host": "rthkradio2-live.akamaized.net",
+          "bytes": 353,
+          "seconds": 0.266,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "channel": "RTHK第三台 [EMOS]",
+      "url": "https://rthkradio3-live.akamaized.net/hls/live/2040079/radio3/master.m3u8",
+      "checked_at": "2026-11-25T21:41:24+08:00",
+      "status": "passed",
+      "transport": "hls",
+      "segments_downloaded": 2,
+      "sample_bytes": 176156,
+      "streams": [
+        {
+          "codec_name": "aac",
+          "profile": "LC",
+          "codec_type": "audio",
+          "sample_rate": "32000",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "bit_rate": "66416"
+        }
+      ],
+      "program_tags": [
+        {
+          "service_name": "Service01",
+          "service_provider": "FFmpeg"
+        }
+      ],
+      "width": null,
+      "height": null,
+      "media_type": "audio",
+      "decoded_seconds": 3.0,
+      "decoded_frames": 0,
+      "observed_hosts": [
+        "rthkradio3-live.akamaized.net"
+      ],
+      "requests": [
+        {
+          "host": "rthkradio3-live.akamaized.net",
+          "bytes": 95,
+          "seconds": 0.358,
+          "complete": true
+        },
+        {
+          "host": "rthkradio3-live.akamaized.net",
+          "bytes": 353,
+          "seconds": 0.246,
+          "complete": true
+        },
+        {
+          "host": "rthkradio3-live.akamaized.net",
+          "bytes": 88172,
+          "seconds": 0.615,
+          "complete": true
+        },
+        {
+          "host": "rthkradio3-live.akamaized.net",
+          "bytes": 87984,
+          "seconds": 2.902,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "channel": "RTHK第四台 [EMOS]",
+      "url": "https://rthkradio4-live.akamaized.net/hls/live/2040080/radio4/master.m3u8",
+      "checked_at": "2026-11-25T21:41:26+08:00",
+      "status": "passed",
+      "transport": "hls",
+      "segments_downloaded": 2,
+      "sample_bytes": 175404,
+      "streams": [
+        {
+          "codec_name": "aac",
+          "profile": "LC",
+          "codec_type": "audio",
+          "sample_rate": "32000",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "bit_rate": "66356"
+        }
+      ],
+      "program_tags": [
+        {
+          "service_name": "Service01",
+          "service_provider": "FFmpeg"
+        }
+      ],
+      "width": null,
+      "height": null,
+      "media_type": "audio",
+      "decoded_seconds": 3.0,
+      "decoded_frames": 0,
+      "observed_hosts": [
+        "rthkradio4-live.akamaized.net"
+      ],
+      "requests": [
+        {
+          "host": "rthkradio4-live.akamaized.net",
+          "bytes": 95,
+          "seconds": 1.771,
+          "complete": true
+        },
+        {
+          "host": "rthkradio4-live.akamaized.net",
+          "bytes": 353,
+          "seconds": 0.325,
+          "complete": true
+        },
+        {
+          "host": "rthkradio4-live.akamaized.net",
+          "bytes": 88172,
+          "seconds": 0.461,
+          "complete": true
+        },
+        {
+          "host": "rthkradio4-live.akamaized.net",
+          "bytes": 87232,
+          "seconds": 0.436,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "channel": "RTHK第五台 [EMOS]",
+      "url": "https://rthkradio5-live.akamaized.net/hls/live/2040081/radio5/master.m3u8",
+      "checked_at": "2026-11-25T21:41:27+08:00",
+      "status": "passed",
+      "transport": "hls",
+      "segments_downloaded": 2,
+      "sample_bytes": 173712,
+      "streams": [
+        {
+          "codec_name": "aac",
+          "profile": "LC",
+          "codec_type": "audio",
+          "sample_rate": "32000",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "bit_rate": "65639"
+        }
+      ],
+      "program_tags": [
+        {
+          "service_name": "Service01",
+          "service_provider": "FFmpeg"
+        }
+      ],
+      "width": null,
+      "height": null,
+      "media_type": "audio",
+      "decoded_seconds": 3.0,
+      "decoded_frames": 0,
+      "observed_hosts": [
+        "rthkradio5-live.akamaized.net"
+      ],
+      "requests": [
+        {
+          "host": "rthkradio5-live.akamaized.net",
+          "bytes": 95,
+          "seconds": 0.426,
+          "complete": true
+        },
+        {
+          "host": "rthkradio5-live.akamaized.net",
+          "bytes": 353,
+          "seconds": 0.284,
+          "complete": true
+        },
+        {
+          "host": "rthkradio5-live.akamaized.net",
+          "bytes": 86668,
+          "seconds": 1.157,
+          "complete": true
+        },
+        {
+          "host": "rthkradio5-live.akamaized.net",
+          "bytes": 87044,
+          "seconds": 0.736,
+          "complete": true
+        }
+      ]
+    },
+    {
+      "channel": "RTHK普通话台 [EMOS]",
+      "url": "https://rthkradiopth-live.akamaized.net/hls/live/2040082/radiopth/master.m3u8",
+      "checked_at": "2026-11-25T21:41:28+08:00",
+      "status": "passed",
+      "transport": "hls",
+      "segments_downloaded": 2,
+      "sample_bytes": 177096,
+      "streams": [
+        {
+          "codec_name": "aac",
+          "profile": "LC",
+          "codec_type": "audio",
+          "sample_rate": "32000",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "bit_rate": "65696"
+        }
+      ],
+      "program_tags": [
+        {
+          "service_name": "Service01",
+          "service_provider": "FFmpeg"
+        }
+      ],
+      "width": null,
+      "height": null,
+      "media_type": "audio",
+      "decoded_seconds": 3.0,
+      "decoded_frames": 0,
+      "observed_hosts": [
+        "rthkradiopth-live.akamaized.net"
+      ],
+      "requests": [
+        {
+          "host": "rthkradiopth-live.akamaized.net",
+          "bytes": 95,
+          "seconds": 0.63,
+          "complete": true
+        },
+        {
+          "host": "rthkradiopth-live.akamaized.net",
+          "bytes": 353,
+          "seconds": 0.78,
+          "complete": true
+        },
+        {
+          "host": "rthkradiopth-live.akamaized.net",
+          "bytes": 88548,
+          "seconds": 0.657,
+          "complete": true
+        },
+        {
+          "host": "rthkradiopth-live.akamaized.net",
+          "bytes": 88548,
+          "seconds": 0.744,
+          "complete": true
+        }
+      ]
+    }
+  ],
+  "retry_results": [
+    {
+      "channel": "RTHK第二台 [EMOS]",
+      "url": "https://rthkradio2-live.akamaized.net/hls/live/2040078/radio2/master.m3u8",
+      "checked_at": "2026-11-25T21:44:32+08:00",
+      "status": "passed",
+      "transport": "hls",
+      "resolved_url": "https://rthkradio2-live.akamaized.net/hls/live/2040078/radio2/index_64_a.m3u8",
+      "segments_downloaded": 2,
+      "sample_bytes": 178976,
+      "streams": [
+        {
+          "codec_name": "aac",
+          "profile": "LC",
+          "codec_type": "audio",
+          "sample_rate": "32000",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "bit_rate": "68138"
+        }
+      ],
+      "program_tags": [
+        {
+          "service_name": "Service01",
+          "service_provider": "FFmpeg"
+        }
+      ],
+      "width": null,
+      "height": null,
+      "media_type": "audio",
+      "decoded_seconds": 3.0,
+      "decoded_frames": 0
+    }
+  ],
+  "scope": "原有26条公网线路：首轮25条通过，RTHK第二台TLS超时后独立复测通过；使用修改规则前的现有家庭分流，不是新规则上线后的速度测试。"
+}

@@ -1,0 +1,179 @@
+{
+  "tested_at": "2026-11-25T21:41:51+08:00",
+  "source_count": 5,
+  "complete": true,
+  "results": [
+    {
+      "channel": "港台电视33",
+      "url": "https://rthktv33-live.akamaized.net/hls/live/2101641/RTHKTV33/master.m3u8",
+      "group": "香港频道",
+      "source_label": "官方CDN",
+      "reference": "https://www.rthk.hk/tv",
+      "checked_at": "2026-11-25T21:41:33+08:00",
+      "status": "passed",
+      "transport": "hls",
+      "resolved_url": "https://rthktv33-live.akamaized.net/hls/live/2101641/RTHKTV33/stream05/streamPlaylist.m3u8",
+      "segments_downloaded": 2,
+      "sample_bytes": 13374884,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "profile": "High",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080,
+          "pix_fmt": "yuv420p",
+          "r_frame_rate": "25/1",
+          "avg_frame_rate": "25/1"
+        },
+        {
+          "codec_name": "aac",
+          "profile": "LC",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "bit_rate": "127873"
+        }
+      ],
+      "program_tags": [],
+      "width": 1920,
+      "height": 1080,
+      "media_type": "video",
+      "decoded_seconds": 3.017,
+      "decoded_frames": 75
+    },
+    {
+      "channel": "港台电视34",
+      "url": "https://rthktv34-live.akamaized.net/hls/live/2101642/RTHKTV34/master.m3u8",
+      "group": "香港频道",
+      "source_label": "官方CDN",
+      "reference": "https://www.rthk.hk/tv",
+      "checked_at": "2026-11-25T21:41:40+08:00",
+      "status": "passed",
+      "transport": "hls",
+      "resolved_url": "https://rthktv34-live.akamaized.net/hls/live/2101642/RTHKTV34/stream05/streamPlaylist.m3u8",
+      "segments_downloaded": 2,
+      "sample_bytes": 12204208,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "profile": "High",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080,
+          "pix_fmt": "yuv420p",
+          "r_frame_rate": "25/1",
+          "avg_frame_rate": "25/1"
+        },
+        {
+          "codec_name": "aac",
+          "profile": "LC",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "bit_rate": "128113"
+        }
+      ],
+      "program_tags": [],
+      "width": 1920,
+      "height": 1080,
+      "media_type": "video",
+      "decoded_seconds": 3.001,
+      "decoded_frames": 75
+    },
+    {
+      "channel": "港台电视35",
+      "url": "https://rthktv35-live.akamaized.net/hls/live/2101643/RTHKTV35/master.m3u8",
+      "group": "香港频道",
+      "source_label": "官方CDN",
+      "reference": "https://www.rthk.hk/tv",
+      "checked_at": "2026-11-25T21:41:46+08:00",
+      "status": "failed",
+      "reason": "HTTP 404: {\"error\":\"Not found: Egress retrieve hls/20002709-b/RTHKTV35/media/stream05/streamPlaylist.m3u8 error. Not found in all storage\"}"
+    },
+    {
+      "channel": "大爱1",
+      "url": "https://pulltv1.wanfudaluye.com/live/tv1.m3u8",
+      "group": "台湾频道",
+      "source_label": "公网中转",
+      "reference": "https://iptv-org.github.io/iptv/index.m3u",
+      "checked_at": "2026-11-25T21:41:47+08:00",
+      "status": "failed",
+      "reason": "HTTP 403: "
+    },
+    {
+      "channel": "港台电视32",
+      "url": "https://rthktv32-live.akamaized.net/hls/live/2036819/RTHKTV32/master.m3u8",
+      "group": "香港频道",
+      "source_label": "官方CDN",
+      "reference": "https://www.rthk.hk/tv",
+      "checked_at": "2026-11-25T21:41:33+08:00",
+      "status": "passed",
+      "transport": "hls",
+      "resolved_url": "https://rthktv32-live.akamaized.net/hls/live/2036819/RTHKTV32/stream05/streamPlaylist.m3u8",
+      "segments_downloaded": 2,
+      "sample_bytes": 15178180,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "profile": "High",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080,
+          "pix_fmt": "yuv420p",
+          "r_frame_rate": "25/1",
+          "avg_frame_rate": "25/1"
+        },
+        {
+          "codec_name": "aac",
+          "profile": "LC",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "bit_rate": "127708"
+        },
+        {
+          "codec_name": "aac",
+          "profile": "LC",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "bit_rate": "191786"
+        },
+        {
+          "codec_name": "aac",
+          "profile": "LC",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "bit_rate": "191767"
+        },
+        {
+          "codec_name": "ac3",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "bit_rate": "192000"
+        }
+      ],
+      "program_tags": [],
+      "width": 1920,
+      "height": 1080,
+      "media_type": "video",
+      "decoded_seconds": 3.013,
+      "decoded_frames": 75
+    }
+  ]
+}

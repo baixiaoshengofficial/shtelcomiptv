@@ -2,9 +2,17 @@
 
 日常使用文件：[`shtelconiptv.m3u`](shtelconiptv.m3u)。
 
+## 地区分流与补充线路（2026-11-25 晚）
+
+主播放列表现有 **149 条播放项**。新增港台电视 32、33、34 三路 1080p 线路，两轮媒体解码及人工画面核对通过；33、34 分别转播 CCTV-1 和 CGTN Documentary，不计作三个全新节目内容。原有 146 条播放项及 24 条 4K 线路保持不变。
+
+已在 [rules 仓库](https://github.com/baixiaoshengofficial/rules) 按香港、台湾、日本、韩国、美国、国际中转及国内直连整理公网 IPTV 分流，覆盖已观察到的入口、跳转和媒体主机。更新规则订阅并重载 Nikki/OpenClash 后生效，播放器主源订阅地址不变。组播仍使用原家庭代理。
+
+原有 26 条公网线路本轮也已下载媒体并解码：25 条首轮通过，香港电台第二台一次 TLS 超时后独立复测通过。新增候选 35 台后续媒体清单返回 404、大爱源返回 403，未加入。地区 HTTP 探测与媒体测试分开记录，不将入口 HTTP 200 视为整路直播可用；详情见 [`reports/regional-validation.md`](reports/regional-validation.md)。
+
 ## 港台日韩补全（2026-11-25）
 
-主播放列表现有 **146 条播放项、19 个非空分组**。新增 9 路：凤凰卫视中文台、凤凰卫视资讯台、TVB翡翠台、TVB Plus、港台电视31、TVBS欢乐节目线路、NHK WORLD-JAPAN、Arirang TV、KBS WORLD，分别放入港澳、台湾、日本、韩国分组。
+该轮主播放列表扩充到 **146 条播放项、19 个非空分组**。新增 9 路：凤凰卫视中文台、凤凰卫视资讯台、TVB翡翠台、TVB Plus、港台电视31、TVBS欢乐节目线路、NHK WORLD-JAPAN、Arirang TV、KBS WORLD，分别放入港澳、台湾、日本、韩国分组。
 
 这 9 路均经过两轮真实媒体下载、ffprobe 识别和 ffmpeg 解码，并人工检查复测画面。最近一轮开始于北京时间 2026-11-25 21:20，8 路为 1920×1080，NHK WORLD-JAPAN 为 1280×720；NHK 的分离音轨另行下载、解码验证。来源分别标记为“官方CDN”和“公网中转”，这些新增地址均为公网单播。
 
@@ -79,6 +87,8 @@ python3 scripts/audit_streams.py --input candidates.json --output report.json --
 其他组播频道用 `reports/multicast-reviewed.json` 记录人工核对的身份，配合 `multicast-discovery.json` 和 `multicast-recheck.json` 两轮报告，由 `python3 scripts/merge_multicast.py` 合并。该命令同样只读取已有报告，不重新联网检测。
 
 港台日韩候选见 `reports/asia-candidates.json`。`python3 scripts/merge_asia.py` 仅合并 `asia-discovery.json` 和 `asia-recheck.json` 两轮都通过且有人工画面核对标记的源，按 URL 去重；此命令只读取报告，不会重新联网测试。
+
+港台电视补充线路由 `python3 scripts/merge_regional.py` 读取 `regional-discovery.json` 与 `regional-recheck.json` 合并，只接受两轮通过且人工核对的源；该命令不联网重测。
 
 ## 原始说明
 

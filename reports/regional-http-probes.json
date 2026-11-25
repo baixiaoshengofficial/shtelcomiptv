@@ -1,0 +1,262 @@
+{
+  "complete": true,
+  "scope": "Mihomo URL health probe, expected HTTP 200；仅比较HTTP响应，未切换全局模式/策略组，不代表完整视频取流或带宽。",
+  "results": [
+    {
+      "channel": "港台电视32",
+      "url": "https://rthktv32-live.akamaized.net/hls/live/2036819/RTHKTV32/master.m3u8",
+      "node": "DIRECT",
+      "checked_at": "2026-11-25T21:40:47+08:00",
+      "delay": 338,
+      "http_probe": "passed"
+    },
+    {
+      "channel": "港台电视32",
+      "url": "https://rthktv32-live.akamaized.net/hls/live/2036819/RTHKTV32/master.m3u8",
+      "node": "🇭🇰 香港节点",
+      "checked_at": "2026-11-25T21:40:47+08:00",
+      "delay": 76,
+      "http_probe": "passed"
+    },
+    {
+      "channel": "港台电视32",
+      "url": "https://rthktv32-live.akamaized.net/hls/live/2036819/RTHKTV32/master.m3u8",
+      "node": "hk_hkbn",
+      "checked_at": "2026-11-25T21:40:47+08:00",
+      "delay": 565,
+      "http_probe": "passed"
+    },
+    {
+      "channel": "港台电视33",
+      "url": "https://rthktv33-live.akamaized.net/hls/live/2101641/RTHKTV33/master.m3u8",
+      "node": "DIRECT",
+      "checked_at": "2026-11-25T21:40:47+08:00",
+      "delay": 226,
+      "http_probe": "passed"
+    },
+    {
+      "channel": "港台电视33",
+      "url": "https://rthktv33-live.akamaized.net/hls/live/2101641/RTHKTV33/master.m3u8",
+      "node": "🇭🇰 香港节点",
+      "checked_at": "2026-11-25T21:40:47+08:00",
+      "delay": 69,
+      "http_probe": "passed"
+    },
+    {
+      "channel": "港台电视33",
+      "url": "https://rthktv33-live.akamaized.net/hls/live/2101641/RTHKTV33/master.m3u8",
+      "node": "hk_hkbn",
+      "checked_at": "2026-11-25T21:40:48+08:00",
+      "delay": 61,
+      "http_probe": "passed"
+    },
+    {
+      "channel": "港台电视34",
+      "url": "https://rthktv34-live.akamaized.net/hls/live/2101642/RTHKTV34/master.m3u8",
+      "node": "DIRECT",
+      "checked_at": "2026-11-25T21:40:48+08:00",
+      "delay": 310,
+      "http_probe": "passed"
+    },
+    {
+      "channel": "港台电视34",
+      "url": "https://rthktv34-live.akamaized.net/hls/live/2101642/RTHKTV34/master.m3u8",
+      "node": "🇭🇰 香港节点",
+      "checked_at": "2026-11-25T21:40:48+08:00",
+      "delay": 69,
+      "http_probe": "passed"
+    },
+    {
+      "channel": "港台电视34",
+      "url": "https://rthktv34-live.akamaized.net/hls/live/2101642/RTHKTV34/master.m3u8",
+      "node": "hk_hkbn",
+      "checked_at": "2026-11-25T21:40:49+08:00",
+      "delay": 59,
+      "http_probe": "passed"
+    },
+    {
+      "channel": "港台电视35",
+      "url": "https://rthktv35-live.akamaized.net/hls/live/2101643/RTHKTV35/master.m3u8",
+      "node": "DIRECT",
+      "checked_at": "2026-11-25T21:40:49+08:00",
+      "delay": 342,
+      "http_probe": "passed"
+    },
+    {
+      "channel": "港台电视35",
+      "url": "https://rthktv35-live.akamaized.net/hls/live/2101643/RTHKTV35/master.m3u8",
+      "node": "🇭🇰 香港节点",
+      "checked_at": "2026-11-25T21:40:49+08:00",
+      "delay": 94,
+      "http_probe": "passed"
+    },
+    {
+      "channel": "港台电视35",
+      "url": "https://rthktv35-live.akamaized.net/hls/live/2101643/RTHKTV35/master.m3u8",
+      "node": "hk_hkbn",
+      "checked_at": "2026-11-25T21:40:49+08:00",
+      "delay": 64,
+      "http_probe": "passed"
+    },
+    {
+      "channel": "澳视澳门",
+      "url": "https://live4.tdm.com.mo/ch1/ch1.live/playlist.m3u8",
+      "node": "DIRECT",
+      "checked_at": "2026-11-25T21:40:49+08:00",
+      "http_probe": "failed",
+      "error": "HTTP Error 504: Gateway Timeout",
+      "detail": "{\"message\":\"Timeout\"}\n"
+    },
+    {
+      "channel": "澳视澳门",
+      "url": "https://live4.tdm.com.mo/ch1/ch1.live/playlist.m3u8",
+      "node": "🇭🇰 香港节点",
+      "checked_at": "2026-11-25T21:40:50+08:00",
+      "http_probe": "failed",
+      "error": "HTTP Error 503: Service Unavailable",
+      "detail": "{\"message\":\"An error occurred in the delay test\"}\n"
+    },
+    {
+      "channel": "澳门资讯",
+      "url": "https://live4.tdm.com.mo/ch5/info_ch5.live/playlist.m3u8",
+      "node": "DIRECT",
+      "checked_at": "2026-11-25T21:40:50+08:00",
+      "http_probe": "failed",
+      "error": "HTTP Error 504: Gateway Timeout",
+      "detail": "{\"message\":\"Timeout\"}\n"
+    },
+    {
+      "channel": "澳门资讯",
+      "url": "https://live4.tdm.com.mo/ch5/info_ch5.live/playlist.m3u8",
+      "node": "🇭🇰 香港节点",
+      "checked_at": "2026-11-25T21:40:50+08:00",
+      "http_probe": "failed",
+      "error": "HTTP Error 503: Service Unavailable",
+      "detail": "{\"message\":\"An error occurred in the delay test\"}\n"
+    },
+    {
+      "channel": "澳门体育",
+      "url": "https://live4.tdm.com.mo/ch4/sport_ch4.live/playlist.m3u8",
+      "node": "DIRECT",
+      "checked_at": "2026-11-25T21:40:50+08:00",
+      "http_probe": "failed",
+      "error": "HTTP Error 504: Gateway Timeout",
+      "detail": "{\"message\":\"Timeout\"}\n"
+    },
+    {
+      "channel": "澳门体育",
+      "url": "https://live4.tdm.com.mo/ch4/sport_ch4.live/playlist.m3u8",
+      "node": "🇭🇰 香港节点",
+      "checked_at": "2026-11-25T21:40:51+08:00",
+      "http_probe": "failed",
+      "error": "HTTP Error 503: Service Unavailable",
+      "detail": "{\"message\":\"An error occurred in the delay test\"}\n"
+    },
+    {
+      "channel": "大爱1",
+      "url": "https://pulltv1.wanfudaluye.com/live/tv1.m3u8",
+      "node": "DIRECT",
+      "checked_at": "2026-11-25T21:40:51+08:00",
+      "delay": 310,
+      "http_probe": "passed"
+    },
+    {
+      "channel": "大爱1",
+      "url": "https://pulltv1.wanfudaluye.com/live/tv1.m3u8",
+      "node": "🇭🇰 台湾节点",
+      "checked_at": "2026-11-25T21:40:51+08:00",
+      "delay": 42,
+      "http_probe": "passed"
+    },
+    {
+      "channel": "TVB明珠",
+      "url": "https://cdn3.indevs.in/stream/tvb/mzt/",
+      "node": "DIRECT",
+      "checked_at": "2026-11-25T21:40:52+08:00",
+      "http_probe": "failed",
+      "error": "HTTP Error 504: Gateway Timeout",
+      "detail": "{\"message\":\"Timeout\"}\n"
+    },
+    {
+      "channel": "TVB明珠",
+      "url": "https://cdn3.indevs.in/stream/tvb/mzt/",
+      "node": "🇭🇰 香港节点",
+      "checked_at": "2026-11-25T21:40:52+08:00",
+      "http_probe": "failed",
+      "error": "HTTP Error 504: Gateway Timeout",
+      "detail": "{\"message\":\"Timeout\"}\n"
+    },
+    {
+      "channel": "Arirang TV",
+      "url": "https://amdlive-ch01-ctnd-com.akamaized.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8",
+      "node": "DIRECT",
+      "checked_at": "2026-11-25T21:40:56+08:00",
+      "delay": 223,
+      "http_probe": "passed"
+    },
+    {
+      "channel": "Arirang TV",
+      "url": "https://amdlive-ch01-ctnd-com.akamaized.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8",
+      "node": "kr_oracle",
+      "checked_at": "2026-11-25T21:40:56+08:00",
+      "delay": 61,
+      "http_probe": "passed"
+    },
+    {
+      "channel": "Arirang TV",
+      "url": "https://amdlive-ch01-ctnd-com.akamaized.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8",
+      "node": "🇯🇵 日本节点",
+      "checked_at": "2026-11-25T21:40:56+08:00",
+      "delay": 44,
+      "http_probe": "passed"
+    },
+    {
+      "channel": "NHK WORLD-JAPAN",
+      "url": "https://masterpl.hls.nhkworld.jp/hls/w/live/master.m3u8",
+      "node": "DIRECT",
+      "checked_at": "2026-11-25T21:40:57+08:00",
+      "delay": 319,
+      "http_probe": "passed"
+    },
+    {
+      "channel": "NHK WORLD-JAPAN",
+      "url": "https://masterpl.hls.nhkworld.jp/hls/w/live/master.m3u8",
+      "node": "🇯🇵 日本节点",
+      "checked_at": "2026-11-25T21:40:58+08:00",
+      "delay": 60,
+      "http_probe": "passed"
+    },
+    {
+      "channel": "KBS WORLD中转",
+      "url": "https://stream8.cinerama.uz/1448/playlist.m3u8",
+      "node": "DIRECT",
+      "checked_at": "2026-11-25T21:40:58+08:00",
+      "delay": 309,
+      "http_probe": "passed"
+    },
+    {
+      "channel": "KBS WORLD中转",
+      "url": "https://stream8.cinerama.uz/1448/playlist.m3u8",
+      "node": "kr_oracle",
+      "checked_at": "2026-11-25T21:40:59+08:00",
+      "delay": 279,
+      "http_probe": "passed"
+    },
+    {
+      "channel": "KBS WORLD中转",
+      "url": "https://stream8.cinerama.uz/1448/playlist.m3u8",
+      "node": "🇯🇵 日本节点",
+      "checked_at": "2026-11-25T21:40:59+08:00",
+      "delay": 535,
+      "http_probe": "passed"
+    },
+    {
+      "channel": "KBS WORLD中转",
+      "url": "https://stream8.cinerama.uz/1448/playlist.m3u8",
+      "node": "🇭🇰 香港节点",
+      "checked_at": "2026-11-25T21:40:59+08:00",
+      "delay": 289,
+      "http_probe": "passed"
+    }
+  ]
+}

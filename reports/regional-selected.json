@@ -1,0 +1,192 @@
+{
+  "merged_at": "2026-11-25T21:45:31+08:00",
+  "selected": [
+    {
+      "channel": "港台电视33",
+      "url": "https://rthktv33-live.akamaized.net/hls/live/2101641/RTHKTV33/master.m3u8",
+      "group": "香港频道",
+      "source_label": "官方CDN",
+      "reference": "https://www.rthk.hk/tv",
+      "checked_at": "2026-11-25T21:42:18+08:00",
+      "status": "passed",
+      "transport": "hls",
+      "resolved_url": "https://rthktv33-live.akamaized.net/hls/live/2101641/RTHKTV33/stream05/streamPlaylist.m3u8",
+      "segments_downloaded": 2,
+      "sample_bytes": 13485052,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "profile": "High",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080,
+          "pix_fmt": "yuv420p",
+          "r_frame_rate": "25/1",
+          "avg_frame_rate": "25/1"
+        },
+        {
+          "codec_name": "aac",
+          "profile": "LC",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "bit_rate": "127753"
+        }
+      ],
+      "program_tags": [],
+      "width": 1920,
+      "height": 1080,
+      "media_type": "video",
+      "decoded_seconds": 3.009,
+      "decoded_frames": 75,
+      "visual_verified": true,
+      "visual_check": "人工核对：RTHK32 节目画面正常；RTHK33 为 CCTV-1 转播；RTHK34 为 CGTN Documentary 转播；均非黑屏或错误卡。"
+    },
+    {
+      "channel": "港台电视32",
+      "url": "https://rthktv32-live.akamaized.net/hls/live/2036819/RTHKTV32/master.m3u8",
+      "group": "香港频道",
+      "source_label": "官方CDN",
+      "reference": "https://www.rthk.hk/tv",
+      "checked_at": "2026-11-25T21:42:18+08:00",
+      "status": "passed",
+      "transport": "hls",
+      "resolved_url": "https://rthktv32-live.akamaized.net/hls/live/2036819/RTHKTV32/stream05/streamPlaylist.m3u8",
+      "segments_downloaded": 2,
+      "sample_bytes": 15232700,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "profile": "High",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080,
+          "pix_fmt": "yuv420p",
+          "r_frame_rate": "25/1",
+          "avg_frame_rate": "25/1"
+        },
+        {
+          "codec_name": "aac",
+          "profile": "LC",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "bit_rate": "128096"
+        },
+        {
+          "codec_name": "aac",
+          "profile": "LC",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "bit_rate": "191789"
+        },
+        {
+          "codec_name": "aac",
+          "profile": "LC",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "bit_rate": "191776"
+        },
+        {
+          "codec_name": "ac3",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "bit_rate": "192000"
+        }
+      ],
+      "program_tags": [],
+      "width": 1920,
+      "height": 1080,
+      "media_type": "video",
+      "decoded_seconds": 3.002,
+      "decoded_frames": 75,
+      "visual_verified": true,
+      "visual_check": "人工核对：RTHK32 节目画面正常；RTHK33 为 CCTV-1 转播；RTHK34 为 CGTN Documentary 转播；均非黑屏或错误卡。"
+    },
+    {
+      "channel": "港台电视34",
+      "url": "https://rthktv34-live.akamaized.net/hls/live/2101642/RTHKTV34/master.m3u8",
+      "group": "香港频道",
+      "source_label": "官方CDN",
+      "reference": "https://www.rthk.hk/tv",
+      "checked_at": "2026-11-25T21:42:27+08:00",
+      "status": "passed",
+      "transport": "hls",
+      "resolved_url": "https://rthktv34-live.akamaized.net/hls/live/2101642/RTHKTV34/stream05/streamPlaylist.m3u8",
+      "segments_downloaded": 2,
+      "sample_bytes": 14429000,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "profile": "High",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080,
+          "pix_fmt": "yuv420p",
+          "r_frame_rate": "25/1",
+          "avg_frame_rate": "25/1"
+        },
+        {
+          "codec_name": "aac",
+          "profile": "LC",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "bit_rate": "128124"
+        }
+      ],
+      "program_tags": [],
+      "width": 1920,
+      "height": 1080,
+      "media_type": "video",
+      "decoded_seconds": 3.017,
+      "decoded_frames": 75,
+      "visual_verified": true,
+      "visual_check": "人工核对：RTHK32 节目画面正常；RTHK33 为 CCTV-1 转播；RTHK34 为 CGTN Documentary 转播；均非黑屏或错误卡。"
+    }
+  ],
+  "playlist_groups": {
+    "4K超高清": 24,
+    "央视频道": 18,
+    "卫视频道": 35,
+    "上海本地": 3,
+    "体育竞技": 5,
+    "影视剧场": 9,
+    "少儿动漫": 5,
+    "财经理财": 4,
+    "纪实科教": 3,
+    "生活休闲": 8,
+    "教育课堂": 6,
+    "地方频道": 2,
+    "港澳频道": 8,
+    "台湾频道": 1,
+    "日本频道": 1,
+    "韩国频道": 2,
+    "国际频道": 4,
+    "广播电台": 6,
+    "购物频道": 5
+  },
+  "playlist_sha256": "20e0a4c4cd15b4466cf0036be60928a28adbf0116707107d78ee13e426c91c7a",
+  "integrity_checks": {
+    "previous_entries_unchanged": 146,
+    "final_entries": 149,
+    "unique_urls": 149,
+    "unchanged_4k_entries": 24,
+    "idempotent_merge": true
+  }
+}

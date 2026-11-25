@@ -1,0 +1,837 @@
+{
+  "tested_on": "2026-11-26",
+  "tested_candidates": 73,
+  "candidate_regions": {
+    "US": 24,
+    "KR": 13,
+    "TW": 9,
+    "JP": 22,
+    "MO": 3,
+    "HK": 2
+  },
+  "previous_playlist_entries": 194,
+  "playlist_entries": 218,
+  "public_playlist_entries": 98,
+  "playlist_groups": {
+    "4K超高清": 24,
+    "央视频道": 18,
+    "卫视频道": 35,
+    "上海本地": 3,
+    "体育竞技": 5,
+    "影视剧场": 9,
+    "少儿动漫": 5,
+    "财经理财": 4,
+    "纪实科教": 3,
+    "生活休闲": 8,
+    "教育课堂": 6,
+    "地方频道": 2,
+    "港澳频道": 17,
+    "台湾频道": 9,
+    "日本频道": 20,
+    "韩国频道": 18,
+    "美国频道": 17,
+    "国际频道": 4,
+    "广播电台": 6,
+    "购物频道": 5
+  },
+  "accepted_by_region": {
+    "MO": 1,
+    "JP": 13,
+    "US": 10
+  },
+  "added_domains": {
+    "JpMandatory.list": [
+      "amg01287-rakutentvjapan-anime5-cmaf-rakutenjp-x4dre.amagi.tv",
+      "cdn-apne1.tsv2.amagi.tv",
+      "livetv.fastv.jp"
+    ],
+    "IPTV-US.list": [
+      "aka-live1050.delivery.roku.com",
+      "amg00953-pbsusa-antiroadshow-xumo-x6ud5.amagi.tv",
+      "amg02333-pbs-amg02333c6-vizio-us-4416.playouts.now.amagi.tv",
+      "d3hqevbyoxtkoi.cloudfront.net",
+      "d3mr43kyql7wgk.cloudfront.net",
+      "ef79b15c8c7c46c7a9de9d33001dbd07.mediatailor.us-west-2.amazonaws.com",
+      "hls-kmosdt.lls.cdn.pbs.org",
+      "linear-859.frequency.stream",
+      "sk.delivery.roku.com",
+      "tgn.bozztv.com"
+    ]
+  },
+  "method": "每条新增线路至少两轮媒体取样和解码，并核对节目画面。日本、澳门分别用两个日本或香港出口，美国使用经 IPPure 和 Cloudflare 验证的美国出口。",
+  "added": [
+    {
+      "channel": "澳视葡文",
+      "url": "https://live5.tdm.com.mo/ch2/ch2.live/playlist.m3u8",
+      "group": "港澳频道",
+      "status": "passed",
+      "region": "MO",
+      "exit_region": "HK",
+      "source_label": "公网",
+      "reference": "https://www.tdm.com.mo/zh-hant/live",
+      "media_type": "video",
+      "height": 1080,
+      "width": 1920,
+      "observed_hosts": [
+        "live5.tdm.com.mo"
+      ],
+      "samples": [
+        {
+          "checked_at": "2026-11-26T00:10:37+08:00",
+          "transport": "hls",
+          "decoded_seconds": 3.0,
+          "decoded_frames": 75
+        },
+        {
+          "checked_at": "2026-11-26T00:11:21+08:00",
+          "transport": "hls",
+          "decoded_seconds": 3.0,
+          "decoded_frames": 75
+        }
+      ],
+      "display_name": "澳视葡文HD [公网]"
+    },
+    {
+      "channel": "日本时代剧 TV",
+      "url": "https://livetv.fastv.jp/channel_assembly/696074B664B80F46A876/master.m3u8",
+      "group": "日本频道",
+      "status": "passed",
+      "region": "JP",
+      "exit_region": "JP",
+      "source_label": "公网FAST",
+      "reference": "https://skinred78.github.io/jp-iptv-epg/jp-playlist.m3u",
+      "media_type": "video",
+      "height": 1080,
+      "width": 1920,
+      "observed_hosts": [
+        "livetv.fastv.jp"
+      ],
+      "samples": [
+        {
+          "checked_at": "2026-11-26T00:10:58+08:00",
+          "transport": "hls",
+          "decoded_seconds": 3.003,
+          "decoded_frames": 89
+        },
+        {
+          "checked_at": "2026-11-26T00:11:21+08:00",
+          "transport": "hls",
+          "decoded_seconds": 3.004,
+          "decoded_frames": 90
+        }
+      ],
+      "display_name": "日本时代剧 TVHD [公网FAST]"
+    },
+    {
+      "channel": "Animax FREE 日本",
+      "url": "https://livetv.fastv.jp/channel_assembly/69608FB2725E0FA3B972/master.m3u8",
+      "group": "日本频道",
+      "status": "passed",
+      "region": "JP",
+      "exit_region": "JP",
+      "source_label": "公网FAST",
+      "reference": "https://skinred78.github.io/jp-iptv-epg/jp-playlist.m3u",
+      "media_type": "video",
+      "height": 1080,
+      "width": 1920,
+      "observed_hosts": [
+        "livetv.fastv.jp"
+      ],
+      "samples": [
+        {
+          "checked_at": "2026-11-26T00:10:58+08:00",
+          "transport": "hls",
+          "decoded_seconds": 3.003,
+          "decoded_frames": 89
+        },
+        {
+          "checked_at": "2026-11-26T00:11:21+08:00",
+          "transport": "hls",
+          "decoded_seconds": 3.003,
+          "decoded_frames": 90
+        },
+        {
+          "checked_at": "2026-11-26T00:50:30+08:00",
+          "transport": "hls",
+          "decoded_seconds": 3.003,
+          "decoded_frames": 90
+        }
+      ],
+      "display_name": "Animax FREE 日本HD [公网FAST]"
+    },
+    {
+      "channel": "Lemino TV",
+      "url": "https://livetv.fastv.jp/channel_assembly/696082290000105F1525/master.m3u8",
+      "group": "日本频道",
+      "status": "passed",
+      "region": "JP",
+      "exit_region": "JP",
+      "source_label": "公网FAST",
+      "reference": "https://skinred78.github.io/jp-iptv-epg/jp-playlist.m3u",
+      "media_type": "video",
+      "height": 1080,
+      "width": 1920,
+      "observed_hosts": [
+        "livetv.fastv.jp"
+      ],
+      "samples": [
+        {
+          "checked_at": "2026-11-26T00:10:58+08:00",
+          "transport": "hls",
+          "decoded_seconds": 3.003,
+          "decoded_frames": 89
+        },
+        {
+          "checked_at": "2026-11-26T00:11:21+08:00",
+          "transport": "hls",
+          "decoded_seconds": 3.003,
+          "decoded_frames": 90
+        }
+      ],
+      "display_name": "Lemino TVHD [公网FAST]"
+    },
+    {
+      "channel": "日本露营与户外",
+      "url": "https://livetv.fastv.jp/channel_assembly/69607E1D725E0FB5AC23/master.m3u8",
+      "group": "日本频道",
+      "status": "passed",
+      "region": "JP",
+      "exit_region": "JP",
+      "source_label": "公网FAST",
+      "reference": "https://skinred78.github.io/jp-iptv-epg/jp-playlist.m3u",
+      "media_type": "video",
+      "height": 1080,
+      "width": 1920,
+      "observed_hosts": [
+        "livetv.fastv.jp"
+      ],
+      "samples": [
+        {
+          "checked_at": "2026-11-26T00:10:59+08:00",
+          "transport": "hls",
+          "decoded_seconds": 3.003,
+          "decoded_frames": 89
+        },
+        {
+          "checked_at": "2026-11-26T00:11:21+08:00",
+          "transport": "hls",
+          "decoded_seconds": 3.003,
+          "decoded_frames": 90
+        }
+      ],
+      "display_name": "日本露营与户外HD [公网FAST]"
+    },
+    {
+      "channel": "Business Premium 日本",
+      "url": "https://livetv.fastv.jp/channel_assembly/69607EBD725E0F65BEE4/master.m3u8",
+      "group": "日本频道",
+      "status": "passed",
+      "region": "JP",
+      "exit_region": "JP",
+      "source_label": "公网FAST",
+      "reference": "https://skinred78.github.io/jp-iptv-epg/jp-playlist.m3u",
+      "media_type": "video",
+      "height": 1080,
+      "width": 1920,
+      "observed_hosts": [
+        "livetv.fastv.jp"
+      ],
+      "samples": [
+        {
+          "checked_at": "2026-11-26T00:10:58+08:00",
+          "transport": "hls",
+          "decoded_seconds": 3.003,
+          "decoded_frames": 90
+        },
+        {
+          "checked_at": "2026-11-26T00:11:21+08:00",
+          "transport": "hls",
+          "decoded_seconds": 3.003,
+          "decoded_frames": 89
+        }
+      ],
+      "display_name": "Business Premium 日本HD [公网FAST]"
+    },
+    {
+      "channel": "GOLF LIFE 日本",
+      "url": "https://livetv.fastv.jp/channel_assembly/69607D5C725E103DDF9D/master.m3u8",
+      "group": "日本频道",
+      "status": "passed",
+      "region": "JP",
+      "exit_region": "JP",
+      "source_label": "公网FAST",
+      "reference": "https://skinred78.github.io/jp-iptv-epg/jp-playlist.m3u",
+      "media_type": "video",
+      "height": 1080,
+      "width": 1920,
+      "observed_hosts": [
+        "livetv.fastv.jp"
+      ],
+      "samples": [
+        {
+          "checked_at": "2026-11-26T00:10:58+08:00",
+          "transport": "hls",
+          "decoded_seconds": 3.003,
+          "decoded_frames": 89
+        },
+        {
+          "checked_at": "2026-11-26T00:11:21+08:00",
+          "transport": "hls",
+          "decoded_seconds": 3.003,
+          "decoded_frames": 90
+        }
+      ],
+      "display_name": "GOLF LIFE 日本HD [公网FAST]"
+    },
+    {
+      "channel": "九州全览",
+      "url": "https://livetv.fastv.jp/channel_assembly/696090F573F51039B31F/master.m3u8",
+      "group": "日本频道",
+      "status": "passed",
+      "region": "JP",
+      "exit_region": "JP",
+      "source_label": "公网FAST",
+      "reference": "https://skinred78.github.io/jp-iptv-epg/jp-playlist.m3u",
+      "media_type": "video",
+      "height": 1080,
+      "width": 1920,
+      "observed_hosts": [
+        "livetv.fastv.jp"
+      ],
+      "samples": [
+        {
+          "checked_at": "2026-11-26T00:11:01+08:00",
+          "transport": "hls",
+          "decoded_seconds": 3.003,
+          "decoded_frames": 89
+        },
+        {
+          "checked_at": "2026-11-26T00:11:24+08:00",
+          "transport": "hls",
+          "decoded_seconds": 3.003,
+          "decoded_frames": 90
+        }
+      ],
+      "display_name": "九州全览HD [公网FAST]"
+    },
+    {
+      "channel": "PIA 落语",
+      "url": "https://livetv.fastv.jp/channel_assembly/69608EE9725E0F73BF30/master.m3u8",
+      "group": "日本频道",
+      "status": "passed",
+      "region": "JP",
+      "exit_region": "JP",
+      "source_label": "公网FAST",
+      "reference": "https://skinred78.github.io/jp-iptv-epg/jp-playlist.m3u",
+      "media_type": "video",
+      "height": 1080,
+      "width": 1920,
+      "observed_hosts": [
+        "livetv.fastv.jp"
+      ],
+      "samples": [
+        {
+          "checked_at": "2026-11-26T00:11:01+08:00",
+          "transport": "hls",
+          "decoded_seconds": 3.004,
+          "decoded_frames": 90
+        },
+        {
+          "checked_at": "2026-11-26T00:11:24+08:00",
+          "transport": "hls",
+          "decoded_seconds": 3.003,
+          "decoded_frames": 90
+        }
+      ],
+      "display_name": "PIA 落语HD [公网FAST]"
+    },
+    {
+      "channel": "围棋将棋 Light",
+      "url": "https://livetv.fastv.jp/channel_assembly/69998C7B725E30DA4170/master.m3u8",
+      "group": "日本频道",
+      "status": "passed",
+      "region": "JP",
+      "exit_region": "JP",
+      "source_label": "公网FAST",
+      "reference": "https://skinred78.github.io/jp-iptv-epg/jp-playlist.m3u",
+      "media_type": "video",
+      "height": 1080,
+      "width": 1920,
+      "observed_hosts": [
+        "livetv.fastv.jp"
+      ],
+      "samples": [
+        {
+          "checked_at": "2026-11-26T00:11:01+08:00",
+          "transport": "hls",
+          "decoded_seconds": 3.003,
+          "decoded_frames": 89
+        },
+        {
+          "checked_at": "2026-11-26T00:11:24+08:00",
+          "transport": "hls",
+          "decoded_seconds": 3.007,
+          "decoded_frames": 90
+        }
+      ],
+      "display_name": "围棋将棋 LightHD [公网FAST]"
+    },
+    {
+      "channel": "日本料理频道",
+      "url": "https://livetv.fastv.jp/channel_assembly/696095BC725E0FE5F3E9/master.m3u8",
+      "group": "日本频道",
+      "status": "passed",
+      "region": "JP",
+      "exit_region": "JP",
+      "source_label": "公网FAST",
+      "reference": "https://skinred78.github.io/jp-iptv-epg/jp-playlist.m3u",
+      "media_type": "video",
+      "height": 1080,
+      "width": 1920,
+      "observed_hosts": [
+        "livetv.fastv.jp"
+      ],
+      "samples": [
+        {
+          "checked_at": "2026-11-26T00:11:00+08:00",
+          "transport": "hls",
+          "decoded_seconds": 3.003,
+          "decoded_frames": 89
+        },
+        {
+          "checked_at": "2026-11-26T00:11:24+08:00",
+          "transport": "hls",
+          "decoded_seconds": 3.003,
+          "decoded_frames": 90
+        }
+      ],
+      "display_name": "日本料理频道HD [公网FAST]"
+    },
+    {
+      "channel": "东海 Locipo",
+      "url": "https://livetv.fastv.jp/channel_assembly/69998DB5725E30535DA6/master.m3u8",
+      "group": "日本频道",
+      "status": "passed",
+      "region": "JP",
+      "exit_region": "JP",
+      "source_label": "公网FAST",
+      "reference": "https://skinred78.github.io/jp-iptv-epg/jp-playlist.m3u",
+      "media_type": "video",
+      "height": 1080,
+      "width": 1920,
+      "observed_hosts": [
+        "livetv.fastv.jp"
+      ],
+      "samples": [
+        {
+          "checked_at": "2026-11-26T00:11:01+08:00",
+          "transport": "hls",
+          "decoded_seconds": 3.003,
+          "decoded_frames": 89
+        },
+        {
+          "checked_at": "2026-11-26T00:11:24+08:00",
+          "transport": "hls",
+          "decoded_seconds": 3.003,
+          "decoded_frames": 90
+        }
+      ],
+      "display_name": "东海 LocipoHD [公网FAST]"
+    },
+    {
+      "channel": "手冢制作 TV",
+      "url": "https://cdn-apne1.tsv2.amagi.tv/linear/amg01287-rakutentvjapan-anime5-cmaf-rakutenjp/playlist.m3u8",
+      "group": "日本频道",
+      "status": "passed",
+      "region": "JP",
+      "exit_region": "JP",
+      "source_label": "公网FAST",
+      "reference": "https://skinred78.github.io/jp-iptv-epg/jp-playlist.m3u",
+      "media_type": "video",
+      "height": 1080,
+      "width": 1920,
+      "observed_hosts": [
+        "amg01287-rakutentvjapan-anime5-cmaf-rakutenjp-x4dre.amagi.tv",
+        "cdn-apne1.tsv2.amagi.tv"
+      ],
+      "samples": [
+        {
+          "checked_at": "2026-11-26T00:10:58+08:00",
+          "transport": "hls",
+          "decoded_seconds": 3.003,
+          "decoded_frames": 90
+        },
+        {
+          "checked_at": "2026-11-26T00:11:24+08:00",
+          "transport": "hls",
+          "decoded_seconds": 3.003,
+          "decoded_frames": 90
+        }
+      ],
+      "display_name": "手冢制作 TVHD [公网FAST]"
+    },
+    {
+      "channel": "观旅日本",
+      "url": "https://livetv.fastv.jp/channel_assembly/6960965C64B80F2C027D/master.m3u8",
+      "group": "日本频道",
+      "status": "passed",
+      "region": "JP",
+      "exit_region": "JP",
+      "source_label": "公网FAST",
+      "reference": "https://skinred78.github.io/jp-iptv-epg/jp-playlist.m3u",
+      "media_type": "video",
+      "height": 1080,
+      "width": 1920,
+      "observed_hosts": [
+        "livetv.fastv.jp"
+      ],
+      "samples": [
+        {
+          "checked_at": "2026-11-26T00:11:01+08:00",
+          "transport": "hls",
+          "decoded_seconds": 3.003,
+          "decoded_frames": 90
+        },
+        {
+          "checked_at": "2026-11-26T00:11:24+08:00",
+          "transport": "hls",
+          "decoded_seconds": 3.003,
+          "decoded_frames": 89
+        },
+        {
+          "checked_at": "2026-11-26T00:50:30+08:00",
+          "transport": "hls",
+          "decoded_seconds": 3.003,
+          "decoded_frames": 90
+        }
+      ],
+      "display_name": "观旅日本HD [公网FAST]"
+    },
+    {
+      "channel": "PBS KMOS 密苏里",
+      "url": "https://hls-kmosdt.lls.cdn.pbs.org/hls/live/index.m3u8",
+      "group": "美国频道",
+      "status": "passed",
+      "region": "US",
+      "exit_region": "US",
+      "source_label": "公网",
+      "reference": "https://iptv-org.github.io/iptv/countries/us.m3u",
+      "media_type": "video",
+      "height": 720,
+      "width": 1280,
+      "observed_hosts": [
+        "hls-kmosdt.lls.cdn.pbs.org"
+      ],
+      "samples": [
+        {
+          "checked_at": "2026-11-26T00:49:43+08:00",
+          "transport": "hls",
+          "decoded_seconds": 3.004,
+          "decoded_frames": 90
+        },
+        {
+          "checked_at": "2026-11-26T00:50:26+08:00",
+          "transport": "hls",
+          "decoded_seconds": 3.004,
+          "decoded_frames": 90
+        }
+      ],
+      "display_name": "PBS KMOS 密苏里HD [公网]"
+    },
+    {
+      "channel": "FOX Weather",
+      "url": "https://aka-live1050.delivery.roku.com/2ff50939-341e-4fa8-becf-718769322f14/t2-origin/out/v1/live.m3u8",
+      "group": "美国频道",
+      "status": "passed",
+      "region": "US",
+      "exit_region": "US",
+      "source_label": "公网",
+      "reference": "https://iptv-org.github.io/iptv/countries/us.m3u",
+      "media_type": "video",
+      "height": 1080,
+      "width": 1920,
+      "observed_hosts": [
+        "aka-live1050.delivery.roku.com",
+        "sk.delivery.roku.com"
+      ],
+      "samples": [
+        {
+          "checked_at": "2026-11-26T00:50:16+08:00",
+          "transport": "hls-aes128-public",
+          "decoded_seconds": 3.009,
+          "decoded_frames": 90
+        },
+        {
+          "checked_at": "2026-11-26T00:56:17+08:00",
+          "transport": "hls-aes128-public",
+          "decoded_seconds": 3.007,
+          "decoded_frames": 90
+        }
+      ],
+      "display_name": "FOX WeatherHD [公网]"
+    },
+    {
+      "channel": "LiveNOW from FOX",
+      "url": "https://aka-live1050.delivery.roku.com/eaf7d889-16e0-4c14-a299-a2932df9f467/t2-origin/out/v1/live.m3u8",
+      "group": "美国频道",
+      "status": "passed",
+      "region": "US",
+      "exit_region": "US",
+      "source_label": "公网",
+      "reference": "https://iptv-org.github.io/iptv/countries/us.m3u",
+      "media_type": "video",
+      "height": 1080,
+      "width": 1920,
+      "observed_hosts": [
+        "aka-live1050.delivery.roku.com",
+        "sk.delivery.roku.com"
+      ],
+      "samples": [
+        {
+          "checked_at": "2026-11-26T00:50:16+08:00",
+          "transport": "hls-aes128-public",
+          "decoded_seconds": 3.009,
+          "decoded_frames": 90
+        },
+        {
+          "checked_at": "2026-11-26T00:56:17+08:00",
+          "transport": "hls-aes128-public",
+          "decoded_seconds": 3.009,
+          "decoded_frames": 90
+        }
+      ],
+      "display_name": "LiveNOW from FOXHD [公网]"
+    },
+    {
+      "channel": "Scripps News",
+      "url": "https://aka-live1050.delivery.roku.com/a48b72c9-5755-4ede-9dac-9e51e4ca5cc8/t2-origin/out/v1/live.m3u8",
+      "group": "美国频道",
+      "status": "passed",
+      "region": "US",
+      "exit_region": "US",
+      "source_label": "公网",
+      "reference": "https://iptv-org.github.io/iptv/countries/us.m3u",
+      "media_type": "video",
+      "height": 720,
+      "width": 1280,
+      "observed_hosts": [
+        "aka-live1050.delivery.roku.com",
+        "sk.delivery.roku.com"
+      ],
+      "samples": [
+        {
+          "checked_at": "2026-11-26T00:50:26+08:00",
+          "transport": "hls-aes128-public",
+          "decoded_seconds": 3.007,
+          "decoded_frames": 90
+        },
+        {
+          "checked_at": "2026-11-26T00:56:17+08:00",
+          "transport": "hls-aes128-public",
+          "decoded_seconds": 3.009,
+          "decoded_frames": 90
+        }
+      ],
+      "display_name": "Scripps NewsHD [公网]"
+    },
+    {
+      "channel": "Documentary+",
+      "url": "https://ef79b15c8c7c46c7a9de9d33001dbd07.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-859-DOCUMENTARYPLUS-DOCUMENTARYPLUS/mt/documentaryplus/859/hls/master/playlist.m3u8",
+      "group": "美国频道",
+      "status": "passed",
+      "region": "US",
+      "exit_region": "US",
+      "source_label": "公网",
+      "reference": "https://iptv-org.github.io/iptv/countries/us.m3u",
+      "media_type": "video",
+      "height": 1080,
+      "width": 1920,
+      "observed_hosts": [
+        "ef79b15c8c7c46c7a9de9d33001dbd07.mediatailor.us-west-2.amazonaws.com",
+        "linear-859.frequency.stream"
+      ],
+      "samples": [
+        {
+          "checked_at": "2026-11-26T00:49:41+08:00",
+          "transport": "hls",
+          "decoded_seconds": 3.013,
+          "decoded_frames": 90
+        },
+        {
+          "checked_at": "2026-11-26T00:50:16+08:00",
+          "transport": "hls",
+          "decoded_seconds": 3.007,
+          "decoded_frames": 90
+        },
+        {
+          "checked_at": "2026-11-26T00:56:53+08:00",
+          "transport": "hls",
+          "decoded_seconds": 3.005,
+          "decoded_frames": 90
+        }
+      ],
+      "display_name": "Documentary+HD [公网]"
+    },
+    {
+      "channel": "PBS Nature",
+      "url": "https://d3mr43kyql7wgk.cloudfront.net/PBS_Nature.m3u8",
+      "group": "美国频道",
+      "status": "passed",
+      "region": "US",
+      "exit_region": "US",
+      "source_label": "公网",
+      "reference": "https://iptv-org.github.io/iptv/countries/us.m3u",
+      "media_type": "video",
+      "height": 1080,
+      "width": 1920,
+      "observed_hosts": [
+        "d3mr43kyql7wgk.cloudfront.net"
+      ],
+      "samples": [
+        {
+          "checked_at": "2026-11-26T00:49:44+08:00",
+          "transport": "hls",
+          "decoded_seconds": 3.003,
+          "decoded_frames": 90
+        },
+        {
+          "checked_at": "2026-11-26T00:50:33+08:00",
+          "transport": "hls",
+          "decoded_seconds": 3.009,
+          "decoded_frames": 90
+        }
+      ],
+      "display_name": "PBS NatureHD [公网]"
+    },
+    {
+      "channel": "PBS Travel",
+      "url": "https://d3hqevbyoxtkoi.cloudfront.net/PBS_Travel.m3u8",
+      "group": "美国频道",
+      "status": "passed",
+      "region": "US",
+      "exit_region": "US",
+      "source_label": "公网",
+      "reference": "https://iptv-org.github.io/iptv/countries/us.m3u",
+      "media_type": "video",
+      "height": 1080,
+      "width": 1920,
+      "observed_hosts": [
+        "d3hqevbyoxtkoi.cloudfront.net"
+      ],
+      "samples": [
+        {
+          "checked_at": "2026-11-26T00:49:45+08:00",
+          "transport": "hls",
+          "decoded_seconds": 3.003,
+          "decoded_frames": 89
+        },
+        {
+          "checked_at": "2026-11-26T00:50:35+08:00",
+          "transport": "hls",
+          "decoded_seconds": 3.003,
+          "decoded_frames": 90
+        }
+      ],
+      "display_name": "PBS TravelHD [公网]"
+    },
+    {
+      "channel": "PBS Antiques Roadshow",
+      "url": "https://amg00953-pbsusa-antiroadshow-xumo-x6ud5.amagi.tv/playlist.m3u8",
+      "group": "美国频道",
+      "status": "passed",
+      "region": "US",
+      "exit_region": "US",
+      "source_label": "公网",
+      "reference": "https://iptv-org.github.io/iptv/countries/us.m3u",
+      "media_type": "video",
+      "height": 1080,
+      "width": 1920,
+      "observed_hosts": [
+        "amg00953-pbsusa-antiroadshow-xumo-x6ud5.amagi.tv"
+      ],
+      "samples": [
+        {
+          "checked_at": "2026-11-26T00:49:44+08:00",
+          "transport": "hls",
+          "decoded_seconds": 3.005,
+          "decoded_frames": 90
+        },
+        {
+          "checked_at": "2026-11-26T00:50:25+08:00",
+          "transport": "hls",
+          "decoded_seconds": 3.003,
+          "decoded_frames": 90
+        },
+        {
+          "checked_at": "2026-11-26T00:56:53+08:00",
+          "transport": "hls",
+          "decoded_seconds": 3.003,
+          "decoded_frames": 90
+        }
+      ],
+      "display_name": "PBS Antiques RoadshowHD [公网]"
+    },
+    {
+      "channel": "PBS Retro",
+      "url": "https://amg02333-pbs-amg02333c6-vizio-us-4416.playouts.now.amagi.tv/playlist.m3u8",
+      "group": "美国频道",
+      "status": "passed",
+      "region": "US",
+      "exit_region": "US",
+      "source_label": "公网",
+      "reference": "https://iptv-org.github.io/iptv/countries/us.m3u",
+      "media_type": "video",
+      "height": 1080,
+      "width": 1920,
+      "observed_hosts": [
+        "amg02333-pbs-amg02333c6-vizio-us-4416.playouts.now.amagi.tv"
+      ],
+      "samples": [
+        {
+          "checked_at": "2026-11-26T00:49:45+08:00",
+          "transport": "hls",
+          "decoded_seconds": 3.003,
+          "decoded_frames": 90
+        },
+        {
+          "checked_at": "2026-11-26T00:50:26+08:00",
+          "transport": "hls",
+          "decoded_seconds": 3.003,
+          "decoded_frames": 90
+        }
+      ],
+      "display_name": "PBS RetroHD [公网]"
+    },
+    {
+      "channel": "Better Life Nature",
+      "url": "https://tgn.bozztv.com/betterlife/betternature/betternature/index.m3u8",
+      "group": "美国频道",
+      "status": "passed",
+      "region": "US",
+      "exit_region": "US",
+      "source_label": "公网",
+      "reference": "https://iptv-org.github.io/iptv/countries/us.m3u",
+      "media_type": "video",
+      "height": 480,
+      "width": 704,
+      "observed_hosts": [
+        "tgn.bozztv.com"
+      ],
+      "samples": [
+        {
+          "checked_at": "2026-11-26T00:49:41+08:00",
+          "transport": "hls",
+          "decoded_seconds": 3.003,
+          "decoded_frames": 90
+        },
+        {
+          "checked_at": "2026-11-26T00:50:35+08:00",
+          "transport": "hls",
+          "decoded_seconds": 3.009,
+          "decoded_frames": 90
+        }
+      ],
+      "display_name": "Better Life Nature [公网]"
+    }
+  ]
+}

@@ -414,6 +414,9 @@ https://hoytv-live-stream.hoy.tv/ch77/index-fhd.m3u8
 #EXTINF:-1 tvg-name="HOY 78" group-title="港澳频道",HOY 78HD [官方CDN]
 https://hoytv-live-stream.hoy.tv/ch78/index-fhd.m3u8
 
+#EXTINF:-1 tvg-name="澳视葡文" group-title="港澳频道",澳视葡文HD [公网]
+https://live5.tdm.com.mo/ch2/ch2.live/playlist.m3u8
+
 #EXTINF:-1 tvg-name="TVBS欢乐节目线路" group-title="台湾频道",TVBS欢乐节目线路HD [公网中转]
 http://38.64.72.148/hls/modn/list/4005/playlist.m3u8
 
@@ -461,6 +464,45 @@ https://stream3.shopch.jp/HLS/master.m3u8
 
 #EXTINF:-1 tvg-name="樱桃电视台" group-title="日本频道",樱桃电视台HD [公网中转]
 https://tv-stream-test.daydreamer-json.cc/stream/bd2dd29080c36c9b01338d329156febe/master.m3u8
+
+#EXTINF:-1 tvg-name="日本时代剧 TV" group-title="日本频道",日本时代剧 TVHD [公网FAST]
+https://livetv.fastv.jp/channel_assembly/696074B664B80F46A876/master.m3u8
+
+#EXTINF:-1 tvg-name="Animax FREE 日本" group-title="日本频道",Animax FREE 日本HD [公网FAST]
+https://livetv.fastv.jp/channel_assembly/69608FB2725E0FA3B972/master.m3u8
+
+#EXTINF:-1 tvg-name="Lemino TV" group-title="日本频道",Lemino TVHD [公网FAST]
+https://livetv.fastv.jp/channel_assembly/696082290000105F1525/master.m3u8
+
+#EXTINF:-1 tvg-name="日本露营与户外" group-title="日本频道",日本露营与户外HD [公网FAST]
+https://livetv.fastv.jp/channel_assembly/69607E1D725E0FB5AC23/master.m3u8
+
+#EXTINF:-1 tvg-name="Business Premium 日本" group-title="日本频道",Business Premium 日本HD [公网FAST]
+https://livetv.fastv.jp/channel_assembly/69607EBD725E0F65BEE4/master.m3u8
+
+#EXTINF:-1 tvg-name="GOLF LIFE 日本" group-title="日本频道",GOLF LIFE 日本HD [公网FAST]
+https://livetv.fastv.jp/channel_assembly/69607D5C725E103DDF9D/master.m3u8
+
+#EXTINF:-1 tvg-name="九州全览" group-title="日本频道",九州全览HD [公网FAST]
+https://livetv.fastv.jp/channel_assembly/696090F573F51039B31F/master.m3u8
+
+#EXTINF:-1 tvg-name="PIA 落语" group-title="日本频道",PIA 落语HD [公网FAST]
+https://livetv.fastv.jp/channel_assembly/69608EE9725E0F73BF30/master.m3u8
+
+#EXTINF:-1 tvg-name="围棋将棋 Light" group-title="日本频道",围棋将棋 LightHD [公网FAST]
+https://livetv.fastv.jp/channel_assembly/69998C7B725E30DA4170/master.m3u8
+
+#EXTINF:-1 tvg-name="日本料理频道" group-title="日本频道",日本料理频道HD [公网FAST]
+https://livetv.fastv.jp/channel_assembly/696095BC725E0FE5F3E9/master.m3u8
+
+#EXTINF:-1 tvg-name="东海 Locipo" group-title="日本频道",东海 LocipoHD [公网FAST]
+https://livetv.fastv.jp/channel_assembly/69998DB5725E30535DA6/master.m3u8
+
+#EXTINF:-1 tvg-name="手冢制作 TV" group-title="日本频道",手冢制作 TVHD [公网FAST]
+https://cdn-apne1.tsv2.amagi.tv/linear/amg01287-rakutentvjapan-anime5-cmaf-rakutenjp/playlist.m3u8
+
+#EXTINF:-1 tvg-name="观旅日本" group-title="日本频道",观旅日本HD [公网FAST]
+https://livetv.fastv.jp/channel_assembly/6960965C64B80F2C027D/master.m3u8
 
 #EXTINF:-1 tvg-name="Arirang TV" group-title="韩国频道",Arirang TVHD [官方CDN]
 https://amdlive-ch01-ctnd-com.akamaized.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8
@@ -536,6 +578,36 @@ https://amg00488-foxdigital-fox2sanfranciscoktvu-vizious-cshim.amagi.tv/playlist
 
 #EXTINF:-1 tvg-name="Newsmax2" group-title="美国频道",Newsmax2HD [公网]
 https://amg00217-newsmax-newsmax-zeasn-022k9.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-name="PBS KMOS 密苏里" group-title="美国频道",PBS KMOS 密苏里HD [公网]
+https://hls-kmosdt.lls.cdn.pbs.org/hls/live/index.m3u8
+
+#EXTINF:-1 tvg-name="FOX Weather" group-title="美国频道",FOX WeatherHD [公网]
+https://aka-live1050.delivery.roku.com/2ff50939-341e-4fa8-becf-718769322f14/t2-origin/out/v1/live.m3u8
+
+#EXTINF:-1 tvg-name="LiveNOW from FOX" group-title="美国频道",LiveNOW from FOXHD [公网]
+https://aka-live1050.delivery.roku.com/eaf7d889-16e0-4c14-a299-a2932df9f467/t2-origin/out/v1/live.m3u8
+
+#EXTINF:-1 tvg-name="Scripps News" group-title="美国频道",Scripps NewsHD [公网]
+https://aka-live1050.delivery.roku.com/a48b72c9-5755-4ede-9dac-9e51e4ca5cc8/t2-origin/out/v1/live.m3u8
+
+#EXTINF:-1 tvg-name="Documentary+" group-title="美国频道",Documentary+HD [公网]
+https://ef79b15c8c7c46c7a9de9d33001dbd07.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-859-DOCUMENTARYPLUS-DOCUMENTARYPLUS/mt/documentaryplus/859/hls/master/playlist.m3u8
+
+#EXTINF:-1 tvg-name="PBS Nature" group-title="美国频道",PBS NatureHD [公网]
+https://d3mr43kyql7wgk.cloudfront.net/PBS_Nature.m3u8
+
+#EXTINF:-1 tvg-name="PBS Travel" group-title="美国频道",PBS TravelHD [公网]
+https://d3hqevbyoxtkoi.cloudfront.net/PBS_Travel.m3u8
+
+#EXTINF:-1 tvg-name="PBS Antiques Roadshow" group-title="美国频道",PBS Antiques RoadshowHD [公网]
+https://amg00953-pbsusa-antiroadshow-xumo-x6ud5.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-name="PBS Retro" group-title="美国频道",PBS RetroHD [公网]
+https://amg02333-pbs-amg02333c6-vizio-us-4416.playouts.now.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-name="Better Life Nature" group-title="美国频道",Better Life Nature [公网]
+https://tgn.bozztv.com/betterlife/betternature/betternature/index.m3u8
 
 #EXTINF:-1 tvg-id="67" tvg-name="CGTN" tvg-logo="https://epg.deny.vip/cctv/CGTN.png" group-title="国际频道",CGTN
 http://192.168.100.252:5678/udp/233.18.204.28:5140

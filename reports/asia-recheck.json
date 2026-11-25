@@ -1,0 +1,514 @@
+{
+  "tested_at": "2026-11-25T21:20:30+08:00",
+  "source_count": 9,
+  "complete": true,
+  "results": [
+    {
+      "channel": "Arirang TV",
+      "url": "https://amdlive-ch01-ctnd-com.akamaized.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8",
+      "group": "韩国频道",
+      "source_kind": "broadcaster_cdn",
+      "reference": "https://www.arirang.com/",
+      "source_label": "官方CDN",
+      "checked_at": "2026-11-25T21:19:57+08:00",
+      "status": "passed",
+      "transport": "hls",
+      "resolved_url": "https://amdlive-ch01-ctnd-com.akamaized.net/arirang_1ch/smil:arirang_1ch.smil/chunklist_b3256000_sleng.m3u8",
+      "segments_downloaded": 2,
+      "sample_bytes": 1412632,
+      "streams": [
+        {
+          "codec_name": "timed_id3",
+          "codec_type": "data",
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0"
+        },
+        {
+          "codec_name": "h264",
+          "profile": "High",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080,
+          "pix_fmt": "yuv420p",
+          "r_frame_rate": "30000/1001",
+          "avg_frame_rate": "30000/1001"
+        },
+        {
+          "codec_name": "aac",
+          "profile": "LC",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "bit_rate": "255891"
+        }
+      ],
+      "program_tags": [],
+      "width": 1920,
+      "height": 1080,
+      "media_type": "video",
+      "decoded_seconds": 3.003,
+      "decoded_frames": 90,
+      "visual_verified": true,
+      "visual_check": "复测样本已经人工画面核对，非黑场/错误提示；频道标识与选定线路相符。"
+    },
+    {
+      "channel": "TVB翡翠台",
+      "url": "https://cdn3.indevs.in/stream/tvb/fct/",
+      "group": "香港频道",
+      "source_kind": "third_party",
+      "reference": "https://github.com/alantang1977/iptvo/blob/main/IPTV.m3u",
+      "source_label": "公网中转",
+      "checked_at": "2026-11-25T21:19:57+08:00",
+      "status": "passed",
+      "transport": "hls",
+      "resolved_url": "https://cdn3.indevs.in/stream/tvb/fct/stream_0.php?u=admin&p=69fe3eb1f0b037bc2479cb4fbd56551848343f071f939422ef250f04f68b4cee&uid=",
+      "segments_downloaded": 2,
+      "sample_bytes": 8707596,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "profile": "High",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080,
+          "pix_fmt": "yuv420p",
+          "r_frame_rate": "25/1",
+          "avg_frame_rate": "25/1"
+        },
+        {
+          "codec_name": "aac",
+          "profile": "LC",
+          "codec_type": "audio",
+          "sample_rate": "32000",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "bit_rate": "127680"
+        },
+        {
+          "codec_name": "aac",
+          "profile": "LC",
+          "codec_type": "audio",
+          "sample_rate": "32000",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "bit_rate": "127739"
+        },
+        {
+          "codec_name": "dvb_subtitle",
+          "codec_type": "subtitle",
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0"
+        }
+      ],
+      "program_tags": [
+        {
+          "service_name": "翡翠台",
+          "service_provider": "tvb"
+        }
+      ],
+      "width": 1920,
+      "height": 1080,
+      "media_type": "video",
+      "decoded_seconds": 3.0,
+      "decoded_frames": 71,
+      "visual_verified": true,
+      "visual_check": "复测样本已经人工画面核对，非黑场/错误提示；频道标识与选定线路相符。"
+    },
+    {
+      "channel": "港台电视31",
+      "url": "https://rthktv31-live.akamaized.net/hls/live/2036818/RTHKTV31/master.m3u8",
+      "group": "香港频道",
+      "source_kind": "broadcaster_cdn",
+      "reference": "https://iptv-org.github.io/iptv/index.m3u",
+      "source_label": "官方CDN",
+      "checked_at": "2026-11-25T21:19:57+08:00",
+      "status": "passed",
+      "transport": "hls",
+      "resolved_url": "https://rthktv31-live.akamaized.net/hls/live/2036818/RTHKTV31/stream05/streamPlaylist.m3u8",
+      "segments_downloaded": 2,
+      "sample_bytes": 14739388,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "profile": "High",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080,
+          "pix_fmt": "yuv420p",
+          "r_frame_rate": "25/1",
+          "avg_frame_rate": "25/1"
+        },
+        {
+          "codec_name": "aac",
+          "profile": "LC",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "bit_rate": "127810"
+        },
+        {
+          "codec_name": "aac",
+          "profile": "LC",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "bit_rate": "192000"
+        },
+        {
+          "codec_name": "aac",
+          "profile": "LC",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "bit_rate": "192000"
+        },
+        {
+          "codec_name": "ac3",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "bit_rate": "192000"
+        }
+      ],
+      "program_tags": [],
+      "width": 1920,
+      "height": 1080,
+      "media_type": "video",
+      "decoded_seconds": 3.002,
+      "decoded_frames": 75,
+      "visual_verified": true,
+      "visual_check": "复测样本已经人工画面核对，非黑场/错误提示；频道标识与选定线路相符。"
+    },
+    {
+      "channel": "凤凰卫视资讯台",
+      "url": "https://cdn.qd.je/163189/fhzx",
+      "group": "香港频道",
+      "source_kind": "third_party",
+      "reference": "https://github.com/1996TV/iptv/blob/main/gdyd.m3u",
+      "source_label": "公网中转",
+      "checked_at": "2026-11-25T21:20:02+08:00",
+      "status": "passed",
+      "transport": "hls",
+      "resolved_url": "https://cdn6.cc.cd/163189/fhzx",
+      "segments_downloaded": 2,
+      "sample_bytes": 9075700,
+      "streams": [
+        {
+          "codec_name": "aac",
+          "profile": "HE-AAC",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "bit_rate": "39955"
+        },
+        {
+          "codec_name": "h264",
+          "profile": "High",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080,
+          "pix_fmt": "yuv420p",
+          "r_frame_rate": "50/1",
+          "avg_frame_rate": "50/1"
+        }
+      ],
+      "program_tags": [
+        {
+          "service_name": "Service01",
+          "service_provider": "FFmpeg"
+        }
+      ],
+      "width": 1920,
+      "height": 1080,
+      "media_type": "video",
+      "decoded_seconds": 3.0,
+      "decoded_frames": 147,
+      "visual_verified": true,
+      "visual_check": "复测样本已经人工画面核对，非黑场/错误提示；频道标识与选定线路相符。"
+    },
+    {
+      "channel": "KBS WORLD",
+      "url": "https://stream8.cinerama.uz/1448/playlist.m3u8",
+      "group": "韩国频道",
+      "source_kind": "listed_candidate",
+      "reference": "https://iptv-org.github.io/iptv/index.m3u",
+      "source_label": "公网中转",
+      "checked_at": "2026-11-25T21:20:01+08:00",
+      "status": "passed",
+      "transport": "hls",
+      "resolved_url": "https://stream8.cinerama.uz/1448/tracks-v1a1/mono.m3u8",
+      "segments_downloaded": 2,
+      "sample_bytes": 5721216,
+      "streams": [
+        {
+          "codec_name": "aac",
+          "profile": "LC",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "bit_rate": "195329"
+        },
+        {
+          "codec_name": "h264",
+          "profile": "Main",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080,
+          "pix_fmt": "yuv420p",
+          "r_frame_rate": "25/1",
+          "avg_frame_rate": "25/1"
+        }
+      ],
+      "program_tags": [
+        {
+          "service_name": "KBS_World_HD",
+          "service_provider": "uctv"
+        }
+      ],
+      "width": 1920,
+      "height": 1080,
+      "media_type": "video",
+      "decoded_seconds": 3.0,
+      "decoded_frames": 74,
+      "visual_verified": true,
+      "visual_check": "复测样本已经人工画面核对，非黑场/错误提示；频道标识与选定线路相符。"
+    },
+    {
+      "channel": "凤凰卫视中文台",
+      "url": "https://cdn.qd.je/163189/fhzw",
+      "group": "香港频道",
+      "source_kind": "third_party",
+      "reference": "https://github.com/1996TV/iptv/blob/main/gdyd.m3u",
+      "source_label": "公网中转",
+      "checked_at": "2026-11-25T21:20:02+08:00",
+      "status": "passed",
+      "transport": "hls",
+      "resolved_url": "https://cdn6.cc.cd/163189/fhzw",
+      "segments_downloaded": 2,
+      "sample_bytes": 9088296,
+      "streams": [
+        {
+          "codec_name": "aac",
+          "profile": "HE-AAC",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "bit_rate": "39990"
+        },
+        {
+          "codec_name": "h264",
+          "profile": "High",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080,
+          "pix_fmt": "yuv420p",
+          "r_frame_rate": "50/1",
+          "avg_frame_rate": "50/1"
+        }
+      ],
+      "program_tags": [
+        {
+          "service_name": "Service01",
+          "service_provider": "FFmpeg"
+        }
+      ],
+      "width": 1920,
+      "height": 1080,
+      "media_type": "video",
+      "decoded_seconds": 3.0,
+      "decoded_frames": 148,
+      "visual_verified": true,
+      "visual_check": "复测样本已经人工画面核对，非黑场/错误提示；频道标识与选定线路相符。"
+    },
+    {
+      "channel": "TVB Plus",
+      "url": "https://cdn3.indevs.in/stream/tvb/tvbp/",
+      "group": "香港频道",
+      "source_kind": "third_party",
+      "reference": "https://github.com/1996TV/iptv/blob/main/gdyd.m3u",
+      "source_label": "公网中转",
+      "checked_at": "2026-11-25T21:20:09+08:00",
+      "status": "passed",
+      "transport": "hls",
+      "resolved_url": "https://cdn3.indevs.in/stream/tvb/tvbp/stream_0.php?u=admin&p=69fe3eb1f0b037bc2479cb4fbd56551848343f071f939422ef250f04f68b4cee&uid=",
+      "segments_downloaded": 2,
+      "sample_bytes": 8670184,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "profile": "High",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080,
+          "pix_fmt": "yuv420p",
+          "r_frame_rate": "25/1",
+          "avg_frame_rate": "25/1"
+        },
+        {
+          "codec_name": "aac",
+          "profile": "LC",
+          "codec_type": "audio",
+          "sample_rate": "32000",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "bit_rate": "128031"
+        },
+        {
+          "codec_name": "aac",
+          "profile": "LC",
+          "codec_type": "audio",
+          "sample_rate": "32000",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "bit_rate": "128156"
+        },
+        {
+          "codec_name": "dvb_subtitle",
+          "codec_type": "subtitle",
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0"
+        }
+      ],
+      "program_tags": [
+        {
+          "service_name": "TVB PLUS",
+          "service_provider": "tvb"
+        }
+      ],
+      "width": 1920,
+      "height": 1080,
+      "media_type": "video",
+      "decoded_seconds": 3.0,
+      "decoded_frames": 71,
+      "visual_verified": true,
+      "visual_check": "复测样本已经人工画面核对，非黑场/错误提示；频道标识与选定线路相符。"
+    },
+    {
+      "channel": "NHK WORLD-JAPAN",
+      "url": "https://masterpl.hls.nhkworld.jp/hls/w/live/master.m3u8",
+      "group": "日本频道",
+      "source_kind": "broadcaster_cdn",
+      "reference": "https://livepl.nhkworld.jp/hlslive_web.json",
+      "source_label": "官方CDN",
+      "checked_at": "2026-11-25T21:20:10+08:00",
+      "status": "passed",
+      "transport": "hls",
+      "resolved_url": "https://media-tyo.hls.nhkworld.jp/hls/w/live/1/sig/e52230f79050aa333c4ac6430f40a08f0898e6ec1c43d5cb9bcb82f9573797c4/v2.m3u8",
+      "segments_downloaded": 2,
+      "sample_bytes": 2330484,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "profile": "Main",
+          "codec_type": "video",
+          "width": 1280,
+          "height": 720,
+          "pix_fmt": "yuv420p",
+          "r_frame_rate": "30000/1001",
+          "avg_frame_rate": "30000/1001",
+          "bit_rate": "1218500"
+        }
+      ],
+      "program_tags": [],
+      "width": 1280,
+      "height": 720,
+      "media_type": "video",
+      "decoded_seconds": 3.003,
+      "decoded_frames": 90,
+      "visual_verified": true,
+      "visual_check": "复测样本已经人工画面核对，非黑场/错误提示；频道标识与选定线路相符。",
+      "separate_audio_check": {
+        "checked_at": "2026-11-25T21:24:01+08:00",
+        "status": "passed",
+        "method": "主清单默认分离音轨：下载完整分片并解码",
+        "streams": [
+          {
+            "codec_name": "aac",
+            "profile": "LC",
+            "codec_type": "audio",
+            "sample_rate": "48000",
+            "channels": 2,
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "bit_rate": "125407"
+          }
+        ],
+        "program_tags": [],
+        "width": null,
+        "height": null,
+        "media_type": "audio",
+        "decoded_seconds": 3.0,
+        "decoded_frames": 0
+      }
+    },
+    {
+      "channel": "TVBS欢乐节目线路",
+      "url": "http://38.64.72.148/hls/modn/list/4005/playlist.m3u8",
+      "group": "台湾频道",
+      "source_kind": "third_party",
+      "reference": "https://github.com/alantang1977/iptvo/blob/main/IPTV.m3u",
+      "source_label": "公网中转",
+      "checked_at": "2026-11-25T21:20:08+08:00",
+      "status": "passed",
+      "transport": "hls",
+      "resolved_url": "http://38.64.72.148/hls/modn/list/4005/chunklist0.m3u8",
+      "segments_downloaded": 2,
+      "sample_bytes": 4097648,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "profile": "Main",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080,
+          "pix_fmt": "yuv420p",
+          "r_frame_rate": "30000/1001",
+          "avg_frame_rate": "30000/1001"
+        },
+        {
+          "codec_name": "aac",
+          "profile": "LC",
+          "codec_type": "audio",
+          "sample_rate": "44100",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "bit_rate": "130465"
+        }
+      ],
+      "program_tags": [
+        {
+          "service_name": "Service01",
+          "service_provider": "FFmpeg"
+        }
+      ],
+      "width": 1920,
+      "height": 1080,
+      "media_type": "video",
+      "decoded_seconds": 3.004,
+      "decoded_frames": 33,
+      "visual_verified": true,
+      "visual_check": "复测样本已经人工画面核对，非黑场/错误提示；频道标识与选定线路相符。"
+    }
+  ]
+}

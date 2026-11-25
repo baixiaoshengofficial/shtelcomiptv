@@ -366,6 +366,33 @@ http://r.jdshipin.com/sE5vO
 #EXTINF:-1 tvg-name="广东珠江" group-title="地方频道",广东珠江HD [EMOS 2]
 http://218.13.170.98:9901/tsfile/live/1000_1.m3u8?key=txiptv&playlive=1&authid=0
 
+#EXTINF:-1 tvg-name="TVB翡翠台" group-title="港澳频道",TVB翡翠台HD [公网中转]
+https://cdn3.indevs.in/stream/tvb/fct/
+
+#EXTINF:-1 tvg-name="港台电视31" group-title="港澳频道",港台电视31HD [官方CDN]
+https://rthktv31-live.akamaized.net/hls/live/2036818/RTHKTV31/master.m3u8
+
+#EXTINF:-1 tvg-name="凤凰卫视资讯台" group-title="港澳频道",凤凰卫视资讯台HD [公网中转]
+https://cdn.qd.je/163189/fhzx
+
+#EXTINF:-1 tvg-name="凤凰卫视中文台" group-title="港澳频道",凤凰卫视中文台HD [公网中转]
+https://cdn.qd.je/163189/fhzw
+
+#EXTINF:-1 tvg-name="TVB Plus" group-title="港澳频道",TVB PlusHD [公网中转]
+https://cdn3.indevs.in/stream/tvb/tvbp/
+
+#EXTINF:-1 tvg-name="TVBS欢乐节目线路" group-title="台湾频道",TVBS欢乐节目线路HD [公网中转]
+http://38.64.72.148/hls/modn/list/4005/playlist.m3u8
+
+#EXTINF:-1 tvg-name="NHK WORLD-JAPAN" group-title="日本频道",NHK WORLD-JAPANHD [官方CDN]
+https://masterpl.hls.nhkworld.jp/hls/w/live/master.m3u8
+
+#EXTINF:-1 tvg-name="Arirang TV" group-title="韩国频道",Arirang TVHD [官方CDN]
+https://amdlive-ch01-ctnd-com.akamaized.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8
+
+#EXTINF:-1 tvg-name="KBS WORLD" group-title="韩国频道",KBS WORLDHD [公网中转]
+https://stream8.cinerama.uz/1448/playlist.m3u8
+
 #EXTINF:-1 tvg-id="67" tvg-name="CGTN" tvg-logo="https://epg.deny.vip/cctv/CGTN.png" group-title="国际频道",CGTN
 http://192.168.100.252:5678/udp/233.18.204.28:5140
 

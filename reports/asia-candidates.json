@@ -1,0 +1,74 @@
+[
+  {
+    "channel": "TVB翡翠台",
+    "url": "https://cdn3.indevs.in/stream/tvb/fct/",
+    "group": "香港频道",
+    "source_kind": "third_party",
+    "reference": "https://github.com/alantang1977/iptvo/blob/main/IPTV.m3u",
+    "source_label": "公网中转"
+  },
+  {
+    "channel": "港台电视31",
+    "url": "https://rthktv31-live.akamaized.net/hls/live/2036818/RTHKTV31/master.m3u8",
+    "group": "香港频道",
+    "source_kind": "broadcaster_cdn",
+    "reference": "https://iptv-org.github.io/iptv/index.m3u",
+    "source_label": "官方CDN"
+  },
+  {
+    "channel": "Arirang TV",
+    "url": "https://amdlive-ch01-ctnd-com.akamaized.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8",
+    "group": "韩国频道",
+    "source_kind": "broadcaster_cdn",
+    "reference": "https://www.arirang.com/",
+    "source_label": "官方CDN"
+  },
+  {
+    "channel": "KBS WORLD",
+    "url": "https://stream8.cinerama.uz/1448/playlist.m3u8",
+    "group": "韩国频道",
+    "source_kind": "listed_candidate",
+    "reference": "https://iptv-org.github.io/iptv/index.m3u",
+    "source_label": "公网中转"
+  },
+  {
+    "channel": "凤凰卫视中文台",
+    "url": "https://cdn.qd.je/163189/fhzw",
+    "group": "香港频道",
+    "source_kind": "third_party",
+    "reference": "https://github.com/1996TV/iptv/blob/main/gdyd.m3u",
+    "source_label": "公网中转"
+  },
+  {
+    "channel": "凤凰卫视资讯台",
+    "url": "https://cdn.qd.je/163189/fhzx",
+    "group": "香港频道",
+    "source_kind": "third_party",
+    "reference": "https://github.com/1996TV/iptv/blob/main/gdyd.m3u",
+    "source_label": "公网中转"
+  },
+  {
+    "channel": "TVBS欢乐节目线路",
+    "url": "http://38.64.72.148/hls/modn/list/4005/playlist.m3u8",
+    "group": "台湾频道",
+    "source_kind": "third_party",
+    "reference": "https://github.com/alantang1977/iptvo/blob/main/IPTV.m3u",
+    "source_label": "公网中转"
+  },
+  {
+    "channel": "TVB Plus",
+    "url": "https://cdn3.indevs.in/stream/tvb/tvbp/",
+    "group": "香港频道",
+    "source_kind": "third_party",
+    "reference": "https://github.com/1996TV/iptv/blob/main/gdyd.m3u",
+    "source_label": "公网中转"
+  },
+  {
+    "channel": "NHK WORLD-JAPAN",
+    "url": "https://masterpl.hls.nhkworld.jp/hls/w/live/master.m3u8",
+    "group": "日本频道",
+    "source_kind": "broadcaster_cdn",
+    "reference": "https://livepl.nhkworld.jp/hlslive_web.json",
+    "source_label": "官方CDN"
+  }
+]

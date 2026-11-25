@@ -19,7 +19,8 @@ from zoneinfo import ZoneInfo
 ROOT = Path(__file__).resolve().parents[1]
 GROUPS = ['4K超高清', '央视频道', '卫视频道', '上海本地', '体育竞技',
           '影视剧场', '少儿动漫', '财经理财', '纪实科教', '生活休闲',
-          '教育课堂', '地方频道', '港澳频道', '国际频道', '广播电台', '购物频道', '其他频道']
+          '教育课堂', '地方频道', '港澳频道', '台湾频道', '日本频道', '韩国频道',
+          '国际频道', '广播电台', '购物频道', '其他频道']
 
 
 def now():
@@ -154,7 +155,7 @@ def validate(source):
 
 
 def category(name, old_group='', height=None, audio=False):
-    if audio or name.startswith('RTHK'):
+    if audio or re.match(r'^RTHK(?:第|普通话|Radio|\s+Radio)', name, re.I):
         return '广播电台'
     if (height or 0) >= 2160 or re.search(r'4K|UHD|超高清', name, re.I):
         return '4K超高清'
@@ -162,7 +163,15 @@ def category(name, old_group='', height=None, audio=False):
         return '央视频道'
     if name.startswith(('CGTN', 'CGNTV', 'BreadTV')):
         return '国际频道'
-    if name in ('翡翠台', '明珠台', 'TVB Plus'):
+    if name.startswith('TVBS'):
+        return '台湾频道'
+    if name.startswith('NHK'):
+        return '日本频道'
+    if name.startswith(('Arirang', 'KBS')):
+        return '韩国频道'
+    if name in ('翡翠台', '明珠台', 'TVB Plus') or name.startswith(
+            ('TVB翡翠', 'TVB明珠', 'TVB新闻', 'TVB Plus', '凤凰卫视', '凤凰中文', '凤凰资讯',
+             '凤凰香港', '港台电视', 'RTHK TV', '澳视', '澳门')):
         return '港澳频道'
     if '卫视' in name:
         return '卫视频道'

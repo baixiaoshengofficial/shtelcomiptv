@@ -2,9 +2,17 @@
 
 日常使用文件：[`shtelconiptv.m3u`](shtelconiptv.m3u)。
 
+## 港台日韩补全（2026-11-25）
+
+主播放列表现有 **146 条播放项、19 个非空分组**。新增 9 路：凤凰卫视中文台、凤凰卫视资讯台、TVB翡翠台、TVB Plus、港台电视31、TVBS欢乐节目线路、NHK WORLD-JAPAN、Arirang TV、KBS WORLD，分别放入港澳、台湾、日本、韩国分组。
+
+这 9 路均经过两轮真实媒体下载、ffprobe 识别和 ffmpeg 解码，并人工检查复测画面。最近一轮开始于北京时间 2026-11-25 21:20，8 路为 1920×1080，NHK WORLD-JAPAN 为 1280×720；NHK 的分离音轨另行下载、解码验证。来源分别标记为“官方CDN”和“公网中转”，这些新增地址均为公网单播。
+
+TVBS 按画面台标标注为欢乐节目线路；NHK WORLD-JAPAN 是英语国际频道。未通过测试或未确认直播时效的候选不加入。原有 137 条播放项、EPG 信息及 24 条 4K 线路保持不变。本轮复测范围是这 9 条新增线路，不代表重新测过全部 146 条，也不代表长期稳定。详情见 [`reports/asia-validation.md`](reports/asia-validation.md)。
+
 ## 其他组播频道补全（2026-11-25）
 
-主播放列表现有 **137 条播放项**。本轮增加8条家庭组播地址：
+该轮主播放列表扩充到 **137 条播放项**。本轮增加8条家庭组播地址：
 
 - 6条新频道/节目线路：BesTV电影导视、央广购物、东方购物1、东方购物2、好享购物、环球购物（聚鲨环球精选）。购物台放入单独的“购物频道”组。
 - 2条已有频道的1080p版本：CCTV-16、多彩文体，单独统计，不计作新台。
@@ -69,6 +77,8 @@ python3 scripts/audit_streams.py --input candidates.json --output report.json --
 本次 4K 候选分别存放在四份发现/复测报告中；`python3 scripts/merge_4k.py` 只会合并两轮都通过、实测至少 3840×2160 的地址，按 URL 去重。它只读取测试报告，不会重新联网检测；报告必须已经完整生成。
 
 其他组播频道用 `reports/multicast-reviewed.json` 记录人工核对的身份，配合 `multicast-discovery.json` 和 `multicast-recheck.json` 两轮报告，由 `python3 scripts/merge_multicast.py` 合并。该命令同样只读取已有报告，不重新联网检测。
+
+港台日韩候选见 `reports/asia-candidates.json`。`python3 scripts/merge_asia.py` 仅合并 `asia-discovery.json` 和 `asia-recheck.json` 两轮都通过且有人工画面核对标记的源，按 URL 去重；此命令只读取报告，不会重新联网测试。
 
 ## 原始说明
 

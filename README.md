@@ -2,9 +2,15 @@
 
 日常使用文件：[`shtelconiptv.m3u`](shtelconiptv.m3u)。
 
+## 港台韩国主流台复查（2026-11-26）
+
+主播放列表现有 **221 条播放项**，其中 101 条为公网线路。本轮新增 TVB 明珠台、ViuTVsix 和 SBS 江原 G1 地方联播台。香港两路均以 1080p 播放，G1 实测为 720p。[主流台验证报告](reports/mainstream-followup.md)
+
+Clash 的 `📺 IPTV中转` 已撤销。BreadTV 和 CGTN Rakuten 走香港，Love Nature 4K 走美国。更新 Nikki/OpenClash 订阅并重载配置后生效。
+
 ## 亚洲与美国节目补充（2026-11-26）
 
-主播放列表现有 **218 条播放项**，其中 98 条为公网线路。本轮新增日本 13 条、美国 10 条和澳门 1 条。包括 Animax FREE、Lemino TV、日本时代剧 TV、PBS Nature、FOX Weather、LiveNOW from FOX 和澳视葡文。新增线路均通过至少两轮媒体解码，并核对了节目画面。
+该轮主播放列表扩充到 **218 条播放项**，其中 98 条为公网线路。新增日本 13 条、美国 10 条和澳门 1 条。包括 Animax FREE、Lemino TV、日本时代剧 TV、PBS Nature、FOX Weather、LiveNOW from FOX 和澳视葡文。新增线路均通过至少两轮媒体解码，并核对了节目画面。
 
 日本和美国的媒体域名已同步到 Clash 对应地区组，澳视葡文复用香港组。更新 Clash 订阅并重载后，再刷新播放器的主播放列表。[补源与验证报告](reports/variety-expansion.md)
 

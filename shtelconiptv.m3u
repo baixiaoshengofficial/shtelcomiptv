@@ -417,6 +417,12 @@ https://hoytv-live-stream.hoy.tv/ch78/index-fhd.m3u8
 #EXTINF:-1 tvg-name="澳视葡文" group-title="港澳频道",澳视葡文HD [公网]
 https://live5.tdm.com.mo/ch2/ch2.live/playlist.m3u8
 
+#EXTINF:-1 tvg-name="TVB明珠台" group-title="港澳频道",TVB明珠台HD [公网中转]
+https://php.jdshipin.com/TVOD/iptv.php?id=mzt2
+
+#EXTINF:-1 tvg-name="ViuTVsix" group-title="港澳频道",ViuTVsixHD [公网中转]
+https://cdn.qd.je/163189/viu6
+
 #EXTINF:-1 tvg-name="TVBS欢乐节目线路" group-title="台湾频道",TVBS欢乐节目线路HD [公网中转]
 http://38.64.72.148/hls/modn/list/4005/playlist.m3u8
 
@@ -557,6 +563,9 @@ https://live.knou.ac.kr/knou1/live1/playlist.m3u8
 
 #EXTINF:-1 tvg-name="SBS JTV 全州" group-title="韩国频道",SBS JTV 全州 [公网]
 http://61.85.197.53:1935/jtv_live/myStream/playlist.m3u8
+
+#EXTINF:-1 tvg-name="SBS 江原 G1" group-title="韩国频道",SBS 江原 G1HD [公网]
+http://61.82.49.4:1935/live/_definst_/tv.stream/playlist.m3u8
 
 #EXTINF:-1 tvg-name="NBC News NOW" group-title="美国频道",NBC News NOWHD [公网]
 https://d1si3n1st4nkgb.cloudfront.net/10502/88896001/hls/master.m3u8?ads.xumo_channelId=88896001

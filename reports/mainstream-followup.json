@@ -1,0 +1,134 @@
+{
+  "tested_on": "2026-11-26",
+  "tested_fixed_candidates": 143,
+  "candidate_regions": {
+    "TW": 32,
+    "KR": 48,
+    "HK": 63
+  },
+  "previous_playlist_entries": 218,
+  "playlist_entries": 221,
+  "public_playlist_entries": 101,
+  "old_route_test_restored": true,
+  "added": [
+    {
+      "channel": "TVB明珠台",
+      "group": "港澳频道",
+      "url": "https://php.jdshipin.com/TVOD/iptv.php?id=mzt2",
+      "status": "passed",
+      "media_type": "video",
+      "region": "HK",
+      "source_label": "公网中转",
+      "height": 1080,
+      "width": 1920,
+      "reference": "https://raw.githubusercontent.com/sammy0101/hk-iptv-auto/main/hk_live.m3u",
+      "observed_hosts": [
+        "10.fast.hidns.vip",
+        "cdn.qd.je",
+        "php.jdshipin.com"
+      ],
+      "samples": [
+        {
+          "checked_at": "2026-11-26T01:25:20+08:00",
+          "decoded_frames": 150,
+          "decoded_seconds": 3.0
+        },
+        {
+          "checked_at": "2026-11-26T01:25:32+08:00",
+          "decoded_frames": 150,
+          "decoded_seconds": 3.0
+        }
+      ],
+      "native_decoded_video_frames": 24,
+      "continuous_sample_seconds": 14.18,
+      "display_name": "TVB明珠台HD [公网中转]"
+    },
+    {
+      "channel": "ViuTVsix",
+      "group": "港澳频道",
+      "url": "https://cdn.qd.je/163189/viu6",
+      "status": "passed",
+      "media_type": "video",
+      "region": "HK",
+      "source_label": "公网中转",
+      "height": 1080,
+      "width": 1920,
+      "reference": "https://raw.githubusercontent.com/1996TV/iptv/main/gdyd.m3u",
+      "observed_hosts": [
+        "10.fast.hidns.vip",
+        "cdn.qd.je"
+      ],
+      "samples": [
+        {
+          "checked_at": "2026-11-26T01:25:20+08:00",
+          "decoded_frames": 150,
+          "decoded_seconds": 3.0
+        },
+        {
+          "checked_at": "2026-11-26T01:25:32+08:00",
+          "decoded_frames": 150,
+          "decoded_seconds": 3.0
+        }
+      ],
+      "native_decoded_video_frames": 24,
+      "continuous_sample_seconds": 14.18,
+      "display_name": "ViuTVsixHD [公网中转]"
+    },
+    {
+      "channel": "SBS 江原 G1",
+      "group": "韩国频道",
+      "url": "http://61.82.49.4:1935/live/_definst_/tv.stream/playlist.m3u8",
+      "status": "passed",
+      "media_type": "video",
+      "region": "KR",
+      "source_label": "公网",
+      "height": 720,
+      "width": 1280,
+      "reference": "https://www.g1tv.co.kr/schedule/?mid=165_166",
+      "observed_hosts": [
+        "61.82.49.4"
+      ],
+      "samples": [
+        {
+          "checked_at": "2026-11-26T01:21:44+08:00",
+          "decoded_frames": 89,
+          "decoded_seconds": 3.0
+        },
+        {
+          "checked_at": "2026-11-26T01:22:34+08:00",
+          "decoded_frames": 90,
+          "decoded_seconds": 3.001
+        }
+      ],
+      "display_name": "SBS 江原 G1HD [公网]"
+    }
+  ],
+  "migrated_streams": {
+    "video.bread-tv.com": {
+      "channel": "BreadTV",
+      "policy": "🇭🇰 香港节点",
+      "height": 1080,
+      "tested_at": "2026-11-26T01:16:40+08:00",
+      "decoded_frames": 86
+    },
+    "pb-ehs1glsha1juy.akamaized.net": {
+      "channel": "Love Nature 4K",
+      "policy": "🇺🇲 美国节点",
+      "height": 2160,
+      "tested_at": "2026-11-26T01:16:44+08:00",
+      "decoded_frames": 90
+    },
+    "amg00405-rakutentv-cgtn-rakuten-i9tar.amagi.tv": {
+      "channel": "CGTN Rakuten",
+      "policy": "🇭🇰 香港节点",
+      "height": 1080,
+      "tested_at": "2026-11-26T01:18:20+08:00",
+      "decoded_frames": 90
+    }
+  },
+  "twl_label_count": 7,
+  "twl_reported_exit_ip_locations": [
+    "HK"
+  ],
+  "scope": "受测地址含公开中转和频道官网地址。只收录对应地区两次媒体解码、画面及播放器验证通过的线路。"
+}

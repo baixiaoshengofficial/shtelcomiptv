@@ -1,0 +1,553 @@
+{
+  "tested_at": "2026-11-26T00:01:36+08:00",
+  "router": {
+    "geolocation_service": "IPPure",
+    "nodes_checked": 7,
+    "geo_results": {
+      "HK": 7
+    },
+    "routes_verified": true,
+    "original_selection_restored": true
+  },
+  "original_candidate_urls": 20,
+  "unique_tested_urls": 30,
+  "selected": [
+    {
+      "channel": "民视新闻台",
+      "region": "TW",
+      "group": "台湾频道",
+      "source_label": "公网中转",
+      "url": "http://38.64.72.148/hls/modn/list/4012/playlist.m3u8",
+      "status": "passed",
+      "media_type": "video",
+      "width": 1920,
+      "height": 1080,
+      "observed_hosts": [
+        "38.64.72.148"
+      ],
+      "source_reference": "https://github.com/c120487/00/blob/main/1028live.txt",
+      "visual_review": "两次核对频道台标与正常节目画面",
+      "confirmed_route_samples": 2,
+      "transport": "hls"
+    },
+    {
+      "channel": "原住民族电视台",
+      "region": "TW",
+      "group": "台湾频道",
+      "source_label": "官方CDN",
+      "url": "https://streamipcfapp.akamaized.net/live/_definst_/live_720/key_b1500.m3u8",
+      "status": "passed",
+      "media_type": "video",
+      "width": 1280,
+      "height": 720,
+      "observed_hosts": [
+        "streamipcfapp.akamaized.net"
+      ],
+      "source_reference": "https://www.ipcf.org.tw/zh-tv/About/Index/21061616200029064",
+      "visual_review": "两次核对频道台标与正常节目画面",
+      "confirmed_route_samples": 2,
+      "transport": "hls-aes128-public"
+    }
+  ],
+  "previous_entries_unchanged": 192,
+  "total_entries": 194,
+  "playlist_sha256": "20f6bd1660baaf6ae2cc3fdf3f9800625180fcbf378b84594110921fae90b476",
+  "cases": [
+    {
+      "channel": "华视主频",
+      "domain": "tv.iill.top",
+      "reference": "https://github.com/gdydg/iptv/blob/main/tv.m3u",
+      "attempts": [
+        {
+          "checked_at": "2026-11-25T23:57:49+08:00",
+          "status": "failed",
+          "observed_tw_path": true,
+          "failure": "连接或 TLS 失败",
+          "stage": "1"
+        },
+        {
+          "checked_at": "2026-11-25T23:59:15+08:00",
+          "status": "failed",
+          "observed_tw_path": true,
+          "failure": "连接或 TLS 失败",
+          "stage": "extra"
+        }
+      ]
+    },
+    {
+      "channel": "台视主频",
+      "domain": "tv.iill.top",
+      "reference": "https://github.com/gdydg/iptv/blob/main/tv.m3u",
+      "attempts": [
+        {
+          "checked_at": "2026-11-25T23:57:49+08:00",
+          "status": "failed",
+          "observed_tw_path": true,
+          "failure": "连接或 TLS 失败",
+          "stage": "1"
+        },
+        {
+          "checked_at": "2026-11-25T23:59:15+08:00",
+          "status": "failed",
+          "observed_tw_path": true,
+          "failure": "连接或 TLS 失败",
+          "stage": "extra"
+        }
+      ]
+    },
+    {
+      "channel": "民视主频",
+      "domain": "seb.sason.top",
+      "reference": "https://iptv-org.github.io/iptv/countries/tw.m3u",
+      "attempts": [
+        {
+          "checked_at": "2026-11-25T23:57:50+08:00",
+          "status": "failed",
+          "observed_tw_path": true,
+          "failure": "HTTP 502",
+          "stage": "1"
+        }
+      ]
+    },
+    {
+      "channel": "民视主频",
+      "domain": "tv.iill.top",
+      "reference": "https://github.com/gdydg/iptv/blob/main/tv.m3u",
+      "attempts": [
+        {
+          "checked_at": "2026-11-25T23:57:50+08:00",
+          "status": "failed",
+          "observed_tw_path": true,
+          "failure": "连接或 TLS 失败",
+          "stage": "1"
+        },
+        {
+          "checked_at": "2026-11-25T23:59:17+08:00",
+          "status": "failed",
+          "observed_tw_path": true,
+          "failure": "连接或 TLS 失败",
+          "stage": "extra"
+        }
+      ]
+    },
+    {
+      "channel": "中视主频",
+      "domain": "tv.iill.top",
+      "reference": "https://github.com/gdydg/iptv/blob/main/tv.m3u",
+      "attempts": [
+        {
+          "checked_at": "2026-11-25T23:57:49+08:00",
+          "status": "failed",
+          "observed_tw_path": true,
+          "failure": "连接或 TLS 失败",
+          "stage": "1"
+        },
+        {
+          "checked_at": "2026-11-25T23:59:15+08:00",
+          "status": "failed",
+          "observed_tw_path": true,
+          "failure": "连接或 TLS 失败",
+          "stage": "extra"
+        }
+      ]
+    },
+    {
+      "channel": "台视主频",
+      "domain": "162.19.247.76",
+      "reference": "https://iptv-org.github.io/iptv/countries/tw.m3u",
+      "attempts": [
+        {
+          "checked_at": "2026-11-25T23:57:49+08:00",
+          "status": "failed",
+          "observed_tw_path": true,
+          "failure": "HTTP 502",
+          "stage": "1"
+        }
+      ]
+    },
+    {
+      "channel": "华视新闻台",
+      "domain": "seb.sason.top",
+      "reference": "https://iptv-org.github.io/iptv/countries/tw.m3u",
+      "attempts": [
+        {
+          "checked_at": "2026-11-25T23:57:55+08:00",
+          "status": "failed",
+          "observed_tw_path": true,
+          "failure": "HTTP 502",
+          "stage": "1"
+        }
+      ]
+    },
+    {
+      "channel": "东森新闻台",
+      "domain": "seb.sason.top",
+      "reference": "https://iptv-org.github.io/iptv/countries/tw.m3u",
+      "attempts": [
+        {
+          "checked_at": "2026-11-25T23:57:56+08:00",
+          "status": "failed",
+          "observed_tw_path": true,
+          "failure": "HTTP 502",
+          "stage": "1"
+        }
+      ]
+    },
+    {
+      "channel": "原住民族电视台",
+      "domain": "streamipcf.akamaized.net",
+      "reference": "https://iptv-org.github.io/iptv/countries/tw.m3u",
+      "attempts": [
+        {
+          "checked_at": "2026-11-25T23:57:56+08:00",
+          "status": "failed",
+          "observed_tw_path": false,
+          "failure": "HTTP 403",
+          "stage": "1"
+        }
+      ]
+    },
+    {
+      "channel": "三立新闻台",
+      "domain": "seb.sason.top",
+      "reference": "https://iptv-org.github.io/iptv/countries/tw.m3u",
+      "attempts": [
+        {
+          "checked_at": "2026-11-25T23:57:57+08:00",
+          "status": "failed",
+          "observed_tw_path": false,
+          "failure": "HTTP 502",
+          "stage": "1"
+        }
+      ]
+    },
+    {
+      "channel": "原住民族电视台",
+      "domain": "streamipcfapp.akamaized.net",
+      "reference": "https://iptv-org.github.io/iptv/countries/tw.m3u",
+      "attempts": [
+        {
+          "checked_at": "2026-11-25T23:57:57+08:00",
+          "status": "failed",
+          "observed_tw_path": true,
+          "failure": "加密 HLS 未完成解密测试，未添加",
+          "stage": "1"
+        },
+        {
+          "checked_at": "2026-11-25T23:59:18+08:00",
+          "status": "failed",
+          "observed_tw_path": true,
+          "failure": "加密 HLS 未完成解密测试，未添加",
+          "stage": "extra"
+        },
+        {
+          "checked_at": "2026-11-26T00:00:13+08:00",
+          "status": "passed",
+          "width": 1280,
+          "height": 720,
+          "decoded_seconds": 3.003,
+          "decoded_frames": 143,
+          "observed_tw_path": true,
+          "stage": "focused"
+        },
+        {
+          "checked_at": "2026-11-26T00:00:35+08:00",
+          "status": "passed",
+          "width": 1280,
+          "height": 720,
+          "decoded_seconds": 3.003,
+          "decoded_frames": 180,
+          "observed_tw_path": true,
+          "stage": "focused-recheck"
+        }
+      ]
+    },
+    {
+      "channel": "民视主频",
+      "domain": "smt.goiptv.us.ci",
+      "reference": "https://github.com/judy-gotv/iptv/blob/main/smart.m3u",
+      "attempts": [
+        {
+          "checked_at": "2026-11-25T23:57:49+08:00",
+          "status": "failed",
+          "observed_tw_path": true,
+          "failure": "连接或 TLS 失败",
+          "stage": "1"
+        }
+      ]
+    },
+    {
+      "channel": "台视主频",
+      "domain": "smt.goiptv.us.ci",
+      "reference": "https://github.com/judy-gotv/iptv/blob/main/smart.m3u",
+      "attempts": [
+        {
+          "checked_at": "2026-11-25T23:57:49+08:00",
+          "status": "failed",
+          "observed_tw_path": true,
+          "failure": "连接或 TLS 失败",
+          "stage": "1"
+        }
+      ]
+    },
+    {
+      "channel": "中视主频",
+      "domain": "smt.goiptv.us.ci",
+      "reference": "https://github.com/judy-gotv/iptv/blob/main/smart.m3u",
+      "attempts": [
+        {
+          "checked_at": "2026-11-25T23:57:49+08:00",
+          "status": "failed",
+          "observed_tw_path": true,
+          "failure": "连接或 TLS 失败",
+          "stage": "1"
+        }
+      ]
+    },
+    {
+      "channel": "华视主频",
+      "domain": "smt.goiptv.us.ci",
+      "reference": "https://github.com/judy-gotv/iptv/blob/main/smart.m3u",
+      "attempts": [
+        {
+          "checked_at": "2026-11-25T23:57:49+08:00",
+          "status": "failed",
+          "observed_tw_path": true,
+          "failure": "连接或 TLS 失败",
+          "stage": "1"
+        }
+      ]
+    },
+    {
+      "channel": "TVBS新闻台",
+      "domain": "seb.sason.top",
+      "reference": "https://iptv-org.github.io/iptv/countries/tw.m3u",
+      "attempts": [
+        {
+          "checked_at": "2026-11-25T23:57:59+08:00",
+          "status": "failed",
+          "observed_tw_path": true,
+          "failure": "HTTP 502",
+          "stage": "1"
+        }
+      ]
+    },
+    {
+      "channel": "公视主频",
+      "domain": "smt.goiptv.us.ci",
+      "reference": "https://github.com/judy-gotv/iptv/blob/main/smart.m3u",
+      "attempts": [
+        {
+          "checked_at": "2026-11-25T23:57:50+08:00",
+          "status": "failed",
+          "observed_tw_path": true,
+          "failure": "连接或 TLS 失败",
+          "stage": "1"
+        }
+      ]
+    },
+    {
+      "channel": "公视台语台",
+      "domain": "smt.goiptv.us.ci",
+      "reference": "https://github.com/judy-gotv/iptv/blob/main/smart.m3u",
+      "attempts": [
+        {
+          "checked_at": "2026-11-25T23:57:51+08:00",
+          "status": "failed",
+          "observed_tw_path": true,
+          "failure": "连接或 TLS 失败",
+          "stage": "1"
+        }
+      ]
+    },
+    {
+      "channel": "民视新闻台",
+      "domain": "smt.goiptv.us.ci",
+      "reference": "https://github.com/judy-gotv/iptv/blob/main/smart.m3u",
+      "attempts": [
+        {
+          "checked_at": "2026-11-25T23:57:51+08:00",
+          "status": "failed",
+          "observed_tw_path": true,
+          "failure": "连接或 TLS 失败",
+          "stage": "1"
+        }
+      ]
+    },
+    {
+      "channel": "民视新闻台",
+      "domain": "38.64.72.148",
+      "reference": "https://github.com/c120487/00/blob/main/1028live.txt",
+      "attempts": [
+        {
+          "checked_at": "2026-11-25T23:57:59+08:00",
+          "status": "passed",
+          "width": 1920,
+          "height": 1080,
+          "decoded_seconds": 3.01,
+          "decoded_frames": 64,
+          "observed_tw_path": true,
+          "stage": "1"
+        },
+        {
+          "checked_at": "2026-11-25T23:58:37+08:00",
+          "status": "passed",
+          "width": 1920,
+          "height": 1080,
+          "decoded_seconds": 3.003,
+          "decoded_frames": 63,
+          "observed_tw_path": true,
+          "stage": "2"
+        }
+      ]
+    },
+    {
+      "channel": "华视主频",
+      "domain": "4gtv.cnlive.club",
+      "reference": "https://github.com/yy-niuma/live-tv/blob/main/output/all_merged.m3u",
+      "attempts": [
+        {
+          "checked_at": "2026-11-25T23:59:15+08:00",
+          "status": "passed",
+          "width": 1080,
+          "height": 720,
+          "decoded_seconds": 3.0,
+          "decoded_frames": 90,
+          "observed_tw_path": true,
+          "screen": "两路实际为应用下载广告，未收录",
+          "stage": "extra"
+        }
+      ]
+    },
+    {
+      "channel": "民视主频",
+      "domain": "4gtv.cnlive.club",
+      "reference": "https://github.com/yy-niuma/live-tv/blob/main/output/all_merged.m3u",
+      "attempts": [
+        {
+          "checked_at": "2026-11-25T23:59:16+08:00",
+          "status": "passed",
+          "width": 1080,
+          "height": 720,
+          "decoded_seconds": 3.0,
+          "decoded_frames": 90,
+          "observed_tw_path": true,
+          "screen": "两路实际为应用下载广告，未收录",
+          "stage": "extra"
+        }
+      ]
+    },
+    {
+      "channel": "中视主频",
+      "domain": "37.27.111.214",
+      "reference": "https://github.com/yy-niuma/live-tv/blob/main/output/all_merged.m3u",
+      "attempts": [
+        {
+          "checked_at": "2026-11-25T23:59:15+08:00",
+          "status": "failed",
+          "observed_tw_path": true,
+          "failure": "媒体分片下载不完整",
+          "stage": "extra"
+        }
+      ]
+    },
+    {
+      "channel": "台视主频",
+      "domain": "38.64.72.148",
+      "reference": "https://github.com/yy-niuma/live-tv/blob/main/output/all_merged.m3u",
+      "attempts": [
+        {
+          "checked_at": "2026-11-25T23:59:15+08:00",
+          "status": "failed",
+          "observed_tw_path": true,
+          "failure": "媒体分片下载不完整",
+          "stage": "extra"
+        }
+      ]
+    },
+    {
+      "channel": "民视主频",
+      "domain": "litv.zapi.us.kg",
+      "reference": "https://github.com/gdydg/iptv/blob/main/tv.m3u",
+      "attempts": [
+        {
+          "checked_at": "2026-11-26T00:00:13+08:00",
+          "status": "failed",
+          "observed_tw_path": false,
+          "failure": "HTTP 502",
+          "stage": "focused"
+        }
+      ]
+    },
+    {
+      "channel": "台视主频",
+      "domain": "litv.zapi.us.kg",
+      "reference": "https://github.com/gdydg/iptv/blob/main/tv.m3u",
+      "attempts": [
+        {
+          "checked_at": "2026-11-26T00:00:13+08:00",
+          "status": "failed",
+          "observed_tw_path": false,
+          "failure": "HTTP 502",
+          "stage": "focused"
+        }
+      ]
+    },
+    {
+      "channel": "华视主频",
+      "domain": "litv.zapi.us.kg",
+      "reference": "https://github.com/gdydg/iptv/blob/main/tv.m3u",
+      "attempts": [
+        {
+          "checked_at": "2026-11-26T00:00:13+08:00",
+          "status": "failed",
+          "observed_tw_path": true,
+          "failure": "HTTP 502",
+          "stage": "focused"
+        }
+      ]
+    },
+    {
+      "channel": "中视主频",
+      "domain": "litv.zapi.us.kg",
+      "reference": "https://github.com/gdydg/iptv/blob/main/tv.m3u",
+      "attempts": [
+        {
+          "checked_at": "2026-11-26T00:00:13+08:00",
+          "status": "failed",
+          "observed_tw_path": false,
+          "failure": "HTTP 502",
+          "stage": "focused"
+        }
+      ]
+    },
+    {
+      "channel": "TVBS新闻台",
+      "domain": "38.64.72.148",
+      "reference": "https://github.com/vip-weizhen/tvlist/blob/main/test.txt",
+      "attempts": [
+        {
+          "checked_at": "2026-11-26T00:00:13+08:00",
+          "status": "failed",
+          "observed_tw_path": true,
+          "failure": "HTTP 404",
+          "stage": "focused"
+        }
+      ]
+    },
+    {
+      "channel": "公视主频",
+      "domain": "50.7.220.74",
+      "reference": "https://github.com/c120487/00/blob/main/1028live.txt",
+      "attempts": [
+        {
+          "checked_at": "2026-11-26T00:00:13+08:00",
+          "status": "failed",
+          "observed_tw_path": true,
+          "failure": "HTTP 502",
+          "stage": "focused"
+        }
+      ]
+    }
+  ]
+}

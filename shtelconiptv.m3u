@@ -435,6 +435,12 @@ https://5ddce30eb4b55.streamlock.net/bltvhd/bltv1/playlist.m3u8
 #EXTINF:-1 tvg-name="大立电视台" group-title="台湾频道",大立电视台HD [官方CDN]
 http://www.dalitv.com.tw:4568/live/dali/index.m3u8
 
+#EXTINF:-1 tvg-name="民视新闻台" group-title="台湾频道",民视新闻台HD [公网中转]
+http://38.64.72.148/hls/modn/list/4012/playlist.m3u8
+
+#EXTINF:-1 tvg-name="原住民族电视台" group-title="台湾频道",原住民族电视台HD [官方CDN]
+https://streamipcfapp.akamaized.net/live/_definst_/live_720/key_b1500.m3u8
+
 #EXTINF:-1 tvg-name="NHK WORLD-JAPAN" group-title="日本频道",NHK WORLD-JAPANHD [官方CDN]
 https://masterpl.hls.nhkworld.jp/hls/w/live/master.m3u8
 

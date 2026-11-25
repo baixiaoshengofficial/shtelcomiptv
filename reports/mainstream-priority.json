@@ -1,0 +1,1807 @@
+{
+  "tested_at": "2026-11-25T22:57:38+08:00",
+  "actual_exit_by_region": {
+    "HK": "HK",
+    "JP": "JP",
+    "KR": "KR",
+    "TW": null
+  },
+  "taiwan_note": "7 个在线节点标称台湾，两种查询显示实际出口为香港。台湾先收集候选，未以错误地区测试入库。",
+  "taiwan_candidates": 20,
+  "tested_fixed_candidates": 81,
+  "fixed_candidates_by_region": {
+    "HK": 28,
+    "JP": 35,
+    "KR": 18
+  },
+  "added_by_region": {
+    "HK": 3,
+    "KR": 1
+  },
+  "selected": [
+    {
+      "channel": "HOY 76",
+      "region": "HK",
+      "url": "https://hoytv-live-stream.hoy.tv/ch76/index-fhd.m3u8",
+      "group": "港澳频道",
+      "source_label": "官方CDN",
+      "media_type": "video",
+      "status": "passed",
+      "width": 1920,
+      "height": 1080,
+      "observed_hosts": [
+        "ch77-live-stream.hoy.tv",
+        "hoytv-live-stream.hoy.tv"
+      ],
+      "verified_endpoint_type": "independent exits confirmed as HK",
+      "visual_review": "实时行情及正常财经节目画面，另取约 22 秒连续样本"
+    },
+    {
+      "channel": "HOY 77",
+      "region": "HK",
+      "url": "https://hoytv-live-stream.hoy.tv/ch77/index-fhd.m3u8",
+      "group": "港澳频道",
+      "source_label": "官方CDN",
+      "media_type": "video",
+      "status": "passed",
+      "width": 1920,
+      "height": 1080,
+      "observed_hosts": [
+        "ch77-live-stream.hoy.tv",
+        "hoytv-live-stream.hoy.tv"
+      ],
+      "verified_endpoint_type": "independent exits confirmed as HK",
+      "visual_review": "HOY 77 台标和正常节目画面"
+    },
+    {
+      "channel": "HOY 78",
+      "region": "HK",
+      "url": "https://hoytv-live-stream.hoy.tv/ch78/index-fhd.m3u8",
+      "group": "港澳频道",
+      "source_label": "官方CDN",
+      "media_type": "video",
+      "status": "passed",
+      "width": 1920,
+      "height": 1080,
+      "observed_hosts": [
+        "ch77-live-stream.hoy.tv",
+        "hoytv-live-stream.hoy.tv"
+      ],
+      "verified_endpoint_type": "independent exits confirmed as HK",
+      "visual_review": "HOY 78 台标和正常节目画面"
+    },
+    {
+      "channel": "SBS JTV 全州",
+      "region": "KR",
+      "url": "http://61.85.197.53:1935/jtv_live/myStream/playlist.m3u8",
+      "group": "韩国频道",
+      "source_label": "公网",
+      "media_type": "video",
+      "status": "passed",
+      "width": 720,
+      "height": 406,
+      "observed_hosts": [
+        "61.85.197.53"
+      ],
+      "verified_endpoint_type": "出口定位为 KR",
+      "visual_review": "两次核对 JTV 台标与实际节目画面；另一次取样分片不完整"
+    }
+  ],
+  "total_entries": 192,
+  "previous_entries_unchanged": 188,
+  "playlist_sha256": "2774019b8214b38a42979da66e709fabacbc7e46ff53b4464d0b52283f54d1fc",
+  "candidates": [
+    {
+      "region": "HK",
+      "channel": "TVB明珠台",
+      "domain": [
+        "mytv.cdn.loc.cc"
+      ],
+      "address_type": "fixed-candidate",
+      "attempts": [
+        {
+          "phase": "first",
+          "checked_at": "2026-11-25T22:50:24+08:00",
+          "status": "failed",
+          "reason": "TLS 或连接失败"
+        },
+        {
+          "phase": "if-alt-report",
+          "checked_at": "2026-11-25T22:51:43+08:00",
+          "status": "failed",
+          "reason": "TLS 或连接失败"
+        }
+      ]
+    },
+    {
+      "region": "HK",
+      "channel": "凤凰卫视香港台",
+      "domain": [
+        "tv.iill.top"
+      ],
+      "address_type": "fixed-candidate",
+      "attempts": [
+        {
+          "phase": "first",
+          "checked_at": "2026-11-25T22:50:24+08:00",
+          "status": "failed",
+          "reason": "TLS 或连接失败"
+        }
+      ]
+    },
+    {
+      "region": "HK",
+      "channel": "ViuTVsix",
+      "domain": [
+        "yang-1989.eu.org"
+      ],
+      "address_type": "fixed-candidate",
+      "attempts": [
+        {
+          "phase": "first",
+          "checked_at": "2026-11-25T22:50:24+08:00",
+          "status": "failed",
+          "reason": "HTTP 404"
+        },
+        {
+          "phase": "if-alt-report",
+          "checked_at": "2026-11-25T22:51:43+08:00",
+          "status": "failed",
+          "reason": "HTTP 404"
+        }
+      ]
+    },
+    {
+      "region": "HK",
+      "channel": "TVB明珠台",
+      "domain": [
+        "live.astradamy.com"
+      ],
+      "address_type": "fixed-candidate",
+      "attempts": [
+        {
+          "phase": "first",
+          "checked_at": "2026-11-25T22:50:27+08:00",
+          "status": "failed",
+          "reason": "TLS 或连接失败"
+        },
+        {
+          "phase": "if-alt-report",
+          "checked_at": "2026-11-25T22:51:43+08:00",
+          "status": "failed",
+          "reason": "TLS 或连接失败"
+        }
+      ]
+    },
+    {
+      "region": "HK",
+      "channel": "TVB无线新闻台",
+      "domain": [
+        "r.jdshipin.com"
+      ],
+      "address_type": "fixed-candidate",
+      "attempts": [
+        {
+          "phase": "first",
+          "checked_at": "2026-11-25T22:50:25+08:00",
+          "status": "failed",
+          "reason": "找到已结束的清单"
+        },
+        {
+          "phase": "if-alt-report",
+          "checked_at": "2026-11-25T22:51:43+08:00",
+          "status": "failed",
+          "reason": "找到已结束的清单"
+        }
+      ]
+    },
+    {
+      "region": "HK",
+      "channel": "TVB明珠台",
+      "domain": [
+        "edge6a.v2h-cdn.com"
+      ],
+      "address_type": "fixed-candidate",
+      "attempts": [
+        {
+          "phase": "first",
+          "checked_at": "2026-11-25T22:50:27+08:00",
+          "status": "failed",
+          "reason": "TLS 或连接失败"
+        },
+        {
+          "phase": "if-alt-report",
+          "checked_at": "2026-11-25T22:51:43+08:00",
+          "status": "failed",
+          "reason": "TLS 或连接失败"
+        }
+      ]
+    },
+    {
+      "region": "HK",
+      "channel": "TVB无线新闻台",
+      "domain": [
+        "cdn6.cc.cd"
+      ],
+      "address_type": "fixed-candidate",
+      "attempts": [
+        {
+          "phase": "first",
+          "checked_at": "2026-11-25T22:50:27+08:00",
+          "status": "failed",
+          "reason": "找到已结束的清单"
+        },
+        {
+          "phase": "if-alt-report",
+          "checked_at": "2026-11-25T22:51:43+08:00",
+          "status": "failed",
+          "reason": "找到已结束的清单"
+        }
+      ]
+    },
+    {
+      "region": "HK",
+      "channel": "TVB无线新闻台",
+      "domain": [
+        "cdn3.indevs.in"
+      ],
+      "address_type": "fixed-candidate",
+      "attempts": [
+        {
+          "phase": "first",
+          "checked_at": "2026-11-25T22:50:28+08:00",
+          "status": "failed",
+          "reason": "HTTP 404"
+        },
+        {
+          "phase": "if-alt-report",
+          "checked_at": "2026-11-25T22:51:44+08:00",
+          "status": "failed",
+          "reason": "HTTP 404"
+        }
+      ]
+    },
+    {
+      "region": "HK",
+      "channel": "TVB无线新闻台",
+      "domain": [
+        "edge6a.v2h-cdn.com"
+      ],
+      "address_type": "fixed-candidate",
+      "attempts": [
+        {
+          "phase": "first",
+          "checked_at": "2026-11-25T22:50:28+08:00",
+          "status": "failed",
+          "reason": "TLS 或连接失败"
+        },
+        {
+          "phase": "if-alt-report",
+          "checked_at": "2026-11-25T22:51:44+08:00",
+          "status": "failed",
+          "reason": "TLS 或连接失败"
+        }
+      ]
+    },
+    {
+      "region": "HK",
+      "channel": "凤凰卫视香港台",
+      "domain": [
+        "ktv039.cdnak.ds.kylintv.net"
+      ],
+      "address_type": "fixed-candidate",
+      "attempts": [
+        {
+          "phase": "first",
+          "checked_at": "2026-11-25T22:50:29+08:00",
+          "status": "failed",
+          "reason": "HTTP 502"
+        }
+      ]
+    },
+    {
+      "region": "HK",
+      "channel": "凤凰卫视香港台",
+      "domain": [
+        "223.82.250.72"
+      ],
+      "address_type": "fixed-candidate",
+      "attempts": [
+        {
+          "phase": "first",
+          "checked_at": "2026-11-25T22:50:30+08:00",
+          "status": "failed",
+          "reason": "HTTP 502"
+        }
+      ]
+    },
+    {
+      "region": "HK",
+      "channel": "TVB明珠台",
+      "domain": [
+        "cdn3.indevs.in"
+      ],
+      "address_type": "fixed-candidate",
+      "attempts": [
+        {
+          "phase": "first",
+          "checked_at": "2026-11-25T22:50:25+08:00",
+          "status": "failed",
+          "reason": "TLS 或连接失败"
+        },
+        {
+          "phase": "if-alt-report",
+          "checked_at": "2026-11-25T22:51:43+08:00",
+          "status": "failed",
+          "reason": "TLS 或连接失败"
+        }
+      ]
+    },
+    {
+      "region": "HK",
+      "channel": "ViuTVsix",
+      "domain": [
+        "live.astradamy.com"
+      ],
+      "address_type": "fixed-candidate",
+      "attempts": [
+        {
+          "phase": "first",
+          "checked_at": "2026-11-25T22:50:35+08:00",
+          "status": "failed",
+          "reason": "TLS 或连接失败"
+        },
+        {
+          "phase": "if-alt-report",
+          "checked_at": "2026-11-25T22:51:44+08:00",
+          "status": "failed",
+          "reason": "TLS 或连接失败"
+        }
+      ]
+    },
+    {
+      "region": "HK",
+      "channel": "HOY 76",
+      "domain": [
+        "hoytv-live-stream.hoy.tv"
+      ],
+      "address_type": "fixed-candidate",
+      "attempts": [
+        {
+          "phase": "first",
+          "checked_at": "2026-11-25T22:50:24+08:00",
+          "status": "passed",
+          "width": 1920,
+          "height": 1080,
+          "decoded_seconds": 3.0,
+          "decoded_frames": 150
+        },
+        {
+          "phase": "second",
+          "checked_at": "2026-11-25T22:51:23+08:00",
+          "status": "passed",
+          "width": 1920,
+          "height": 1080,
+          "decoded_seconds": 3.0,
+          "decoded_frames": 150
+        }
+      ]
+    },
+    {
+      "region": "HK",
+      "channel": "ViuTVsix",
+      "domain": [
+        "cdn3.indevs.in"
+      ],
+      "address_type": "fixed-candidate",
+      "attempts": [
+        {
+          "phase": "first",
+          "checked_at": "2026-11-25T22:50:35+08:00",
+          "status": "failed",
+          "reason": "HTTP 404"
+        },
+        {
+          "phase": "if-alt-report",
+          "checked_at": "2026-11-25T22:51:44+08:00",
+          "status": "failed",
+          "reason": "HTTP 404"
+        }
+      ]
+    },
+    {
+      "region": "HK",
+      "channel": "HOY 77",
+      "domain": [
+        "hoytv-live-stream.hoy.tv"
+      ],
+      "address_type": "fixed-candidate",
+      "attempts": [
+        {
+          "phase": "first",
+          "checked_at": "2026-11-25T22:50:24+08:00",
+          "status": "passed",
+          "width": 1920,
+          "height": 1080,
+          "decoded_seconds": 3.0,
+          "decoded_frames": 150
+        },
+        {
+          "phase": "second",
+          "checked_at": "2026-11-25T22:51:23+08:00",
+          "status": "passed",
+          "width": 1920,
+          "height": 1080,
+          "decoded_seconds": 3.0,
+          "decoded_frames": 150
+        }
+      ]
+    },
+    {
+      "region": "HK",
+      "channel": "HOY 76",
+      "domain": [
+        "hls.168.us.kg"
+      ],
+      "address_type": "fixed-candidate",
+      "attempts": [
+        {
+          "phase": "first",
+          "checked_at": "2026-11-25T22:50:36+08:00",
+          "status": "failed",
+          "reason": "HTTP 502"
+        }
+      ]
+    },
+    {
+      "region": "HK",
+      "channel": "HOY 77",
+      "domain": [
+        "hls.168.us.kg"
+      ],
+      "address_type": "fixed-candidate",
+      "attempts": [
+        {
+          "phase": "first",
+          "checked_at": "2026-11-25T22:50:38+08:00",
+          "status": "failed",
+          "reason": "HTTP 502"
+        }
+      ]
+    },
+    {
+      "region": "HK",
+      "channel": "HOY 78",
+      "domain": [
+        "hls.168.us.kg"
+      ],
+      "address_type": "fixed-candidate",
+      "attempts": [
+        {
+          "phase": "first",
+          "checked_at": "2026-11-25T22:50:38+08:00",
+          "status": "failed",
+          "reason": "HTTP 502"
+        }
+      ]
+    },
+    {
+      "region": "JP",
+      "channel": "NHK Eテレ",
+      "domain": [
+        "akariko-bck1.sankuria.sbs"
+      ],
+      "address_type": "fixed-candidate",
+      "attempts": [
+        {
+          "phase": "first",
+          "checked_at": "2026-11-25T22:50:39+08:00",
+          "status": "failed",
+          "reason": "TLS 或连接失败"
+        },
+        {
+          "phase": "if-alt-report",
+          "checked_at": "2026-11-25T22:51:44+08:00",
+          "status": "failed",
+          "reason": "TLS 或连接失败"
+        }
+      ]
+    },
+    {
+      "region": "HK",
+      "channel": "HOY 78",
+      "domain": [
+        "hoytv-live-stream.hoy.tv"
+      ],
+      "address_type": "fixed-candidate",
+      "attempts": [
+        {
+          "phase": "first",
+          "checked_at": "2026-11-25T22:50:24+08:00",
+          "status": "passed",
+          "width": 1920,
+          "height": 1080,
+          "decoded_seconds": 3.0,
+          "decoded_frames": 150
+        },
+        {
+          "phase": "second",
+          "checked_at": "2026-11-25T22:51:23+08:00",
+          "status": "passed",
+          "width": 1920,
+          "height": 1080,
+          "decoded_seconds": 3.0,
+          "decoded_frames": 150
+        }
+      ]
+    },
+    {
+      "region": "JP",
+      "channel": "日本电视台 NTV",
+      "domain": [
+        "akariko-bck1.sankuria.sbs"
+      ],
+      "address_type": "fixed-candidate",
+      "attempts": [
+        {
+          "phase": "first",
+          "checked_at": "2026-11-25T22:50:39+08:00",
+          "status": "failed",
+          "reason": "TLS 或连接失败"
+        },
+        {
+          "phase": "if-alt-report",
+          "checked_at": "2026-11-25T22:51:44+08:00",
+          "status": "failed",
+          "reason": "TLS 或连接失败"
+        }
+      ]
+    },
+    {
+      "region": "JP",
+      "channel": "朝日电视台",
+      "domain": [
+        "akariko-bck1.sankuria.sbs"
+      ],
+      "address_type": "fixed-candidate",
+      "attempts": [
+        {
+          "phase": "first",
+          "checked_at": "2026-11-25T22:50:39+08:00",
+          "status": "failed",
+          "reason": "TLS 或连接失败"
+        },
+        {
+          "phase": "if-alt-report",
+          "checked_at": "2026-11-25T22:51:45+08:00",
+          "status": "failed",
+          "reason": "TLS 或连接失败"
+        }
+      ]
+    },
+    {
+      "region": "JP",
+      "channel": "TBS 电视台",
+      "domain": [
+        "akariko-bck1.sankuria.sbs"
+      ],
+      "address_type": "fixed-candidate",
+      "attempts": [
+        {
+          "phase": "first",
+          "checked_at": "2026-11-25T22:50:39+08:00",
+          "status": "failed",
+          "reason": "TLS 或连接失败"
+        },
+        {
+          "phase": "if-alt-report",
+          "checked_at": "2026-11-25T22:51:45+08:00",
+          "status": "failed",
+          "reason": "TLS 或连接失败"
+        }
+      ]
+    },
+    {
+      "region": "JP",
+      "channel": "富士电视台",
+      "domain": [
+        "akariko-bck1.sankuria.sbs"
+      ],
+      "address_type": "fixed-candidate",
+      "attempts": [
+        {
+          "phase": "first",
+          "checked_at": "2026-11-25T22:50:40+08:00",
+          "status": "failed",
+          "reason": "TLS 或连接失败"
+        },
+        {
+          "phase": "if-alt-report",
+          "checked_at": "2026-11-25T22:51:45+08:00",
+          "status": "failed",
+          "reason": "TLS 或连接失败"
+        }
+      ]
+    },
+    {
+      "region": "JP",
+      "channel": "日视 NEWS24",
+      "domain": [
+        "akariko-bck1.sankuria.sbs"
+      ],
+      "address_type": "fixed-candidate",
+      "attempts": [
+        {
+          "phase": "first",
+          "checked_at": "2026-11-25T22:50:40+08:00",
+          "status": "failed",
+          "reason": "TLS 或连接失败"
+        },
+        {
+          "phase": "if-alt-report",
+          "checked_at": "2026-11-25T22:51:45+08:00",
+          "status": "failed",
+          "reason": "TLS 或连接失败"
+        }
+      ]
+    },
+    {
+      "region": "JP",
+      "channel": "TBS NEWS DIG",
+      "domain": [
+        "akariko-bck1.sankuria.sbs"
+      ],
+      "address_type": "fixed-candidate",
+      "attempts": [
+        {
+          "phase": "first",
+          "checked_at": "2026-11-25T22:50:40+08:00",
+          "status": "failed",
+          "reason": "TLS 或连接失败"
+        },
+        {
+          "phase": "if-alt-report",
+          "checked_at": "2026-11-25T22:51:45+08:00",
+          "status": "failed",
+          "reason": "TLS 或连接失败"
+        }
+      ]
+    },
+    {
+      "region": "JP",
+      "channel": "东京电视台",
+      "domain": [
+        "akariko-bck1.sankuria.sbs"
+      ],
+      "address_type": "fixed-candidate",
+      "attempts": [
+        {
+          "phase": "first",
+          "checked_at": "2026-11-25T22:50:39+08:00",
+          "status": "failed",
+          "reason": "TLS 或连接失败"
+        },
+        {
+          "phase": "if-alt-report",
+          "checked_at": "2026-11-25T22:51:45+08:00",
+          "status": "failed",
+          "reason": "TLS 或连接失败"
+        }
+      ]
+    },
+    {
+      "region": "HK",
+      "channel": "凤凰卫视香港台",
+      "domain": [
+        "r.jdshipin.com"
+      ],
+      "address_type": "fixed-candidate",
+      "attempts": [
+        {
+          "phase": "first",
+          "checked_at": "2026-11-25T22:50:24+08:00",
+          "status": "passed",
+          "width": 1920,
+          "height": 1080,
+          "decoded_seconds": 3.0,
+          "decoded_frames": 74
+        },
+        {
+          "phase": "second",
+          "checked_at": "2026-11-25T22:51:23+08:00",
+          "status": "passed",
+          "width": 1920,
+          "height": 1080,
+          "decoded_seconds": 3.0,
+          "decoded_frames": 74
+        }
+      ]
+    },
+    {
+      "region": "JP",
+      "channel": "日本电视台 NTV",
+      "domain": [
+        "ntv5.mov3.co"
+      ],
+      "address_type": "fixed-candidate",
+      "attempts": [
+        {
+          "phase": "first",
+          "checked_at": "2026-11-25T22:50:41+08:00",
+          "status": "failed",
+          "reason": "HTTP 403"
+        },
+        {
+          "phase": "if-alt-report",
+          "checked_at": "2026-11-25T22:51:45+08:00",
+          "status": "failed",
+          "reason": "HTTP 403"
+        }
+      ]
+    },
+    {
+      "region": "JP",
+      "channel": "朝日电视台",
+      "domain": [
+        "tvasahi.mov3.co"
+      ],
+      "address_type": "fixed-candidate",
+      "attempts": [
+        {
+          "phase": "first",
+          "checked_at": "2026-11-25T22:50:41+08:00",
+          "status": "failed",
+          "reason": "HTTP 403"
+        },
+        {
+          "phase": "if-alt-report",
+          "checked_at": "2026-11-25T22:51:45+08:00",
+          "status": "failed",
+          "reason": "HTTP 403"
+        }
+      ]
+    },
+    {
+      "region": "JP",
+      "channel": "富士电视台",
+      "domain": [
+        "fujitv4.mov3.co"
+      ],
+      "address_type": "fixed-candidate",
+      "attempts": [
+        {
+          "phase": "first",
+          "checked_at": "2026-11-25T22:50:40+08:00",
+          "status": "failed",
+          "reason": "HTTP 403"
+        },
+        {
+          "phase": "if-alt-report",
+          "checked_at": "2026-11-25T22:51:45+08:00",
+          "status": "failed",
+          "reason": "HTTP 403"
+        }
+      ]
+    },
+    {
+      "region": "JP",
+      "channel": "东京电视台",
+      "domain": [
+        "tvtokyo.mov3.co"
+      ],
+      "address_type": "fixed-candidate",
+      "attempts": [
+        {
+          "phase": "first",
+          "checked_at": "2026-11-25T22:50:42+08:00",
+          "status": "failed",
+          "reason": "HTTP 403"
+        },
+        {
+          "phase": "if-alt-report",
+          "checked_at": "2026-11-25T22:51:45+08:00",
+          "status": "failed",
+          "reason": "HTTP 403"
+        }
+      ]
+    },
+    {
+      "region": "HK",
+      "channel": "凤凰卫视香港台",
+      "domain": [
+        "cdn.qd.je"
+      ],
+      "address_type": "fixed-candidate",
+      "attempts": [
+        {
+          "phase": "first",
+          "checked_at": "2026-11-25T22:50:29+08:00",
+          "status": "passed",
+          "width": 1920,
+          "height": 1080,
+          "decoded_seconds": 3.0,
+          "decoded_frames": 74
+        },
+        {
+          "phase": "second",
+          "checked_at": "2026-11-25T22:51:23+08:00",
+          "status": "passed",
+          "width": 1920,
+          "height": 1080,
+          "decoded_seconds": 3.0,
+          "decoded_frames": 74
+        }
+      ]
+    },
+    {
+      "region": "JP",
+      "channel": "TBS 电视台",
+      "domain": [
+        "tbs5.mov3.co"
+      ],
+      "address_type": "fixed-candidate",
+      "attempts": [
+        {
+          "phase": "first",
+          "checked_at": "2026-11-25T22:50:42+08:00",
+          "status": "failed",
+          "reason": "HTTP 403"
+        },
+        {
+          "phase": "if-alt-report",
+          "checked_at": "2026-11-25T22:51:45+08:00",
+          "status": "failed",
+          "reason": "HTTP 403"
+        }
+      ]
+    },
+    {
+      "region": "HK",
+      "channel": "HOY 76",
+      "domain": [
+        "hoytv-live-stream.hoy.tv"
+      ],
+      "address_type": "fixed-candidate",
+      "attempts": [
+        {
+          "phase": "first",
+          "checked_at": "2026-11-25T22:50:36+08:00",
+          "status": "passed",
+          "width": 1920,
+          "height": 1080,
+          "decoded_seconds": 3.0,
+          "decoded_frames": 150
+        },
+        {
+          "phase": "second",
+          "checked_at": "2026-11-25T22:51:23+08:00",
+          "status": "passed",
+          "width": 1920,
+          "height": 1080,
+          "decoded_seconds": 3.0,
+          "decoded_frames": 150
+        }
+      ]
+    },
+    {
+      "region": "KR",
+      "channel": "MBC",
+      "domain": [
+        "5c3639aa99149.streamlock.net"
+      ],
+      "address_type": "fixed-candidate",
+      "attempts": [
+        {
+          "phase": "first",
+          "checked_at": "2026-11-25T22:50:44+08:00",
+          "status": "failed",
+          "reason": "HTTP 404"
+        }
+      ]
+    },
+    {
+      "region": "KR",
+      "channel": "SBS",
+      "domain": [
+        "sbs-live.sbs.co.kr"
+      ],
+      "address_type": "fixed-candidate",
+      "attempts": [
+        {
+          "phase": "first",
+          "checked_at": "2026-11-25T22:50:45+08:00",
+          "status": "failed",
+          "reason": "TLS 或连接失败"
+        }
+      ]
+    },
+    {
+      "region": "KR",
+      "channel": "MBC 庆南",
+      "domain": [
+        "624a79c87201d.streamlock.net"
+      ],
+      "address_type": "fixed-candidate",
+      "attempts": [
+        {
+          "phase": "first",
+          "checked_at": "2026-11-25T22:50:43+08:00",
+          "status": "failed",
+          "reason": "TLS 或连接失败"
+        }
+      ]
+    },
+    {
+      "region": "KR",
+      "channel": "YTN",
+      "domain": [
+        "slive.ytn.co.kr"
+      ],
+      "address_type": "fixed-candidate",
+      "attempts": [
+        {
+          "phase": "first",
+          "checked_at": "2026-11-25T22:50:45+08:00",
+          "status": "failed",
+          "reason": "TLS 或连接失败"
+        }
+      ]
+    },
+    {
+      "region": "KR",
+      "channel": "YTN",
+      "domain": [
+        "202.60.106.14"
+      ],
+      "address_type": "fixed-candidate",
+      "attempts": [
+        {
+          "phase": "first",
+          "checked_at": "2026-11-25T22:50:43+08:00",
+          "status": "failed",
+          "reason": "HTTP 502"
+        }
+      ]
+    },
+    {
+      "region": "KR",
+      "channel": "YTN",
+      "domain": [
+        "202.60.106.14"
+      ],
+      "address_type": "fixed-candidate",
+      "attempts": [
+        {
+          "phase": "first",
+          "checked_at": "2026-11-25T22:50:44+08:00",
+          "status": "failed",
+          "reason": "HTTP 502"
+        }
+      ]
+    },
+    {
+      "region": "KR",
+      "channel": "MBC",
+      "domain": [
+        "vod.mpmbc.co.kr"
+      ],
+      "address_type": "fixed-candidate",
+      "attempts": [
+        {
+          "phase": "first",
+          "checked_at": "2026-11-25T22:50:44+08:00",
+          "status": "failed",
+          "reason": "TLS 或连接失败"
+        }
+      ]
+    },
+    {
+      "region": "HK",
+      "channel": "HOY 77",
+      "domain": [
+        "hoytv-live-stream.hoy.tv"
+      ],
+      "address_type": "fixed-candidate",
+      "attempts": [
+        {
+          "phase": "first",
+          "checked_at": "2026-11-25T22:50:37+08:00",
+          "status": "passed",
+          "width": 1920,
+          "height": 1080,
+          "decoded_seconds": 3.0,
+          "decoded_frames": 150
+        },
+        {
+          "phase": "second",
+          "checked_at": "2026-11-25T22:51:23+08:00",
+          "status": "passed",
+          "width": 1920,
+          "height": 1080,
+          "decoded_seconds": 3.0,
+          "decoded_frames": 150
+        }
+      ]
+    },
+    {
+      "region": "HK",
+      "channel": "HOY 78",
+      "domain": [
+        "hoytv-live-stream.hoy.tv"
+      ],
+      "address_type": "fixed-candidate",
+      "attempts": [
+        {
+          "phase": "first",
+          "checked_at": "2026-11-25T22:50:38+08:00",
+          "status": "passed",
+          "width": 1920,
+          "height": 1080,
+          "decoded_seconds": 3.0,
+          "decoded_frames": 150
+        },
+        {
+          "phase": "second",
+          "checked_at": "2026-11-25T22:51:27+08:00",
+          "status": "passed",
+          "width": 1920,
+          "height": 1080,
+          "decoded_seconds": 3.0,
+          "decoded_frames": 150
+        }
+      ]
+    },
+    {
+      "region": "KR",
+      "channel": "SBS",
+      "domain": [
+        "tvlive.sbs.co.kr"
+      ],
+      "address_type": "fixed-candidate",
+      "attempts": [
+        {
+          "phase": "if-alt-report",
+          "checked_at": "2026-11-25T22:51:43+08:00",
+          "status": "failed",
+          "reason": "HTTP 403"
+        }
+      ]
+    },
+    {
+      "region": "KR",
+      "channel": "KBS2",
+      "domain": [
+        "2tv.gscdn.kbs.co.kr"
+      ],
+      "address_type": "fixed-candidate",
+      "attempts": [
+        {
+          "phase": "if-alt-report",
+          "checked_at": "2026-11-25T22:51:43+08:00",
+          "status": "failed",
+          "reason": "HTTP 403"
+        }
+      ]
+    },
+    {
+      "region": "KR",
+      "channel": "KBS1",
+      "domain": [
+        "1tv.gscdn.kbs.co.kr"
+      ],
+      "address_type": "fixed-candidate",
+      "attempts": [
+        {
+          "phase": "if-alt-report",
+          "checked_at": "2026-11-25T22:51:43+08:00",
+          "status": "failed",
+          "reason": "HTTP 403"
+        }
+      ]
+    },
+    {
+      "region": "JP",
+      "channel": "NHK Eテレ",
+      "domain": [
+        "us01.utako.moe"
+      ],
+      "address_type": "fixed-candidate",
+      "attempts": [
+        {
+          "phase": "late-report",
+          "checked_at": "2026-11-25T22:52:50+08:00",
+          "status": "failed",
+          "reason": "TLS 或连接失败"
+        }
+      ]
+    },
+    {
+      "region": "JP",
+      "channel": "日本电视台 NTV",
+      "domain": [
+        "us01.utako.moe"
+      ],
+      "address_type": "fixed-candidate",
+      "attempts": [
+        {
+          "phase": "late-report",
+          "checked_at": "2026-11-25T22:52:50+08:00",
+          "status": "failed",
+          "reason": "TLS 或连接失败"
+        }
+      ]
+    },
+    {
+      "region": "JP",
+      "channel": "东京电视台",
+      "domain": [
+        "us01.utako.moe"
+      ],
+      "address_type": "fixed-candidate",
+      "attempts": [
+        {
+          "phase": "late-report",
+          "checked_at": "2026-11-25T22:52:50+08:00",
+          "status": "failed",
+          "reason": "TLS 或连接失败"
+        }
+      ]
+    },
+    {
+      "region": "JP",
+      "channel": "TBS 电视台",
+      "domain": [
+        "us01.utako.moe"
+      ],
+      "address_type": "fixed-candidate",
+      "attempts": [
+        {
+          "phase": "late-report",
+          "checked_at": "2026-11-25T22:52:50+08:00",
+          "status": "failed",
+          "reason": "TLS 或连接失败"
+        }
+      ]
+    },
+    {
+      "region": "JP",
+      "channel": "朝日电视台",
+      "domain": [
+        "us01.utako.moe"
+      ],
+      "address_type": "fixed-candidate",
+      "attempts": [
+        {
+          "phase": "late-report",
+          "checked_at": "2026-11-25T22:52:50+08:00",
+          "status": "failed",
+          "reason": "TLS 或连接失败"
+        }
+      ]
+    },
+    {
+      "region": "JP",
+      "channel": "富士电视台",
+      "domain": [
+        "us01.utako.moe"
+      ],
+      "address_type": "fixed-candidate",
+      "attempts": [
+        {
+          "phase": "late-report",
+          "checked_at": "2026-11-25T22:52:50+08:00",
+          "status": "failed",
+          "reason": "TLS 或连接失败"
+        }
+      ]
+    },
+    {
+      "region": "JP",
+      "channel": "日本电视台 NTV",
+      "domain": [
+        "ayaka-proxy.onrender.com"
+      ],
+      "address_type": "fixed-candidate",
+      "attempts": [
+        {
+          "phase": "late-report",
+          "checked_at": "2026-11-25T22:52:50+08:00",
+          "status": "failed",
+          "reason": "HTTP 404"
+        }
+      ]
+    },
+    {
+      "region": "JP",
+      "channel": "东京电视台",
+      "domain": [
+        "ayaka-proxy.onrender.com"
+      ],
+      "address_type": "fixed-candidate",
+      "attempts": [
+        {
+          "phase": "late-report",
+          "checked_at": "2026-11-25T22:52:50+08:00",
+          "status": "failed",
+          "reason": "HTTP 404"
+        }
+      ]
+    },
+    {
+      "region": "JP",
+      "channel": "NHK Eテレ",
+      "domain": [
+        "ayaka-proxy.onrender.com"
+      ],
+      "address_type": "fixed-candidate",
+      "attempts": [
+        {
+          "phase": "late-report",
+          "checked_at": "2026-11-25T22:52:50+08:00",
+          "status": "failed",
+          "reason": "HTTP 404"
+        }
+      ]
+    },
+    {
+      "region": "JP",
+      "channel": "TBS 电视台",
+      "domain": [
+        "ayaka-proxy.onrender.com"
+      ],
+      "address_type": "fixed-candidate",
+      "attempts": [
+        {
+          "phase": "late-report",
+          "checked_at": "2026-11-25T22:52:50+08:00",
+          "status": "failed",
+          "reason": "HTTP 404"
+        }
+      ]
+    },
+    {
+      "region": "JP",
+      "channel": "朝日电视台",
+      "domain": [
+        "ayaka-proxy.onrender.com"
+      ],
+      "address_type": "fixed-candidate",
+      "attempts": [
+        {
+          "phase": "late-report",
+          "checked_at": "2026-11-25T22:52:50+08:00",
+          "status": "failed",
+          "reason": "HTTP 404"
+        }
+      ]
+    },
+    {
+      "region": "JP",
+      "channel": "富士电视台",
+      "domain": [
+        "ayaka-proxy.onrender.com"
+      ],
+      "address_type": "fixed-candidate",
+      "attempts": [
+        {
+          "phase": "late-report",
+          "checked_at": "2026-11-25T22:52:51+08:00",
+          "status": "failed",
+          "reason": "HTTP 404"
+        }
+      ]
+    },
+    {
+      "region": "JP",
+      "channel": "朝日电视台",
+      "domain": [
+        "cdns.jp-primehome.com"
+      ],
+      "address_type": "fixed-candidate",
+      "attempts": [
+        {
+          "phase": "late-report",
+          "checked_at": "2026-11-25T22:52:51+08:00",
+          "status": "failed",
+          "reason": "HTTP 403"
+        }
+      ]
+    },
+    {
+      "region": "JP",
+      "channel": "日本电视台 NTV",
+      "domain": [
+        "cdns.jp-primehome.com"
+      ],
+      "address_type": "fixed-candidate",
+      "attempts": [
+        {
+          "phase": "late-report",
+          "checked_at": "2026-11-25T22:52:51+08:00",
+          "status": "failed",
+          "reason": "HTTP 403"
+        }
+      ]
+    },
+    {
+      "region": "JP",
+      "channel": "NHK Eテレ",
+      "domain": [
+        "cdns.jp-primehome.com"
+      ],
+      "address_type": "fixed-candidate",
+      "attempts": [
+        {
+          "phase": "late-report",
+          "checked_at": "2026-11-25T22:52:51+08:00",
+          "status": "failed",
+          "reason": "HTTP 403"
+        }
+      ]
+    },
+    {
+      "region": "JP",
+      "channel": "TBS 电视台",
+      "domain": [
+        "cdns.jp-primehome.com"
+      ],
+      "address_type": "fixed-candidate",
+      "attempts": [
+        {
+          "phase": "late-report",
+          "checked_at": "2026-11-25T22:52:51+08:00",
+          "status": "failed",
+          "reason": "HTTP 403"
+        }
+      ]
+    },
+    {
+      "region": "JP",
+      "channel": "东京电视台",
+      "domain": [
+        "cdns.jp-primehome.com"
+      ],
+      "address_type": "fixed-candidate",
+      "attempts": [
+        {
+          "phase": "late-report",
+          "checked_at": "2026-11-25T22:52:51+08:00",
+          "status": "failed",
+          "reason": "HTTP 403"
+        }
+      ]
+    },
+    {
+      "region": "JP",
+      "channel": "富士电视台",
+      "domain": [
+        "cdns.jp-primehome.com"
+      ],
+      "address_type": "fixed-candidate",
+      "attempts": [
+        {
+          "phase": "late-report",
+          "checked_at": "2026-11-25T22:52:51+08:00",
+          "status": "failed",
+          "reason": "HTTP 403"
+        }
+      ]
+    },
+    {
+      "region": "KR",
+      "channel": "SBS",
+      "domain": [
+        "koreatv.dothome.co.kr"
+      ],
+      "address_type": "fixed-candidate",
+      "attempts": [
+        {
+          "phase": "late-report",
+          "checked_at": "2026-11-25T22:52:52+08:00",
+          "status": "failed",
+          "reason": "HTTP 302"
+        }
+      ]
+    },
+    {
+      "region": "KR",
+      "channel": "KBS 新闻24",
+      "domain": [
+        "news24.gscdn.kbs.co.kr"
+      ],
+      "address_type": "fixed-candidate",
+      "attempts": [
+        {
+          "phase": "late-report",
+          "checked_at": "2026-11-25T22:52:51+08:00",
+          "status": "failed",
+          "reason": "HTTP 403"
+        }
+      ]
+    },
+    {
+      "region": "JP",
+      "channel": "日视 NEWS",
+      "domain": [
+        "cdn-apne1.tsv2.amagi.tv"
+      ],
+      "address_type": "fixed-candidate",
+      "attempts": [
+        {
+          "phase": "late-report",
+          "checked_at": "2026-11-25T22:52:50+08:00",
+          "status": "passed",
+          "width": 1920,
+          "height": 1080,
+          "decoded_seconds": 3.003,
+          "decoded_frames": 90
+        },
+        {
+          "phase": "focused-report",
+          "checked_at": "2026-11-25T22:54:11+08:00",
+          "status": "failed",
+          "reason": "解码或样本校验失败"
+        },
+        {
+          "phase": "news-retry-report",
+          "checked_at": "2026-11-25T22:55:10+08:00",
+          "status": "failed",
+          "reason": "解码或样本校验失败"
+        }
+      ]
+    },
+    {
+      "region": "JP",
+      "channel": "日视 NEWS Select",
+      "domain": [
+        "cdn-uw2-prod.tsv2.amagi.tv"
+      ],
+      "address_type": "fixed-candidate",
+      "attempts": [
+        {
+          "phase": "late-report",
+          "checked_at": "2026-11-25T22:52:50+08:00",
+          "status": "passed",
+          "width": 1920,
+          "height": 1080,
+          "decoded_seconds": 3.003,
+          "decoded_frames": 90
+        },
+        {
+          "phase": "focused-report",
+          "checked_at": "2026-11-25T22:54:11+08:00",
+          "status": "passed",
+          "width": 1920,
+          "height": 1080,
+          "decoded_seconds": 3.003,
+          "decoded_frames": 90
+        },
+        {
+          "phase": "news-retry-report",
+          "checked_at": "2026-11-25T22:55:10+08:00",
+          "status": "failed",
+          "reason": "HTTP 403"
+        }
+      ]
+    },
+    {
+      "region": "HK",
+      "channel": "TVB明珠台",
+      "domain": [
+        "m.567it.com"
+      ],
+      "address_type": "fixed-candidate",
+      "attempts": [
+        {
+          "phase": "late-report",
+          "checked_at": "2026-11-25T22:52:54+08:00",
+          "status": "failed",
+          "reason": "返回内容不是可播放流"
+        }
+      ]
+    },
+    {
+      "region": "HK",
+      "channel": "TVB无线新闻台",
+      "domain": [
+        "www.liveviptv.xyz"
+      ],
+      "address_type": "fixed-candidate",
+      "attempts": [
+        {
+          "phase": "late-report",
+          "checked_at": "2026-11-25T22:52:55+08:00",
+          "status": "failed",
+          "reason": "HTTP 502"
+        }
+      ]
+    },
+    {
+      "region": "HK",
+      "channel": "ViuTVsix",
+      "domain": [
+        "aktv.top"
+      ],
+      "address_type": "fixed-candidate",
+      "attempts": [
+        {
+          "phase": "late-report",
+          "checked_at": "2026-11-25T22:52:56+08:00",
+          "status": "failed",
+          "reason": "返回内容不是可播放流"
+        }
+      ]
+    },
+    {
+      "region": "KR",
+      "channel": "联合新闻电视台",
+      "domain": [
+        "tistory1.daumcdn.net"
+      ],
+      "address_type": "fixed-candidate",
+      "attempts": [
+        {
+          "phase": "late-report",
+          "checked_at": "2026-11-25T22:52:52+08:00",
+          "status": "failed",
+          "reason": "媒体分片下载不完整"
+        },
+        {
+          "phase": "focused-report",
+          "checked_at": "2026-11-25T22:54:15+08:00",
+          "status": "failed",
+          "reason": "媒体分片下载不完整"
+        }
+      ]
+    },
+    {
+      "region": "KR",
+      "channel": "SBS JTV 全州",
+      "domain": [
+        "61.85.197.53"
+      ],
+      "address_type": "fixed-candidate",
+      "attempts": [
+        {
+          "phase": "late-report",
+          "checked_at": "2026-11-25T22:52:52+08:00",
+          "status": "failed",
+          "reason": "媒体分片下载不完整"
+        },
+        {
+          "phase": "focused-report",
+          "checked_at": "2026-11-25T22:54:16+08:00",
+          "status": "passed",
+          "width": 720,
+          "height": 406,
+          "decoded_seconds": 3.01,
+          "decoded_frames": 90
+        },
+        {
+          "phase": "kr-final-report",
+          "checked_at": "2026-11-25T22:55:43+08:00",
+          "status": "failed",
+          "reason": "媒体分片下载不完整"
+        }
+      ]
+    },
+    {
+      "region": "KR",
+      "channel": "YTN",
+      "domain": [
+        "ytnlive.ytn.co.kr"
+      ],
+      "address_type": "fixed-candidate",
+      "attempts": [
+        {
+          "phase": "late-report",
+          "checked_at": "2026-11-25T22:52:51+08:00",
+          "status": "failed",
+          "reason": "媒体分片下载不完整"
+        },
+        {
+          "phase": "focused-report",
+          "checked_at": "2026-11-25T22:54:38+08:00",
+          "status": "failed",
+          "reason": "媒体分片下载不完整"
+        },
+        {
+          "phase": "kr-final-report",
+          "checked_at": "2026-11-25T22:55:43+08:00",
+          "status": "failed",
+          "reason": "媒体分片下载不完整"
+        }
+      ]
+    },
+    {
+      "region": "KR",
+      "channel": "MBC 济州",
+      "domain": [
+        "wowza.jejumbc.com"
+      ],
+      "address_type": "fixed-candidate",
+      "attempts": [
+        {
+          "phase": "late-report",
+          "checked_at": "2026-11-25T22:52:53+08:00",
+          "status": "failed",
+          "reason": "媒体分片下载不完整"
+        },
+        {
+          "phase": "focused-report",
+          "checked_at": "2026-11-25T22:54:55+08:00",
+          "status": "failed",
+          "reason": "媒体分片下载不完整"
+        },
+        {
+          "phase": "kr-final-report",
+          "checked_at": "2026-11-25T22:56:08+08:00",
+          "status": "failed",
+          "reason": "媒体分片下载不完整"
+        }
+      ]
+    },
+    {
+      "region": "KR",
+      "channel": "MBC 春川",
+      "domain": [
+        "stream.chmbc.co.kr"
+      ],
+      "address_type": "fixed-candidate",
+      "attempts": [
+        {
+          "phase": "late-report",
+          "checked_at": "2026-11-25T22:52:53+08:00",
+          "status": "failed",
+          "reason": "媒体分片下载不完整"
+        },
+        {
+          "phase": "focused-report",
+          "checked_at": "2026-11-25T22:55:01+08:00",
+          "status": "failed",
+          "reason": "媒体分片下载不完整"
+        },
+        {
+          "phase": "kr-final-report",
+          "checked_at": "2026-11-25T22:56:32+08:00",
+          "status": "failed",
+          "reason": "媒体分片下载不完整"
+        }
+      ]
+    },
+    {
+      "region": "KR",
+      "channel": "MBC",
+      "domain": [
+        "koreatv.dothome.co.kr"
+      ],
+      "address_type": "fixed-candidate",
+      "attempts": [
+        {
+          "phase": "late-report",
+          "checked_at": "2026-11-25T22:52:53+08:00",
+          "status": "failed",
+          "reason": "媒体分片下载不完整"
+        },
+        {
+          "phase": "focused-report",
+          "checked_at": "2026-11-25T22:55:18+08:00",
+          "status": "failed",
+          "reason": "媒体分片下载不完整"
+        },
+        {
+          "phase": "kr-final-report",
+          "checked_at": "2026-11-25T22:56:07+08:00",
+          "status": "failed",
+          "reason": "媒体分片下载不完整"
+        }
+      ]
+    },
+    {
+      "region": "JP",
+      "channel": "日视 NEWS Select",
+      "domain": [
+        "amg01287-rakutentvjapan-ntv-newsselect-cmaf-rakutenjp-o7ejg.amagi.tv"
+      ],
+      "address_type": "fixed-candidate",
+      "attempts": [
+        {
+          "phase": "jp-stable-first",
+          "checked_at": "2026-11-25T22:54:32+08:00",
+          "status": "failed",
+          "reason": "HTTP 401"
+        },
+        {
+          "phase": "jp-stable-second",
+          "checked_at": "2026-11-25T22:54:33+08:00",
+          "status": "failed",
+          "reason": "HTTP 403"
+        }
+      ]
+    },
+    {
+      "region": "JP",
+      "channel": "日视 NEWS",
+      "domain": [
+        "amg01287-rakutentvjapan-news1hlscmaf-rakutenjp-inhae.amagi.tv"
+      ],
+      "address_type": "fixed-candidate",
+      "attempts": [
+        {
+          "phase": "jp-stable-first",
+          "checked_at": "2026-11-25T22:54:32+08:00",
+          "status": "failed",
+          "reason": "HTTP 404"
+        },
+        {
+          "phase": "jp-stable-second",
+          "checked_at": "2026-11-25T22:54:33+08:00",
+          "status": "failed",
+          "reason": "HTTP 404"
+        }
+      ]
+    },
+    {
+      "region": "KR",
+      "channel": "KBS2",
+      "domain": [
+        "2tv.gscdn.kbs.co.kr"
+      ],
+      "address_type": "official-temporary",
+      "attempts": [
+        {
+          "phase": "signed-report",
+          "checked_at": "2026-11-25T22:55:09+08:00",
+          "status": "failed",
+          "reason": "官方入口使用临时签名，未采用为固定播放地址"
+        }
+      ]
+    },
+    {
+      "region": "KR",
+      "channel": "SBS",
+      "domain": [
+        "tvlive.sbs.co.kr"
+      ],
+      "address_type": "official-temporary",
+      "attempts": [
+        {
+          "phase": "signed-report",
+          "checked_at": "2026-11-25T22:55:10+08:00",
+          "status": "failed",
+          "reason": "官方入口使用临时签名，未采用为固定播放地址"
+        }
+      ]
+    },
+    {
+      "region": "KR",
+      "channel": "KBS1",
+      "domain": [
+        "1tv.gscdn.kbs.co.kr"
+      ],
+      "address_type": "official-temporary",
+      "attempts": [
+        {
+          "phase": "signed-report",
+          "checked_at": "2026-11-25T22:55:09+08:00",
+          "status": "failed",
+          "reason": "官方入口使用临时签名，未采用为固定播放地址"
+        }
+      ]
+    }
+  ],
+  "broadcast_sample_confirmation": {
+    "SBS JTV 全州": {
+      "checked_at": "2026-11-25T22:56:34+08:00",
+      "status": "passed",
+      "width": 720,
+      "height": 406,
+      "decoded_seconds": 3.0,
+      "decoded_frames": 89
+    },
+    "HOY 76": {
+      "continued_sample_seconds": 22,
+      "result": "画面显示 11 月 25 日实时行情和正常财经节目"
+    }
+  }
+}

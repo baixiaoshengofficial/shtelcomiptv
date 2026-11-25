@@ -1,0 +1,1050 @@
+{
+  "tested_at": "2026-11-25T22:24:29+08:00",
+  "candidate_urls": 31,
+  "added_by_region": {
+    "TW": 2,
+    "JP": 2,
+    "MO": 2,
+    "US": 2,
+    "KR": 5
+  },
+  "previous_entries_unchanged": 149,
+  "total_entries": 162,
+  "playlist_sha256": "44cdeb5cdd4d637f51c2e414f89d8b4ef36dc0fb6da196666606bbcbc0c5d042",
+  "candidates": [
+    {
+      "channel": "HOY TV",
+      "region": "HK",
+      "url": "https://hoytv-live-stream.hoy.tv/ch77/index.m3u8",
+      "reference": "https://www.hoy.tv/",
+      "source_label": "官方CDN",
+      "observed_hosts": [
+        "hoytv-live-stream.hoy.tv"
+      ],
+      "samples": [
+        {
+          "phase": "first",
+          "checked_at": "2026-11-25T22:20:30+08:00",
+          "status": "failed",
+          "reason": "加密 HLS 未完成解密测试，未添加"
+        }
+      ],
+      "selected": false
+    },
+    {
+      "channel": "HOY资讯台",
+      "region": "HK",
+      "url": "https://hoytv-live-stream.hoy.tv/ch78/index.m3u8",
+      "reference": "https://www.hoy.tv/",
+      "source_label": "官方CDN",
+      "observed_hosts": [
+        "hoytv-live-stream.hoy.tv"
+      ],
+      "samples": [
+        {
+          "phase": "first",
+          "checked_at": "2026-11-25T22:20:30+08:00",
+          "status": "failed",
+          "reason": "加密 HLS 未完成解密测试，未添加"
+        }
+      ],
+      "selected": false
+    },
+    {
+      "channel": "港台电视35",
+      "region": "HK",
+      "url": "https://rthktv35-live.akamaized.net/hls/live/2101643/RTHKTV35/master.m3u8",
+      "reference": "https://www.rthk.hk/tv",
+      "source_label": "官方CDN",
+      "observed_hosts": [
+        "rthktv35-live.akamaized.net"
+      ],
+      "samples": [
+        {
+          "phase": "first",
+          "checked_at": "2026-11-25T22:20:30+08:00",
+          "status": "failed",
+          "reason": "HTTP 404: {\"error\":\"Not found: Egress retrieve hls/20002709-b/RTHKTV35/media/stream05/streamPlaylist.m3u8 error. Not found in all storage\"}"
+        }
+      ],
+      "selected": false
+    },
+    {
+      "channel": "澳视澳门",
+      "region": "MO",
+      "url": "https://live3.tdm.com.mo/ch1/ch1.live/playlist.m3u8",
+      "reference": "https://www.tdm.com.mo/zh-hant/live",
+      "source_label": "官方CDN",
+      "observed_hosts": [
+        "live3.tdm.com.mo"
+      ],
+      "samples": [
+        {
+          "phase": "first",
+          "checked_at": "2026-11-25T22:20:30+08:00",
+          "status": "failed",
+          "reason": "HTTP 0: curl: (28) SSL connection timeout"
+        }
+      ],
+      "selected": false
+    },
+    {
+      "channel": "澳视葡文",
+      "region": "MO",
+      "url": "https://live3.tdm.com.mo/ch2/ch2.live/playlist.m3u8",
+      "reference": "https://www.tdm.com.mo/zh-hant/live",
+      "source_label": "官方CDN",
+      "observed_hosts": [
+        "live3.tdm.com.mo"
+      ],
+      "samples": [
+        {
+          "phase": "first",
+          "checked_at": "2026-11-25T22:20:30+08:00",
+          "status": "failed",
+          "reason": "HTTP 0: curl: (28) SSL connection timeout"
+        }
+      ],
+      "selected": false
+    },
+    {
+      "channel": "澳视葡文",
+      "region": "MO",
+      "url": "https://live5.tdm.com.mo/ch2/ch2.live/playlist.m3u8",
+      "reference": "https://www.tdm.com.mo/zh-hant/live",
+      "source_label": "官方CDN",
+      "observed_hosts": [
+        "live5.tdm.com.mo"
+      ],
+      "samples": [
+        {
+          "phase": "first",
+          "checked_at": "2026-11-25T22:20:32+08:00",
+          "status": "passed",
+          "width": 1920,
+          "height": 1080,
+          "decoded_seconds": 3.0,
+          "decoded_frames": 75
+        },
+        {
+          "phase": "recheck",
+          "checked_at": "2026-11-25T22:21:23+08:00",
+          "status": "passed",
+          "width": 1920,
+          "height": 1080,
+          "decoded_seconds": 3.0,
+          "decoded_frames": 75
+        }
+      ],
+      "selected": false,
+      "visual_review": "样本为版权提示卡"
+    },
+    {
+      "channel": "澳视澳门",
+      "region": "MO",
+      "url": "https://live5.tdm.com.mo/ch1/ch1.live/playlist.m3u8",
+      "reference": "https://www.tdm.com.mo/zh-hant/live",
+      "source_label": "官方CDN",
+      "observed_hosts": [
+        "live5.tdm.com.mo"
+      ],
+      "samples": [
+        {
+          "phase": "first",
+          "checked_at": "2026-11-25T22:20:30+08:00",
+          "status": "passed",
+          "width": 1920,
+          "height": 1080,
+          "decoded_seconds": 3.0,
+          "decoded_frames": 74
+        },
+        {
+          "phase": "recheck",
+          "checked_at": "2026-11-25T22:21:23+08:00",
+          "status": "passed",
+          "width": 1920,
+          "height": 1080,
+          "decoded_seconds": 3.0,
+          "decoded_frames": 74
+        }
+      ],
+      "selected": true,
+      "visual_review": "频道台标或节目内容已核对"
+    },
+    {
+      "channel": "澳门资讯",
+      "region": "MO",
+      "url": "https://live3.tdm.com.mo/ch5/info_ch5.live/playlist.m3u8",
+      "reference": "https://www.tdm.com.mo/zh-hant/live",
+      "source_label": "官方CDN",
+      "observed_hosts": [
+        "live3.tdm.com.mo"
+      ],
+      "samples": [
+        {
+          "phase": "first",
+          "checked_at": "2026-11-25T22:20:32+08:00",
+          "status": "failed",
+          "reason": "HTTP 0: curl: (28) SSL connection timeout"
+        }
+      ],
+      "selected": false
+    },
+    {
+      "channel": "TaiwanPlus",
+      "region": "TW",
+      "url": "https://bcovlive-a.akamaihd.net/rce33d845cb9e42dfa302c7ac345f7858/ap-northeast-1/6282251407001/playlist.m3u8",
+      "reference": "https://www.taiwanplus.com/",
+      "source_label": "官方CDN",
+      "observed_hosts": [
+        "bcovlive-a.akamaihd.net"
+      ],
+      "samples": [
+        {
+          "phase": "first",
+          "checked_at": "2026-11-25T22:20:37+08:00",
+          "status": "failed",
+          "reason": "HTTP 400: <HTML><HEAD>"
+        }
+      ],
+      "selected": false
+    },
+    {
+      "channel": "大爱1",
+      "region": "TW",
+      "url": "https://pulltv1.wanfudaluye.com/live/tv1.m3u8",
+      "reference": "https://www.daai.tv/",
+      "source_label": "公网",
+      "observed_hosts": [
+        "pulltv1.wanfudaluye.com"
+      ],
+      "samples": [
+        {
+          "phase": "first",
+          "checked_at": "2026-11-25T22:20:38+08:00",
+          "status": "failed",
+          "reason": "HTTP 403: "
+        }
+      ],
+      "selected": false
+    },
+    {
+      "channel": "澳门资讯",
+      "region": "MO",
+      "url": "https://live5.tdm.com.mo/ch5/info_ch5.live/playlist.m3u8",
+      "reference": "https://www.tdm.com.mo/zh-hant/live",
+      "source_label": "官方CDN",
+      "observed_hosts": [
+        "live5.tdm.com.mo"
+      ],
+      "samples": [
+        {
+          "phase": "first",
+          "checked_at": "2026-11-25T22:20:33+08:00",
+          "status": "passed",
+          "width": 1920,
+          "height": 1080,
+          "decoded_seconds": 3.0,
+          "decoded_frames": 74
+        },
+        {
+          "phase": "recheck",
+          "checked_at": "2026-11-25T22:21:23+08:00",
+          "status": "passed",
+          "width": 1920,
+          "height": 1080,
+          "decoded_seconds": 3.0,
+          "decoded_frames": 74
+        }
+      ],
+      "selected": true,
+      "visual_review": "频道台标或节目内容已核对"
+    },
+    {
+      "channel": "澳门体育",
+      "region": "MO",
+      "url": "https://live5.tdm.com.mo/ch4/sport_ch4.live/playlist.m3u8",
+      "reference": "https://www.tdm.com.mo/zh-hant/live",
+      "source_label": "官方CDN",
+      "observed_hosts": [
+        "live5.tdm.com.mo"
+      ],
+      "samples": [
+        {
+          "phase": "first",
+          "checked_at": "2026-11-25T22:20:36+08:00",
+          "status": "passed",
+          "width": 1920,
+          "height": 1080,
+          "decoded_seconds": 3.017,
+          "decoded_frames": 75
+        },
+        {
+          "phase": "recheck",
+          "checked_at": "2026-11-25T22:21:23+08:00",
+          "status": "failed",
+          "reason": "HTTP 0: curl: (28) SSL connection timeout"
+        },
+        {
+          "phase": "third",
+          "checked_at": "2026-11-25T22:22:34+08:00",
+          "status": "passed",
+          "width": 1920,
+          "height": 1080,
+          "decoded_seconds": 3.0,
+          "decoded_frames": 74
+        }
+      ],
+      "selected": false,
+      "visual_review": "样本为版权提示卡"
+    },
+    {
+      "channel": "澳门体育",
+      "region": "MO",
+      "url": "https://live3.tdm.com.mo/ch4/sport_ch4.live/playlist.m3u8",
+      "reference": "https://www.tdm.com.mo/zh-hant/live",
+      "source_label": "官方CDN",
+      "observed_hosts": [
+        "live3.tdm.com.mo"
+      ],
+      "samples": [
+        {
+          "phase": "first",
+          "checked_at": "2026-11-25T22:20:36+08:00",
+          "status": "failed",
+          "reason": "HTTP 0: curl: (28) SSL connection timeout"
+        }
+      ],
+      "selected": false
+    },
+    {
+      "channel": "澳门综艺",
+      "region": "MO",
+      "url": "https://live3.tdm.com.mo/ch6/hd_ch6.live/playlist.m3u8",
+      "reference": "https://www.tdm.com.mo/zh-hant/live",
+      "source_label": "官方CDN",
+      "observed_hosts": [
+        "live3.tdm.com.mo"
+      ],
+      "samples": [
+        {
+          "phase": "first",
+          "checked_at": "2026-11-25T22:20:36+08:00",
+          "status": "failed",
+          "reason": "HTTP 0: curl: (28) SSL connection timeout"
+        }
+      ],
+      "selected": false
+    },
+    {
+      "channel": "澳门综艺",
+      "region": "MO",
+      "url": "https://live5.tdm.com.mo/ch6/hd_ch6.live/playlist.m3u8",
+      "reference": "https://www.tdm.com.mo/zh-hant/live",
+      "source_label": "官方CDN",
+      "observed_hosts": [
+        "live5.tdm.com.mo"
+      ],
+      "samples": [
+        {
+          "phase": "first",
+          "checked_at": "2026-11-25T22:20:37+08:00",
+          "status": "passed",
+          "width": 1920,
+          "height": 1080,
+          "decoded_seconds": 3.0,
+          "decoded_frames": 75
+        },
+        {
+          "phase": "recheck",
+          "checked_at": "2026-11-25T22:21:28+08:00",
+          "status": "passed",
+          "width": 1920,
+          "height": 1080,
+          "decoded_seconds": 3.0,
+          "decoded_frames": 74
+        }
+      ],
+      "selected": false,
+      "visual_review": "样本为版权提示卡"
+    },
+    {
+      "channel": "EBS 1TV",
+      "region": "KR",
+      "url": "https://ebsonair.ebs.co.kr/ebs1familypc/familypc1m/playlist.m3u8",
+      "reference": "https://www.ebs.co.kr/onair",
+      "source_label": "官方CDN",
+      "observed_hosts": [
+        "ebsonair.ebs.co.kr"
+      ],
+      "samples": [
+        {
+          "phase": "first",
+          "checked_at": "2026-11-25T22:20:41+08:00",
+          "status": "passed",
+          "width": 720,
+          "height": 400,
+          "decoded_seconds": 3.003,
+          "decoded_frames": 89
+        },
+        {
+          "phase": "recheck",
+          "checked_at": "2026-11-25T22:21:32+08:00",
+          "status": "passed",
+          "width": 720,
+          "height": 400,
+          "decoded_seconds": 3.013,
+          "decoded_frames": 90
+        }
+      ],
+      "selected": true,
+      "visual_review": "频道台标或节目内容已核对"
+    },
+    {
+      "channel": "GSTV 日本珠宝",
+      "region": "JP",
+      "url": "https://japaneast.av.mk.io/mediakindcdn-mediakind/ca01a143-f823-4432-b670-c22ff9643ce4/index.qfm/manifest(format=m3u8-cmaf)",
+      "reference": "https://www.gstv.jp/",
+      "source_label": "公网",
+      "observed_hosts": [
+        "japaneast.av.mk.io"
+      ],
+      "samples": [
+        {
+          "phase": "first",
+          "checked_at": "2026-11-25T22:20:38+08:00",
+          "status": "passed",
+          "width": 1280,
+          "height": 720,
+          "decoded_seconds": 3.003,
+          "decoded_frames": 180
+        },
+        {
+          "phase": "recheck",
+          "checked_at": "2026-11-25T22:21:31+08:00",
+          "status": "passed",
+          "width": 1280,
+          "height": 720,
+          "decoded_seconds": 3.003,
+          "decoded_frames": 180
+        }
+      ],
+      "selected": true,
+      "visual_review": "频道台标或节目内容已核对"
+    },
+    {
+      "channel": "Weathernews LiVE",
+      "region": "JP",
+      "url": "https://rch01e-alive-hls.akamaized.net/38fb45b25cdb05a1/out/v1/4e907bfabc684a1dae10df8431a84d21/index.m3u8",
+      "reference": "https://weathernews.jp/about_forecast/faq/qa10.html",
+      "source_label": "公网",
+      "observed_hosts": [
+        "rch01e-alive-hls.akamaized.net"
+      ],
+      "samples": [
+        {
+          "phase": "first",
+          "checked_at": "2026-11-25T22:20:38+08:00",
+          "status": "passed",
+          "width": 1280,
+          "height": 720,
+          "decoded_seconds": 3.003,
+          "decoded_frames": 90
+        },
+        {
+          "phase": "recheck",
+          "checked_at": "2026-11-25T22:21:29+08:00",
+          "status": "failed",
+          "reason": "HTTP 200: curl: (18) transfer closed with 384336 bytes remaining to read"
+        },
+        {
+          "phase": "third",
+          "checked_at": "2026-11-25T22:22:34+08:00",
+          "status": "passed",
+          "width": 1280,
+          "height": 720,
+          "decoded_seconds": 3.003,
+          "decoded_frames": 90
+        }
+      ],
+      "selected": true,
+      "visual_review": "频道台标或节目内容已核对"
+    },
+    {
+      "channel": "EBS Kids",
+      "region": "KR",
+      "url": "https://ebsonair.ebs.co.kr/ebsufamilypc/familypc1m/playlist.m3u8",
+      "reference": "https://www.ebs.co.kr/onair",
+      "source_label": "官方CDN",
+      "observed_hosts": [
+        "ebsonair.ebs.co.kr"
+      ],
+      "samples": [
+        {
+          "phase": "first",
+          "checked_at": "2026-11-25T22:20:41+08:00",
+          "status": "passed",
+          "width": 720,
+          "height": 400,
+          "decoded_seconds": 3.003,
+          "decoded_frames": 89
+        },
+        {
+          "phase": "recheck",
+          "checked_at": "2026-11-25T22:21:38+08:00",
+          "status": "passed",
+          "width": 720,
+          "height": 400,
+          "decoded_seconds": 3.003,
+          "decoded_frames": 89
+        }
+      ],
+      "selected": true,
+      "visual_review": "频道台标或节目内容已核对"
+    },
+    {
+      "channel": "EBS 2TV",
+      "region": "KR",
+      "url": "https://ebsonair.ebs.co.kr/ebs2familypc/familypc1m/playlist.m3u8",
+      "reference": "https://www.ebs.co.kr/onair",
+      "source_label": "官方CDN",
+      "observed_hosts": [
+        "ebsonair.ebs.co.kr"
+      ],
+      "samples": [
+        {
+          "phase": "first",
+          "checked_at": "2026-11-25T22:20:41+08:00",
+          "status": "passed",
+          "width": 720,
+          "height": 400,
+          "decoded_seconds": 3.003,
+          "decoded_frames": 89
+        },
+        {
+          "phase": "recheck",
+          "checked_at": "2026-11-25T22:21:37+08:00",
+          "status": "passed",
+          "width": 720,
+          "height": 400,
+          "decoded_seconds": 3.003,
+          "decoded_frames": 90
+        }
+      ],
+      "selected": true,
+      "visual_review": "频道台标或节目内容已核对"
+    },
+    {
+      "channel": "ABC News Live",
+      "region": "US",
+      "url": "https://abcnews-streams.akamaized.net/hls/live/2023560/abcnewshudson1/master.m3u8",
+      "reference": "https://abcnews.com/Live",
+      "source_label": "官方CDN",
+      "observed_hosts": [
+        "abcnews-streams.akamaized.net"
+      ],
+      "samples": [
+        {
+          "phase": "first",
+          "checked_at": "2026-11-25T22:20:47+08:00",
+          "status": "failed",
+          "reason": "HTTP 404: {\"error\":\"Not found: Egress retrieve hls/2023560/abcnewshudson1/media/master_4000.m3u8 error. Not found in all storage\"}"
+        }
+      ],
+      "selected": false
+    },
+    {
+      "channel": "YTN",
+      "region": "KR",
+      "url": "http://202.60.106.14:8080/214/playlist.m3u8",
+      "reference": "https://www.ytn.co.kr/",
+      "source_label": "公网",
+      "observed_hosts": [
+        "202.60.106.14"
+      ],
+      "samples": [
+        {
+          "phase": "first",
+          "checked_at": "2026-11-25T22:20:45+08:00",
+          "status": "failed",
+          "reason": "HTTP 0: curl: (52) Empty reply from server"
+        }
+      ],
+      "selected": false
+    },
+    {
+      "channel": "EBS Plus 1",
+      "region": "KR",
+      "url": "https://ebsonair.ebs.co.kr/plus1familypc/familypc1m/playlist.m3u8",
+      "reference": "https://www.ebs.co.kr/onair",
+      "source_label": "官方CDN",
+      "observed_hosts": [
+        "ebsonair.ebs.co.kr"
+      ],
+      "samples": [
+        {
+          "phase": "first",
+          "checked_at": "2026-11-25T22:20:45+08:00",
+          "status": "passed",
+          "width": 720,
+          "height": 400,
+          "decoded_seconds": 3.008,
+          "decoded_frames": 90
+        },
+        {
+          "phase": "recheck",
+          "checked_at": "2026-11-25T22:21:41+08:00",
+          "status": "passed",
+          "width": 720,
+          "height": 400,
+          "decoded_seconds": 3.003,
+          "decoded_frames": 89
+        }
+      ],
+      "selected": true,
+      "visual_review": "频道台标或节目内容已核对"
+    },
+    {
+      "channel": "CBS News 24/7",
+      "region": "US",
+      "url": "https://jmp2.uk/plu-6350fdd266e9ea0007bedec5.m3u8",
+      "reference": "https://www.cbsnews.com/live/",
+      "source_label": "公网",
+      "observed_hosts": [
+        "jmp2.uk"
+      ],
+      "samples": [
+        {
+          "phase": "first",
+          "checked_at": "2026-11-25T22:20:49+08:00",
+          "status": "failed",
+          "reason": "加密 HLS 未完成解密测试，未添加"
+        }
+      ],
+      "selected": false
+    },
+    {
+      "channel": "PBS KIDS",
+      "region": "US",
+      "url": "https://livestream.pbskids.org/out/v1/14507d931bbe48a69287e4850e53443c/est.m3u8",
+      "reference": "https://pbskids.org/videos/livetv",
+      "source_label": "官方CDN",
+      "observed_hosts": [
+        "livestream.pbskids.org"
+      ],
+      "samples": [
+        {
+          "phase": "first",
+          "checked_at": "2026-11-25T22:20:47+08:00",
+          "status": "passed",
+          "width": 1280,
+          "height": 720,
+          "decoded_seconds": 3.003,
+          "decoded_frames": 90
+        },
+        {
+          "phase": "recheck",
+          "checked_at": "2026-11-25T22:21:45+08:00",
+          "status": "passed",
+          "width": 1280,
+          "height": 720,
+          "decoded_seconds": 3.007,
+          "decoded_frames": 90
+        }
+      ],
+      "selected": true,
+      "visual_review": "频道台标或节目内容已核对"
+    },
+    {
+      "channel": "NBC News NOW",
+      "region": "US",
+      "url": "https://d1si3n1st4nkgb.cloudfront.net/10502/88896001/hls/master.m3u8?ads.xumo_channelId=88896001",
+      "reference": "https://www.nbcnews.com/now",
+      "source_label": "公网",
+      "observed_hosts": [
+        "d1si3n1st4nkgb.cloudfront.net",
+        "sseu-xumoent-nbcnn-usyjr.fast.nbcuni.com"
+      ],
+      "samples": [
+        {
+          "phase": "first",
+          "checked_at": "2026-11-25T22:20:47+08:00",
+          "status": "failed",
+          "reason": "HTTP 200: curl: (18) Transferred a partial file"
+        },
+        {
+          "phase": "recheck",
+          "checked_at": "2026-11-25T22:21:43+08:00",
+          "status": "passed",
+          "width": 1920,
+          "height": 1080,
+          "decoded_seconds": 3.001,
+          "decoded_frames": 90
+        },
+        {
+          "phase": "third",
+          "checked_at": "2026-11-25T22:22:34+08:00",
+          "status": "passed",
+          "width": 1920,
+          "height": 1080,
+          "decoded_seconds": 3.001,
+          "decoded_frames": 90
+        }
+      ],
+      "selected": true,
+      "visual_review": "频道台标或节目内容已核对"
+    },
+    {
+      "channel": "KTV 韩国国民广播",
+      "region": "KR",
+      "url": "https://hlive.ktv.go.kr/live/klive_h.stream/playlist.m3u8",
+      "reference": "https://www.ktv.go.kr/",
+      "source_label": "官方CDN",
+      "observed_hosts": [
+        "hlive.ktv.go.kr"
+      ],
+      "samples": [
+        {
+          "phase": "first",
+          "checked_at": "2026-11-25T22:20:40+08:00",
+          "status": "failed",
+          "reason": "HTTP 200: curl: (18) transfer closed with 2691806 bytes remaining to read"
+        },
+        {
+          "phase": "recheck",
+          "checked_at": "2026-11-25T22:21:32+08:00",
+          "status": "passed",
+          "width": 1920,
+          "height": 1080,
+          "decoded_seconds": 3.003,
+          "decoded_frames": 90
+        },
+        {
+          "phase": "third",
+          "checked_at": "2026-11-25T22:22:34+08:00",
+          "status": "passed",
+          "width": 1920,
+          "height": 1080,
+          "decoded_seconds": 3.005,
+          "decoded_frames": 90
+        }
+      ],
+      "selected": true,
+      "visual_review": "频道台标或节目内容已核对"
+    },
+    {
+      "channel": "公视3台",
+      "region": "TW",
+      "url": "http://111.59.139.85:11888/tsfile/live/1222_1.m3u8",
+      "reference": "https://www.pts.org.tw/",
+      "source_label": "公网中转",
+      "observed_hosts": [
+        "111.59.139.85"
+      ],
+      "samples": [
+        {
+          "phase": "tw-first",
+          "checked_at": "2026-11-25T22:22:11+08:00",
+          "status": "failed",
+          "reason": "HTTP 0: curl: (28) Failed to connect to 111.59.139.85 port 11888 after 5004 ms: Timeout was reached"
+        },
+        {
+          "phase": "tw-second",
+          "checked_at": "2026-11-25T22:22:27+08:00",
+          "status": "failed",
+          "reason": "HTTP 0: curl: (28) Failed to connect to 111.59.139.85 port 11888 after 5006 ms: Timeout was reached"
+        }
+      ],
+      "selected": false
+    },
+    {
+      "channel": "TVBS新闻台",
+      "region": "TW",
+      "url": "http://seb.sason.top/sc/tvbsxw_fhd.m3u8",
+      "reference": "https://news.tvbs.com.tw/",
+      "source_label": "公网中转",
+      "observed_hosts": [
+        "seb.sason.top"
+      ],
+      "samples": [
+        {
+          "phase": "tw-first",
+          "checked_at": "2026-11-25T22:22:16+08:00",
+          "status": "failed",
+          "reason": "HTTP 0: curl: (52) Empty reply from server"
+        },
+        {
+          "phase": "tw-second",
+          "checked_at": "2026-11-25T22:22:32+08:00",
+          "status": "failed",
+          "reason": "HTTP 0: curl: (52) Empty reply from server"
+        }
+      ],
+      "selected": false
+    },
+    {
+      "channel": "客家电视台",
+      "region": "TW",
+      "url": "https://h5cul1yar48um3t.wcetv.com/hls/hakkatv.m3u8",
+      "reference": "https://www.hakkatv.org.tw/",
+      "source_label": "公网中转",
+      "observed_hosts": [
+        "h5cul1yar48um3t.wcetv.com"
+      ],
+      "samples": [
+        {
+          "phase": "tw-first",
+          "checked_at": "2026-11-25T22:22:11+08:00",
+          "status": "passed",
+          "width": 1280,
+          "height": 720,
+          "decoded_seconds": 3.0,
+          "decoded_frames": 88
+        },
+        {
+          "phase": "tw-second",
+          "checked_at": "2026-11-25T22:22:27+08:00",
+          "status": "passed",
+          "width": 1280,
+          "height": 720,
+          "decoded_seconds": 3.0,
+          "decoded_frames": 88
+        },
+        {
+          "phase": "tw-trace",
+          "checked_at": "2026-11-25T22:23:38+08:00",
+          "status": "passed",
+          "width": 1280,
+          "height": 720,
+          "decoded_seconds": 3.0,
+          "decoded_frames": 88
+        }
+      ],
+      "selected": true,
+      "visual_review": "频道台标或节目内容已核对"
+    },
+    {
+      "channel": "台视新闻",
+      "region": "TW",
+      "url": "https://live.wcetv.com/hls/master-ttvnews.m3u8",
+      "reference": "https://news.ttv.com.tw/",
+      "source_label": "公网中转",
+      "observed_hosts": [
+        "live.wcetv.com"
+      ],
+      "samples": [
+        {
+          "phase": "tw-first",
+          "checked_at": "2026-11-25T22:22:11+08:00",
+          "status": "passed",
+          "width": 1920,
+          "height": 1080,
+          "decoded_seconds": 3.003,
+          "decoded_frames": 90
+        },
+        {
+          "phase": "tw-second",
+          "checked_at": "2026-11-25T22:22:27+08:00",
+          "status": "passed",
+          "width": 1920,
+          "height": 1080,
+          "decoded_seconds": 3.004,
+          "decoded_frames": 90
+        },
+        {
+          "phase": "tw-trace",
+          "checked_at": "2026-11-25T22:23:38+08:00",
+          "status": "failed",
+          "reason": "HTTP 0: curl: (28) SSL connection timeout"
+        }
+      ],
+      "selected": true,
+      "visual_review": "频道台标或节目内容已核对"
+    }
+  ],
+  "http_probe_scope": "家庭 Mihomo 控制接口按对应出口做 HTTP 入口探测。澳门使用香港节点，韩国使用当前韩国节点。这里只验证 HTTP 响应，媒体取样走当时家庭网关的现有策略。",
+  "http_probes": [
+    {
+      "channel": "HOY TV",
+      "node_type": "direct",
+      "region": "HK",
+      "http_200": false,
+      "delay_ms": null
+    },
+    {
+      "channel": "HOY TV",
+      "node_type": "regional",
+      "region": "HK",
+      "http_200": true,
+      "delay_ms": 69
+    },
+    {
+      "channel": "港台电视35",
+      "node_type": "direct",
+      "region": "HK",
+      "http_200": true,
+      "delay_ms": 329
+    },
+    {
+      "channel": "港台电视35",
+      "node_type": "regional",
+      "region": "HK",
+      "http_200": true,
+      "delay_ms": 74
+    },
+    {
+      "channel": "澳视澳门",
+      "node_type": "direct",
+      "region": "MO",
+      "http_200": false,
+      "delay_ms": null
+    },
+    {
+      "channel": "澳视澳门",
+      "node_type": "regional",
+      "region": "MO",
+      "http_200": true,
+      "delay_ms": 75
+    },
+    {
+      "channel": "澳门资讯",
+      "node_type": "direct",
+      "region": "MO",
+      "http_200": false,
+      "delay_ms": null
+    },
+    {
+      "channel": "澳门资讯",
+      "node_type": "regional",
+      "region": "MO",
+      "http_200": true,
+      "delay_ms": 76
+    },
+    {
+      "channel": "TaiwanPlus",
+      "node_type": "direct",
+      "region": "TW",
+      "http_200": true,
+      "delay_ms": 1386
+    },
+    {
+      "channel": "TaiwanPlus",
+      "node_type": "regional",
+      "region": "TW",
+      "http_200": true,
+      "delay_ms": 1373
+    },
+    {
+      "channel": "大爱1",
+      "node_type": "direct",
+      "region": "TW",
+      "http_200": true,
+      "delay_ms": 1005
+    },
+    {
+      "channel": "大爱1",
+      "node_type": "regional",
+      "region": "TW",
+      "http_200": true,
+      "delay_ms": 36
+    },
+    {
+      "channel": "Weathernews LiVE",
+      "node_type": "direct",
+      "region": "JP",
+      "http_200": true,
+      "delay_ms": 316
+    },
+    {
+      "channel": "Weathernews LiVE",
+      "node_type": "regional",
+      "region": "JP",
+      "http_200": true,
+      "delay_ms": 62
+    },
+    {
+      "channel": "KTV 韩国国民广播",
+      "node_type": "direct",
+      "region": "KR",
+      "http_200": true,
+      "delay_ms": 58
+    },
+    {
+      "channel": "KTV 韩国国民广播",
+      "node_type": "regional",
+      "region": "KR",
+      "http_200": true,
+      "delay_ms": 62
+    },
+    {
+      "channel": "EBS 1TV",
+      "node_type": "direct",
+      "region": "KR",
+      "http_200": false,
+      "delay_ms": null
+    },
+    {
+      "channel": "EBS 1TV",
+      "node_type": "regional",
+      "region": "KR",
+      "http_200": true,
+      "delay_ms": 55
+    },
+    {
+      "channel": "NBC News NOW",
+      "node_type": "direct",
+      "region": "US",
+      "http_200": false,
+      "delay_ms": null
+    },
+    {
+      "channel": "NBC News NOW",
+      "node_type": "regional",
+      "region": "US",
+      "http_200": true,
+      "delay_ms": 207
+    },
+    {
+      "channel": "PBS KIDS",
+      "node_type": "direct",
+      "region": "US",
+      "http_200": true,
+      "delay_ms": 615
+    },
+    {
+      "channel": "PBS KIDS",
+      "node_type": "regional",
+      "region": "US",
+      "http_200": true,
+      "delay_ms": 214
+    },
+    {
+      "channel": "客家电视台",
+      "node_type": "direct",
+      "region": "TW",
+      "http_200": false,
+      "delay_ms": null
+    },
+    {
+      "channel": "客家电视台",
+      "node_type": "regional",
+      "region": "TW",
+      "http_200": true,
+      "delay_ms": 198
+    },
+    {
+      "channel": "台视新闻",
+      "node_type": "direct",
+      "region": "TW",
+      "http_200": true,
+      "delay_ms": 187
+    },
+    {
+      "channel": "台视新闻",
+      "node_type": "regional",
+      "region": "TW",
+      "http_200": true,
+      "delay_ms": 228
+    }
+  ]
+}

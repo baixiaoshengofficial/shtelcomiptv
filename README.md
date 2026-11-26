@@ -2,9 +2,13 @@
 
 日常使用文件：[`shtelconiptv.m3u`](shtelconiptv.m3u)。
 
+## 韩国地方台与美国新闻气象频道（2026-11-27）
+
+主播放列表现有 **249 条播放项**，含 129 条公网线路。新增 17 个频道，包括 YTN、MBC 地方台、SBS 地方联播台、CBS News 24/7 和 WeatherNation。[本轮播放验证](reports/regional-local-expansion.md)
+
 ## 韩国 SBS 本台（2026-11-27）
 
-主播放列表现有 **232 条播放项**，含 112 条公网线路。SBS 本台 720p 的入口和媒体均由软路由转至韩国组的 `kr_jp_cdt->oracle`，4 分钟取流音视频均未发现跳段。[SBS 播放复测](reports/sbs-route-retest.md)
+该轮主播放列表为 **232 条播放项**，含 112 条公网线路。SBS 本台 720p 的入口和媒体均由软路由转至韩国组的 `kr_jp_cdt->oracle`，4 分钟取流音视频均未发现跳段。[SBS 播放复测](reports/sbs-route-retest.md)
 
 ## 韩国 MBC 本台补源与 SBS 复测（2026-11-26）
 

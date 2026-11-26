@@ -594,6 +594,9 @@ http://koreatv.dothome.co.kr/kbs1.php
 #EXTINF:-1 tvg-name="KBS 2TV" group-title="韩国频道",KBS 2TVHD [公网中转]
 http://koreatv.dothome.co.kr/kbs2.php
 
+#EXTINF:-1 tvg-name="MBC 本台" group-title="韩国频道",MBC 本台HD [公网中转]
+http://koreatv.dothome.co.kr/mbc.php
+
 #EXTINF:-1 tvg-name="NBC News NOW" group-title="美国频道",NBC News NOWHD [公网]
 https://d1si3n1st4nkgb.cloudfront.net/10502/88896001/hls/master.m3u8?ads.xumo_channelId=88896001
 

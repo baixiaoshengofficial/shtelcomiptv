@@ -1,0 +1,341 @@
+{
+  "tested_on": "2026-11-26",
+  "distinct_candidate_urls": 102,
+  "tested_candidates_by_region": {
+    "HK": 23,
+    "TW": 48,
+    "KR": 31
+  },
+  "probe_geolocation": {
+    "HK": [
+      "HK"
+    ],
+    "TW": [
+      "HK"
+    ],
+    "KR": [
+      "KR"
+    ]
+  },
+  "previous_playlist_entries": 221,
+  "playlist_entries": 230,
+  "public_playlist_entries": 110,
+  "added_by_region": {
+    "HK": 2,
+    "TW": 5,
+    "KR": 2
+  },
+  "selected": [
+    {
+      "channel": "TVB无线新闻台",
+      "url": "https://h5cdn3.kylintv.tv/live/tvbnews_iphone.m3u8",
+      "status": "passed",
+      "group": "港澳频道",
+      "source_label": "公网中转",
+      "reference": "https://cdn.jsdelivr.net/gh/Guovin/iptv-api@gd/output/result.m3u",
+      "region": "HK",
+      "media_type": "video",
+      "transport": "hls",
+      "height": 720,
+      "width": 1280,
+      "observed_hosts": [
+        "h5cdn3.kylintv.tv"
+      ],
+      "distinct_test_exits": 3,
+      "short_checks": [
+        {
+          "checked_at": "2026-11-26T17:31:26+08:00",
+          "decoded_seconds": 3.0,
+          "decoded_frames": 89
+        },
+        {
+          "checked_at": "2026-11-26T17:32:19+08:00",
+          "decoded_seconds": 3.0,
+          "decoded_frames": 89
+        }
+      ],
+      "continuous_sample_seconds": [
+        18.1
+      ],
+      "display_name": "TVB无线新闻台HD [公网中转]",
+      "rule_file": "HkMandatory.list"
+    },
+    {
+      "channel": "凤凰卫视香港台",
+      "url": "http://43.152.224.209/qctv.fengshows.cn/live/0701phk72.flv",
+      "status": "passed",
+      "group": "港澳频道",
+      "source_label": "公网中转",
+      "reference": "https://github.com/YueChan/Live/blob/main/GNTV.m3u",
+      "region": "HK",
+      "media_type": "video",
+      "transport": "http-flv",
+      "height": 720,
+      "width": 1280,
+      "observed_hosts": [
+        "43.152.224.209"
+      ],
+      "distinct_test_exits": 3,
+      "short_checks": [],
+      "continuous_sample_seconds": [
+        16.0,
+        16.0,
+        16.0
+      ],
+      "display_name": "凤凰卫视香港台HD [公网中转]",
+      "rule_file": "HkMandatory.list"
+    },
+    {
+      "channel": "台视主频",
+      "url": "http://211.72.174.95:8112/0.ts",
+      "status": "passed",
+      "group": "台湾频道",
+      "source_label": "公网中转",
+      "reference": "https://raw.githubusercontent.com/bluefriendCN/set/main/live.txt",
+      "region": "TW",
+      "media_type": "video",
+      "transport": "hls",
+      "height": 720,
+      "width": 1280,
+      "observed_hosts": [
+        "211.72.174.95"
+      ],
+      "distinct_test_exits": 3,
+      "short_checks": [
+        {
+          "checked_at": "2026-11-26T17:31:28+08:00",
+          "decoded_seconds": 3.003,
+          "decoded_frames": 72
+        },
+        {
+          "checked_at": "2026-11-26T17:32:19+08:00",
+          "decoded_seconds": 3.003,
+          "decoded_frames": 67
+        }
+      ],
+      "continuous_sample_seconds": [
+        18.01
+      ],
+      "display_name": "台视主频HD [公网中转]",
+      "rule_file": "TwMandatory.list"
+    },
+    {
+      "channel": "中视主频",
+      "url": "http://211.72.174.95:8113/0.ts",
+      "status": "passed",
+      "group": "台湾频道",
+      "source_label": "公网中转",
+      "reference": "https://raw.githubusercontent.com/bluefriendCN/set/main/live.txt",
+      "region": "TW",
+      "media_type": "video",
+      "transport": "hls",
+      "height": 1080,
+      "width": 1920,
+      "observed_hosts": [
+        "211.72.174.95"
+      ],
+      "distinct_test_exits": 3,
+      "short_checks": [
+        {
+          "checked_at": "2026-11-26T17:31:32+08:00",
+          "decoded_seconds": 3.003,
+          "decoded_frames": 80
+        },
+        {
+          "checked_at": "2026-11-26T17:32:19+08:00",
+          "decoded_seconds": 3.003,
+          "decoded_frames": 62
+        }
+      ],
+      "continuous_sample_seconds": [
+        18.01
+      ],
+      "display_name": "中视主频HD [公网中转]",
+      "rule_file": "TwMandatory.list"
+    },
+    {
+      "channel": "华视主频",
+      "url": "http://211.72.174.95:8114/0.ts",
+      "status": "passed",
+      "group": "台湾频道",
+      "source_label": "公网中转",
+      "reference": "https://raw.githubusercontent.com/bluefriendCN/set/main/live.txt",
+      "region": "TW",
+      "media_type": "video",
+      "transport": "hls",
+      "height": 1080,
+      "width": 1920,
+      "observed_hosts": [
+        "211.72.174.95"
+      ],
+      "distinct_test_exits": 3,
+      "short_checks": [
+        {
+          "checked_at": "2026-11-26T17:31:34+08:00",
+          "decoded_seconds": 3.003,
+          "decoded_frames": 62
+        },
+        {
+          "checked_at": "2026-11-26T17:32:19+08:00",
+          "decoded_seconds": 3.003,
+          "decoded_frames": 86
+        }
+      ],
+      "continuous_sample_seconds": [
+        18.01
+      ],
+      "display_name": "华视主频HD [公网中转]",
+      "rule_file": "TwMandatory.list"
+    },
+    {
+      "channel": "民视主频",
+      "url": "http://211.72.174.95:8115/0.ts",
+      "status": "passed",
+      "group": "台湾频道",
+      "source_label": "公网中转",
+      "reference": "https://raw.githubusercontent.com/bluefriendCN/set/main/live.txt",
+      "region": "TW",
+      "media_type": "video",
+      "transport": "hls",
+      "height": 1080,
+      "width": 1920,
+      "observed_hosts": [
+        "211.72.174.95"
+      ],
+      "distinct_test_exits": 3,
+      "short_checks": [
+        {
+          "checked_at": "2026-11-26T17:33:43+08:00",
+          "decoded_seconds": 3.003,
+          "decoded_frames": 77
+        },
+        {
+          "checked_at": "2026-11-26T17:33:43+08:00",
+          "decoded_seconds": 3.003,
+          "decoded_frames": 74
+        },
+        {
+          "checked_at": "2026-11-26T17:33:43+08:00",
+          "decoded_seconds": 3.003,
+          "decoded_frames": 79
+        }
+      ],
+      "continuous_sample_seconds": [
+        16.0,
+        16.01,
+        16.02
+      ],
+      "display_name": "民视主频HD [公网中转]",
+      "rule_file": "TwMandatory.list"
+    },
+    {
+      "channel": "公视主频",
+      "url": "http://211.72.174.95:8116/0.ts",
+      "status": "passed",
+      "group": "台湾频道",
+      "source_label": "公网中转",
+      "reference": "https://raw.githubusercontent.com/bluefriendCN/set/main/live.txt",
+      "region": "TW",
+      "media_type": "video",
+      "transport": "hls",
+      "height": 1080,
+      "width": 1920,
+      "observed_hosts": [
+        "211.72.174.95"
+      ],
+      "distinct_test_exits": 3,
+      "short_checks": [
+        {
+          "checked_at": "2026-11-26T17:31:41+08:00",
+          "decoded_seconds": 3.003,
+          "decoded_frames": 75
+        },
+        {
+          "checked_at": "2026-11-26T17:32:25+08:00",
+          "decoded_seconds": 3.003,
+          "decoded_frames": 76
+        }
+      ],
+      "continuous_sample_seconds": [
+        18.01
+      ],
+      "display_name": "公视主频HD [公网中转]",
+      "rule_file": "TwMandatory.list"
+    },
+    {
+      "channel": "KBS 1TV",
+      "url": "http://koreatv.dothome.co.kr/kbs1.php",
+      "status": "passed",
+      "group": "韩国频道",
+      "source_label": "公网中转",
+      "reference": "https://raw.githubusercontent.com/mjpark-dev/iptv/master/korean.m3u",
+      "region": "KR",
+      "media_type": "video",
+      "transport": "hls-aes128",
+      "height": 720,
+      "width": 1280,
+      "observed_hosts": [
+        "1tv.gscdn.kbs.co.kr",
+        "hls-key.play.kbs.co.kr",
+        "koreatv.dothome.co.kr"
+      ],
+      "distinct_test_exits": 1,
+      "short_checks": [
+        {
+          "checked_at": "2026-11-26T17:31:44+08:00",
+          "decoded_seconds": 3.007,
+          "decoded_frames": 90
+        },
+        {
+          "checked_at": "2026-11-26T17:32:23+08:00",
+          "decoded_seconds": 3.007,
+          "decoded_frames": 90
+        }
+      ],
+      "continuous_sample_seconds": [
+        18.03,
+        18.03
+      ],
+      "display_name": "KBS 1TVHD [公网中转]",
+      "rule_file": "KrMandatory.list"
+    },
+    {
+      "channel": "KBS 2TV",
+      "url": "http://koreatv.dothome.co.kr/kbs2.php",
+      "status": "passed",
+      "group": "韩国频道",
+      "source_label": "公网中转",
+      "reference": "https://raw.githubusercontent.com/mjpark-dev/iptv/master/korean.m3u",
+      "region": "KR",
+      "media_type": "video",
+      "transport": "hls-aes128",
+      "height": 720,
+      "width": 1280,
+      "observed_hosts": [
+        "2tv.gscdn.kbs.co.kr",
+        "hls-key.play.kbs.co.kr",
+        "koreatv.dothome.co.kr"
+      ],
+      "distinct_test_exits": 1,
+      "short_checks": [
+        {
+          "checked_at": "2026-11-26T17:31:44+08:00",
+          "decoded_seconds": 3.007,
+          "decoded_frames": 90
+        },
+        {
+          "checked_at": "2026-11-26T17:32:25+08:00",
+          "decoded_seconds": 3.007,
+          "decoded_frames": 90
+        }
+      ],
+      "continuous_sample_seconds": [
+        16.0,
+        18.03,
+        18.03
+      ],
+      "display_name": "KBS 2TVHD [公网中转]",
+      "rule_file": "KrMandatory.list"
+    }
+  ]
+}

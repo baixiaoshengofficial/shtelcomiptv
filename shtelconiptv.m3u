@@ -423,6 +423,12 @@ https://php.jdshipin.com/TVOD/iptv.php?id=mzt2
 #EXTINF:-1 tvg-name="ViuTVsix" group-title="港澳频道",ViuTVsixHD [公网中转]
 https://cdn.qd.je/163189/viu6
 
+#EXTINF:-1 tvg-name="TVB无线新闻台" group-title="港澳频道",TVB无线新闻台HD [公网中转]
+https://h5cdn3.kylintv.tv/live/tvbnews_iphone.m3u8
+
+#EXTINF:-1 tvg-name="凤凰卫视香港台" group-title="港澳频道",凤凰卫视香港台HD [公网中转]
+http://43.152.224.209/qctv.fengshows.cn/live/0701phk72.flv
+
 #EXTINF:-1 tvg-name="TVBS欢乐节目线路" group-title="台湾频道",TVBS欢乐节目线路HD [公网中转]
 http://38.64.72.148/hls/modn/list/4005/playlist.m3u8
 
@@ -449,6 +455,21 @@ http://38.64.72.148/hls/modn/list/4012/playlist.m3u8
 
 #EXTINF:-1 tvg-name="原住民族电视台" group-title="台湾频道",原住民族电视台HD [官方CDN]
 https://streamipcfapp.akamaized.net/live/_definst_/live_720/key_b1500.m3u8
+
+#EXTINF:-1 tvg-name="台视主频" group-title="台湾频道",台视主频HD [公网中转]
+http://211.72.174.95:8112/0.ts
+
+#EXTINF:-1 tvg-name="中视主频" group-title="台湾频道",中视主频HD [公网中转]
+http://211.72.174.95:8113/0.ts
+
+#EXTINF:-1 tvg-name="华视主频" group-title="台湾频道",华视主频HD [公网中转]
+http://211.72.174.95:8114/0.ts
+
+#EXTINF:-1 tvg-name="民视主频" group-title="台湾频道",民视主频HD [公网中转]
+http://211.72.174.95:8115/0.ts
+
+#EXTINF:-1 tvg-name="公视主频" group-title="台湾频道",公视主频HD [公网中转]
+http://211.72.174.95:8116/0.ts
 
 #EXTINF:-1 tvg-name="NHK WORLD-JAPAN" group-title="日本频道",NHK WORLD-JAPANHD [官方CDN]
 https://masterpl.hls.nhkworld.jp/hls/w/live/master.m3u8
@@ -566,6 +587,12 @@ http://61.85.197.53:1935/jtv_live/myStream/playlist.m3u8
 
 #EXTINF:-1 tvg-name="SBS 江原 G1" group-title="韩国频道",SBS 江原 G1HD [公网]
 http://61.82.49.4:1935/live/_definst_/tv.stream/playlist.m3u8
+
+#EXTINF:-1 tvg-name="KBS 1TV" group-title="韩国频道",KBS 1TVHD [公网中转]
+http://koreatv.dothome.co.kr/kbs1.php
+
+#EXTINF:-1 tvg-name="KBS 2TV" group-title="韩国频道",KBS 2TVHD [公网中转]
+http://koreatv.dothome.co.kr/kbs2.php
 
 #EXTINF:-1 tvg-name="NBC News NOW" group-title="美国频道",NBC News NOWHD [公网]
 https://d1si3n1st4nkgb.cloudfront.net/10502/88896001/hls/master.m3u8?ads.xumo_channelId=88896001

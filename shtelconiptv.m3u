@@ -429,6 +429,18 @@ https://h5cdn3.kylintv.tv/live/tvbnews_iphone.m3u8
 #EXTINF:-1 tvg-name="凤凰卫视香港台" group-title="港澳频道",凤凰卫视香港台HD [公网中转]
 http://43.152.224.209/qctv.fengshows.cn/live/0701phk72.flv
 
+#EXTINF:-1 tvg-name="TVB 星河台" group-title="港澳频道",TVB 星河台HD [公网中转]
+https://cdn3.indevs.in/stream/live/tvbxh/
+
+#EXTINF:-1 tvg-name="TVB 千禧经典台" group-title="港澳频道",TVB 千禧经典台HD [公网中转]
+http://php.jdshipin.com:8880/TVOD/iptv.php?id=tvbc
+
+#EXTINF:-1 tvg-name="TVB 娱乐新闻台" group-title="港澳频道",TVB 娱乐新闻台HD [公网中转]
+http://php.jdshipin.com/TVOD/iptv.php?id=tvbylxw
+
+#EXTINF:-1 tvg-name="天映电影" group-title="港澳频道",天映电影HD [公网中转]
+https://cdn3.indevs.in/stream/live/typd/
+
 #EXTINF:-1 tvg-name="TVBS欢乐节目线路" group-title="台湾频道",TVBS欢乐节目线路HD [公网中转]
 http://38.64.72.148/hls/modn/list/4005/playlist.m3u8
 
@@ -530,6 +542,9 @@ https://cdn-apne1.tsv2.amagi.tv/linear/amg01287-rakutentvjapan-anime5-cmaf-rakut
 
 #EXTINF:-1 tvg-name="观旅日本" group-title="日本频道",观旅日本HD [公网FAST]
 https://livetv.fastv.jp/channel_assembly/6960965C64B80F2C027D/master.m3u8
+
+#EXTINF:-1 tvg-name="韓流チャンネル" group-title="日本频道",韓流チャンネルHD [公网FAST]
+https://livetv.fastv.jp/channel_assembly/6960905473F5101B6A17/master.m3u8
 
 #EXTINF:-1 tvg-name="Arirang TV" group-title="韩国频道",Arirang TVHD [官方CDN]
 https://amdlive-ch01-ctnd-com.akamaized.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8
@@ -645,6 +660,12 @@ https://vod.ikbc.co.kr/KBCTV/tv/playlist.m3u8
 #EXTINF:-1 tvg-name="SBS 蔚山 UBC" group-title="韩国频道",SBS 蔚山 UBCHD [公网]
 https://stream.ubc.co.kr/hls/ubctvstream/index.m3u8
 
+#EXTINF:-1 tvg-name="MBC 忠州" group-title="韩国频道",MBC 忠州 [公网]
+https://5ee1ec6f32118.streamlock.net/live/livetv/playlist.m3u8
+
+#EXTINF:-1 tvg-name="联合新闻电视台" group-title="韩国频道",联合新闻电视台 [公网]
+https://noh-slb-samsung-fastcdn.uplus.co.kr/yna.stream/noll_index-v3-a1.m3u8
+
 #EXTINF:-1 tvg-name="NBC News NOW" group-title="美国频道",NBC News NOWHD [公网]
 https://d1si3n1st4nkgb.cloudfront.net/10502/88896001/hls/master.m3u8?ads.xumo_channelId=88896001
 
@@ -701,6 +722,27 @@ https://cbsn-us.cbsnstream.cbsnews.com/out/v1/55a8648e8f134e82a470f83d562deeca/m
 
 #EXTINF:-1 tvg-name="WeatherNation 美国气象" group-title="美国频道",WeatherNation 美国气象HD [公网FAST]
 https://aka-live1050.delivery.roku.com/90ba101a-eef0-4c48-b464-b5ef935b5dcb/t2-origin/out/v1/live.m3u8
+
+#EXTINF:-1 tvg-name="ABC News Live" group-title="美国频道",ABC News LiveHD [公网FAST]
+https://dbrb49pjoymg4.cloudfront.net/10001/99951517/hls/master.m3u8?includeAssetTags=true&ads.xumo_channelId=99951517&ads.xumo_streamId=99951517&ads.channelName=ABC&ads._fw_content_genre=News%2CN&ads.xumo_contentId=58&ads.xumo_contentName=ABC&ads.xumo_providerId=58&ads.xumo_providerName=ABC&ads.xumo_channelName=ABC&ads._fw_h_x_country=US&ads._fw_content_language=en&ads.xumo_platform=web&ads.site_id=&ads.appName=xumo
+
+#EXTINF:-1 tvg-name="Reuters 60" group-title="美国频道",Reuters 60HD [公网FAST]
+https://dbrb49pjoymg4.cloudfront.net/10001/99951197/hls/playlist.m3u8?includeAssetTags=true&ads.xumo_channelId=99951197&ads.xumo_streamId=99951197&ads.channelName=ReutersNow&ads._fw_content_genre=News%2CN%2CDN%2CLocal%2CLocalNews%2CNews-Local&ads.xumo_contentId=3850&ads.xumo_contentName=ReutersNow&ads.xumo_providerId=3850&ads.xumo_providerName=ReutersNow&ads.xumo_channelName=ReutersNow&ads._fw_h_x_country=US&ads._fw_content_language=en&ads.xumo_platform=web&ads.site_id=&ads.appName=xumo
+
+#EXTINF:-1 tvg-name="BBC News 美国版" group-title="美国频道",BBC News 美国版HD [公网FAST]
+https://d3pxo1qcgzxtxs.cloudfront.net/10005/99951298/hls/playlist.m3u8?includeAssetTags=true&ads.xumo_channelId=99951298&ads.xumo_streamId=99951298&ads.channelName=amcbbcnews_us&ads._fw_content_genre=News%2CN%2CDN%2CLocal%2CLocalNews%2CNews-Local&ads.xumo_contentId=4023&ads.xumo_contentName=AMCBBCNews&ads.xumo_providerId=4023&ads.xumo_providerName=AMCBBCNews&ads._fw_content_language=en&ads.xumo_platform=web
+
+#EXTINF:-1 tvg-name="AccuWeather NOW" group-title="美国频道",AccuWeather NOWHD [公网FAST]
+https://dbrb49pjoymg4.cloudfront.net/10001/99991649/hls/playlist.m3u8?ads.xumo_channelId=99991649&ads._fw_content_language=en&ads._fw_content_genre=News%2CN%2CDN%2CWeather%2CLocal%2CLocalNews%2CNews-Local&ads.xumo_contentId=2729&ads.xumo_contentName=AccuWeather&ads.xumo_providerId=2729&ads.xumo_providerName=AccuWeather&ads.xumo_platform=web&ads.site_id=&ads.appName=xumo
+
+#EXTINF:-1 tvg-name="OAN Plus" group-title="美国频道",OAN PlusHD [公网FAST]
+https://dbrb49pjoymg4.cloudfront.net/10001/99951404/hls/playlist.m3u8?includeAssetTags=true&ads.xumo_channelId=99951404&ads.xumo_streamId=99951404&ads.channelName=HerringNetworksOANPlus&ads._fw_content_genre=News%2CN%2CDN%2CLocal%2CLocalNews%2CNews-Local&ads.xumo_contentId=4216&ads.xumo_contentName=HerringNetworksOANPlus&ads.xumo_providerId=4216&ads.xumo_providerName=HerringNetworksOANPlus&ads.xumo_channelName=HerringNetworksOANPlus&ads._fw_h_x_country=US&ads._fw_content_language=en&ads.xumo_platform=web&ads.site_id=&ads.appName=xumo
+
+#EXTINF:-1 tvg-name="ABC 20/20" group-title="美国频道",ABC 20/20HD [公网FAST]
+https://dbrb49pjoymg4.cloudfront.net/10001/99951518/hls/master.m3u8?includeAssetTags=true&ads.xumo_channelId=99951518&ads.xumo_streamId=99951518&ads.channelName=ABCNews2020&ads._fw_content_genre=News%2CN&ads.xumo_contentId=4384&ads.xumo_contentName=ABCNews2020&ads.xumo_providerId=4384&ads.xumo_providerName=ABCNews2020&ads.xumo_channelName=ABCNews2020&ads._fw_h_x_country=US&ads._fw_content_language=en&ads.xumo_platform=web&ads.site_id=&ads.appName=xumo
+
+#EXTINF:-1 tvg-name="History & Warfare" group-title="美国频道",History & WarfareHD [公网FAST]
+https://dbrb49pjoymg4.cloudfront.net/10001/99951560/hls/playlist.m3u8?includeAssetTags=true&ads.xumo_channelId=99951560&ads.xumo_streamId=99951560&ads.channelName=BlueAntMediaHistoryWarfare&ads._fw_content_genre=Documentary%2CHistory%2CWar%2CBiography%2CDO%2CDN%2CIAB1%2CIAB1-5%2CIAB1-7&ads.xumo_contentId=4465&ads.xumo_contentName=BlueAntMediaHistoryWarfare&ads.xumo_providerId=4465&ads.xumo_providerName=BlueAntMediaHistoryWarfare&ads.xumo_channelName=BlueAntMediaHistoryWarfare&ads._fw_h_x_country=US&ads._fw_content_language=en&ads.xumo_platform=web&ads.site_id=&ads.appName=xumo
 
 #EXTINF:-1 tvg-id="67" tvg-name="CGTN" tvg-logo="https://epg.deny.vip/cctv/CGTN.png" group-title="国际频道",CGTN
 http://192.168.100.252:5678/udp/233.18.204.28:5140

@@ -483,6 +483,12 @@ http://211.72.174.95:8115/0.ts
 #EXTINF:-1 tvg-name="公视主频" group-title="台湾频道",公视主频HD [公网中转]
 http://211.72.174.95:8116/0.ts
 
+#EXTINF:-1 tvg-name="唯心电视台" group-title="台湾频道",唯心电视台 [公网]
+https://mobile.ccdntech.com/transcoder/_definst_/vod164_Live/live/playlist.m3u8
+
+#EXTINF:-1 tvg-name="新唐人亚太台" group-title="台湾频道",新唐人亚太台 [官方CDN]
+https://live.ntdtv.com/aplive200/playlist.m3u8
+
 #EXTINF:-1 tvg-name="NHK WORLD-JAPAN" group-title="日本频道",NHK WORLD-JAPANHD [官方CDN]
 https://masterpl.hls.nhkworld.jp/hls/w/live/master.m3u8
 
@@ -545,6 +551,9 @@ https://livetv.fastv.jp/channel_assembly/6960965C64B80F2C027D/master.m3u8
 
 #EXTINF:-1 tvg-name="韓流チャンネル" group-title="日本频道",韓流チャンネルHD [公网FAST]
 https://livetv.fastv.jp/channel_assembly/6960905473F5101B6A17/master.m3u8
+
+#EXTINF:-1 tvg-name="TUY テレビユー山形" group-title="日本频道",TUY テレビユー山形HD [公网中转]
+https://tv-stream-test.daydreamer-json.cc/stream/1668b5a43560598b385ccf33fd2d5f43/hevc_1080_high/stream.m3u8
 
 #EXTINF:-1 tvg-name="Arirang TV" group-title="韩国频道",Arirang TVHD [官方CDN]
 https://amdlive-ch01-ctnd-com.akamaized.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8

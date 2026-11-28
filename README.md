@@ -2,9 +2,13 @@
 
 日常使用文件：[`shtelconiptv.m3u`](shtelconiptv.m3u)。
 
+## 澳门、台湾和日本地面台补源（2026-11-28）
+
+主播放列表现有 **266 条播放项**，含 146 条公网线路。台湾新增新唐人亚太台、唯心电视台，日本新增 TBS 系山形地面台 TUY。[本轮播放验证](reports/macau-taiwan-japan.md)
+
 ## 港澳台日韩美直播补源（2026-11-28）
 
-主播放列表现有 **263 条播放项**，含 143 条公网线路。新增 14 路，包括 TVB 星河台、韓流チャンネル、联合新闻电视台、ABC News Live 和 Reuters 60。入选线路均通过两轮解码和连续取流。[本轮播放验证](reports/regional-live-expansion.md)
+该轮主播放列表为 **263 条播放项**，含 143 条公网线路。新增 14 路，包括 TVB 星河台、韓流チャンネル、联合新闻电视台、ABC News Live 和 Reuters 60。入选线路均通过两轮解码和连续取流。[本轮播放验证](reports/regional-live-expansion.md)
 
 ## 韩国地方台与美国新闻气象频道（2026-11-27）
 
